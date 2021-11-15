@@ -1,0 +1,1212 @@
+    /* trang chủ trước đăng nhâp */
+    
+    .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        color: #474747;
+    }
+    
+    .trangchu_banner {
+        height: 605px;
+        padding: 87px 134px 100px 89px;
+    }
+    
+    .trangchu_banner .content {
+        width: 55%;
+    }
+    
+    .trangchu_banner .content .title_banner {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+    }
+    
+    .trangchu_banner .content p {
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    
+    .trangchu_banner .content .btn {
+        width: 189px;
+        height: 42px;
+        background: #FFFFFF;
+        box-shadow: -3px 7px 6px rgba(0, 0, 0, 0.28);
+        border-radius: 60px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #4C5BD4;
+    }
+    
+    .trangchu_tinhnang {
+        padding: 40px 10px 40px 10px;
+    }
+    
+    .trangchu_tinhnang .item_tieu_chi {
+        width: 276px;
+        height: 280px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    
+    .trangchu_tinhnang .container_duoi {
+        margin-top: 20px;
+    }
+    
+    .trangchu_tinhnang .container_tren .item_tieu_chi:last-child,
+    .trangchu_tinhnang .container_duoi .item_tieu_chi:last-child {
+        margin-right: 0px;
+    }
+    
+    .trangchu_tinhnang .container_tieu_chi {
+        margin-top: 40px;
+    }
+    
+    .trangchu_tinhnang .cont_tieu_chi {
+        padding: 20px 20px 90px 20px;
+    }
+    
+    .trangchu_tinhnang .item_tieu_chi .tinhnang_1 {
+        color: #1a1918;
+    }
+    
+    .trangchu_tinhnang .item_tieu_chi .tinhnang_2 {
+        color: #FC573B;
+    }
+    
+    .trangchu_tinhnang .item_tieu_chi .tinhnang_3 {
+        color: #4C5BD4;
+    }
+    
+    .trangchu_tinhnang .item_tieu_chi .tinhnang_4 {
+        color: #682A81;
+    }
+    
+    .trangchu_tinhnang .item_tieu_chi .tinhnang_5 {
+        color: #609E05;
+    }
+    
+    .trangchu_tinhnang .item_tieu_chi .tinhnang_6 {
+        color: #E81752;
+    }
+    
+    .trangchu_tinhnang .item_tieu_chi .cont {
+        letter-spacing: -0.03em;
+    }
+    
+    .trangchu_tinhnang .cont_tieu_chi {
+        width: 100%;
+        top: 0px;
+    }
+    
+    .trangchu_tieuchi {
+        background: #EAECFA;
+        padding: 80px 10px 80px 10px;
+    }
+    
+    .trangchu_tieuchi .tieu_de {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 25px;
+    }
+    
+    .trangchu_tieuchi .content {
+        width: 50%;
+    }
+    
+    .trangchu_uudiem {
+        padding: 40px 5px 40px 5px;
+    }
+    
+    .trangchu_uudiem .title {
+        margin-bottom: 40px;
+    }
+    
+    .trangchu_uudiem .item_uu {
+        width: 236px;
+        height: 260px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 10px;
+        padding: 25px 20px 8px 20px;
+        margin-right: 20px;
+    }
+    
+    .trangchu_uudiem .xem_them .cont {
+        border-top: 1px dashed #EEEEEE;
+        padding: 8.29px 0px 9px 40px;
+    }
+    
+    .trangchu_danhgia {
+        padding: 40px 10px 40px 10px;
+    }
+    
+    .trangchu_danhgia .title {
+        margin-bottom: 40px;
+    }
+    
+    .trangchu_video {
+        height: 342px;
+        background: #EAECFA;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .trangchu_video .title {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 35px;
+        width: 470px;
+        text-align: left;
+    }
+    
+    .trangchu_video p.font_ss16 {
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    
+    .trangchu_video .play_vd {
+        width: 50%;
+        height: 262px;
+        background: #B8CADC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    
+    .trangchu_video .btn {
+        width: 189px;
+        height: 42px;
+        background: #4C5BD4;
+        box-shadow: -3px 7px 6px rgba(0, 0, 0, 0.28);
+        border-radius: 60px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    
+    .trangchu_thacmac {
+        background: #EAECFA;
+        padding: 40px 10px 40px 10px;
+    }
+    
+    .trangchu_thacmac .item_thacmac {
+        width: 714px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+    
+    .trangchu_thacmac .item_thacmac .thacmac_cont {
+        padding: 15px 15px 0px 15px;
+    }
+    
+    .container_sub_thacmac {
+        height: 159px;
+        background: #F7F8FC;
+        border-radius: 0px 0px 10px 10px;
+        padding: 15px 15px 15px 67px;
+    }
+    
+    .trangchu_thacmac .thanhsearch input {
+        width: 490px;
+        height: 36px;
+        position: relative;
+    }
+    
+    .trangchu_thacmac .form_row .btn {
+        width: 163px;
+        height: 59px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 3px;
+        margin-right: 8px;
+    }
+    
+    .trangchu_thacmac .form_row .btn p {
+        letter-spacing: 5px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #474747;
+    }
+    
+    .trangchu_thacmac .form_thacmac {
+        width: 490px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        padding: 17px 20px 40px 20px;
+    }
+    
+    .trangchu_thacmac .form_thacmac .form_header img {
+        width: 24px;
+        height: 24px;
+        margin-right: 11px;
+    }
+    
+    .trangchu_thacmac .form_thacmac button.btn {
+        margin-top: 36px;
+        width: 420px;
+        height: 42px;
+        background: #4C5BD4;
+        box-shadow: -3px 4px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 60px;
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    
+    .trangchu_thacmac .title {
+        margin-bottom: 40px;
+    }
+    
+    .thanhsearch input {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        padding: 0px 100px 0px 15px;
+    }
+    
+    .thanhsearch .btn {
+        background: #4C5BD4;
+        position: absolute;
+        border-radius: 0px 10px 10px 0px;
+        top: 0px;
+        width: 90px;
+        height: 36px;
+        right: 0px;
+    }
+    
+    .form_group input {
+        height: 36px;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding-left: 15px;
+        width: 100%;
+    }
+    
+    .form_group textarea {
+        padding-left: 15px;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+    }
+    
+    .chia_trang li {
+        width: 25px;
+        height: 5px;
+        background: #C4C4C4;
+        border-radius: 100px;
+    }
+    
+    .chia_trang ul {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .chia_trang li.active {
+        background: #4C5BD4;
+        color: #FFFFFF;
+    }
+    
+    .chia_trang li:first-child {
+        margin-right: 15px;
+    }
+    
+    .chia_trang li:last-child {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    
+    .trangchu_timhieu {
+        padding: 40px 10px 40px 10px;
+    }
+    
+    .trangchu_timhieu .container p {
+        margin-top: 11px;
+        margin-bottom: 15px;
+        max-width: 1104px;
+    }
+    
+    .trangchu_timhieu img {
+        width: 978px;
+        height: 574px;
+    }
+    /* end trang chủ trước đăng nhâp */
+    /* Trang chủ sau đăng nhập */
+    
+    .body_tongquan .container .item {
+        width: calc(100%/3);
+        max-width: 335px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    
+    .body_tongquan .container_tongquan .item {
+        height: 131px;
+        padding: 15px;
+    }
+    
+    .body_tongquan .container_kehoach .item {
+        height: 171px;
+        padding: 16px 15px 12px 15px;
+    }
+    
+    .body_tongquan .container_kehoach .item .tieu_de {
+        height: 171px;
+        padding: 16px 15px 12px 15px;
+    }
+    
+    .body_tongquan .container_kehoach .chi_tiet p {
+        font-size: 14px;
+        color: #4C5BD4;
+        margin-right: 5px;
+    }
+    
+    .body_tongquan .container .item:last-child {
+        margin-right: 0px;
+    }
+    
+    .thanh_tien_do {
+        position: relative;
+        background: #EEEEEE;
+        border-radius: 30px;
+        width: 100%;
+        height: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .tien_do {
+        position: absolute;
+        height: 20px;
+        top: 0px;
+        left: 0px;
+        background: #34B632;
+        border-radius: 30px;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .thanh_tien_do>p {
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 2px;
+    }
+    
+    .body_tongquan .container_kehoach .item_1 .tien_do {
+        width: 20%;
+    }
+    
+    .body_tongquan .container_kehoach .item_3 .tien_do {
+        width: 100%;
+    }
+    
+    .container_uudiem .item .chi_tiet {
+        border-top: 1px dashed #EEEEEE;
+        padding: 9px 0px 9px 40%;
+        font-size: 15px;
+        line-height: 18px;
+        color: #4C5BD4;
+    }
+    
+    .container_uudiem .item_uudiem:first-child .cont {
+        margin-top: 41px;
+    }
+    
+    .body_tongquan .container_uudiem .item {
+        height: 214px;
+        padding: 15px 15px 0px 15px;
+    }
+    
+    .body_tongquan .container_uudiem .div_them {
+        width: calc(100%/3);
+    }
+    
+    .container_ketqua .item {
+        height: 426px;
+        padding: 17px 15px 15px 17px;
+    }
+    
+    .item_mau {
+        width: 14px;
+        height: 14px;
+        border-radius: 100%;
+        margin-bottom: 4px;
+    }
+    
+    .xep_loai {
+        width: calc(100%/3);
+    }
+    
+    .xep_loai p:last-child {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.451506px;
+        text-transform: capitalize;
+        color: #263238;
+    }
+    
+    .item_mau_kha {
+        background: #34B632;
+    }
+    
+    .item_mau_gioi {
+        background: #FFA800;
+    }
+    
+    .item_mau_xs {
+        background: #FF3333;
+    }
+    
+    .item_mau_tb {
+        background: #4C5BD4;
+    }
+    
+    .item_mau_yeu {
+        background: #9A4A4D;
+    }
+    
+    .item_mau_cx {
+        background: #666666;
+    }
+    
+    .popup_thietlap_diem {
+        display: block;
+        background: rgba(238, 238, 238, 0.4);
+    }
+    
+    .popup_thietlap_diem .container {
+        width: 500px;
+        height: 310px;
+    }
+    
+    .popup .popup_header {
+        height: 54px;
+        background: #4C5BD4;
+        border-radius: 10px 10px 0px 0px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        padding: 17px 15px 18px 15px;
+        position: relative;
+    }
+    
+    .popup .popup_header .name_header {
+        text-align: center;
+    }
+    
+    .popup .popup_header .img {
+        position: absolute;
+        right: 15px;
+        top: 18px;
+    }
+    
+    .popup_body {
+        padding: 30px;
+    }
+    
+    .popup_body .cont_1 {
+        padding: 61px;
+        font-size: 15px;
+        line-height: 21px;
+        text-align: center;
+    }
+    /*end Trang chủ sau đăng nhập */
+    /* Quản lý tiêu chí */
+    
+    .chon_trangthai .btn {
+        width: 178px;
+        height: 36px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 10px 16px 10px 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ql_tieuchi .search_item {
+        width: 420px;
+        height: 36px;
+    }
+    
+    .them_moi .btn {
+        width: 138px;
+        height: 36px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .modal_ql_tieuchi {
+        top: 40px;
+        width: 178px;
+        height: 108px;
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    }
+    
+    .modal_ql_tieuchi .item:last-child {
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .modal_ql_tieuchi .item {
+        width: 178px;
+        height: 36px;
+        padding: 10px 15px;
+    }
+    
+    .modal_ql_tieuchi .item:hover {
+        background: #EEEEEE;
+    }
+    
+    .modal_ql_tieuchi .item:first-child {
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .body_ql_tieuchi .tieu_chi {
+        width: 1259px;
+    }
+    
+    .khoibang .bangchung::-webkit-scrollbar {
+        background: #EEEEEE;
+        border-radius: 30px;
+        height: 10px;
+    }
+    
+    .khoibang .bangchung::-webkit-scrollbar-thumb {
+        height: 10px;
+        background: #4C5BD4;
+        border-radius: 30px;
+    }
+    
+    .switch_tatmo {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 20px;
+        background: #CCCCCC;
+        border: 0.5px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 100px;
+    }
+    
+    .switch_tatmo input {
+        display: none;
+    }
+    
+    .switch_tatmo .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    
+    .switch_tatmo .slider:before {
+        position: absolute;
+        content: "";
+        height: 17px;
+        width: 17px;
+        left: 2px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    
+    .switch_tatmo input:checked+.slider {
+        background: #76B51B;
+    }
+    
+    .switch_tatmo input:focus+.slider {
+        background: #76B51B;
+        border: 0.5px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 100px;
+    }
+    
+    .switch_tatmo input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+    
+    .switch_tatmo .slider.round {
+        border-radius: 34px;
+    }
+    
+    .switch_tatmo .slider.round:before {
+        border-radius: 50%;
+    }
+    
+    .sua_xoa .btn_chinhsua::before {
+        position: absolute;
+        content: "";
+        width: 1px;
+        height: 14px;
+        right: -7px;
+        background: #4C5BD4;
+    }
+    
+    .so_xoay img {
+        transform: rotate(-180deg);
+    }
+    
+    .chon_soluong .btn {
+        width: 77px;
+        height: 26px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+        border-radius: 3px;
+        background: #FFFFFF;
+    }
+    
+    .modal_ql_soluong {
+        width: 77px;
+        height: 130px;
+        top: 30px;
+    }
+    
+    .modal_ql_soluong .item {
+        width: 77px;
+        height: 26px;
+    }
+    
+    .modal_ql_soluong .item:hover {
+        background: #EEEEEE;
+    }
+    
+    .modal_ql_soluong .item:first-child {
+        border-radius: 3px 3px 0px 0px;
+    }
+    
+    .modal_ql_soluong .item:last-child {
+        border-radius: 0px 0px 3px 3px;
+    }
+    
+    .phan_trang li {
+        width: 19px;
+        height: 19px;
+        background: #FFFFFF;
+        border: 1px solid #666666;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.02);
+        border-radius: 4px;
+        font-size: 13px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666666;
+        margin-right: 9px;
+    }
+    
+    .phan_trang li.active {
+        background: #4C5BD4;
+        color: #FFFFFF;
+    }
+    
+    .phan_trang li:first-child {
+        margin-right: 15px;
+    }
+    
+    .phan_trang li:last-child {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    
+    .body_ql_tieuchi .header {
+        height: 50px;
+        background: #4C5BD4;
+        border-radius: 10px 10px 0px 0px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #fff;
+        padding: 15px 10px 16px 20px;
+    }
+    
+    .img_quaylai img {
+        transform: rotate(90deg);
+    }
+    
+    .body_ql_tieuchi .form .container {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 0px 10px 10px;
+        padding: 10px;
+    }
+    
+    .btn_header_ql_tieuchi .btn {
+        width: 138px;
+        height: 36px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+    
+    .btn_header_ql_tieuchi .opasity {
+        opacity: 0.5;
+    }
+    
+    .btn_header_ql_tieuchi .sua {
+        background: #4C5BD4;
+        margin-right: 15px;
+    }
+    
+    .btn_header_ql_tieuchi .excel {
+        background: #34B632;
+    }
+    
+    .thongtin_tieuchi {
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .thongtin_tieuchi .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        padding: 16px 20px 16px 20px;
+        border-bottom: 1px dashed #CCCCCC;
+    }
+    
+    .thongtin_tieuchi .ghi_chu {
+        height: unset;
+        border-bottom: none;
+        padding: 17px 20px 35px 20px;
+    }
+    
+    .thongtin_tieuchi .item p:first-child {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        width: 13%;
+        min-width: 130px;
+    }
+    
+    .thongtin_tieuchi .item p:last-child {
+        font-size: 14px;
+        line-height: 16px;
+        width: 87%;
+    }
+    
+    .themmoi_de_nangluc .tieu_chi {
+        width: 1046px;
+    }
+    
+    .bang_tieuchi_danhgia .khoibang .bangchung {
+        overflow: unset;
+        border-radius: 10px !important;
+    }
+    
+    .width_60 {
+        width: 60%;
+    }
+    
+    .container_form_4 .form_group {
+        width: 25%;
+        margin-right: 20px;
+    }
+    
+    .container_form_4 .form_btn {
+        margin-right: 0px;
+        width: 25%;
+        margin-top: 5px;
+    }
+    
+    .thongtin_tieuchi .item:last-child {
+        border-bottom: none;
+    }
+    
+    .container_form_4 .form_btn button {
+        max-width: 168px;
+        height: 36px;
+        width: 100%;
+        border-radius: 3px;
+    }
+    
+    .phanloai_danhgia form {
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        border-radius: 0px 0px 10px 10px;
+        padding: 20px 15px 20px 15px;
+    }
+    
+    .themmoi_form .btn {
+        width: 261px;
+        height: 36px;
+        background: #4C5BD4;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    
+    .khoibang .bangchung .bangchinh tr:first-child th:first-child {
+        border-radius: 10px 0px 0px 0px;
+    }
+    
+    .khoibang .bangchung .bangchinh tr:first-child th:last-child {
+        border-radius: 0px 10px 0px 0px;
+    }
+    
+    .khoibang .bangchung .bangchinh tr:last-child td:first-child {
+        border-radius: 0px 0px 0px 10px;
+    }
+    
+    .khoibang .bangchung .bangchinh tr:last-child td:last-child {
+        border-radius: 0px 0px 10px 0px;
+    }
+    /*end Quản lý tiêu chí */
+    /* Quản lý đề đánh giá năng lực  */
+    
+    .body_ql_de table tr td:nth-child(5) {
+        max-width: 330px;
+    }
+    
+    .container_cauhoi {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 20px 20px 0px 20px;
+    }
+    
+    .text_dat {
+        margin-top: 5px;
+    }
+    
+    .text_dat .cke_top {
+        padding: unset;
+        background: #fff;
+    }
+    
+    .text_dat .cke_bottom {
+        display: none;
+    }
+    
+    .footer_cauhoi {
+        border-top: 1px dashed #CCCCCC;
+    }
+    
+    .footer_cauhoi .container_footer {
+        padding: 12px 0px 17px 0px;
+    }
+    
+    .img_anh_tailen {
+        background: #C4C4C4;
+        margin-right: 10px;
+    }
+    
+    .img_anh_tailen_1 {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .img_anh_tailen_1 img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container_anh {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .anh_tailen {
+        display: none;
+    }
+    
+    .item_anh {
+        width: 500px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .item_anh_tuychon {
+        width: 50%;
+    }
+    
+    .container_cauhoi .form_container {
+        padding: 0px 30px 0px 30px;
+    }
+    
+    .form_container .form_group .container_anh .item_anh {
+        width: 100%;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: max-content;
+        width: 16px;
+        height: 16px;
+    }
+    
+    input[type="date"] {
+        width: 160px;
+    }
+    
+    .tuychon_input .ten_tuychon {
+        width: 100%;
+        padding-bottom: 5px;
+        border-bottom: 1px dashed #CCCCCC;
+    }
+    
+    .btn_them_tuychon {
+        padding: 0px 0px 66px 0px;
+        width: max-content;
+        height: max-content;
+    }
+    
+    .container_tuychon {
+        margin-bottom: 20px;
+    }
+    
+    .btn_them_anh {
+        width: max-content;
+        cursor: pointer;
+    }
+    
+    .img_anh_tuychon .img_anh_tailen_1 {
+        height: 120px;
+        width: 40%;
+    }
+    
+    .img_anh_tuychon .container_anh {
+        justify-content: flex-start;
+    }
+    
+    .img_anh_tuychon .form_group .container_anh .item_anh {
+        padding: 0px 0px 0px 30px;
+    }
+    
+    .container_img {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .container_img .tuychon_img {
+        margin-right: 20px;
+    }
+    
+    .img_themmoi_cauhoi {
+        width: 26px;
+        height: 26px;
+        background: #4C5BD4;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    
+    .cauhoi_chitiet {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 20px 16px 20px 20px;
+    }
+    
+    .cauhoi_chitiet_1 {
+        min-height: 245px;
+    }
+    
+    .cauhoi_chitiet .container_anh {
+        padding: 0px 10% 0px 10%;
+    }
+    
+    .cauhoi_chitiet input[type="date"] {
+        width: 400px;
+    }
+    
+    .btn_loaihoi {
+        width: 100%;
+        height: 36px;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 15px 10px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+    .btn_loaihoi .modal_ql_tieuchi {
+        width: 100%;
+        height: unset;
+    }
+    
+    .btn_loaihoi .modal_ql_tieuchi .item {
+        width: 100%;
+    }
+    
+    .body_ql_tieuchi .form .container
+    /* end Quản lý đề đánh giá năng lực  */
+    /* Quản lý kế hoạch đánh giá*/
+    
+    .select_no_muti_1 .select2-container--default .select2-selection--single {
+        width: 300px;
+        border-radius: 10px;
+    }
+    
+    .select_no_muti_2 .select2-container--default .select2-selection--single {
+        width: 178px;
+        border-radius: 10px;
+    }
+    
+    .body_kehoach_danhgia .tieu_chi {
+        width: 1819px;
+    }
+    
+    .tieu_chi .thanh_tien_do {
+        width: 100px;
+        height: 26px;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding-top: 3px;
+        margin-bottom: 0px;
+    }
+    
+    .tieu_chi .tien_do {
+        position: absolute;
+        height: 24px;
+        border-radius: 9px 0px 0px 9px;
+    }
+    
+    .tien_do_50 {
+        width: 50%;
+    }
+    
+    .tien_do_100 {
+        width: 100%;
+        border-radius: 9px !important;
+    }
+    
+    .tieu_chi .thanh_tien_do>p {
+        color: #474747;
+    }
+    
+    .body_kehoach_danhgia .khoibang .bangchung .bangchinh th:nth-child(2),
+    .body_kehoach_danhgia .khoibang .bangchung .bangchinh th:nth-child(9) {
+        width: 20%;
+    }
+    
+    .nguoi_danhgia>.container {
+        display: flex;
+    }
+    
+    .nguoi_danhgia>.container .img {
+        margin-left: -7px;
+    }
+    
+    .nguoi_danhgia>.container .img:first-child {
+        margin-left: 0px;
+    }
+    
+    .sub_nguoitao {
+        width: 28px;
+        height: 28px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(196, 196, 196, 0.86);
+        border: 2px solid #FFFFFF;
+        border-radius: 100%;
+    }
+    
+    .modal_ql_tieuchi {
+        z-index: 1;
+        width: 260px;
+        right: 0px;
+    }
+    
+    .choilen {
+        top: -150px;
+    }
+    
+    .body_kehoach_danhgia .modal_ql_tieuchi .item {
+        width: 100%;
+    }
+    
+    .body_kehoach_chitiet .thongtin_tieuchi .item p:first-child {
+        width: 20%;
+        margin-right: 20px;
+    }
+    
+    .body_doituong .tieu_chi,
+    .bang_tieuchi_danhgia .tieu_chi {
+        width: 100%;
+    }
+    
+    .body_doituong .khoibang .bangchung {
+        overflow: unset;
+    }
+    
+    .hoi_dap {
+        display: none;
+        padding: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    
+    .body_them_kehoach .body_ql_tieuchi .body {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 0px 10px 10px;
+        padding: 20px;
+    }
+    
+    .mot_nua .form_group {
+        width: 48%;
+    }
+    .form_container_4
+    /* end Quản lý kế hoạch đánh giá  */

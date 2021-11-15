@@ -1,0 +1,93 @@
+RewriteEngine On
+RewriteBase /
+#order deny,allow
+#deny from all
+#allow from 14.162.144.184
+#allow from 118.70.126.231
+#allow from 27.3.179.20
+#allow from 123.24.206.25
+#allow from 43.239.223.157
+#allow from 43.239.223.187
+#allow from 43.239.223.60
+#allow from 210.245.75.51
+#allow from 14.248.82.205
+#allow from 118.70.126.138
+RewriteRule ^$ /home/index.php
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+<IfModule mod_rewrite.c>
+    #RewriteEngine On
+    #RewriteCond %{HTTPS} off
+    #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    #RewriteCond %{HTTP_HOST} www\.(.+)$ [NC]
+    #RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+#ErrorDocument 400 https://timviec365.vn/home/404.php
+
+#Trang chu sau dang nhap
+RewriteRule ^trang_chu_sau_dang_nhap.html?$ /home/trangchu_sdn.php
+
+#Quản lý tiêu chí
+RewriteRule ^quan_ly_tieu_chi_danh_gia.html?$ /home/ql_tieuchi_danhgia.php
+RewriteRule ^quan_ly_tieu_chi_danh_gia_them_moi.html?$ /home/ql_tieuchi_danhgia_themmoi.php
+RewriteRule ^quan_ly_tieu_chi_danh_gia_chinh_sua.html?$ /home/ql_tieuchi_danhgia_chinhsua.php
+RewriteRule ^quan_ly_tieu_chi_danh_gia_chi_tiet.html?$ /home/ql_tieuchi_danhgia_chitiet.php
+
+RewriteRule ^quan_ly_tieu_chi_nang_luc.html?$ /home/ql_tieuchi_nangluc.php
+RewriteRule ^quan_ly_tieu_chi_nang_luc_them_moi.html?$ /home/ql_tieuchi_nangluc_themmoi.php
+RewriteRule ^quan_ly_tieu_chi_nang_luc_chinh_sua.html?$ /home/ql_tieuchi_nangluc_chinhsua.php
+RewriteRule ^quan_ly_tieu_chi_nang_luc_chi_tiet.html?$ /home/ql_tieuchi_nangluc_chitiet.php
+
+#Quản lý đề kiểm tra năng lực
+RewriteRule ^quan_ly_de_kiem_tra_nang_luc.html?$ /home/ql_de_kiemtra.php
+RewriteRule ^quan_ly_de_kiem_tra_nang_luc_them_moi.html?$ /home/ql_de_kiemtra_themmoi.php
+RewriteRule ^quan_ly_de_kiem_tra_nang_luc_chitiet.html?$ /home/ql_de_kiemtra_chitiet.php
+RewriteRule ^quan_ly_de_kiem_tra_nang_luc_chinh_sua.html?$ /home/ql_de_kiemtra_chinhsua.php
+
+#Quản lý kế hoạch đánh giá
+RewriteRule ^quan_ly_ke_hoach_danh_gia.html?$ /home/ql_kehoach_danhgia.php
+RewriteRule ^quan_ly_ke_hoach_danh_gia_chi_tiet.html?$ /home/ql_kehoach_danhgia_chitiet.php
+RewriteRule ^quan_ly_ke_hoach_danh_gia_chinh_sua.html?$ /home/ql_kehoach_danhgia_chinhsua.php
+RewriteRule ^quan_ly_ke_hoach_danh_gia_them_moi.html?$ /home/ql_kehoach_danhgia_themmoi.php
+
+
+#Quản lý phiếu đánh giá
+RewriteRule ^quanly-phieudanhgia.html?$ /home/ql_phieudanhgia.php
+RewriteRule ^phieudanhgia-de-kiemtra-nv.html?$ /home/ql_phieudanhgia_de_kiemtra_nv.php
+
+#Quản lý kết quả đánh giá
+RewriteRule ^ketquadanhgia-nhanvien.html?$ /home/ketquadanhgia_nhanvien.php
+RewriteRule ^ketquadanhgia-nhanvien1n.html?$ /home/ketquadanhgia_nhanvien_chitiet_1n.php
+RewriteRule ^ketquadanhgia-phieudanhgia.html?$ /home/ketquadanhgia_phieudanhgia_chitiet_nn.php
+RewriteRule ^ketquadanhgia-phongban.html?$ /home/ketquadanhgia_phongban.php
+RewriteRule ^ketquadanhgia-phongban-chitiet.html?$ /home/ketquadanhgia_phongban_chitiet.php
+
+#Trang lộ trình thăng tiến
+RewriteRule ^lotrinhthangtien.html?$ /home/lotrinhthangtien.php
+RewriteRule ^lotrinhthangtien-chitiet.html?$ /home/lotrinhthangtien_chitiet.php
+
+#Phân quyền
+RewriteRule ^phanquyen.html?$ /home/phanquyen_phanquyen.php
+RewriteRule ^phanquyen_chitiet.html?$ /home/phanquyen_phanquyenchitiet.php
+
+#Dữ liệu đã xóa gần đây
+RewriteRule ^xoaganday-dulieuxoaganday.html?$ /home/xoaganday_dulieuxoaganday.php
+RewriteRule ^xoaganday-de-danh-gia.html?$ /home/xoaganday_dedanhgia.php
+RewriteRule ^xoaganday-tieuchi-danh-gia.html?$ /home/xoaganday_tieuchidanhgia.php
+RewriteRule ^xoaganday-kehoach-danh-gia.html?$ /home/xoaganday_kehoachdanhgia.php
+
+
+#Cài đặt
+RewriteRule ^caidat_caidatchung.html?$ /home/caidat_caidatchung.php
+RewriteRule ^caidat_nhatkyhoatdong.html?$ /home/caidat_nhatkyhoatdong.php
+RewriteRule ^caidat_thangdiem.html?$ /home/caidat_thangdiem.php
+RewriteRule ^caidat_thongtinbaomat.html?$ /home/caidat_thongtinbaomat.php
+
+#Chuyển đổi số 365
+
+
+
+
+
+
