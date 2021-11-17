@@ -1,35 +1,41 @@
 <div class="header_right d_flex flex_end align_c">
     <div class="header_icon_left">
         <div class="img_icon show_sidebar_abc cursor">
-            <img src="" alt="">
+            <img src="../img/nav_1.png" alt="menu">
         </div>
     </div>
     <div class="flex_grow1024"></div>
     <div class="header_icon d_flex align_c ">
         <div class="icon_thongbao" id="icon_nhantin">
             <div class="img_icon position_r">
-                <img src="../img/icon_tinnhan.png" alt="">
+                <img src="../img/nav_11.png" alt="tin nhắn" class="img_1024">
+                <img src="../img/icon_tinnhan.png" alt=" tin nhắn" class="img_pc">
                 <span class="sl_tb color_t position_a d_flex align_c space_around">2</span>
             </div>
         </div>
         <div class="icon_thongbao" id="icon_nhacnho">
             <div class="img_icon position_r ">
-                <img src="../img/icon_nhacnho.png" alt="">
+                <img src="../img/nav_12.png" alt="nhắc nhở" class="img_1024">
+                <img src="../img/icon_nhacnho.png" alt="nhắc nhở" class="img_pc">
                 <span class="sl_tb color_t position_a d_flex align_c space_around">2</span>
             </div>
         </div>
         <div class="icon_thongbao" id="icon_thongbao">
             <div class="img_icon position_r ">
-                <img src="../img/icon_thongbao.png" alt="">
+                <img src="../img/nav_13.png" alt="thông báo" class="img_1024">
+                <img src="../img/icon_thongbao.png" alt="thông báo" class="img_pc">
                 <span class="sl_tb color_t position_a d_flex align_c space_around">2</span>
             </div>
         </div>
         <div class="header_tt position_r">
             <div class="logout btn_logout d_flex align_c">
-                <img src="../img/avt5.png" alt="" class="mr_8">
-                <p class="font_ss16 position_r mr_12">Công ty TNH..</p>
-                <p class="font_ss16 font_w5 mr_8">ID:123456</p>
-                <img src="../img/icon_so.png" alt="Chọn">
+                <div class="d_flex align_c img_pc">
+                    <img src="../img/avt5.png" alt="" class="mr_8">
+                    <p class="font_ss16 position_r mr_12">Công ty TNH..</p>
+                    <p class="font_ss16 font_w5 mr_8">ID:123456</p>
+                    <img src="../img/icon_so.png" alt="Chọn">
+                </div>
+                <img src="../img/nav_14.png" alt="logout" class="img_1024">
             </div>
             <div class="modal_d modal_menu_header position_a">
                 <div class="container">

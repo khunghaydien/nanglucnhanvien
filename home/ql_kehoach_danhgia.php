@@ -27,9 +27,9 @@
                             <div class="header_ql_tieuchi width_100 mb_20">
                                 <div class="d_flex space_b align_c mb_20">
                                     <div class="header_kehoach d_flex" id="header_kehoach">
-                                        <div class="select_no_muti select_no_muti_1 mr_15">
+                                        <div class="select_no_muti select_no_muti_3 mr_15">
                                             <select class="js_select_2" name="loai_tc">
-                                                <option value="">Thời gian đánh giá: 12/05 - 12/07/2021</option>
+                                                <option value="">Thời gian đánh giá: 12/05 - 12/07/2021 </option>
                                             </select>
                                         </div>
                                         <div class="select_no_muti select_no_muti_2 ">
@@ -40,10 +40,10 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="huong_dan d_flex align_c">
+                                    <a href="/huong_dan.html" class="huong_dan d_flex align_c">
                                         <img src="../img/chamhoi.png" alt="Hướng đẫn" class="mr_6">
                                         <p class="font_s15 font_w5 color_blue">Hướng dẫn</p>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="d_flex space_b align_c">
                                     <div class="thanh_search ql_tieuchi">

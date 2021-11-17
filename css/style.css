@@ -239,6 +239,10 @@ a {
     margin-right: 10px;
 }
 
+.mt_25 {
+    margin-top: 25px;
+}
+
 .mr_5 {
     margin-right: 5px;
 }
@@ -452,7 +456,8 @@ a {
     line-height: 18px;
 }
 
-.form_group input[type=text] {
+.form_group input[type=text],
+.form_group input[type=date] {
     font-size: 14px;
     line-height: 16px;
     color: #666666;
@@ -466,6 +471,7 @@ a {
 }
 
 .form_group input[type=text],
+.form_group input[type=date],
 .form_group .select_no_muti {
     margin-top: 5px;
 }
@@ -604,6 +610,10 @@ a {
     line-height: 19px;
     color: #4C5BD4;
     padding-left: 35px;
+}
+
+.img_1024 {
+    display: none;
 }
 
 .point {
@@ -1887,6 +1897,20 @@ table tr td:last-child {
 /*end*/
 
 @media (max-width: 1024px) {
+    .icon_thongbao .sl_tb {
+        width: 16px;
+        height: 16px;
+    }
+    .img_1024 {
+        display: block;
+    }
+    .img_pc {
+        display: none;
+    }
+    .header .box_header {
+        background: #4C5BD4;
+        height: 45px;
+    }
     .wapper>div.d_flex {
         position: relative;
     }
@@ -1897,8 +1921,7 @@ table tr td:last-child {
         top: 46px;
         left: 0px;
         z-index: 2;
-        width: 260px;
-        height: calc(100% - 46px);
+        width: 280px;
     }
     .wapper .main {
         width: 100%;
@@ -1931,9 +1954,12 @@ table tr td:last-child {
     .header .box_header {
         padding: 6px 15px 11px 15px;
     }
+    .header_icon {
+        padding-top: 10px;
+    }
     .icon_thongbao {
-        width: 29px;
-        height: 29px;
+        width: 22px;
+        height: 22px;
         margin-right: 40px;
     }
     .header_icon_left .img_icon,

@@ -19,6 +19,36 @@
             </div>
         </div>
     </div>
+    <div class="nav1024">
+        <div class="drop">
+            <img class="js-drop-menu1024" src="../img/nav_1.png" alt="">
+            <div class="menu1024 js-show-menu1024">
+                <a href="index.html" class="menu-sl">
+                    <img class="img-sl1" src="../img/nav_2.png" alt="">
+                    <div class="text-sl1">Trang chủ</div>
+                </a>
+                <a href="san_pham.html" class="menu-sl">
+                    <img class="img-sl1" src="../img/nav_3.png" alt="">
+                    <div class="text-sl1">Hướng dẫn </div>
+                </a>
+                <a href="he_sinh_thai.html" class="menu-sl">
+                    <img class="img-sl1" src="../img/nav_5.png" alt="">
+                    <div class="text-sl1">Tin tức</div>
+                </a>
+                <a href="m_gioi_thieu.html" class="menu-sl">
+                    <img class="img-sl1" src="../img/nav_4.png" alt="">
+                    <div class="text-sl1">Đăng ký </div>
+                </a>
+                <a class="menu-sl">
+                    <img class="img-sl1" src="../img/nav_6.png" alt="">
+                    <div class="text-sl1">Đăng nhập</div>
+                </a>
+            </div>
+        </div>
+        <div class="logo1024">
+            <img src="../img/logo1024.png" alt="">
+        </div>
+    </div>
 </div>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript">

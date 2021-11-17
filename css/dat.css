@@ -15,6 +15,11 @@
     
     .trangchu_banner .content {
         width: 55%;
+        margin-right: 144px;
+    }
+    
+    .trangchu_banner .img {
+        width: 45%;
     }
     
     .trangchu_banner .content .title_banner {
@@ -224,7 +229,7 @@
     
     .trangchu_thacmac .form_row .btn {
         width: 163px;
-        height: 59px;
+        height: 60px;
         background: #FFFFFF;
         box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
         border-radius: 3px;
@@ -346,6 +351,99 @@
         height: 574px;
     }
     /* end trang chủ trước đăng nhâp */
+    /* trang hướng dẫn */
+    
+    .huongdan_banner .content h3 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 42px;
+        color: #FFFFFF;
+        width: 439px;
+        text-align: center;
+    }
+    
+    .huongdan_banner .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .app_lala {
+        margin: 40px 0px 40px 0px;
+    }
+    
+    .huongdan_banner .content .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .huongdan_menu {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu_huongdan {
+        width: 280px;
+        height: 400px;
+        border-radius: 10px;
+        background: #4C5BD4;
+    }
+    
+    .menu_huongdan .li_sidebar:hover {
+        background: #2A38A2;
+    }
+    
+    .menu_huongdan .li_sidebar:first-child {
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .menu_huongdan .li_sidebar:last-child {
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .huongdan_menu .sidebar_item {
+        height: 50px;
+    }
+    
+    .huongdan_menu .main {
+        width: 78%;
+        height: 1180px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 14px 46px 40px 32px;
+    }
+    
+    .huongdan_menu .main .img {
+        width: 540px;
+        height: 304px;
+        background: #C4C4C4;
+    }
+    
+    .huongdan_menu .sidebar {
+        height: 400px;
+    }
+    
+    .huongdan_menu .main .cont p {
+        padding-left: 10px;
+    }
+    
+    .huongdan_menu .main .anh p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+    }
+    
+    .huongdan_menu .sidebar .ul_sidebar {
+        height: unset;
+    }
+    /*end trang hướng dẫn */
     /* Trang chủ sau đăng nhập */
     
     .body_tongquan .container .item {
@@ -895,6 +993,10 @@
     .khoibang .bangchung .bangchinh tr:last-child td:last-child {
         border-radius: 0px 0px 10px 0px;
     }
+    
+    .modal_d.modal_ql_tieuchi.modal_ql_tieuchi_danhgia.position_a {
+        left: 0;
+    }
     /*end Quản lý tiêu chí */
     /* Quản lý đề đánh giá năng lực  */
     
@@ -1207,4 +1309,144 @@
     
     .mot_nua .form_group {
         width: 48%;
+    }
+    
+    .form_container_4 .form_group {
+        width: 25%;
+        margin-right: 20px;
+    }
+    
+    .form_container_4 .form_group:last-child {
+        margin-right: 0px;
+    }
+    
+    .height_15 {
+        height: 15px;
+    }
+    
+    .img_right {
+        margin-left: 36px;
+        position: relative;
+    }
+    
+    .img_right::before {
+        content: "";
+        height: 2px;
+        width: 36px;
+        position: absolute;
+        right: 36px;
+        top: 50%;
+        background: #ccc;
+    }
+    
+    .img_xanh::before {
+        background: #4C5BD4;
+    }
+    
+    .body_them_kehoach .select_no_muti .select2-container .select2-selection--single .select2-selection__rendered {
+        font-size: 14px;
+        line-height: 16px;
+        color: #666666;
+    }
+    
+    .body_them_kehoach .select_no_muti_2 .select2-container--default .select2-selection--single {
+        width: 420px;
+    }
+    
+    .select_no_muti_3 .select2-container--default .select2-selection--single {
+        width: 300px;
+        border-radius: 10px;
+    }
+    
+    .main_body .title_header {
+        display: none;
+    }
+    /*end Quản lý kế hoạch đánh giá*/
+    
+    @media (max-width: 1024px) {
+        .header .title_header {
+            display: none;
+        }
+        .main_body .title_header {
+            display: block;
+            margin-bottom: 20px;
+        }
+        .trangchu_banner .img {
+            display: none;
+        }
+        .trangchu_banner .content {
+            width: 100%;
+            margin-right: 0px;
+            text-align: center;
+        }
+        .trangchu_banner .content p {
+            padding: 0px 100px;
+        }
+        .trangchu_banner {
+            height: 365px;
+        }
+        .trangchu_banner .btn_banner {
+            display: flex;
+            justify-content: center;
+        }
+        .trangchu_uudiem .container_uu {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .container_uu .item_uu:nth-last-child(2),
+        .container_uu .item_uu:last-child {
+            margin-top: 20px;
+        }
+        .trangchu_video .content_c {
+            flex-direction: column-reverse;
+        }
+        .trangchu_video {
+            height: 589px;
+        }
+        .trangchu_video .title {
+            text-align: center;
+        }
+        .trangchu_video .content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .trangchu_video p.font_ss16 {
+            padding: 0px 20%;
+            text-align: center;
+        }
+        .container_thacmac {
+            flex-direction: column;
+            padding: 0px 86px;
+        }
+        .trangchu_thacmac .item_thacmac {
+            width: 100%;
+        }
+        .container_thacmac_l.mr_20 {
+            margin-right: 0px;
+        }
+        .trangchu_thacmac .form_thacmac {
+            width: 100%;
+        }
+        .container_thacmac_r .thanhsearch {
+            display: none;
+        }
+        .trangchu_thacmac .form_row {
+            align-items: flex-start;
+        }
+        .trangchu_thacmac .form_row .form_group {
+            width: 100%;
+            margin-right: 20px;
+        }
+        .trangchu_thacmac .form_thacmac button.btn {
+            width: 100%;
+        }
+        .trangchu_thacmac .thanhsearch input {
+            width: 100%;
+        }
+        .container_thacmac>.thanhsearch {
+            display: block;
+        }
     }

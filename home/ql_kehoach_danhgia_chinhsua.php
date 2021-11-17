@@ -23,7 +23,7 @@
                                 <a href='/quan_ly_ke_hoach_danh_gia.html' class="img_quaylai mr_10">
                                     <img src="../img/icon_so.png" alt="Quay lại">
                                 </a>
-                                <p>Quản lý kế hoạch đánh giá <span> / </span><span> Thêm mới </span></p>
+                                <p>Quản lý kế hoạch đánh giá <span> / </span><span> Chính sửa </span></p>
                             </div>
                             <? include('../includes/menu_header.php') ?>
                         </div>

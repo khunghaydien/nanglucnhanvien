@@ -44,10 +44,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="huong_dan d_flex align_c">
+                                    <a href="/huong_dan.html" class="huong_dan d_flex align_c">
                                         <img src="../img/chamhoi.png" alt="Hướng đẫn" class="mr_6">
                                         <p class="font_s15 font_w5 color_blue">Hướng dẫn</p>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="d_flex space_b align_c">
                                     <div class="thanh_search ql_tieuchi">

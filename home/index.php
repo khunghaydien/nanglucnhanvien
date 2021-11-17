@@ -8,19 +8,21 @@
     <link rel="stylesheet" type="text/css" href="../css/dat.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Trang chủ</title>
-
 </head>
 
 <body>
     <div id="trangchu-all">
         <?php include('../includes/header.php'); ?>
         <div class="trangchu_main width_100 color_b">
-            <div class="trangchu_banner  width_100 back_blue width_100 d_flex space_b align_c">
+            <div class="trangchu_banner width_100 back_blue width_100 d_flex space_b align_c">
                 <div class="content font_wB color_w">
                     <h3 class="title_banner">Đánh giá năng lực nhân viên 365</h3>
                     <p class="cont">Đánh giá năng lực của nhân theo các tiêu chí khoa học. Quản lý các tiêu chí, kế
                         hoạch và kết quả của nhân viên thuận tiện dễ dàng.</p>
-                    <div class="btn btn_dangky cursor_p">Đăng kí miễn phí</div>
+                    <div class="btn_banner">
+                        <div class="btn btn_dangky cursor_p">Đăng kí miễn phí</div>
+                    </div>
+
                 </div>
                 <div class="img">
                     <img src="../img/banner_1.png" alt="banner năng lực">
@@ -141,7 +143,7 @@
                 </div>
             </div>
             <div class="trangchu_tieuchi d_flex content_c width_100">
-                <div class="container_xaydung">
+                <div class="container_xaydung width_100">
                     <div class="item_xaydung item_xaydung_1 content_c d_flex align_c">
                         <div class="img mr_125">
                             <img src="../img/xaydung1.png" alt="Xây dựng tiêu chí đánh giá">
@@ -391,6 +393,10 @@
                 <div class="container">
                     <p class="title">Những câu hỏi thường gặp về phần mềm Đánh giá năng lực nhân viên 365</p>
                     <div class="container_thacmac d_flex space_b">
+                        <div class="thanhsearch display_none position_r mb_15">
+                            <input type="text" placeholder="Nhập nội dung tìm kiếm" class="font_s14 color_gray">
+                            <div class="btn position_a color_w font_s15 font_w5">Tìm kiếm</div>
+                        </div>
                         <div class="container_thacmac_l mr_20">
                             <div class="item_thacmac mb_20">
                                 <div class="thacmac_cont">

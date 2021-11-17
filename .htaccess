@@ -25,6 +25,9 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 </IfModule>
 #ErrorDocument 400 https://timviec365.vn/home/404.php
 
+#Hướng dẫn
+RewriteRule ^huong_dan.html?$ /home/huongdan.php
+
 #Trang chu sau dang nhap
 RewriteRule ^trang_chu_sau_dang_nhap.html?$ /home/trangchu_sdn.php
 

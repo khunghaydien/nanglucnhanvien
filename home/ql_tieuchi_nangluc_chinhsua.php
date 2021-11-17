@@ -73,7 +73,7 @@
                             <div class="d_flex space_b width_100 align_c color_blue mb_10">
                                 <h4 class="font_ss16 font_wB">Tiêu chí đánh giá</h4>
                                 <div class="d_flex align_c">
-                                    <div class="img mr_10">
+                                    <div class="img ">
                                         <img src="../img/cong.png" alt="Thêm tiêu chí">
                                     </div>
                                     <p class="font_s14 font_w5">Thêm tiêu chí</p>

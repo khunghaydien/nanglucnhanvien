@@ -21,6 +21,9 @@
                         </div>
                         <div class="main_body color_b">
                             <div class="container_tongquan mb_20">
+                                <div class="title_header ">
+                                    <p>Trang chủ</p>
+                                </div>
                                 <h4 class="header_tongquan font_ss16 font_wB mb_20 ">Tổng quan</h4>
                                 <div class="body_tongquan">
                                     <div class="container container_tongquan d_flex width_100 space_b mb_20">

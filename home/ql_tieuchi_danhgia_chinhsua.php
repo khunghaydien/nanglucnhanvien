@@ -98,7 +98,7 @@
 
                                     <!-- form sửa tiêu chí cha -->
                                     <form action="" method="" enctype="multipart/form-data"
-                                        class="form form_them_tieuchi form_sua_tieuchi_cha">
+                                        class="form form_them_tieuchi form_sua_tieuchi_cha display_none">
                                         <div class="container">
                                             <div class="form_container">
                                                 <div class="form_group">
@@ -171,7 +171,7 @@
 
                                     <!-- Chỉnh sửa tiêu chí tổng hợp mặc định -->
                                     <form action="" method="" enctype="multipart/form-data"
-                                        class="form form_them_tieuchi form_edit_macdinh_tonghop">
+                                        class="form form_them_tieuchi form_edit_macdinh_tonghop display_none">
                                         <div class="container">
                                             <div class="form_container">
                                                 <div class="form_group form_group_block">
@@ -235,7 +235,7 @@
 
                                     <!-- chỉnh sửa tiêu chí con mặc định -->
                                     <form action="" method="" enctype="multipart/form-data"
-                                        class="form form_them_tieuchi form_sua_tieuchi_cha">
+                                        class="form form_them_tieuchi form_sua_tieuchi_cha display_none">
                                         <div class="container">
                                             <div class="form_container ">
                                                 <div class="form_group form_group_block">
