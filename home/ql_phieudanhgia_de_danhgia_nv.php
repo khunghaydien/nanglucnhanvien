@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/saitaman.css">
     <link rel="stylesheet" type="text/css" href="../css/tatsumaki.css">
+
 </head>
 
 <body>
@@ -21,7 +22,7 @@
                             <a href="/quanly-phieudanhgia.html"><div class="flex center-height right-10 c-pointer">
                                 <img src="../img/manhimg/back.png" alt="Quay lai">               
                             </div></a>
-                            <p>Quản lý kết quả đánh giá / Chi tiết</p>
+                            <p>Quản lý kết quả đề đánh giá / Nhân viên</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
@@ -40,8 +41,8 @@
                                                 </button>
                                                 <button class="button nenxanh-chutrang un-m-r center-height br-10 size-16 ">
                                                     <img class="right-10" src="../img/manhimg/dgia.png" alt="đánh giá">
-                                                    <a class=" chutrang font-medium " href="">
-                                                        Làm bài
+                                                    <a class=" chutrang font-medium " href="/quanly-phieudanhgia-danhgia-nv.html">
+                                                        Đánh giá
                                                     </a>
                                                 </button>
                                                 <button class="button btn-nentrang-chuxanh un-m-r center-height br-10 size-16 ">
@@ -179,20 +180,6 @@
                                         <div class="right-15">
                                             <h4 class="chuxanh size-16 font-bold top-20 bot-20">Phiếu đánh giá</h4>
                                         </div>
-                                        
-                                       
-                                        <div class="rightsearch flex center-height">
-                                            <div class="flex rightsearch_con2">
-                                                <button class="button nenxanh-chutrang un-m-r center-height br-10 size-16 ">
-                                                    <img class="right-10" src="../img/manhimg/dgia.png" alt="đánh giá">
-                                                    <a class=" chutrang font-medium " href="/quanly-phieudanhgia-danhgia-nv.html">
-                                                        Đánh giá
-                                                    </a>
-                                                </button>
-                                              
-                                            </div>
-                                        </div>
-                                
                                     </div>
                                      
                                     <div class="bangto3">
@@ -306,135 +293,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h4 class="chuxanh size-16 font-bold top-20 bot-20">Danh sách nhân viên thực hiện bài bài kiểm tra</h4>
-                                            <div class="bangtoto">
-                                                <div class="khoibang">
-                                                <div class="bangchung">
-                                                    <table class="bangchinh chuden">
-                                                        <tr>
-                                                            <th>
-                                                                <p class="phantucon">STT</p>
-                                                            </th>
-                                                            <th>
-                                                                <p class="phantucon">Mã NV</p>
-                                                            </th>
-                                                            <th>
-                                                                <p class="phantucon">Họ tên</p>
-                                                            </th>
-                                                            <th>
-                                                                <p class="phantucon">Trạng thái</p>
-                                                            </th>
-                                                            <th>
-                                                                <p class="phantucon">Tiến độ</p>
-                                                            </th>
-                                                            <th>
-                                                                <p class="phantucon">Nhận xét</p>
-                                                            </th>
-                                                            <th>
-                                                                <p class="phantucon">Chức năng</p>
-                                                            </th>
-                                                            
-                                                        </tr>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td class="">NV0000</td>
-                                                            <td class="">
-                                                                <div class="flex center-height">
-                                                                    <img src="../img/manhimg/avata.png" class="right-10" alt="">
-                                                                    <a class="chuden  size-14" href="/phanquyen_chitiet.html">Nguyễn
-                                                                        Trần Trung Quân
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td class="chuxanh">Đang làm bài</td>
-                                                            <td>
-                                                                <div style="width:100%; height:30px">
-                                                                    <div class="khoi_pro_bar">
-                                                                        <div class="progress">
-                                                                        </div>
-                                                                        <div class="progress--bar" style="width: 100%">100%
-                                                                        </div>  
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="text-left">Tích hợp tất cả các ứng dụng doanh nghiệp của bạn đang cần.</td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <div class="right-5">
-                                                                        <img src="../img/manhimg/dacham.png" class=""  alt="da chấm">
-                                                                    </div>
-                                                                    <p class="chuxanhluc font-medium size-14">Đã chấm</p>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td class="">NV0000</td>
-                                                            <td class="">
-                                                                <div class="flex center-height">
-                                                                    <img src="../img/manhimg/avata.png" class="right-10" alt="">
-                                                                    <a class="chuden  size-14" href="/phanquyen_chitiet.html">Nguyễn
-                                                                        Trần Trung Quân
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td class="chuxanhluc">Hoàn thành</td>
-                                                            <td>
-                                                                <div style="width:100%; height:30px">
-                                                                    <div class="khoi_pro_bar">
-                                                                        <div class="progress">
-                                                                        </div>
-                                                                        <div class="progress--bar" style="width: 50%">50%
-                                                                        </div>  
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="text-left">Tích hợp tất cả các ứng dụng doanh nghiệp của bạn đang cần.</td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <div class="right-5">
-                                                                        <img src="../img/manhimg/chinhsua2.png" class=""  alt="dang lam">
-                                                                    </div>
-                                                                    <p class="chuxanh font-medium size-14">Chấm điểm</p>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td class="">NV0000</td>
-                                                            <td class="">
-                                                                <div class="flex center-height">
-                                                                    <img src="../img/manhimg/avata.png" class="right-10" alt="">
-                                                                    <a class="chuden  size-14" href="/phanquyen_chitiet.html">Nguyễn
-                                                                        Trần Trung Quân
-                                                                    </a>
-                                                                </div>
-                                                            </td>
-                                                            <td class="chuxanhluc">Hoàn thành</td>
-                                                            <td>
-                                                                <div style="width:100%; height:30px">
-                                                                    <div class="khoi_pro_bar">
-                                                                        <div class="progress">
-                                                                        </div>
-                                                                        <div class="progress--bar" style="width: 50%">50%
-                                                                        </div>  
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="text-left">Tích hợp tất cả các ứng dụng doanh nghiệp của bạn đang cần.</td>
-                                                            <td>
-                                                                <div class="flex">
-                                                                    <div class="right-5">
-                                                                        <img src="../img/manhimg/chinhsua2.png" class=""  alt="dang lam">
-                                                                    </div>
-                                                                    <p class="chuxanh font-medium size-14">Chấm điểm</p>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                            </div>
                                 </div>
                             </div>
                         </div>

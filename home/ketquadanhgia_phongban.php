@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quản lý kế kết quả đánh giá phòng ban</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="../css/saitaman.css">
     <link rel="stylesheet" type="text/css" href="../css/tatsumaki.css">
 </head>
@@ -27,8 +28,8 @@
                             <div class="flex space bot-20">
                                 <div class="flex">
                                     <div class="nentrang m_danhmucdanhgia br-10">
-                                        <div class="danhmucdanhgia">
-                                            <select name="" id="">
+                                        <div class="select_no_muti danhmucdanhgia">
+                                            <select name="" id="" class="js_select_2">
                                                 <option value="">Tất cả phòng ban</option>
                                                 <option value="">Phòng nhân sự</option>
                                                 <option value="">Phòng kinh doanh</option>
@@ -38,8 +39,8 @@
                                         </div>
                                     </div>
                                     <div class="nentrang m_danhmucdanhgia br-10">
-                                        <div class="danhmucdanhgia">
-                                            <select name="" id="">
+                                        <div class="select_no_muti danhmucdanhgia">
+                                            <select name="" id="" class="js_select_2">
                                                 <option value="">Tất cả kế hoạch đánh giá</option>
                                                 <option value="">Kế hoạch đánh giá 1</option>
                                                 <option value="">Bài đánh giá 1</option>
@@ -49,8 +50,8 @@
                                         </div>
                                     </div>
                                     <div class="nentrang m_danhmucdanhgia br-10">
-                                        <div class="danhmucdanhgia">
-                                            <select name="" id="">
+                                        <div class="select_no_muti danhmucdanhgia">
+                                            <select name="" id="" class="js_select_2">
                                                 <option value="">Không sắp xếp số điểm</option>
                                                 <option value="">Số điểm giảm dần</option>
                                                 <option value="">Số điểm tăng dấn</option>
@@ -64,14 +65,7 @@
                                     <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                 </div>
                             </div>
-                            <!-- <div class="search-qlnv">
-                                <div class="khoi_left">
-                                    <div class="leftsearch">
-                                        <input type="text" name="" placeholder="Tìm kiếm nhân viên">
-                                        <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15" alt="timkiem">
-                                    </div>
-                                </div>
-                            </div> -->
+                            
                             <div class="khoibang">
                                 <div class="bangchung">
                                     <table class="bangchinh chuden">
@@ -160,4 +154,11 @@
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
+<script type="text/javascript" src="../js/select2.min.js"></script>
+<script type="text/javascript" src="../js/manh.js"></script>
+<script>
+    $('.js_select_2').select2({
+    width: '100%'
+})
+</script>
 </html>

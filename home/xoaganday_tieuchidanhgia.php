@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> tieu chi danh gia</title>
+    <title>Tiêu chí đánh giá</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/saitaman.css">
     <link rel="stylesheet" type="text/css" href="../css/tatsumaki.css">
@@ -17,8 +17,11 @@
             <div class="main">
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
-                        <div class="title_header">
-                            <p>Trang chủ</p>
+                        <div class="title_header flex center-height">
+                            <a href="/xoaganday-dulieuxoaganday.html"><div class="flex center-height right-10 c-pointer">
+                                <img src="../img/manhimg/back.png" alt="Quay lai">               
+                            </div></a>
+                            <p>Dữ liệu đã xóa gần đây / Tiêu chí đánh giá</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
@@ -26,12 +29,12 @@
                         <div class="tieuchidanhgia box-qlinhanvien">
                             <div class="khoidanhmuc ">
                                 <div class="khoidanhmuccon">
-                                    <a href="/tieuchi-danh-gia.html" class="tendanhmuccon chuxanhdam size-14">Tiêu chí
+                                    <a href="/xoaganday-tieuchi-danh-gia.html" class="tendanhmuccon chuxanhdam size-14">Tiêu chí
                                         đánh giá</a>
                                     <div class="border border-active"></div>
                                 </div>
                                 <div class="khoidanhmuccon">
-                                    <a href="/de-danh-gia.html" class="tendanhmuccon size-14">Đề đánh giá</a>
+                                    <a href="/xoaganday-de-danh-gia.html" class="tendanhmuccon size-14">Đề đánh giá</a>
                                     <div class="border "></div>
                                 </div>
                             </div>
@@ -40,20 +43,20 @@
                                     <div class="leftsearch">
                                         <input type="text" name="" placeholder="Tìm kiếm nhân viên">
                                         <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15"
-                                            alt="">
+                                            alt="tim kiem">
                                     </div>
                                 </div>
                                 <div class="rightsearch flex center-height">
                                     <div class="flex rightsearch_con2">
-                                        <button class="button btn-nentrang-chuxanh un-m-r center-height br-10 size-16 ">
-                                            <a class=" chuxanh font-medium" href="phanquyen_chitiet.html">
+                                        <button class="button btn-nentrang-chuxanh un-m-r center-height br-10 size-16 c-pointer tongso_xoavv" onclick="hienpopupid('popup_before')">
+                                            <p class=" chuxanh font-medium">
                                                 Xóa vĩnh viễn
-                                            </a>
+                                            </p>
                                         </button>
-                                        <button class="button nenxanh-chutrang un-m-r center-height br-10 size-16 ">
-                                            <a class=" chutrang font-medium " href="phanquyen_chitiet.html">
+                                        <button class="button nenxanh-chutrang un-m-r center-height br-10 size-16 c-pointer tongso_khoiphuc" onclick="hienpopupid('popup_before')">
+                                            <p class=" chutrang font-medium " >
                                                 Khôi phục
-                                            </a>
+                                            </p>
                                         </button>
                                         <div class="flex rightsearch_con2_2">
                                             <button class="btn-nenxanhluc-chutrang button center-height br-10 size-16 ">
@@ -112,16 +115,20 @@
                                             <td>10:10 - 10/10/2020</td>
                                             <td>
                                                 <div class="flex center-height space">
+                                                    <div class="c-pointer flex js_khoiphuc" onclick="hienpopupid('popup_before')">
                                                     <img src="../img/manhimg/khoiphuc.png" class="right-5"
                                                         alt="khooi phuc">
-                                                    <a class="chuxanh font-medium size-14"
-                                                        href="/phanquyen_chitiet.html">Khôi phục
-                                                    </a>
+                                                    <p class="chuxanh font-medium size-14"
+                                                        >Khôi phục
+                                                    </p>
+                                                    </div>
                                                     <p class="chuxanh right-5 left-5">|</p>
+                                                    <div class="c-pointer flex js_xoavv" onclick="hienpopupid('popup_before')">
                                                     <img src="../img/manhimg/xoa.png" class="right-5" alt="khooi phuc">
                                                     <a class="chudo font-medium size-14"
                                                         href="/phanquyen_chitiet.html">Xóa
                                                     </a>
+                                                    </div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -200,11 +207,67 @@
                             </div>
                         </div>
                     </div>
+                    <div class="flex top-10 center-height ">
+                        <p class="chuden size-14 right-10">Hiển thị:</p>
+                        <div class="nentrang m_hienthi">
+                            <div class="flex center-height hienthi">
+                                <p class="chuden size-14 right-15">40</p>
+                                <div class="center-height flex">
+                                    <img src="/../img/manhimg/down.png" alt="muitenxuong">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
+<? include('../includes/manh_modal.php'); ?>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
+<script type="text/javascript" src="../js/manh.js"></script>
 </html>
+<script type="text/javascript">
+    $(".js_khoiphuc").click(function(){
+        $(".text_before_change").html('<p> Bạn có chắc chắn muốn khôi phục tiêu chí đánh giá</p><p class="top-5 font-medium">Tiêu chí 1!</p>');
+        $(".h4_change").text('Khôi phục tiêu chí đánh giá đã xóa');
+        $(".btnhuy_before").click(function(){
+        $(".change_text_tb").html('<p> Khôi phục tiêu chí đánh giá  <span class="font-medium">Tiêu chí 1</span></p><p class="top-5">thất bại!!</p>');
+        });
+        $(".btnluu_before").click(function(){
+            $(".change_text_tc").html('<p> Khôi phục tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thành công!</p>');
+        });
+    });
+    $(".js_xoavv").click(function(){
+        $(".text_before_change").html('<p> Bạn có chắc chắn muốn xóa tiêu chí đánh giá</p><p class="top-5 font-medium">Đề đánh giá 1!</p>');
+        $(".h4_change").text('Xóa vĩnh viễn tiêu chí đánh giá');
+        $(".btnhuy_before").click(function(){
+        $(".change_text_tb").html('<p> Xóa tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thất bại!!</p>');
+        });
+        $(".btnluu_before").click(function(){
+            $(".change_text_tc").html('<p> Xóa tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thành công!</p>');
+        });
+    });
+    $(".tongso_khoiphuc").click(function(){
+        $(".h4_change").text('Khôi phục tiêu chí đánh giá đã xóa');
+        $(".text_before_change").html('<p> Bạn có chắc chắn muốn khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn</p>');
+        $(".btnhuy_before").click(function(){
+        $(".change_text_tb").html('<p> Khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thất bại!</p>');
+        });
+        $(".btnluu_before").click(function(){
+            $(".change_text_tc").html('<p> Khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thành công!</p>');
+        });
+    });
+    $(".tongso_xoavv").click(function(){
+        $(".h4_change").text('Xóa vĩnh viễn tiêu chí đánh giá');
+        $(".text_before_change").html('<p> Bạn có chắc chắn muốn xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn</p>');
+        $(".btnhuy_before").click(function(){
+        $(".change_text_tb").html('<p>Xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thất bại!</p>');
+        });
+        $(".btnluu_before").click(function(){
+            $(".change_text_tc").html('<p>Xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thành công!</p>');
+        });
+    });
+    
+</script>

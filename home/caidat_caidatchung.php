@@ -18,7 +18,7 @@
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
                         <div class="title_header">
-                            <p>Trang chủ</p>
+                            <p>Cài đặt / Cài đặt chung</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
@@ -28,19 +28,19 @@
                                 <div class="khoi2">
                                     <div class="khoidanhmuc ">
                                         <div class="khoidanhmuccon">
-                                            <a href="" class="tendanhmuccon chuxanhdam size-14">Cài đặt chung</a>
+                                            <a href="/caidat_caidatchung.html" class="tendanhmuccon chuxanhdam size-14">Cài đặt chung</a>
                                             <div class="border border-active"></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="" class="tendanhmuccon size-14">Nhật ký hoạt động</a>
+                                            <a href="/caidat_nhatkyhoatdong.html" class="tendanhmuccon size-14">Nhật ký hoạt động</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="" class="tendanhmuccon size-14">Thông tin bảo mật</a>
+                                            <a href="/caidat_thongtinbaomat.html" class="tendanhmuccon size-14">Thông tin bảo mật</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="" class="tendanhmuccon size-14">Thang điểm</a>
+                                            <a href="/caidat_thangdiem.html" class="tendanhmuccon size-14">Thang điểm</a>
                                             <div class="border "></div>
                                         </div>
                                     </div>

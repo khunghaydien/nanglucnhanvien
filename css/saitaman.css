@@ -31,7 +31,9 @@
 body {
     background: #e5e5e5;
 }
-
+.chunghieng{
+    font-style: italic;
+}
 .c-pointer {
     cursor: pointer;
 }
@@ -67,7 +69,9 @@ body {
 
 
 /* Size */
-
+.size-12 {
+    font-size: 12px;
+}
 .size-14 {
     font-size: 14px;
 }
@@ -351,6 +355,7 @@ textarea {
     font-family: Roboto, sans-serif;
     font-size: 14px;
     color: #474747;
+    border-radius: 3px;
 }
 
 .opacity-5 {
@@ -374,7 +379,7 @@ textarea {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 
@@ -456,7 +461,7 @@ th {
 }
 
 .khoibang .bangchung .bangchinh tr:nth-child(odd) {
-    background-color: #eeeeee;
+    background-color: #fff;
 }
 
 .khoibang .bangchung .bangchinh tr:nth-child(even) {
@@ -650,7 +655,7 @@ table tr td:last-child {
 }
 
 .padding15 {
-    padding: 15px;
+    padding: 14px;
 }
 
 .khoicon {
@@ -797,6 +802,7 @@ table tr td:last-child {
 
 .popup,
 .popup_xacnhan {
+    padding-top: 0px;
     position: fixed;
     display: flex;
     align-items: center;
@@ -809,38 +815,7 @@ table tr td:last-child {
     z-index: 300;
 }
 
-.select_no_muti .select2-container .select2-selection--single .select2-selection__rendered {
-    padding-left: 12px;
-    font-size: 14px;
-    line-height: 16px;
-    color: #666666;
-    margin-top: 10px;
-}
 
-.select_no_muti .select2-container--default .select2-selection--single {
-    min-height: 38px;
-    border: 1px solid #CCCCCC;
-    box-sizing: border-box;
-    border-radius: 3px;
-}
-
-.select_no_muti .select2-container--default .select2-selection--single .select2-selection__arrow b {
-    display: none;
-}
-
-.select_no_muti .select2-container--default .select2-selection--single .select2-selection__arrow::before {
-    background: url('../img/img_so_popup.png');
-    content: '';
-    width: 13px;
-    height: 7.15px;
-    position: absolute;
-    top: 14px;
-    right: 12px;
-}
-
-.select2-container--default .select2-results__option--disabled {
-    display: none;
-}
 
 .input_search_pp::before {
     content: "";
@@ -856,28 +831,6 @@ table tr td:last-child {
 /*end select no_muti*/
 
 
-/*select2 muti*/
-
-.select_muti .select2-container .select2-search--inline .select2-search__field {
-    margin-top: 8px;
-    margin-left: 0px;
-    padding-left: 12px;
+.title_header > p{
     padding-top: 2px;
-    font-size: 14px;
-    line-height: 16px;
-    color: #666666;
-    outline: 0px;
 }
-
-.select_muti .select2-container,
-.select_muti .select2-container--default .select2-selection--multiple {
-    min-height: 38px;
-}
-
-.select_muti .select2-container--default.select2-container--focus .select2-selection--multiple {
-    outline: 0px;
-    border: 1px solid #CCCCCC;
-}
-
-
-/*end*/

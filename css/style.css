@@ -473,7 +473,6 @@ a {
 .form_group_block input[type=text],
 .form_group_block .select_no_muti .select2-container .select2-selection--single .select2-selection__rendered {
     background: #EEEEEE;
-    border: 1px solid #CCCCCC;
     box-sizing: border-box;
     border-radius: 3px;
     color: #474747;

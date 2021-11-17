@@ -63,7 +63,9 @@
     border-radius: 10px;
 }
 
-
+#show_phanloaidanhgiaid .border_input.text{
+    padding-right: unset;
+}
 /***************************************DU LIEU XOA********************************************/
 
 ::-webkit-scrollbar {
@@ -106,55 +108,42 @@
 .tieuchidanhgia .khoibang .bangchung .bangchinh {
     width: 1262px;
 }
-
 .dedanhgia .khoibang .bangchung .bangchinh {
     width: 1336px;
 }
-
 .kehoachdanhgia .khoibang .bangchung .bangchinh {
     width: 1876px;
 }
-
 .tieuchidanhgia .khoibang .bangchung .bangchinh tr td:nth-child(7) {
     width: 172px;
 }
-
 .tieuchidanhgia .khoibang .bangchung .bangchinh tr td:nth-child(5) {
     width: 252px;
 }
-
 .tieuchidanhgia .khoibang .bangchung .bangchinh tr td:nth-child(2) {
     width: 370px;
 }
-
 .tieuchidanhgia .khoibang .bangchung .bangchinh tr td:nth-child(4) {
     width: 114px;
 }
-
 .dedanhgia .khoibang .bangchung .bangchinh tr td:nth-child(4) {
     width: 330px;
 }
-
 .dedanhgia .khoibang .bangchung .bangchinh tr td:nth-child(2) {
     width: 370px;
 }
-
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:nth-child(7) {
     width: 133px;
 }
-
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:nth-child(9) {
     width: 330px;
 }
-
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:nth-child(2) {
     width: 370px;
 }
-
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:nth-child(8) {
     width: 130px;
 }
-
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:last-child {
     width: 170px;
 }
@@ -197,9 +186,19 @@
 .left_time {
     width: 35px;
 }
-
-
-/*PHAN QUYEN*/
+.dekiemtra .khoibang .bangchung .bangchinh {
+    width: 1443px;
+}
+.dekiemtra .khoibang .bangchung .bangchinh tr td:last-child {
+    width: 172px;
+}.dekiemtra .khoibang .bangchung .bangchinh tr td:nth-child(5) {
+    width: 330px;
+}.dekiemtra .khoibang .bangchung .bangchinh tr td:nth-child(2) {
+    width: 370px;
+}.dekiemtra .khoibang .bangchung .bangchinh tr td:nth-child(4) {
+    width: 105px;
+}
+/*************************************************PHAN QUYEN***********************************/
 
 .phanquyen .khoicon {
     border-bottom: unset;
@@ -233,13 +232,17 @@
 
 
 /**********************************************LO TRINH********************************************/
-
+.lotrinhthangtien .padding15, .lotrinhthangtien_chitiet .padding15{
+    padding: 15px;
+}
 .m_lotrinh {
     width: calc(100% / 3 - 14px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-
+.lotrinhthangtien_chitiet .select_no_muti .select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 10px 35px 10px 12px;
+}
 .m_lotrinh:nth-child(3n) {
     margin-right: unset;
 }
@@ -280,7 +283,7 @@
     border-radius: 10px;
     width: 682px;
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 30%;
 }
 
@@ -355,11 +358,11 @@
     line-height: 16.41px;
 }
 
-.js_menu_curd {
+.js_menu_curd, .js_menu_curd2{
     position: relative;
 }
 
-.show_menu_curd {
+.show_menu_curd{
     display: none;
     z-index: 1;
     right: 0;
@@ -369,7 +372,17 @@
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
     border: 1px solid #CCCCCC;
 }
-
+.show_menu_curd2{
+    display: none;
+    top: 20px;
+    z-index: 1;
+    right: 0;
+    border-radius: 10px;
+    width: 260px;
+    position: absolute;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    border: 1px solid #CCCCCC;
+}
 .nd_con_menu_curd {
     padding: 11px 0px 11.91px 14px;
     height: 36px;
@@ -383,17 +396,29 @@
     border: 1px solid #cccccc;
     border-radius: 3px;
     box-sizing: border-box;
-    height: 36px;
+    height: 38px;
 }
 
 .border_input.text {
     padding-left: 12px;
+    padding-right: 40px;
 }
-
+.border_input.date {
+    padding-left: 12px;
+    padding-right: 14px;
+}
 .border_input.textarea {
     height: 108px;
 }
-
+.pop{
+    position: absolute;
+    width: 500px;
+    
+}
+.popto{
+    width: 680px;
+    position: absolute;
+}
 .pop .khoibutton_form .btn:first-child {
     margin-right: 68px;
 }
@@ -405,7 +430,7 @@
 }
 
 .top-70 {
-    margin-top: 70px;
+    margin-top: 66px;
 }
 
 .top-50 {
@@ -414,9 +439,10 @@
 
 
 /********************************KQ DANH GIA********************************************/
-
+.m_danhmucdanhgia .select_no_muti .select2-container--default .select2-selection--single{
+    border-radius: 10px;
+}
 .danhmucdanhgia {
-    padding-right: 10px;
     border-radius: 10px;
     height: 36px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -573,6 +599,11 @@
 .phieudanhgia .khoibang .bangchung .bangchinh {
     width: 1659px;
 }
+.phieudanhgia_chitiet .search-qlnv {
+    margin-top: 0px;
+
+}
+
 
 .phieudanhgia .khoibang .bangchung .bangchinh tr td:nth-child(10) {
     width: 330px;
@@ -650,4 +681,71 @@
 
 .khoitieude .rightsearch {
     width: unset;
+}
+.danhgia_hoanthanh .khoibutton_form .btn:nth-child(2){
+    margin-right: 60px;
+}
+.div145{
+    width: 145px;
+}
+.xoaphanloai{
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4C5BD4;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #4C5BD4;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.themmoiphanloai{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: 145px;
+    height: 36px;
+}
+/*          POPUP       */
+.boder_thanhcong{
+    padding:40px 50px 40px 50px;
+}
+.top-36{
+    margin-top: 36px;
+}
+.top-24{
+margin-top: 24px;
+}
+.top-27{
+    margin-top: 27px;
+}
+.close_xacnhan{
+    width: 400px;
+    height: 36px;
+    border-radius: 6px;
+}
+.boder_bolk{
+    padding: 27px 77px 25px 78px;
+}
+.boder_pop_before{
+    padding: 69px 35px 40px 35px;
+}
+.phieudanhgia .m_danhmucdanhgia .select_no_muti .select2-container--default .select2-selection--single{
+    border: unset;
+}
+.phieudanhgia .padding15{
+    padding: 15px;
+}
+#show_thietlaptime .pop{
+    width: 360px;
+}
+
+#show_thietlaptime .pop .khoibutton_form .btn{
+    width: 130px;
+}
+#show_thietlaptime .pop .khoibutton_form .btn:first-child{
+    margin-right: 30px;
+}
+.phieudanhgia .m_danhmucdanhgia .danhmucdanhgia.flex.center-height{
+    padding-left: 12px;
 }

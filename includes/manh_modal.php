@@ -1,4 +1,4 @@
-<div class="show_thanhvien pop">
+<div class="show_thanhvien ">
     <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
         <div class="">
             <p class="size-18 font-bold text_js">Thành viên</p>
@@ -333,102 +333,62 @@
         </div>
     </div>
 </div>
-
-<div class="show_chinhsuachucvu pop">
-    <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
-        <div class="">
-            <h4 class="size-18 font-bold">Chỉnh sửa chức vụ</h4>
-        </div>
-        <div class="flex center-height c-pointer x_close">
-            <img src="../img/manhimg/x.png" alt="Huong dan">
-        </div>
-    </div>
-    <div class="nentrang">
-        <div class="padding-20">
-            <div class="bot-15">
-                <p class="chuden font-medium size-15 bot-5">Chức vụ</p>
-                <div class="border_input text">
-                    <input type="text" placeholder="Nhân viên" class="size-14 chuden">
-                </div> 
-            </div>
-            <div class="bot-15">
-                <p class="chuden font-medium size-15 bot-5">Vị trí đặt chức vụ</p>
-                <div class="border_input ">
-                    <select class="" name="" id="">
-                        <option value="">Trước phó trưởng phòng</option>
-                        <option value="2">Trước phó trưởnòng</option>
-                    </select>
+<div id="popup_thanhcong" class="popup_xacnhan hidden">
+    <div class=" pop">
+        <div class="nentrang br-10">
+            <div class="boder_thanhcong">
+                <div class="flex center-center">
+                    <img src="../img/manhimg/done.png" alt="Thành công">
+                </div>
+                <div class="flex center-center top-36 ">
+                    <p class="size-15 change_text_tc  text-center"></p>
+                </div>
+                <div class="flex center-center top-36 nenxanh-chutrang close_xacnhan c-pointer">
+                    <p class="size-15">Đóng</p>
                 </div> 
             </div>
         </div>
     </div>
 </div>
-
-<div class="show_themyccv pop">
-    <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
-        <div class="">
-            <h4 class="size-18 font-bold">Thêm yêu cầu công việc</h4>
-        </div>
-        <div class="flex center-height c-pointer x_close">
-            <img src="../img/manhimg/x.png" alt="Huong dan">
+<div id="popup_thatbai" class="popup_xacnhan hidden">
+    <div class=" pop">
+        <div class="nentrang br-10">
+            <div class="boder_thanhcong">
+                <div class="flex center-center">
+                    <img src="../img/manhimg/errol.png" alt="Thất bại">
+                </div>
+                <div class="flex center-center top-36 ">
+                    <div class="size-15 change_text_tb  text-center"></div>
+                </div>
+                <div class="flex center-center top-36 nenxanh-chutrang close_xacnhan c-pointer">
+                    <p class="size-15">Đóng</p>
+                </div> 
+            </div>
         </div>
     </div>
-    <div class="nentrang">
-        <div class="padding-20">
-            <div class="bot-15">
-                <p class="chuden font-medium size-15 bot-5">Tên yêu cầu công việc<span class="chudo">*</span></p>
-                <div class="border_input text">
-                    <input type="text" placeholder="Nhập yêu cầu" class="size-14 chuden">
-                </div> 
-            </div>
-            <div class="bot-15">
-                <p class="chuden font-medium size-15 bot-5">Vị trí đặt chức vụ</p>
-                <div class="border_input ">
-                    <select class="" name="" id="">
-                        <option value="">Trước phó trưởng phòng</option>
-                        <option value="2">Trước phó trưởnòng</option>
-                    </select>
-                </div> 
-            </div>
+</div>
+<div id="popup_before" class="popup hidden ">
+    <div class="pop ">
+        <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
             <div class="">
-                <p class="chuden font-medium size-15 bot-5">Mô tả yêu cầu công việc<span class="chudo">*</span></p>
-                <div class="border_input textarea">
-                    <textarea name="" id="" ></textarea>
-                </div> 
+                <h4 class="size-18 font-bold h4_change"></h4>
             </div>
-            <div class="khoibutton_form top-25">
-                <div
-                    class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer ">
-                    Hủy
-                </div>
-                <div class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer ">
-                    Lưu
-                </div>
+            <div class="flex center-height c-pointer x_close">
+                <img src="../img/manhimg/x.png" alt="Huong dan">
             </div>
         </div>
-    </div>
-</div>
-
-<div class="show_xacnhan pop">
-    <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
-        <div class="">
-            <h4 class="size-18 font-bold">Xóa chức vụ</h4>
-        </div>
-        <div class="flex center-height c-pointer x_close">
-            <img src="../img/manhimg/x.png" alt="Huong dan">
-        </div>
-    </div>
-    <div class="nentrang">
-        <div class="padding-20">
-            <p class="text-center top-50">Bạn có chắc chắn muốn xóa chức vụ </p>
-            <p class="chuden font-medium text-center top-5">Nhân viên?</p>
-            <div class="khoibutton_form top-70">
-                <div
-                    class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer ">
-                    Hủy
-                </div>
-                <div class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer ">
-                    Lưu
+        <div class="nentrang br-b-10">
+            <div class="boder_pop_before">
+                <div class="text-center size-15 text_before_change bot-5"></div>
+                
+                <div class="khoibutton_form top-70">
+                    <div onclick="hienpopupid('popup_thatbai')" 
+                        class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_before">
+                        Hủy
+                    </div>
+                    <div onclick="hienpopupid('popup_thanhcong')" class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu_before">
+                        Lưu
+                    </div>
                 </div>
             </div>
         </div>

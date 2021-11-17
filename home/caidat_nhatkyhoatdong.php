@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nhat ky hoat dong</title>
+    <title>Nhật ký hoạt động</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/saitaman.css">
     <link rel="stylesheet" type="text/css" href="../css/tatsumaki.css">
@@ -19,7 +19,7 @@
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
                         <div class="title_header">
-                            <p>Trang chủ</p>
+                            <p>Cài đặt / Nhật ký hoạt động</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
@@ -29,19 +29,19 @@
                                 <div class="khoi2">
                                     <div class="khoidanhmuc ">
                                         <div class="khoidanhmuccon">
-                                            <a href="" class="tendanhmuccon  size-14">Cài đặt chung</a>
+                                            <a href="/caidat_caidatchung.html" class="tendanhmuccon  size-14">Cài đặt chung</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="" class="tendanhmuccon chuxanhdam size-14">Nhật ký hoạt động</a>
+                                            <a href="/caidat_nhatkyhoatdong.html" class="tendanhmuccon chuxanhdam size-14">Nhật ký hoạt động</a>
                                             <div class="border border-active"></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="" class="tendanhmuccon size-14">Thông tin bảo mật</a>
+                                            <a href="/caidat_thongtinbaomat.html" class="tendanhmuccon size-14">Thông tin bảo mật</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="" class="tendanhmuccon size-14">Thang điểm</a>
+                                            <a href="/caidat_thangdiem.html" class="tendanhmuccon size-14">Thang điểm</a>
                                             <div class="border "></div>
                                         </div>
                                     </div>
@@ -72,7 +72,7 @@
                                                     <td>10:10 - 10/10/2021</td>
                                                     <td class="text-left">Duyệt biên bản tài sản cần bảo dưỡng</td>
                                                     <td class="chuxanh"><a class="ko-gachchan chuxanh"
-                                                            href="/phanquyen_chitiet.html">
+                                                            href="">
                                                             Máy in sony - SBB000001</a>
                                                     </td>
                                                 </tr>
@@ -82,7 +82,7 @@
                                                     <td>10:10 - 10/10/2021</td>
                                                     <td class="text-left">Duyệt biên bản tài sản cần bảo dưỡng</td>
                                                     <td class="chuxanh"><a class="ko-gachchan chuxanh"
-                                                            href="/phanquyen_chitiet.html">
+                                                            href="">
                                                             Bảo dưỡng tài sản - SBB000001</a>
                                                     </td>
                                                 </tr>

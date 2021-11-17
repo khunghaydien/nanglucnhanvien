@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản lý kết quả đánh giá Chi tiết</title>
+    <title>Kết quả đánh giá nhân viên chi tiết</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/saitaman.css">
     <link rel="stylesheet" type="text/css" href="../css/tatsumaki.css">
@@ -18,7 +18,12 @@
             <div class="main">
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
-                        <div class="title_header">
+                       <div class="title_header flex center-height">
+                        <a href="/ketquadanhgia-nhanvien.html">
+                            <div class="flex center-height right-10 c-pointer">
+                                <img src="../img/manhimg/back.png" alt="Quay lai">               
+                            </div>
+                        </a>
                             <p>Quản lý kết quả đánh giá / Chi tiết</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phan quyen</title>
+    <title>Phân quyền</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/saitaman.css">
     <link rel="stylesheet" type="text/css" href="../css/tatsumaki.css">
@@ -18,7 +18,7 @@
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
                         <div class="title_header">
-                            <p>Trang chủ</p>
+                            <p>Phân quyền</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>

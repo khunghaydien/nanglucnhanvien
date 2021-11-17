@@ -2,7 +2,7 @@
 <html lang="vi">
 
 <head>
-    <title>Nhân viên bán hàng</title>
+    <title>Dữ liệu đã xóa gần đây</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -18,7 +18,7 @@
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
                         <div class="title_header">
-                            <p>Trang chủ</p>
+                            <p>Dữ liệu đã xóa gần đây</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
@@ -31,7 +31,7 @@
                                             <div class="right-10">
                                                 <img src="../img/manhimg/sao.png" alt="tiêu chí đè đánh giá">
                                             </div>
-                                            <p class="size-16 chuden font-medium">Tiêu chí - Đề đánh giá</p>
+                                            <a class="size-16 chuden font-medium" href="xoaganday-tieuchi-danh-gia.html">Tiêu chí - Đề đánh giá</a>
                                         </div>
                                         <div class="flex center-height">
                                             <p class="chudo font-bold right-5">30</p>
@@ -45,7 +45,7 @@
                                             <div class="right-10">
                                                 <img src="../img/manhimg/phitieu.png" alt="tiêu chí đè đánh giá">
                                             </div>
-                                            <p class="size-16 chuden font-medium">Kế hoạch đánh giá</p>
+                                            <a class="size-16 chuden font-medium" href="/xoaganday-kehoach-danh-gia.html">Kế hoạch đánh giá</a>
                                         </div>
                                         <div class="flex center-height">
                                             <p class="chudo font-bold right-5">30</p>
@@ -59,7 +59,7 @@
                                             <div class="right-10">
                                                 <img src="../img/manhimg/phieu.png" alt="tiêu chí đè đánh giá">
                                             </div>
-                                            <p class="size-16 chuden font-medium">Phiếu đánh giá</p>
+                                            <a class="size-16 chuden font-medium" href="/xoaganday-phieu-danh-gia.html">Phiếu đánh giá</a>
                                         </div>
                                         <div class="flex center-height">
                                             <p class="chudo font-bold right-5">30</p>
@@ -69,11 +69,11 @@
                                 </div>
                                 <div class="xoa_con nentrang ">
                                     <div class="padding15">
-                                        <div class="flex center-height bot-15">
+                                        <div class="flex center-height bot-15 ">
                                             <div class="right-10">
                                                 <img src="../img/manhimg/phieunho.png" alt="tiêu chí đè đánh giá">
                                             </div>
-                                            <p class="size-16 chuden font-medium">Đề kiểm tra</p>
+                                            <a class="size-16 chuden font-medium" href="/xoaganday-de-kiem-tra.html">Đề kiểm tra</a>
                                         </div>
                                         <div class="flex center-height">
                                             <p class="chudo font-bold right-5">30</p>

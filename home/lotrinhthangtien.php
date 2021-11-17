@@ -2,7 +2,7 @@
 <html lang="vi">
 
 <head>
-    <title>Lo trinh thang tien</title>
+    <title>Lộ trình thăng tiến</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -18,7 +18,7 @@
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
                         <div class="title_header">
-                            <p>Trang chủ</p>
+                            <p>Lộ trình thăng tiến</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
@@ -43,8 +43,8 @@
                             <div class="flex wrap">
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer">Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height js_thanhvien c-pointer">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">
@@ -61,8 +61,8 @@
                             </div>
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer">Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height js_thanhvien c-pointer">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">
@@ -79,8 +79,8 @@
                             </div>
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer">Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height js_thanhvien c-pointer">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">
@@ -97,8 +97,8 @@
                             </div>
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer" >Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height js_thanhvien c-pointer">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">
@@ -115,8 +115,8 @@
                             </div>
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer">Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height js_thanhvien c-pointer">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">
@@ -133,8 +133,8 @@
                             </div>
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer">Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height js_thanhvien c-pointer">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">
@@ -151,8 +151,8 @@
                             </div>
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer">Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height js_thanhvien c-pointer">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">
@@ -169,8 +169,8 @@
                             </div>
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer">Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">
@@ -187,8 +187,8 @@
                             </div>
                             <div class=" m_lotrinh nentrang bot-20 right-20">
                                 <div class="lotrinh_con">
-                                    <p class="chuxanh size-16 font-medium bot-20 c-pointer">Phòng nhân sự</p>
-                                    <p class="chuden font-medium size-15 bot-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
+                                    <a href="/lotrinhthangtien-chitiet.html" class="chuxanh size-16 font-medium c-pointer">Phòng nhân sự</a>
+                                    <p class="chuden font-medium size-15 bot-20 top-20">Chức vụ: <span class="chuden size-14 left-10">3</span></p>
                                     <div class="flex center-height">
                                         <p class="chuden size-14 right-10">Thành viên:</p>
                                         <div class="flex center-height">

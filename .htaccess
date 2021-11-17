@@ -52,37 +52,43 @@ RewriteRule ^quan_ly_ke_hoach_danh_gia_chinh_sua.html?$ /home/ql_kehoach_danhgia
 RewriteRule ^quan_ly_ke_hoach_danh_gia_them_moi.html?$ /home/ql_kehoach_danhgia_themmoi.php
 
 
-#Quản lý phiếu đánh giá
-RewriteRule ^quanly-phieudanhgia.html?$ /home/ql_phieudanhgia.php
-RewriteRule ^phieudanhgia-de-kiemtra-nv.html?$ /home/ql_phieudanhgia_de_kiemtra_nv.php
+#Trang xoa gan day
+RewriteRule ^xoaganday-de-danh-gia.html?$ /home/xoaganday_dedanhgia.php
+RewriteRule ^xoaganday-de-kiem-tra.html?$ /home/xoaganday_dekiemtra.php
+RewriteRule ^xoaganday-phieu-danh-gia.html?$ /home/xoaganday_phieudanhgia.php
+RewriteRule ^xoaganday-tieuchi-danh-gia.html?$ /home/xoaganday_tieuchidanhgia.php
+RewriteRule ^xoaganday-kehoach-danh-gia.html?$ /home/xoaganday_kehoachdanhgia.php
+RewriteRule ^xoaganday-dulieuxoaganday.html?$ /home/xoaganday_dulieuxoaganday.php
 
-#Quản lý kết quả đánh giá
+
+#Trang phanquyen
+RewriteRule ^phanquyen.html?$ /home/phanquyen_phanquyen.php
+RewriteRule ^phanquyen_chitiet.html?$ /home/phanquyen_phanquyenchitiet.php
+
+#Trang cai dat
+RewriteRule ^caidat_caidatchung.html?$ /home/caidat_caidatchung.php
+RewriteRule ^caidat_nhatkyhoatdong.html?$ /home/caidat_nhatkyhoatdong.php
+RewriteRule ^caidat_thangdiem.html?$ /home/caidat_thangdiem.php
+RewriteRule ^caidat_thongtinbaomat.html?$ /home/caidat_thongtinbaomat.php
+
+#Trang lo trinh thnag tien
+RewriteRule ^lotrinhthangtien.html?$ /home/lotrinhthangtien.php
+RewriteRule ^lotrinhthangtien-chitiet.html?$ /home/lotrinhthangtien_chitiet.php
+
+#Trang ket qua danh gia
 RewriteRule ^ketquadanhgia-nhanvien.html?$ /home/ketquadanhgia_nhanvien.php
 RewriteRule ^ketquadanhgia-nhanvien1n.html?$ /home/ketquadanhgia_nhanvien_chitiet_1n.php
 RewriteRule ^ketquadanhgia-phieudanhgia.html?$ /home/ketquadanhgia_phieudanhgia_chitiet_nn.php
 RewriteRule ^ketquadanhgia-phongban.html?$ /home/ketquadanhgia_phongban.php
 RewriteRule ^ketquadanhgia-phongban-chitiet.html?$ /home/ketquadanhgia_phongban_chitiet.php
 
-#Trang lộ trình thăng tiến
-RewriteRule ^lotrinhthangtien.html?$ /home/lotrinhthangtien.php
-RewriteRule ^lotrinhthangtien-chitiet.html?$ /home/lotrinhthangtien_chitiet.php
-
-#Phân quyền
-RewriteRule ^phanquyen.html?$ /home/phanquyen_phanquyen.php
-RewriteRule ^phanquyen_chitiet.html?$ /home/phanquyen_phanquyenchitiet.php
-
-#Dữ liệu đã xóa gần đây
-RewriteRule ^xoaganday-dulieuxoaganday.html?$ /home/xoaganday_dulieuxoaganday.php
-RewriteRule ^xoaganday-de-danh-gia.html?$ /home/xoaganday_dedanhgia.php
-RewriteRule ^xoaganday-tieuchi-danh-gia.html?$ /home/xoaganday_tieuchidanhgia.php
-RewriteRule ^xoaganday-kehoach-danh-gia.html?$ /home/xoaganday_kehoachdanhgia.php
-
-
-#Cài đặt
-RewriteRule ^caidat_caidatchung.html?$ /home/caidat_caidatchung.php
-RewriteRule ^caidat_nhatkyhoatdong.html?$ /home/caidat_nhatkyhoatdong.php
-RewriteRule ^caidat_thangdiem.html?$ /home/caidat_thangdiem.php
-RewriteRule ^caidat_thongtinbaomat.html?$ /home/caidat_thongtinbaomat.php
+#Trang phieu danh gia
+RewriteRule ^quanly-phieudanhgia.html?$ /home/ql_phieudanhgia.php
+RewriteRule ^quanly-phieudanhgia-danhgia-pb.html?$ /home/ql_phieudanhgia_hoanthanh_pb.php
+RewriteRule ^quanly-phieudanhgia-danhgia-nv.html?$ /home/ql_phieudanhgia_hoanthanh_nv.php
+RewriteRule ^phieudanhgia-de-kiemtra-nv.html?$ /home/ql_phieudanhgia_de_kiemtra_nv.php
+RewriteRule ^phieudanhgia-de-danhgia-nv.html?$ /home/ql_phieudanhgia_de_danhgia_nv.php
+RewriteRule ^phieudanhgia-de-danhgia-pb.html?$ /home/ql_phieudanhgia_de_danhgia_pb.php
 
 #Chuyển đổi số 365
 
