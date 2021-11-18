@@ -19,16 +19,26 @@
                 <div class="main">
                     <div class="header back_w border_r10 w_100">
                         <div class="box_header d_flex space_b align_c position_r">
-                            <div class="title_header d_flex">
-                                <a href='/quan_ly_tieu_chi_danh_gia.html' class="img_quaylai mr_10">
-                                    <img src="../img/icon_so.png" alt="Quay lại">
-                                </a>
-                                <p>Danh sách lý tiêu chí đánh giá <span> / </span><span> Chỉnh sửa</span></p>
+                            <div class="title_header ">
+                                <div class="d_flex">
+                                    <a href='/quan_ly_tieu_chi_danh_gia.html' class="img_quaylai mr_10">
+                                        <img src="../img/icon_so.png" alt="Quay lại">
+                                    </a>
+                                    <p>Danh sách lý tiêu chí đánh giá <span> / </span><span> Chỉnh sửa</span></p>
+                                </div>
                             </div>
                             <? include('../includes/menu_header.php') ?>
                         </div>
                         <div class="main_body">
                             <div class="body_ql_tieuchi">
+                                <div class="title_header ">
+                                    <div class="d_flex">
+                                        <a href='/quan_ly_tieu_chi_danh_gia.html' class="img_quaylai mr_10">
+                                            <img src="../img/icon_so.png" alt="Quay lại">
+                                        </a>
+                                        <p>Danh sách lý tiêu chí đánh giá <span> / </span><span> Chỉnh sửa</span></p>
+                                    </div>
+                                </div>
                                 <div class="header width_100">
                                     <h4>Thêm mới tiêu chí</h4>
                                 </div>

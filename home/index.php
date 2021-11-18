@@ -32,7 +32,7 @@
                 <div class="container width_100 d_flex flex_d_c align_c">
                     <h3 class="title">Tính năng nổi bật của phần mềm Đánh giá năng lực nhân viên 365</h3>
                     <div class="container_tieu_chi width_100">
-                        <div class="container_tren d_flex content_c">
+                        <div class="container_tren d_flex content_c flex_wrap">
                             <div class="item_tieu_chi position_r">
                                 <img src="../img/nen_vang.png" alt="Nền tiêu chí 1">
                                 <div class="d_flex flex_d_c align_c content_c">
@@ -88,8 +88,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="container_duoi d_flex content_c">
                             <div class="item_tieu_chi position_r">
                                 <img src="../img/nen_tim.png" alt="Nền tiêu chí 4">
                                 <div class="d_flex flex_d_c align_c content_c">
@@ -390,7 +388,7 @@
                 </div>
             </div>
             <div class="trangchu_thacmac d_flex content_c width_100">
-                <div class="container">
+                <div class="container width_100">
                     <p class="title">Những câu hỏi thường gặp về phần mềm Đánh giá năng lực nhân viên 365</p>
                     <div class="container_thacmac d_flex space_b">
                         <div class="thanhsearch display_none position_r mb_15">
@@ -570,7 +568,7 @@
                 </div>
             </div>
             <div class="trangchu_timhieu d_flex content_c width_100">
-                <div class="container font_s18">
+                <div class="container width_100 font_s18">
                     <p><span class="font_w5">1.1. Máy chấm công bạn hiểu là gì?</span></br>
                         Ngay từ thời điểm doanh nghiệp hình thành,các thiết bị chấm công kết hợp với việc điểm danh cơ
                         học của nhân sự trở thành căn cứ tiêu biểu giúp các công ty ghi lại

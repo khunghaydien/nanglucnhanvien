@@ -347,6 +347,10 @@ a {
     margin-bottom: 6px;
 }
 
+.font_w4 {
+    font-weight: 400;
+}
+
 .btn {
     display: flex;
     align-items: center;
@@ -1888,6 +1892,31 @@ table tr td:first-child {
 
 table tr td:last-child {
     border-right: unset !important;
+}
+
+.body_ql_tieuchi {
+    position: relative;
+}
+
+.thanh_dk {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+}
+
+.thanh_dk .turn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    opacity: 0.86;
+    border-radius: 100%;
+    cursor: pointer;
 }
 
 

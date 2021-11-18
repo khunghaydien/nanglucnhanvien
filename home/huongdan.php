@@ -43,16 +43,16 @@
                     <div class="ul_sidebar">
                         <div class="sidebar_item">
                             <div class="li_sidebar">
-                                <div class="item_sidebar item_sidebar_cha d_flex flex_star">
+                                <a href="/quan_ly_tieu_chi_danh_gia.html"
+                                    class="item_sidebar item_sidebar_cha d_flex flex_star">
                                     <div class="img_li d_flex space_around align_c">
                                         <img src="../img/sidebar_2.png" alt="Quản lý tiêu chí đánh giá">
                                     </div>
                                     <p class="p_item_sidebar font_ss16 font_w5 ">Quản lý tiêu
                                         chí đánh giá</p>
-                                </div>
+                                </a>
                             </div>
                         </div>
-
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/quan_ly_ke_hoach_danh_gia.html">
@@ -78,14 +78,14 @@
                         </div>
                         <div class="sidebar_item">
                             <div class="li_sidebar">
-                                <div class="item_sidebar item_sidebar_cha d_flex flex_star ">
+                                <a href="/ketquadanhgia-nhanvien.html"
+                                    class="item_sidebar item_sidebar_cha d_flex flex_star ">
                                     <div class="img_li d_flex space_around align_c">
                                         <img src="../img/sidebar_6.png" alt="">
                                     </div>
                                     <p class="p_item_sidebar font_ss16 font_w5">Quản lý kết quả đánh giá</p>
-                                </div>
+                                </a>
                             </div>
-
                         </div>
                         <div class="sidebar_item">
                             <div class="li_sidebar">

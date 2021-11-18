@@ -53,7 +53,9 @@ RewriteRule ^quan_ly_ke_hoach_danh_gia.html?$ /home/ql_kehoach_danhgia.php
 RewriteRule ^quan_ly_ke_hoach_danh_gia_chi_tiet.html?$ /home/ql_kehoach_danhgia_chitiet.php
 RewriteRule ^quan_ly_ke_hoach_danh_gia_chinh_sua.html?$ /home/ql_kehoach_danhgia_chinhsua.php
 RewriteRule ^quan_ly_ke_hoach_danh_gia_them_moi.html?$ /home/ql_kehoach_danhgia_themmoi.php
-
+RewriteRule ^quan_ly_ke_hoach_danh_gia_them_moi_de_danh_gia.html?$ /home/themmoi_dedanhgia.php
+RewriteRule ^quan_ly_ke_hoach_danh_gia_them_moi_de_kiem_tra.html?$ /home/themmoi_dekiemtra.php
+RewriteRule ^quan_ly_ke_hoach_danh_gia_them_moi_de_danh_gia_kiem_tra.html?$ /home/themmoi_de_danhgia_kiemtra.php
 
 #Trang xoa gan day
 RewriteRule ^xoaganday-de-danh-gia.html?$ /home/xoaganday_dedanhgia.php

@@ -25,6 +25,9 @@
                         </div>
                         <div class="main_body">
                             <div class="header_ql_tieuchi width_100 mb_20">
+                                <div class="title_header">
+                                    <p>Quản lý kế hoạch đánh giá</p>
+                                </div>
                                 <div class="d_flex space_b align_c mb_20">
                                     <div class="header_kehoach d_flex" id="header_kehoach">
                                         <div class="select_no_muti select_no_muti_3 mr_15">
@@ -61,7 +64,7 @@
                             </div>
                             <div class="body_ql_tieuchi body_kehoach_danhgia">
                                 <div class="khoibang">
-                                    <div class="bangchung">
+                                    <div class="bangchung" id="bang_chung">
                                         <table class="bangchinh tieu_chi">
                                             <tr>
                                                 <th>
@@ -1344,6 +1347,14 @@
                                                     > </li>
                                             </ul>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="thanh_dk">
+                                    <div class="turn turn_left" id="turn_left">
+                                        <img src="../img/left.png" alt="sang trái">
+                                    </div>
+                                    <div class=" turn turn_right" id="turn_right">
+                                        <img src="../img/right.png" alt="sang phải">
                                     </div>
                                 </div>
                             </div>

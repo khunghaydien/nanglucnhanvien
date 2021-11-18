@@ -19,16 +19,27 @@
                 <div class="main">
                     <div class="header back_w border_r10 w_100">
                         <div class="box_header d_flex space_b align_c position_r">
-                            <div class="title_header d_flex">
-                                <a href='/quan_ly_de_kiem_tra_nang_luc.html' class="img_quaylai mr_10">
-                                    <img src="../img/icon_so.png" alt="Quay lại">
-                                </a>
-                                <p>Quản lý đề kiểm tra năng lực nhân viên<span> / </span><span> Chỉnh sửa</span></p>
+                            <div class="title_header">
+                                <div class="d_flex">
+                                    <a href='/quan_ly_de_kiem_tra_nang_luc.html' class="img_quaylai mr_10">
+                                        <img src="../img/icon_so.png" alt="Quay lại">
+                                    </a>
+                                    <p>Quản lý đề kiểm tra năng lực nhân viên<span> / </span><span> Chỉnh sửa</span></p>
+                                </div>
                             </div>
                             <? include('../includes/menu_header.php') ?>
                         </div>
                         <div class="main_body">
                             <div class="body_ql_tieuchi body_ql_tieuchi_chitiet mb_20">
+                                <div class="title_header">
+                                    <div class="d_flex">
+                                        <a href='/quan_ly_de_kiem_tra_nang_luc.html' class="img_quaylai mr_10">
+                                            <img src="../img/icon_so.png" alt="Quay lại">
+                                        </a>
+                                        <p>Quản lý đề kiểm tra năng lực nhân viên<span> / </span><span> Chỉnh sửa</span>
+                                        </p>
+                                    </div>
+                                </div>
                                 <div class="header width_100">
                                     <h4>Thêm mới đề kiểm tra năng lực nhân viên</h4>
                                 </div>

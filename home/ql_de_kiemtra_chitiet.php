@@ -19,16 +19,27 @@
                 <div class="main">
                     <div class="header back_w border_r10 w_100">
                         <div class="box_header d_flex space_b align_c position_r">
-                            <div class="title_header d_flex">
-                                <a href='/quan_ly_de_kiem_tra_nang_luc.html' class="img_quaylai mr_10">
-                                    <img src="../img/icon_so.png" alt="Quay lại">
-                                </a>
-                                <p>Quản lý đề kiểm tra năng lực nhân viên<span> / </span><span> chi tiết </span></p>
+                            <div class="title_header ">
+                                <div class="d_flex">
+                                    <a href='/quan_ly_de_kiem_tra_nang_luc.html' class="img_quaylai mr_10">
+                                        <img src="../img/icon_so.png" alt="Quay lại">
+                                    </a>
+                                    <p>Quản lý đề kiểm tra năng lực nhân viên<span> / </span><span> chi tiết </span></p>
+                                </div>
                             </div>
                             <? include('../includes/menu_header.php') ?>
                         </div>
                         <div class="main_body">
                             <div class="header_ql_tieuchi">
+                                <div class="title_header ">
+                                    <div class="d_flex">
+                                        <a href='/quan_ly_de_kiem_tra_nang_luc.html' class="img_quaylai mr_10">
+                                            <img src="../img/icon_so.png" alt="Quay lại">
+                                        </a>
+                                        <p>Quản lý đề kiểm tra năng lực nhân viên<span> / </span><span> chi tiết </span>
+                                        </p>
+                                    </div>
+                                </div>
                                 <div class="d_flex align_c flex_end mb_20">
                                     <div class="btn_header_ql_tieuchi d_flex">
                                         <div class="btn btn_trang xoa mr_15">

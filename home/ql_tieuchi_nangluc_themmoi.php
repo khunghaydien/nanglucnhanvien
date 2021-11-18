@@ -19,16 +19,26 @@
                 <div class="main">
                     <div class="header back_w border_r10 w_100">
                         <div class="box_header d_flex space_b align_c position_r">
-                            <div class="title_header d_flex">
-                                <a href='/quan_ly_tieu_chi_nang_luc.html' class="img_quaylai mr_10">
-                                    <img src="../img/icon_so.png" alt="Quay lại">
-                                </a>
-                                <p>Đề đánh giá năng lực<span> / </span><span> Thêm mới</span></p>
+                            <div class="title_header ">
+                                <div class="d_flex"> <a href='/quan_ly_tieu_chi_nang_luc.html'
+                                        class="img_quaylai mr_10">
+                                        <img src="../img/icon_so.png" alt="Quay lại">
+                                    </a>
+                                    <p>Đề đánh giá năng lực<span> / </span><span> Thêm mới</span></p>
+                                </div>
                             </div>
                             <? include('../includes/menu_header.php') ?>
                         </div>
                         <div class="main_body">
                             <div class="body_ql_tieuchi themmoi_de_nangluc mb_10">
+                                <div class="title_header ">
+                                    <div class="d_flex"> <a href='/quan_ly_tieu_chi_nang_luc.html'
+                                            class="img_quaylai mr_10">
+                                            <img src="../img/icon_so.png" alt="Quay lại">
+                                        </a>
+                                        <p>Đề đánh giá năng lực<span> / </span><span> Thêm mới</span></p>
+                                    </div>
+                                </div>
                                 <div class="header width_100">
                                     <h4>Thêm mới đề đánh giá năng lực</h4>
                                 </div>
@@ -66,11 +76,10 @@
                                 </form>
                                 <!--end form thêm mới đề đánh giá năng lực -->
                             </div>
-
                             <div class="d_flex space_b width_100 align_c color_blue mb_10">
                                 <h4 class="font_ss16 font_wB">Tiêu chí đánh giá</h4>
                                 <div class="d_flex align_c">
-                                    <div class="img mr_10">
+                                    <div class="img">
                                         <img src="../img/cong.png" alt="Thêm tiêu chí">
                                     </div>
                                     <p class="font_s14 font_w5">Thêm tiêu chí</p>

@@ -24,6 +24,9 @@
                         </div>
                         <div class="main_body">
                             <div class="header_ql_tieuchi width_100 mb_20">
+                                <div class="title_header">
+                                    <p>Danh sách lý tiêu chí đánh giá </p>
+                                </div>
                                 <div class="d_flex space_b align_c mb_20">
                                     <div class="chon_trangthai font_s14 position_r">
                                         <div class="btn d_flex">
@@ -65,7 +68,7 @@
                             </div>
                             <div class="body_ql_tieuchi ">
                                 <div class="khoibang">
-                                    <div class="bangchung">
+                                    <div class="bangchung" id="bang_chung">
                                         <table class="bangchinh tieu_chi">
                                             <tr>
                                                 <th>
@@ -322,7 +325,16 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="thanh_dk">
+                                    <div class="turn turn_left" id="turn_left">
+                                        <img src="../img/left.png" alt="sang trái">
+                                    </div>
+                                    <div class=" turn turn_right" id="turn_right">
+                                        <img src="../img/right.png" alt="sang phải">
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

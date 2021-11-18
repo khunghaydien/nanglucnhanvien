@@ -18,135 +18,25 @@
                 <div class="main">
                     <div class="header back_w border_r10 w_100">
                         <div class="box_header d_flex space_b align_c position_r">
-                            <div class="title_header ">
+                            <div class="title_header">
                                 <div class="d_flex"> <a href='/quan_ly_ke_hoach_danh_gia.html'
                                         class="img_quaylai mr_10">
                                         <img src="../img/icon_so.png" alt="Quay lại">
                                     </a>
-                                    <p>Quản lý kế hoạch đánh giá <span> / </span><span> Chính sửa </span></p>
+                                    <p>Quản lý kế hoạch đánh giá <span> / </span><span> Thêm mới </span></p>
                                 </div>
                             </div>
                             <? include('../includes/menu_header.php') ?>
                         </div>
-                        <div class="main_body main_body_1">
-                            <div class="title_header ">
+                        <div class="main_body main_body_2">
+                            <div class="title_header">
                                 <div class="d_flex"> <a href='/quan_ly_ke_hoach_danh_gia.html'
                                         class="img_quaylai mr_10">
                                         <img src="../img/icon_so.png" alt="Quay lại">
                                     </a>
-                                    <p>Quản lý kế hoạch đánh giá <span> / </span><span> Chính sửa </span></p>
+                                    <p>Quản lý kế hoạch đánh giá <span> / </span><span> Thêm mới </span></p>
                                 </div>
                             </div>
-                            <form action="">
-                                <div class="header_them_kehoach d_flex content_c align_c mb_20">
-                                    <div class="container_img">
-                                        <div class="img">
-                                            <img src="../img/xanh_1.png" alt="Bước 1">
-                                        </div>
-                                        <div class="img img_right img_xam">
-                                            <img src="../img/xanh_4.png" alt="Bước 2">
-                                        </div>
-                                        <div class="img img_right img_xam">
-                                            <img src="../img/xanh_5.png" alt="Bước 3">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="body_them_kehoach">
-                                    <div class="form body_ql_tieuchi">
-                                        <div class="header width_100">
-                                            <h4>Thêm mới kế hoạch đánh giá</h4>
-                                        </div>
-                                        <div class="body width_100">
-                                            <div class="container">
-                                                <div class="form_container">
-                                                    <div class="form_group width_50">
-                                                        <label for="">Tên kế hoạch đánh giá<span
-                                                                class="color_red">*</span></label>
-                                                        <input type="text" name="ten"
-                                                            placeholder="Nhập tên kế hoạch đánh giá">
-                                                    </div>
-                                                    <div class="mot_nua d_flex space_b width_50">
-                                                        <div class="form_group form_group_block  width_50">
-                                                            <label for="">Người tạo</label>
-                                                            <input type="text" name="ten"
-                                                                placeholder="Nguyễn Trần Trung Quân">
-                                                        </div>
-                                                        <div class="form_group form_group_block width_50">
-                                                            <label for="">Ngày tạo</label>
-                                                            <input type="text" name="ten" placeholder="10/10/2020">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form_container">
-                                                    <div class="form_group width_50">
-                                                        <label for="">Đánh giá lặp lại<span
-                                                                class="color_red">*</span></label>
-                                                        <div class="select_no_muti">
-                                                            <select class="js_select_2" name="loai_tc">
-                                                                <option value="">Đề đánh giá</option>
-                                                                <option value="">Đề kiểm tra</option>
-                                                                <option value="">Đề đánh giá và đề kiểm tra</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form_group form_group_block width_50">
-                                                        <label for="">Người tạo</label>
-                                                        <div class="select_no_muti">
-                                                            <select class="js_select_2" name="loai_tc">
-                                                                <option value="">Không lặp lại</option>
-                                                                <option value="">Lặp lại</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="form_container form_container_4">
-                                                    <div class="form_group">
-                                                        <label for="">Ngày bắt đầu kế hoạch <span
-                                                                class="color_red">*</span></label>
-                                                        <input type="date" name="ten" placeholder="10/10/2020">
-                                                    </div>
-                                                    <div class="form_group">
-                                                        <label for="">Ngày kết thúc kế hoạch <span
-                                                                class="color_red">*</span></label>
-                                                        <input type="date" name="ten" placeholder="10/10/2020">
-                                                    </div>
-                                                    <div class="form_group">
-                                                        <label for="">Giờ bắt đầu đánh giá<span
-                                                                class="color_red">*</span></label>
-                                                        <input type="date" name="ten" placeholder="10/10/2020">
-                                                    </div>
-                                                    <div class="form_group">
-                                                        <label for="">Giờ kết thúc đánh giá<span
-                                                                class="color_red">*</span></label>
-                                                        <input type="date" name="ten" placeholder="10/10/2020">
-                                                    </div>
-
-                                                </div>
-                                                <div class="form_group">
-                                                    <label for="">Ghi chú</label>
-                                                    <textarea id="editor1" name="editor1" cols="80"
-                                                        rows="10"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="btn_form d_flex content_c mt_25">
-                                        <div class="btn btn_168 btn_trang mr_68">
-                                            Hủy
-                                        </div>
-                                        <div class="btn btn_168 btn_xanh ">
-                                            <div class="d_flex align_c ">
-                                                <p class="mr_10">Tiếp tục</p>
-                                                <div class="img height_15">
-                                                    <img src="../img/next_trang.png" alt="Tiếp tục">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="main_body main_body_2">
                             <form action="">
                                 <div class="header_them_kehoach d_flex content_c align_c mb_20">
                                     <div class="container_img">
@@ -154,134 +44,51 @@
                                             <img src="../img/xanh_1.png" alt="Bước 1">
                                         </div>
                                         <div class="img img_right img_xanh">
-                                            <img src="../img/xanh_2.png" alt="Bước 2">
+                                            <img src="../img/xanh_8.png" alt="Bước 2">
                                         </div>
                                         <div class="img img_right img_xam">
                                             <img src="../img/xanh_5.png" alt="Bước 3">
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="body_them_kehoach">
                                     <div class="d_flex align_c color_blue mb_20 ">
-                                        <h4 class="font_ss16 font_wB mr_10">Đề đánh giá năng lực:</h4>
+                                        <h4 class="font_ss16 font_wB mr_10">Đề kiểm tra năng lực:</h4>
                                         <div class="select_no_muti select_no_muti_2 ">
                                             <select class="js_select_2" name="loai_tc">
-                                                <option value="">Chọn đề đánh giá năng lực </option>
+                                                <option value="">Chọn đề kiểm tra năng lực</option>
                                                 <option value="">Đề đánh giá 1 </option>
                                                 <option value="">Đề đánh giá 1 </option>
                                                 <option value="">Đề đánh giá 1 </option>
                                                 <option value="">Đề đánh giá 1 </option>
                                                 <option value="">Đề đánh giá 1 </option>
-
                                             </select>
                                         </div>
                                     </div>
-
-                                    <div class="bang_tieuchi_danhgia">
-                                        <div class="khoibang">
-                                            <div class="bangchung">
-                                                <table class="bangchinh tieu_chi">
-                                                    <tr>
-                                                        <th>
-                                                            <p class="phantucon">STT</p>
-                                                        </th>
-                                                        <th>
-                                                            <p class="phantucon">Tên tiêu chí</p>
-                                                        </th>
-                                                        <th>
-                                                            <p class="phantucon">Thang điểm</p>
-                                                        </th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <p>1</p>
-                                                        </td>
-                                                        <td class="width_80">
-                                                            <div class="d_flex btn_soxuong">
-                                                                <p class="mr_10 font_w5">Kiến thức</p>
-                                                                <div class="img so_xoay">
-                                                                    <img src="../img/icon_so.png" alt="Sổ xuống">
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <p>20</p>
-                                                        </td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <p>1</p>
-                                                        </td>
-                                                        <td class="width_80">
-                                                            <p class="text_a_l">Hiểu biết thấu đáo</p>
-                                                        </td>
-                                                        <td>
-                                                            <p>20</p>
-                                                        </td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <p>1</p>
-                                                        </td>
-                                                        <td class="width_80">
-                                                            <p class="text_a_l">Hiểu biết thấu đáo</p>
-                                                        </td>
-                                                        <td>
-                                                            <p>20</p>
-                                                        </td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <p>1</p>
-                                                        </td>
-                                                        <td class="width_80">
-                                                            <p class="text_a_l">Hiểu biết thấu đáo</p>
-                                                        </td>
-                                                        <td>
-                                                            <p>20</p>
-                                                        </td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <p>1</p>
-                                                        </td>
-                                                        <td class="width_80">
-                                                            <p class="text_a_l">Hiểu biết thấu đáo</p>
-                                                        </td>
-                                                        <td>
-                                                            <p>20</p>
-                                                        </td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <p>1</p>
-                                                        </td>
-                                                        <td class="width_80">
-                                                            <p class="text_a_l">Hiểu biết thấu đáo</p>
-                                                        </td>
-                                                        <td>
-                                                            <p>20</p>
-                                                        </td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td colspan="2">
-                                                            <p class="text_a_l font_w5">Tổng điểm
-                                                            </p>
-                                                        </td>
-                                                        <td>20</td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                        </div>
+                                    <div class="cauhoi_chitiet de_1 mb_20">
+                                        <p class="mb_20"><span class="font_s15 font_w5 mr_10">Văn bản hành chính (Việt
+                                                Nam) là loại văn bản trong hệ thống văn bản của nước Cộng hòa xã hội chủ
+                                                nghĩa Việt Nam mang tính thông tin quy phạm Nhà nước, cụ thể hóa việc
+                                                thi hành văn bản pháp quy, giải quyết những vụ việc cụ thể trong khâu
+                                                quản lý. <span class="font_s14 font_w4">( 10 điểm )</span></span>
+                                        </p>
+                                        <p class="font_s15 font_w5 mb_5"> Đáp án </p>
+                                        <p class="font_s14">Văn bản hành chính (Việt Nam) là loại văn bản trong hệ thống
+                                            văn bản của nước Cộng hòa xã hội chủ nghĩa Việt Nam mang tính thông tin quy
+                                            phạm Nhà nước, cụ thể hóa việc thi hành văn bản pháp quy, giải quyết những
+                                            vụ việc cụ thể trong khâu quản lý.</p>
                                     </div>
-
+                                    <div class="cauhoi_chitiet de_1 mb_20">
+                                        <p class="mb_20"><span class="font_s15 font_w5 mr_10">Văn bản hành chính (Việt
+                                                Nam) là loại văn bản trong hệ thống văn bản của nước <span
+                                                    class="font_s14 font_w4">( 10 điểm )</span></span>
+                                        </p>
+                                        <p class="font_s15 font_w5 mb_5"> Câu trả lời </p>
+                                        <p class="font_s14">Văn bản hành chính (Việt Nam) là loại văn bản trong hệ thống
+                                            văn bản của nước Cộng hòa xã hội chủ nghĩa Việt Nam mang tính thông tin quy
+                                            phạm Nhà nước, cụ thể hóa việc thi hành văn bản pháp quy, giải quyết những
+                                            vụ việc cụ thể trong khâu quản lý.</p>
+                                    </div>
                                     <div class="body_ql_tieuchi phanloai_danhgia">
                                         <div class="header width_100">
                                             <h4>Phân loại đánh giá</h4>
@@ -322,22 +129,21 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </form>
                             <div class="btn_form d_flex content_c mt_25">
                                 <div class="btn btn_168 btn_trang mr_68">
                                     Hủy
                                 </div>
-                                <div class="btn btn_168 btn_xanh  mr_68 ">
+                                <a href="/quan_ly_ke_hoach_danh_gia_them_moi.html" class="btn btn_168 btn_xanh  mr_68 ">
                                     <div class="d_flex align_c ">
                                         <div class="img height_15 mr_10">
                                             <img src="../img/pre_trang.png" alt="Quay lại">
                                         </div>
                                         <p>Quay lai</p>
                                     </div>
-                                </div>
+                                </a>
                                 <div class="btn btn_168 btn_xanh ">
-                                    <div class="d_flex align_c ">
+                                    <div class="d_flex align_c btn_tieptuc">
                                         <p class="mr_10">Tiếp tục</p>
                                         <div class="img height_15">
                                             <img src="../img/next_trang.png" alt="Tiếp tục">
@@ -346,7 +152,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main_body main_body_3">
+                        <div class="main_body main_body_3 display_none">
+                            <div class="title_header">
+                                <div class="d_flex"> <a href='/quan_ly_ke_hoach_danh_gia.html'
+                                        class="img_quaylai mr_10">
+                                        <img src="../img/icon_so.png" alt="Quay lại">
+                                    </a>
+                                    <p>Quản lý kế hoạch đánh giá <span> / </span><span> Thêm mới </span></p>
+                                </div>
+                            </div>
                             <form action="">
                                 <div class="header_them_kehoach d_flex content_c align_c mb_20">
                                     <div class="container_img">
@@ -354,7 +168,7 @@
                                             <img src="../img/xanh_1.png" alt="Bước 1">
                                         </div>
                                         <div class="img img_right img_xanh">
-                                            <img src="../img/xanh_2.png" alt="Bước 2">
+                                            <img src="../img/xanh_8.png" alt="Bước 2">
                                         </div>
                                         <div class="img img_right img_xanh">
                                             <img src="../img/xanh_3.png" alt="Bước 3">
@@ -362,6 +176,7 @@
                                     </div>
                                 </div>
                                 <div class="body_them_kehoach">
+
                                     <div class="d_flex space_b width_100 align_c color_blue mb_10">
                                         <div class="d_flex mb_20">
                                             <h4 class="color_blue font_wB font_ss16 mr_20">
@@ -378,11 +193,21 @@
                                                 <label for="dewey">Phòng ban</label>
                                             </div>
                                         </div>
-                                        <div class="d_flex align_c">
-                                            <div class="img themmoi_tieuchi ">
-                                                <img src="../img/cong.png" alt="Thêm tiêu chí">
+                                        <div class="nhanvien">
+                                            <div class="d_flex align_c">
+                                                <div class="img themmoi_tieuchi ">
+                                                    <img src="../img/cong.png" alt="Thêm tiêu chí">
+                                                </div>
+                                                <p class="font_s14 font_w5">Thêm nhân viên</p>
                                             </div>
-                                            <p class="font_s14 font_w5">Thêm nhân viên</p>
+                                        </div>
+                                        <div class="phongban display_none ">
+                                            <div class="d_flex align_c">
+                                                <div class="img themmoi_tieuchi ">
+                                                    <img src="../img/cong.png" alt="Thêm tiêu chí">
+                                                </div>
+                                                <p class="font_s14 font_w5">Thêm phòng ban</p>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -585,6 +410,9 @@
                                                             <th>
                                                                 <p class="phantucon">Phòn ban</p>
                                                             </th>
+                                                            <th>
+                                                                <p class="phantucon">Chức năng</p>
+                                                            </th>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -593,21 +421,8 @@
                                                             <td>
                                                                 <p class="text_a_l ">Phòng kinh doanh</p>
                                                             </td>
-                                                        </tr>
-                                                        <tr>
                                                             <td>
-                                                                <p>1</p>
-                                                            </td>
-                                                            <td>
-                                                                <p class="text_a_l ">Phòng kinh doanh</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>1</p>
-                                                            </td>
-                                                            <td>
-                                                                <p class="text_a_l ">Phòng kinh doanh</p>
+                                                                <p class="color_red">xóa</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -617,13 +432,8 @@
                                                             <td>
                                                                 <p class="text_a_l ">Phòng kinh doanh</p>
                                                             </td>
-                                                        </tr>
-                                                        <tr>
                                                             <td>
-                                                                <p>1</p>
-                                                            </td>
-                                                            <td>
-                                                                <p class="text_a_l ">Phòng kinh doanh</p>
+                                                                <p class="color_red">xóa</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -633,6 +443,9 @@
                                                             <td>
                                                                 <p class="text_a_l ">Phòng kinh doanh</p>
                                                             </td>
+                                                            <td>
+                                                                <p class="color_red">xóa</p>
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -640,6 +453,42 @@
                                                             </td>
                                                             <td>
                                                                 <p class="text_a_l ">Phòng kinh doanh</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="color_red">xóa</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>1</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="text_a_l ">Phòng kinh doanh</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="color_red">xóa</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>1</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="text_a_l ">Phòng kinh doanh</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="color_red">xóa</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>1</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="text_a_l ">Phòng kinh doanh</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="color_red">xóa</p>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -842,11 +691,12 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="btn_form d_flex content_c mt_25">
                                         <div class="btn btn_168 btn_trang mr_68">
                                             Hủy
                                         </div>
-                                        <div class="btn btn_168 btn_xanh  mr_68 ">
+                                        <div class="btn btn_168 btn_xanh mr_68 btn_quaylai ">
                                             <div class="d_flex align_c ">
                                                 <div class="img height_15 mr_10">
                                                     <img src="../img/pre_trang.png" alt="Quay lại">
@@ -875,12 +725,27 @@
 <script type="text/javascript" src="../js/select2.min.js"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <script>
+$('.btn_tieptuc').click(function() {
+    $('.main_body_3').removeClass('display_none');
+    $('.main_body_2').addClass('display_none');
+})
+$('.btn_quaylai').click(function() {
+    $('.main_body_3').addClass('display_none');
+    $('.main_body_2').removeClass('display_none');
+})
+
 $('.js_select_2').select2({
     width: '100%',
 })
-CKEDITOR.replace('editor1', {
-    height: '108'
-});
+$('input[type="radio"]').click(function() {
+    if ($(this).val() == "nhanvien") {
+        $('.nhanvien').addClass('display_none');
+        $('.phongban').removeClass('display_none');
+    } else {
+        $('.nhanvien').addClass('display_none');
+        $('.phongban').removeClass('display_none');
+    }
+})
 </script>
 
 </html>
