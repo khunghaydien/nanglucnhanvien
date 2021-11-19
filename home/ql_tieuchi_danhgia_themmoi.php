@@ -188,6 +188,42 @@ Thêm mới cha (bị ẩn) -->
             </div>
         </div>
     </div>
+
+    <!-- popup thành công  -->
+    <div class="popup popup_500 popup_thanhcong">
+        <div class="container">
+            <div class="popup_body">
+                <div class="img">
+                    <img src="../img/popup_1.png" alt="thành công ">
+                </div>
+                <p class="text_a_c ">Thêm mới tiêu chí <span class="font_wB"> Kỹ năng </span> thành công! </p>
+                <div class="popup_btn">
+                    <div class="btn btn_xanh close_popup ">
+                        Đóng
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup thành công -->
+
+    <!-- popup thành công  -->
+    <div class="popup popup_500 popup_thanhcong">
+        <div class="container">
+            <div class="popup_body">
+                <div class="img">
+                    <img src="../img/popup_2.png" alt="Thất bại ">
+                </div>
+                <p class="text_a_c ">Thêm mới tiêu chí <span class="font_wB"> Kỹ năng </span> thành công! </p>
+                <div class="popup_btn">
+                    <div class="btn btn_xanh  close_popup">
+                        Đóng
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup thành công -->
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>

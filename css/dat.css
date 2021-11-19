@@ -621,49 +621,6 @@
             .item_mau_cx {
                 background: #666666;
             }
-            
-            .popup_thietlap_diem {
-                display: block;
-                background: rgba(238, 238, 238, 0.4);
-            }
-            
-            .popup_thietlap_diem .container {
-                width: 500px;
-                height: 310px;
-            }
-            
-            .popup .popup_header {
-                height: 54px;
-                background: #4C5BD4;
-                border-radius: 10px 10px 0px 0px;
-                font-weight: bold;
-                font-size: 16px;
-                line-height: 19px;
-                color: #FFFFFF;
-                padding: 17px 15px 18px 15px;
-                position: relative;
-            }
-            
-            .popup .popup_header .name_header {
-                text-align: center;
-            }
-            
-            .popup .popup_header .img {
-                position: absolute;
-                right: 15px;
-                top: 18px;
-            }
-            
-            .popup_body {
-                padding: 30px;
-            }
-            
-            .popup_body .cont_1 {
-                padding: 61px;
-                font-size: 15px;
-                line-height: 21px;
-                text-align: center;
-            }
             /*end Trang chủ sau đăng nhập */
             /* Quản lý tiêu chí */
             
@@ -1191,6 +1148,19 @@
                 padding: 0px 10% 0px 10%;
             }
             
+            .nguoi_danhgia .plus_10 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 28px;
+                height: 28px;
+                background: rgba(196, 196, 196, 0.86);
+                border: 2px solid #FFFFFF;
+                border-radius: 100%;
+                color: #fff;
+                margin-left: -7px;
+            }
+            
             .cauhoi_chitiet input[type="date"] {
                 width: 400px;
             }
@@ -1408,6 +1378,201 @@
                 cursor: pointer;
             }
             /*end Quản lý kế hoạch đánh giá*/
+            /* popup */
+            
+            .popup {
+                color: #474747;
+            }
+            
+            .popup_thietlap_diem {
+                display: block;
+                background: rgba(238, 238, 238, 0.4);
+            }
+            
+            .popup_thietlap_diem .container {
+                width: 500px;
+                height: 310px;
+            }
+            
+            .popup .popup_header {
+                height: 54px;
+                background: #4C5BD4;
+                border-radius: 10px 10px 0px 0px;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+                padding: 17px 15px 18px 15px;
+                position: relative;
+            }
+            
+            .popup .popup_header .name_header {
+                text-align: center;
+            }
+            
+            .popup .popup_header .img {
+                position: absolute;
+                right: 15px;
+                top: 18px;
+            }
+            
+            .popup_body {
+                padding: 30px;
+            }
+            
+            .popup_500 .popup_body .cont_1 {
+                padding: 39px 0px 69px 0px;
+            }
+            
+            .popup_body .cont_1 {
+                padding: 61px;
+                font-size: 15px;
+                line-height: 21px;
+                text-align: center;
+            }
+            
+            .popup_500 .container {
+                width: 500px;
+            }
+            
+            .popup .container>.popup_body {
+                border-radius: 6px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            
+            .popup .container>.popup_body .img {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .popup .container>.popup_body p {
+                margin: 40px 25px 40px 25px;
+            }
+            
+            .popup .container>.popup_body .btn {
+                width: 400px;
+                height: 36px;
+                border-radius: 6px;
+            }
+            
+            .popup_xoa_tieuchi .popup_body .cont_1 {
+                padding: 39px 100px 69px 100px;
+            }
+            
+            .popup_680 .container {
+                width: 680px;
+            }
+            
+            .popup_680 .thanh_search {
+                padding: 20px;
+            }
+            
+            .popup_680 .popup_body {
+                padding: 0px;
+            }
+            
+            .popup_680 .khoibang .bangchung {
+                overflow: unset;
+                border-radius: 0px;
+            }
+            
+            .popup_680 .khoibang .bangchung .bangchinh tr:last-child {
+                border-bottom: 1px solid#ccc;
+                border-radius: 0px;
+            }
+            
+            .popup_680 .khoibang .bangchung .bangchinh {
+                border-radius: 0px;
+            }
+            
+            .popup_680 .khoibang .bangchung .bangchinh tr:first-child th:first-child {
+                border-radius: 0px;
+            }
+            
+            .popup_680 .khoibang .bangchung .bangchinh tr:first-child th:last-child {
+                border-radius: 0px;
+            }
+            
+            .popup_680 .khoibang .bangchung .bangchinh tr:last-child td:first-child {
+                border-radius: 0px;
+            }
+            
+            .popup_680 .khoibang .bangchung .bangchinh tr:last-child td:last-child {
+                border-radius: 0px;
+            }
+            
+            .popup_680 .popup_btn {
+                padding: 5px 0px 25px 0px;
+            }
+            
+            .popup_680 .khoibang .bangchung .bang_tieuchi tr:first-child {
+                background: #ffff;
+                color: #474747;
+            }
+            
+            .popup_them_tieuchi .bangchinh tr th:nth-child(1),
+            .popup_them_tieuchi .bangchinh tr td:nth-child(1) {
+                width: 60px;
+            }
+            
+            .popup_them_tieuchi .bangchinh tr th:nth-child(2),
+            .popup_them_tieuchi .bangchinh tr td:nth-child(2) {
+                width: 448px;
+            }
+            
+            .popup_them_tieuchi .bangchinh tr th:nth-child(3),
+            .popup_them_tieuchi .bangchinh tr td:nth-child(3) {
+                width: 116px;
+            }
+            
+            .khoibang .bangchung_1 {
+                padding: 0px;
+            }
+            
+            .popup_680 .khoibang_2 {
+                margin-bottom: 20px;
+            }
+            
+            .popup_them_tieuchi .khoibang_2 .bangchung_2 {
+                height: 300px;
+            }
+            
+            .popup_680 .khoibang_2 .bangchung_2 {
+                overflow-y: scroll;
+                padding-bottom: 0px;
+            }
+            
+            .popup_680 .khoibang_2 .bangchung_2::-webkit-scrollbar {
+                background: #EEEEEE;
+                border-radius: 30px;
+                width: 10px;
+                height: 280px;
+            }
+            
+            .popup_680 .khoibang_2 .bangchung_2::-webkit-scrollbar-thumb {
+                background: #4C5BD4;
+                border-radius: 30px;
+                width: 10px;
+                height: 150px;
+            }
+            
+            .popup_680 .bangchung_1 tr th input {
+                margin-right: 10px;
+            }
+            
+            .popup_thanhvien .khoibang_2 .bangchung_2 {
+                height: 450px;
+            }
+            
+            .popup_thanhvien .khoibang_2 .bangchung_2 tr:first-child {
+                background: #fff;
+                color: #474747;
+            }
+            /*end popup */
             
             @media(max-width:1370px) {
                 .body_tongquan .container .item_chucnang {

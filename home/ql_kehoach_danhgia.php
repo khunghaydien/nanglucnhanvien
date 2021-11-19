@@ -157,7 +157,7 @@
                                                         </div>
                                                         <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
                                                             <div>
-                                                                <div class="item">
+                                                                <div class="item btn_duyet">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_1.png"
@@ -166,7 +166,7 @@
                                                                         <p>Duyệt kế hoạch đánh giá</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_tuchoi">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_2.png"
@@ -181,10 +181,12 @@
                                                                             <img src="../img/tuychinh_3.png"
                                                                                 alt="Chỉnh sửa kế hoạch đánh giá">
                                                                         </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
+                                                                        <a class="color_b"
+                                                                            href="/quan_ly_ke_hoach_danh_gia_chinh_sua.html">Chỉnh
+                                                                            sửa kế hoạch đánh giá</a>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_xoa">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_4.png"
@@ -269,7 +271,7 @@
                                                         </div>
                                                         <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
                                                             <div>
-                                                                <div class="item">
+                                                                <div class="item btn_duyet">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_1.png"
@@ -278,7 +280,7 @@
                                                                         <p>Duyệt kế hoạch đánh giá</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_tuchoi">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_2.png"
@@ -293,10 +295,12 @@
                                                                             <img src="../img/tuychinh_3.png"
                                                                                 alt="Chỉnh sửa kế hoạch đánh giá">
                                                                         </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
+                                                                        <a class="color_b"
+                                                                            href="/quan_ly_ke_hoach_danh_gia_chinh_sua.html">Chỉnh
+                                                                            sửa kế hoạch đánh giá</a>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_xoa">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_4.png"
@@ -381,7 +385,7 @@
                                                         </div>
                                                         <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
                                                             <div>
-                                                                <div class="item">
+                                                                <div class="item btn_duyet">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_1.png"
@@ -390,7 +394,7 @@
                                                                         <p>Duyệt kế hoạch đánh giá</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_tuchoi">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_2.png"
@@ -405,10 +409,12 @@
                                                                             <img src="../img/tuychinh_3.png"
                                                                                 alt="Chỉnh sửa kế hoạch đánh giá">
                                                                         </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
+                                                                        <a class="color_b"
+                                                                            href="/quan_ly_ke_hoach_danh_gia_chinh_sua.html">Chỉnh
+                                                                            sửa kế hoạch đánh giá</a>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_xoa">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_4.png"
@@ -493,7 +499,7 @@
                                                         </div>
                                                         <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
                                                             <div>
-                                                                <div class="item">
+                                                                <div class="item btn_duyet">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_1.png"
@@ -502,7 +508,7 @@
                                                                         <p>Duyệt kế hoạch đánh giá</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_tuchoi">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_2.png"
@@ -517,10 +523,12 @@
                                                                             <img src="../img/tuychinh_3.png"
                                                                                 alt="Chỉnh sửa kế hoạch đánh giá">
                                                                         </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
+                                                                        <a class="color_b"
+                                                                            href="/quan_ly_ke_hoach_danh_gia_chinh_sua.html">Chỉnh
+                                                                            sửa kế hoạch đánh giá</a>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_xoa">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_4.png"
@@ -560,465 +568,128 @@
                                                             <div class="img ">
                                                                 <img src="../img/avt1.png" alt="Người tạo">
                                                             </div>
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text_a_r">100</td>
-                                                <td>
-                                                    <p class="tu_ngay">
-                                                        <span
-                                                            class="font_w5 color_blue mr_18">Từ:</span><span>10/10/2020</span>
-                                                    </p>
-                                                    <p class="den_ngay">
-                                                        <span
-                                                            class="font_w5 color_red mr_10">Đến:</span><span>10/10/2020</span>
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c">
-                                                        <div class="thanh_tien_do text_a_c">
-                                                            <div class="tien_do tien_do_50 ">
-                                                                <p>50%</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="ghi_chu">
-                                                    <p class="text_a_l"> Tích hợp tất cả các ứng dụng doanh nghiệp
-                                                        của bạn
-                                                        đang cần trên một nền tảng duy nhất.
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c position_r">
-                                                        <div class="btn_tuychinh d_flex">
-                                                            <div class="img mr_5">
-                                                                <img src="../img/tuy_chinh.png" alt="Tùy chỉnh">
-                                                            </div>
-                                                            <p class="font_w5 color_blue">Tùy chỉnh</p>
-                                                        </div>
-                                                        <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
-                                                            <div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_1.png"
-                                                                                alt="Tùy chỉnh">
-                                                                        </div>
-                                                                        <p>Duyệt kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_2.png"
-                                                                                alt="Từ chối hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Từ chối hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_3.png"
-                                                                                alt="Chỉnh sửa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_4.png"
-                                                                                alt="Xóa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Xóa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text_a_l"> <a class="color_blue"
-                                                            href="/quan_ly_ke_hoach_danh_gia_chi_tiet.html">Mẫu đánh
-                                                            giá nhân viên 1</a></p>
-                                                </td>
-                                                <td>
-                                                    <p class="da_duyet color_blue">Đã duyệt</p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex align_c">
-                                                        <div class="img mr_10">
-                                                            <img src="../img/avt1.png" alt="Người tạo">
-                                                        </div>
-                                                        <p>Nguyễn Trần Trung Quân</p>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="nguoi_danhgia text_a_l">
-                                                        <div class="container">
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text_a_r">100</td>
-                                                <td>
-                                                    <p class="tu_ngay">
-                                                        <span
-                                                            class="font_w5 color_blue mr_18">Từ:</span><span>10/10/2020</span>
-                                                    </p>
-                                                    <p class="den_ngay">
-                                                        <span
-                                                            class="font_w5 color_red mr_10">Đến:</span><span>10/10/2020</span>
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c">
-                                                        <div class="thanh_tien_do text_a_c">
-                                                            <div class="tien_do tien_do_50 ">
-                                                                <p>50%</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="ghi_chu">
-                                                    <p class="text_a_l"> Tích hợp tất cả các ứng dụng doanh nghiệp
-                                                        của bạn
-                                                        đang cần trên một nền tảng duy nhất.
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c position_r">
-                                                        <div class="btn_tuychinh d_flex">
-                                                            <div class="img mr_5">
-                                                                <img src="../img/tuy_chinh.png" alt="Tùy chỉnh">
-                                                            </div>
-                                                            <p class="font_w5 color_blue">Tùy chỉnh</p>
-                                                        </div>
-                                                        <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
-                                                            <div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_1.png"
-                                                                                alt="Tùy chỉnh">
-                                                                        </div>
-                                                                        <p>Duyệt kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_2.png"
-                                                                                alt="Từ chối hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Từ chối hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_3.png"
-                                                                                alt="Chỉnh sửa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_4.png"
-                                                                                alt="Xóa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Xóa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text_a_l"> <a class="color_blue"
-                                                            href="/quan_ly_ke_hoach_danh_gia_chi_tiet.html">Mẫu đánh
-                                                            giá nhân viên 1</a></p>
-                                                </td>
-                                                <td>
-                                                    <p class="da_duyet color_blue">Đã duyệt</p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex align_c">
-                                                        <div class="img mr_10">
-                                                            <img src="../img/avt1.png" alt="Người tạo">
-                                                        </div>
-                                                        <p>Nguyễn Trần Trung Quân</p>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="nguoi_danhgia text_a_l">
-                                                        <div class="container">
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text_a_r">100</td>
-                                                <td>
-                                                    <p class="tu_ngay">
-                                                        <span
-                                                            class="font_w5 color_blue mr_18">Từ:</span><span>10/10/2020</span>
-                                                    </p>
-                                                    <p class="den_ngay">
-                                                        <span
-                                                            class="font_w5 color_red mr_10">Đến:</span><span>10/10/2020</span>
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c">
-                                                        <div class="thanh_tien_do text_a_c">
-                                                            <div class="tien_do tien_do_50 ">
-                                                                <p>50%</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="ghi_chu">
-                                                    <p class="text_a_l"> Tích hợp tất cả các ứng dụng doanh nghiệp
-                                                        của bạn
-                                                        đang cần trên một nền tảng duy nhất.
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c position_r">
-                                                        <div class="btn_tuychinh d_flex">
-                                                            <div class="img mr_5">
-                                                                <img src="../img/tuy_chinh.png" alt="Tùy chỉnh">
-                                                            </div>
-                                                            <p class="font_w5 color_blue">Tùy chỉnh</p>
-                                                        </div>
-                                                        <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
-                                                            <div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_1.png"
-                                                                                alt="Tùy chỉnh">
-                                                                        </div>
-                                                                        <p>Duyệt kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_2.png"
-                                                                                alt="Từ chối hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Từ chối hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_3.png"
-                                                                                alt="Chỉnh sửa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_4.png"
-                                                                                alt="Xóa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Xóa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text_a_l"> <a class="color_blue"
-                                                            href="/quan_ly_ke_hoach_danh_gia_chi_tiet.html">Mẫu đánh
-                                                            giá nhân viên 1</a></p>
-                                                </td>
-                                                <td>
-                                                    <p class="da_duyet color_blue">Đã duyệt</p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex align_c">
-                                                        <div class="img mr_10">
-                                                            <img src="../img/avt1.png" alt="Người tạo">
-                                                        </div>
-                                                        <p>Nguyễn Trần Trung Quân</p>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="nguoi_danhgia text_a_l">
-                                                        <div class="container">
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                            <div class="img ">
-                                                                <img src="../img/avt1.png" alt="Người tạo">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text_a_r">100</td>
-                                                <td>
-                                                    <p class="tu_ngay">
-                                                        <span
-                                                            class="font_w5 color_blue mr_18">Từ:</span><span>10/10/2020</span>
-                                                    </p>
-                                                    <p class="den_ngay">
-                                                        <span
-                                                            class="font_w5 color_red mr_10">Đến:</span><span>10/10/2020</span>
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c">
-                                                        <div class="thanh_tien_do text_a_c">
-                                                            <div class="tien_do tien_do_50 ">
-                                                                <p>50%</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="ghi_chu">
-                                                    <p class="text_a_l"> Tích hợp tất cả các ứng dụng doanh nghiệp
-                                                        của bạn
-                                                        đang cần trên một nền tảng duy nhất.
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c position_r">
-                                                        <div class="btn_tuychinh d_flex">
-                                                            <div class="img mr_5">
-                                                                <img src="../img/tuy_chinh.png" alt="Tùy chỉnh">
-                                                            </div>
-                                                            <p class="font_w5 color_blue">Tùy chỉnh</p>
-                                                        </div>
-                                                        <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
-                                                            <div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_1.png"
-                                                                                alt="Tùy chỉnh">
-                                                                        </div>
-                                                                        <p>Duyệt kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_2.png"
-                                                                                alt="Từ chối hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Từ chối hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_3.png"
-                                                                                alt="Chỉnh sửa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_4.png"
-                                                                                alt="Xóa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Xóa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text_a_l"> <a class="color_blue"
-                                                            href="/quan_ly_ke_hoach_danh_gia_chi_tiet.html">Mẫu đánh
-                                                            giá nhân viên 1</a></p>
-                                                </td>
-                                                <td>
-                                                    <p class="tu_choi color_b">Từ chối</p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex align_c">
-                                                        <div class="img mr_10">
-                                                            <img src="../img/avt1.png" alt="Người tạo">
-                                                        </div>
-                                                        <p>Nguyễn Trần Trung Quân</p>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="nguoi_danhgia text_a_l">
-                                                        <div class="container">
                                                             <div class="img ">
                                                                 <img src="../img/avt1.png" alt="Người tạo">
                                                             </div>
                                                             <div class="img">
                                                                 <img src="../img/avt1.png" alt="Người tạo">
                                                             </div>
-                                                            <div class="img">
+                                                            <div class="plus_10">
+                                                                10
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="text_a_r">100</td>
+                                                <td>
+                                                    <p class="tu_ngay">
+                                                        <span
+                                                            class="font_w5 color_blue mr_18">Từ:</span><span>10/10/2020</span>
+                                                    </p>
+                                                    <p class="den_ngay">
+                                                        <span
+                                                            class="font_w5 color_red mr_10">Đến:</span><span>10/10/2020</span>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <div class="d_flex content_c">
+                                                        <div class="thanh_tien_do text_a_c">
+                                                            <div class="tien_do tien_do_50 ">
+                                                                <p>50%</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="ghi_chu">
+                                                    <p class="text_a_l"> Tích hợp tất cả các ứng dụng doanh nghiệp
+                                                        của bạn
+                                                        đang cần trên một nền tảng duy nhất.
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <div class="d_flex content_c position_r">
+                                                        <div class="btn_tuychinh d_flex">
+                                                            <div class="img mr_5">
+                                                                <img src="../img/tuy_chinh.png" alt="Tùy chỉnh">
+                                                            </div>
+                                                            <p class="font_w5 color_blue">Tùy chỉnh</p>
+                                                        </div>
+                                                        <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
+                                                            <div>
+                                                                <div class="item btn_duyet">
+                                                                    <div class="d_flex">
+                                                                        <div class="img mr_10">
+                                                                            <img src="../img/tuychinh_1.png"
+                                                                                alt="Tùy chỉnh">
+                                                                        </div>
+                                                                        <p>Duyệt kế hoạch đánh giá</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item btn_tuchoi">
+                                                                    <div class="d_flex">
+                                                                        <div class="img mr_10">
+                                                                            <img src="../img/tuychinh_2.png"
+                                                                                alt="Từ chối hoạch đánh giá">
+                                                                        </div>
+                                                                        <p>Từ chối hoạch đánh giá</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <div class="d_flex">
+                                                                        <div class="img mr_10">
+                                                                            <img src="../img/tuychinh_3.png"
+                                                                                alt="Chỉnh sửa kế hoạch đánh giá">
+                                                                        </div>
+                                                                        <a class="color_b"
+                                                                            href="/quan_ly_ke_hoach_danh_gia_chinh_sua.html">Chỉnh
+                                                                            sửa kế hoạch đánh giá</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item btn_xoa">
+                                                                    <div class="d_flex">
+                                                                        <div class="img mr_10">
+                                                                            <img src="../img/tuychinh_4.png"
+                                                                                alt="Xóa kế hoạch đánh giá">
+                                                                        </div>
+                                                                        <p>Xóa kế hoạch đánh giá</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l"> <a class="color_blue"
+                                                            href="/quan_ly_ke_hoach_danh_gia_chi_tiet.html">Mẫu đánh
+                                                            giá nhân viên 1</a></p>
+                                                </td>
+                                                <td>
+                                                    <p class="da_duyet color_blue">Đã duyệt</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d_flex align_c">
+                                                        <div class="img mr_10">
+                                                            <img src="../img/avt1.png" alt="Người tạo">
+                                                        </div>
+                                                        <p>Nguyễn Trần Trung Quân</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="nguoi_danhgia text_a_l">
+                                                        <div class="container">
+                                                            <div class="img ">
                                                                 <img src="../img/avt1.png" alt="Người tạo">
                                                             </div>
                                                             <div class="img ">
                                                                 <img src="../img/avt1.png" alt="Người tạo">
                                                             </div>
-                                                            <div class="img">
-                                                                <div class="sub_nguoitao">10</div>
+                                                            <div class="img ">
+                                                                <img src="../img/avt1.png" alt="Người tạo">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1037,14 +708,17 @@
                                                 <td>
                                                     <div class="d_flex content_c">
                                                         <div class="thanh_tien_do text_a_c">
-                                                            <div class="tien_do tien_do_100 ">
-                                                                <p>100%</p>
+                                                            <div class="tien_do tien_do_50 ">
+                                                                <p>50%</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td class="ghi_chu">
-                                                    <p class="text_a_l"> Ghi chú 1</p>
+                                                    <p class="text_a_l"> Tích hợp tất cả các ứng dụng doanh nghiệp
+                                                        của bạn
+                                                        đang cần trên một nền tảng duy nhất.
+                                                    </p>
                                                 </td>
                                                 <td>
                                                     <div class="d_flex content_c position_r">
@@ -1054,10 +728,9 @@
                                                             </div>
                                                             <p class="font_w5 color_blue">Tùy chỉnh</p>
                                                         </div>
-                                                        <div
-                                                            class="modal_d modal_ql_tieuchi sub_tuychinh position_a choilen">
+                                                        <div class="modal_d modal_ql_tieuchi sub_tuychinh position_a ">
                                                             <div>
-                                                                <div class="item">
+                                                                <div class="item btn_duyet">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_1.png"
@@ -1066,7 +739,7 @@
                                                                         <p>Duyệt kế hoạch đánh giá</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
+                                                                <div class="item btn_tuchoi">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_2.png"
@@ -1081,212 +754,12 @@
                                                                             <img src="../img/tuychinh_3.png"
                                                                                 alt="Chỉnh sửa kế hoạch đánh giá">
                                                                         </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
+                                                                        <a class="color_b"
+                                                                            href="/quan_ly_ke_hoach_danh_gia_chinh_sua.html">Chỉnh
+                                                                            sửa kế hoạch đánh giá</a>
                                                                     </div>
                                                                 </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_4.png"
-                                                                                alt="Xóa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Xóa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text_a_l"> <a class="color_blue"
-                                                            href="/quan_ly_ke_hoach_danh_gia_chi_tiet.html">Mẫu đánh
-                                                            giá nhân viên 1</a></p>
-                                                </td>
-                                                <td>
-                                                    <p class="cho_duyet color_y">Chờ duyệt</p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex align_c">
-                                                        <div class="img mr_10">
-                                                            <img src="../img/avt1.png" alt="Người tạo">
-                                                        </div>
-                                                        <p>Nguyễn Trần Trung Quân</p>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="nguoi_danhgia text_a_l">
-                                                        <div class="img mr_10">
-                                                            <img src="../img/avt1.png" alt="Người tạo">
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text_a_r">100</td>
-                                                <td>
-                                                    <p class="tu_ngay">
-                                                        <span
-                                                            class="font_w5 color_blue mr_18">Từ:</span><span>10/10/2020</span>
-                                                    </p>
-                                                    <p class="den_ngay">
-                                                        <span
-                                                            class="font_w5 color_red mr_10">Đến:</span><span>10/10/2020</span>
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c">
-                                                        <div class="thanh_tien_do text_a_c">
-                                                            <p>0%</p>
-                                                        </div>
-                                                    </div>
-
-                                                </td>
-                                                <td class="ghi_chu">
-                                                    <p class="text_a_l"> Ghi chú 1</p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c position_r">
-                                                        <div class="btn_tuychinh d_flex">
-                                                            <div class="img mr_5">
-                                                                <img src="../img/tuy_chinh.png" alt="Tùy chỉnh">
-                                                            </div>
-                                                            <p class="font_w5 color_blue">Tùy chỉnh</p>
-                                                        </div>
-                                                        <div
-                                                            class="modal_d modal_ql_tieuchi sub_tuychinh position_a choilen">
-                                                            <div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_1.png"
-                                                                                alt="Tùy chỉnh">
-                                                                        </div>
-                                                                        <p>Duyệt kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_2.png"
-                                                                                alt="Từ chối hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Từ chối hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_3.png"
-                                                                                alt="Chỉnh sửa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_4.png"
-                                                                                alt="Xóa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Xóa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text_a_l"> <a class="color_blue"
-                                                            href="/quan_ly_ke_hoach_danh_gia_chi_tiet.html">Mẫu đánh
-                                                            giá nhân viên 1</a></p>
-                                                </td>
-                                                <td>
-                                                    <p class="cho_duyet color_y">Chờ duyệt</p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex align_c">
-                                                        <div class="img mr_10">
-                                                            <img src="../img/avt1.png" alt="Người tạo">
-                                                        </div>
-                                                        <p>Nguyễn Trần Trung Quân</p>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="nguoi_danhgia text_a_l">
-                                                        <div class="img mr_10">
-                                                            <img src="../img/avt1.png" alt="Người tạo">
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text_a_r">100</td>
-                                                <td>
-                                                    <p class="tu_ngay">
-                                                        <span
-                                                            class="font_w5 color_blue mr_18">Từ:</span><span>10/10/2020</span>
-                                                    </p>
-                                                    <p class="den_ngay">
-                                                        <span
-                                                            class="font_w5 color_red mr_10">Đến:</span><span>10/10/2020</span>
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c">
-                                                        <div class="thanh_tien_do text_a_c">
-                                                            <p>0%</p>
-                                                        </div>
-                                                    </div>
-
-                                                </td>
-                                                <td class="ghi_chu">
-                                                    <p class="text_a_l"> Ghi chú 1</p>
-                                                </td>
-                                                <td>
-                                                    <div class="d_flex content_c position_r">
-                                                        <div class="btn_tuychinh d_flex">
-                                                            <div class="img mr_5">
-                                                                <img src="../img/tuy_chinh.png" alt="Tùy chỉnh">
-                                                            </div>
-                                                            <p class="font_w5 color_blue">Tùy chỉnh</p>
-                                                        </div>
-                                                        <div
-                                                            class="modal_d modal_ql_tieuchi sub_tuychinh position_a choilen">
-                                                            <div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_1.png"
-                                                                                alt="Tùy chỉnh">
-                                                                        </div>
-                                                                        <p>Duyệt kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_2.png"
-                                                                                alt="Từ chối hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Từ chối hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
-                                                                    <div class="d_flex">
-                                                                        <div class="img mr_10">
-                                                                            <img src="../img/tuychinh_3.png"
-                                                                                alt="Chỉnh sửa kế hoạch đánh giá">
-                                                                        </div>
-                                                                        <p>Chỉnh sửa kế hoạch đánh giá</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="item">
+                                                                <div class="item btn_xoa">
                                                                     <div class="d_flex">
                                                                         <div class="img mr_10">
                                                                             <img src="../img/tuychinh_4.png"
@@ -1347,6 +820,357 @@
             </div>
         </div>
     </div>
+
+    <!-- popup duyet-->
+    <div class="popup popup_500 popup_duyet ">
+        <div class="container">
+            <div class="content">
+                <div class="popup_header">
+                    <h4 class="name_header">Duyệt kế hoạch đánh giá</h4>
+                    <div class="img close_popup">
+                        <img src="../img/close.png" alt="đóng">
+                    </div>
+                </div>
+                <div class="popup_body">
+                    <p class="cont_1"> Bạn có chắc chắn muốn phê duyệt kế hoạch đánh giá </br>
+                        <span class="font_wB">
+                            Kế hoạch đánh giá 1</span> ?
+                    </p>
+                    <div class="popup_btn">
+                        <div class="btn btn_trang btn_140 mr_68  close_popup">Hủy</div>
+                        <div class="btn btn_xanh btn_140">
+                            Đồng ý
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup duyet -->
+
+    <!-- popup từ chối -->
+    <div class="popup popup_500 popup_tuchoi ">
+        <div class="container">
+            <div class="content">
+                <div class="popup_header">
+                    <h4 class="name_header">Từ chối kế hoạch đánh giá</h4>
+                    <div class="img close_popup">
+                        <img src="../img/close.png" alt="đóng">
+                    </div>
+                </div>
+                <div class="popup_body">
+                    <p class="cont_1"> Bạn có chắc chắn muốn từ chối kế hoạch đánh giá </br><span class="font_wB">
+                            Kế hoạch đánh giá 1</span> ?</p>
+                    <div class="popup_btn">
+                        <div class="btn btn_trang btn_140 mr_68  close_popup">Hủy</div>
+                        <div class="btn btn_xanh btn_140">
+                            Đồng ý
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup từ chối-->
+
+    <!-- popup xóa -->
+    <div class="popup popup_500 popup_xoa ">
+        <div class="container">
+            <div class="content">
+                <div class="popup_header">
+                    <h4 class="name_header">Xóa kế hoạch đánh giá</h4>
+                    <div class="img close_popup">
+                        <img src="../img/close.png" alt="đóng">
+                    </div>
+                </div>
+                <div class="popup_body">
+                    <p class="cont_1"> Bạn có chắc chắn muốn xóa kế hoạch đánh giá </br><span class="font_wB">
+                            Kế hoạch đánh giá 1</span> ?</p>
+                    <div class="popup_btn">
+                        <div class="btn btn_trang btn_140 mr_68  close_popup">Hủy</div>
+                        <div class="btn btn_xanh btn_140">
+                            Đồng ý
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup xóa-->
+
+    <!-- popup thành công  -->
+    <div class="popup popup_500 popup_thanhcong">
+        <div class="container">
+            <div class="popup_body">
+                <div class="img">
+                    <img src="../img/popup_1.png" alt="thành công ">
+                </div>
+                <p class="text_a_c ">Xóa đề kiểm tra năng lực nhân viên <span class="font_wB"> Bài
+                        đánh giá 1</span> thành công!</p>
+                <div class="popup_btn">
+                    <div class="btn btn_xanh close_popup ">
+                        Đóng
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup thành công -->
+
+    <!-- popup thất bại   -->
+    <div class="popup popup_500 popup_thanhcong">
+        <div class="container">
+            <div class="popup_body">
+                <div class="img">
+                    <img src="../img/popup_2.png" alt="Thất bại ">
+                </div>
+                <p class="text_a_c ">Xóa đề kiểm tra năng lực nhân viên <span class="font_wB"> Bài
+                        đánh giá 1</span> thất bại!</p>
+                <div class="popup_btn">
+                    <div class="btn btn_xanh  close_popup">
+                        Đóng
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup thất bại -->
+
+    <!-- popup thành viên -->
+    <!-- popup duyet-->
+
+    <div class="popup popup_680 popup_thanhvien ">
+        <div class="container">
+            <div class="content">
+                <div class="popup_header">
+                    <h4 class="name_header">Người đánh giá</h4>
+                    <div class="img close_popup">
+                        <img src="../img/close.png" alt="đóng">
+                    </div>
+                </div>
+                <div class="popup_body">
+                    <div class="khoibang khoibang_2">
+                        <div class="bangchung bangchung_2">
+                            <table class="bangchinh tieu_chi">
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>
+                                        <div class="d_flex align_c">
+                                            <div class="img mr_10">
+                                                <img src="../img/avt1.png" alt="Người tạo">
+                                            </div>
+                                            <p>Nguyễn Trần Trung Quân</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text_a_l">Phòng nhân sự</p>
+                                    </td>
+                                    <td>
+                                        <p>Nhân viên</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup duyet -->
+    <!-- popup thành viên -->
+
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
@@ -1356,6 +1180,18 @@
 <script>
 $('.js_select_2').select2({
     width: '100%',
+})
+$('.btn_duyet').click(function() {
+    $('.popup_duyet').show();
+})
+$('.btn_tuchoi').click(function() {
+    $('.popup_tuchoi').show();
+})
+$('.btn_xoa').click(function() {
+    $('.popup_xoa').show();
+})
+$('.plus_10').click(function() {
+    $('.popup_thanhvien ').show();
 })
 </script>
 

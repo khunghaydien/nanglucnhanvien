@@ -20,7 +20,7 @@
     
     * {
         padding: 0;
-        margin: 0;
+        margin: 0; 
         font-family: roboto;
         box-sizing: border-box;
     }
@@ -1394,7 +1394,6 @@
     /* end */
     /*dng chung*/
     
-    .popup_xoa,
     .popup_chuyentiep_tn,
     .popup_ctaonhom_tn {
         display: none;
@@ -1408,86 +1407,6 @@
         height: 100%;
         overflow: auto;
         background-color: rgba(0, 0, 0, 0.4);
-    }
-    
-    .popup_xoa .container,
-    .popup_chuyentiep_tn .container,
-    .popup_ctaonhom_tn .container {
-        margin: auto;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        -webkit-animation-name: animatetop;
-        -webkit-animation-duration: 0.4s;
-        animation-name: animatetop;
-        animation-duration: 0.4s;
-        background: #ffffff;
-    }
-    
-    .popup_ctaonhom_tn .container {
-        width: 380px;
-    }
-    
-    .popup_chuyentiep_tn .container {
-        width: 340px;
-    }
-    
-    .popup_ctaonhom_tn .popup_body_ctaonhom {
-        padding-bottom: 24px;
-    }
-    
-    .popup_body_ctaonhom .form_btn button {
-        padding: 13px 35px;
-        border-radius: 50px;
-    }
-    
-    .popup_body_ctaonhom .form_btn.form_btn_2 button {
-        padding: 13px 15px;
-    }
-    
-    .text_popuo_xoa {
-        margin-top: 7px;
-        display: block;
-    }
-    
-    .form_popup_xoa {
-        padding: 20px;
-    }
-    
-    .popup_body {
-        border-radius: 0px 0px 10px 10px;
-    }
-    
-    .text_popuo_xoa .p_popupp_xoa {
-        font-size: 15px;
-        line-height: 20px;
-        color: #474747;
-        text-align: center;
-    }
-    
-    .popup_thuhoi_tinnhan .text_popuo_xoa,
-    .popup_del_tinnhan .text_popuo_xoa {
-        padding: 20px 0px;
-    }
-    
-    .popup_thuhoi_tinnhan.popup_xoa .container,
-    .popup_del_tinnhan.popup_xoa .container {
-        margin-top: 50px;
-        width: 460px;
-    }
-    
-    .popup_thuhoi_tinnhan .form_popup_xoa .form_btn button,
-    .popup_del_tinnhan .form_popup_xoa .form_btn button {
-        width: 135px;
-    }
-    
-    .popup_ctaonhom_tn .popup_body .form_btn,
-    .popup_chuyentiep_tn .popup_body .form_btn {
-        margin-top: 18px;
-    }
-    
-    .popup_chuyentiep_tn .popup_body .form_btn button {
-        width: 89px;
-        border-radius: 50px;
     }
     
     .input_chuyentiep input {
@@ -1508,13 +1427,6 @@
         position: absolute;
         top: 9px;
         right: 10px;
-    }
-    
-    .over_popup_ct {
-        overflow-y: scroll;
-        height: 293px;
-        padding-left: 13px;
-        padding-right: 10px;
     }
     
     .list_chuyentiep_dc_c {
@@ -1761,7 +1673,7 @@
     .khoibang .bangchung {
         width: 100%;
         overflow: hidden;
-        border-radius: 10px !important;
+        border-radius: 10px;
         height: auto;
         overflow-x: scroll;
         padding-bottom: 20px;

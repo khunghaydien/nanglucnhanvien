@@ -383,7 +383,7 @@
         </div>
     </div>
     <!-- popup -->
-    <div class="popup popup_thietlap_diem color_b">
+    <div class="popup popup_thietlap_diem ">
         <div class="container">
             <div class="content">
                 <div class="popup_header">

@@ -78,7 +78,7 @@
                             </div>
                             <div class="d_flex space_b width_100 align_c color_blue mb_10">
                                 <h4 class="font_ss16 font_wB">Tiêu chí đánh giá</h4>
-                                <div class="d_flex align_c">
+                                <div class="btn_them_tieuchi d_flex align_c cursor_p">
                                     <div class="img">
                                         <img src="../img/cong.png" alt="Thêm tiêu chí">
                                     </div>
@@ -297,7 +297,7 @@
             </div>
         </div>
     </div>
-
+    <? include('../includes/dat_popup.php') ?>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
@@ -311,6 +311,9 @@ $('.js_select_2').select2({
 CKEDITOR.replace('editor1', {
     height: '108'
 });
+$('.btn_them_tieuchi').click(function() {
+    $('.popup_them_tieuchi').show();
+})
 </script>
 
 </html>

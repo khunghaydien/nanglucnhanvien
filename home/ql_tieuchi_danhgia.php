@@ -550,6 +550,69 @@
             </div>
         </div>
     </div>
+    <!-- popup xóa -->
+    <div class="popup popup_500 popup_xoa popup_xoa_tieuchi ">
+        <div class="container">
+            <div class="content">
+                <div class="popup_header">
+                    <h4 class="name_header">Xóa tiêu chí</h4>
+                    <div class="img close_popup">
+                        <img src="../img/close.png" alt="đóng">
+                    </div>
+                </div>
+                <div class="popup_body">
+                    <p class="cont_1">Bạn có chắc chắn muốn xóa tiêu chí<span class="font_wB">
+                            Tiêu chí người dùng tự tạo</span> ?</p>
+                    <div class="popup_btn">
+                        <div class="btn btn_trang btn_140 mr_68 close_popup">Hủy</div>
+                        <div class="btn btn_xanh btn_140">
+                            Đồng ý
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup xóa -->
+
+    <!-- popup thành công  -->
+    <div class="popup popup_500 popup_thanhcong">
+        <div class="container">
+            <div class="popup_body">
+                <div class="img">
+                    <img src="../img/popup_1.png" alt="thành công ">
+                </div>
+                <p class="text_a_c ">Xóa tiêu chí <span class="font_wB"> Tiêu chí cha ngời dùng tự tạo</span> thành
+                    công!</p>
+                <div class="popup_btn">
+                    <div class="btn btn_xanh close_popup ">
+                        Đóng
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup thành công -->
+
+    <!-- popup thành công  -->
+    <div class="popup popup_500 popup_thanhcong">
+        <div class="container">
+            <div class="popup_body">
+                <div class="img">
+                    <img src="../img/popup_2.png" alt="Thất bại ">
+                </div>
+                <p class="text_a_c ">Xóa tiêu chí <span class="font_wB"> Tiêu chí cha ngời dùng tự tạo</span> thất bại!
+                </p>
+                <div class="popup_btn">
+                    <div class="btn btn_xanh  close_popup">
+                        Đóng
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup thành công -->
+
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
@@ -566,6 +629,9 @@ $('.so_xoay_1').click(function() {
 $('.so_xoay_2').click(function() {
     $('.con_tieuchi_2').toggle();
     $(this).toggleClass('xoay_ro');
+})
+$('.btn_xoa').click(function() {
+    $('.popup_xoa').show();
 })
 </script>
 
