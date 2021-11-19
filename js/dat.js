@@ -1,6 +1,6 @@
 // end dùng chung
 
-// chức năng click để scroll
+// chức năng click to scroll
 (function(w) {
     w.addEventListener('load', function() {
         const btn_left = document.getElementById('turn_left'),

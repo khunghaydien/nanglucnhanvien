@@ -24,6 +24,7 @@
                     </div>
                     <div class="main_body">
                         <div class="dulieuxoa">
+                            <p class="size-14 chuden bot-15 tieude1024">Dữ liệu đã xóa gần đây</p>
                             <div class="m_dl_xoa flex ">
                                 <div class="xoa_con nentrang ">
                                     <div class="padding15">

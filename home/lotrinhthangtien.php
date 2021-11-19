@@ -24,6 +24,7 @@
                     </div>
                     <div class="main_body">
                         <div class="lotrinhthangtien">
+                            <p class="chuden size-14 tieude1024">Phân quyền</p>
                             <div class="search-qlnv space">
                                 <div class="khoi_left">
                                     <div class="leftsearch">
@@ -31,14 +32,10 @@
                                         <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15" alt="">
                                     </div>
                                 </div>
-                                <div class="rightsearch flex center-height">
-                                    <div class="flex rightsearch_con2">
-                                        <div class="huongdan flex center-height ">
-                                            <img src="../img/manhimg/chamhoi.png" class="wh36" alt="Huong dan">
+                                <a href="/huongdan.html"><div class="huongdan flex center-height ">
+                                            <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
                                             <p class="left-10 font-medium size-15">Hướng dẫn</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                        </div></a>
                             </div>
                             <div class="flex wrap">
                             <div class=" m_lotrinh nentrang bot-20 right-20">

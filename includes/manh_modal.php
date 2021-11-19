@@ -387,7 +387,7 @@
                         Hủy
                     </div>
                     <div onclick="hienpopupid('popup_thanhcong')" class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu_before">
-                        Lưu
+                        Đồng ý
                     </div>
                 </div>
             </div>

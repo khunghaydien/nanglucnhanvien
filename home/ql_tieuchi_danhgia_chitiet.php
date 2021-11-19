@@ -5,7 +5,6 @@
     <title>Chi tiết tiêu chí đánh giá</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" type="text/css" href="../css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/dat.css">
@@ -41,12 +40,12 @@
                                 </div>
                                 <div class="d_flex align_c flex_end mb_20">
                                     <div class="btn_header_ql_tieuchi d_flex">
-                                        <div class="btn sua">
+                                        <a href="/quan_ly_tieu_chi_danh_gia_chinh_sua.html" class="btn sua">
                                             <div class="img mr_12">
                                                 <img src="../img/icon_but.png" alt="Chỉnh sửa">
                                             </div>
                                             <p>Chỉnh sửa</p>
-                                        </div>
+                                        </a>
                                         <div class="btn excel">
                                             <div class="img mr_12">
                                                 <img src="../img/icon_excel.png" alt="File excel">

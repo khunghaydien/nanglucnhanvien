@@ -25,6 +25,14 @@
                     </div>
                     <div class="main_body">
                         <div class="phieudanhgia_chitiet danhgia_hoanthanh">
+                            <div class="tieude1024 size-14 flex center-height ">
+                                <a href="/quanly-phieudanhgia.html">
+                                    <div class="flex center-height right-10 c-pointer">
+                                        <img src="../img/manhimg/back.png" alt="Quay lai">
+                                    </div>
+                                </a>
+                                <p>Quản lý phiếu đánh giá / Chi tiết phiếu đánh giá / Đánh giá</p>
+                            </div>
                             <div class="flex">
                                 <div class="khoi2">
                                     <div class="flex khoitieude">
@@ -87,7 +95,7 @@
                                                             <p>(Thang điểm: 10)</p>
                                                         </td>
                                                     </tr>
-                                                    
+
                                                     <tr>
                                                         <td rowspan="2" class="">1</td>
                                                         <td rowspan="2" class="text-left">Phòng nhân sự</td>
@@ -105,7 +113,7 @@
                                                             Nhận xét
                                                         </td>
                                                     </tr>
-                                                   <tr>
+                                                    <tr>
                                                         <td rowspan="2" class="">1</td>
                                                         <td rowspan="2" class="text-left">Phòng kinh doanh</td>
                                                         <td class="text-left">Nhập số điểm</td>
@@ -144,14 +152,17 @@
                                         </div>
                                     </div>
                                     <div class="khoibutton_form top-25">
-                                        <div class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer ">
+                                        <div
+                                            class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer ">
                                             Xóa
                                         </div>
-                                        <div class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer">
+                                        <div
+                                            class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer">
                                             Lưu
                                         </div>
-                                        
-                                        <div class="btn close btn-nenxanhluc-chutrang br-5 vienxanhluc font-medium size-15 c-pointer">
+
+                                        <div
+                                            class="btn close btn-nenxanhluc-chutrang br-5 vienxanhluc font-medium size-15 c-pointer">
                                             Hoàn thành
                                         </div>
                                     </div>
@@ -168,4 +179,5 @@
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
+
 </html>

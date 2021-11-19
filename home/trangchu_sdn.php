@@ -383,7 +383,7 @@
         </div>
     </div>
     <!-- popup -->
-    <div class="popup popup_thietlap_diem">
+    <div class="popup popup_thietlap_diem color_b">
         <div class="container">
             <div class="content">
                 <div class="popup_header">
@@ -393,11 +393,14 @@
                     </div>
                 </div>
                 <div class="popup_body">
-                    <p class="cont_1"> Thiết lập <span class="font_wB">Thang điểm</span> cho hệ thống
-                        để có thể tạo kế hoạch đánh giá!</p>
+                    <p class="cont_1"> Thiết lập <span class="font_wB"> Thang điểm </span> cho hệ thống
+                        để có thể tạo<span class="font_wB"> Bài đánh giá</span> và<span class="font_wB"> Bài kiểm
+                            tra!</span> </p>
                     <div class="popup_btn">
                         <div class="btn btn_trang btn_140 mr_68">Thiết lập sau</div>
-                        <div class="btn btn_xanh btn_140">Đi tới thiết lập</div>
+                        <a href="/caidat_thangdiem.html" class="btn btn_xanh btn_140">
+                            Đi tới thiết lập
+                        </a>
                     </div>
                 </div>
             </div>

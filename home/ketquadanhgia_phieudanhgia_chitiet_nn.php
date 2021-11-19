@@ -19,23 +19,32 @@
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
                         <div class="title_header flex center-height">
-                        <a href="/ketquadanhgia-nhanvien.html">
-                            <div class="flex center-height right-10 c-pointer">
-                                <img src="../img/manhimg/back.png" alt="Quay lai">               
-                            </div>
-                        </a>
+                            <a href="/ketquadanhgia-nhanvien.html">
+                                <div class="flex center-height right-10 c-pointer">
+                                    <img src="../img/manhimg/back.png" alt="Quay lai">
+                                </div>
+                            </a>
                             <p>Quản lý kết quả đánh giá / Chi tiết</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
                     <div class="main_body">
                         <div class="chitiet_kq_1n">
+                            <div class="tieude1024 size-14 flex center-height ">
+                                <a href="/ketquadanhgia-nhanvien.html">
+                                    <div class="flex center-height right-10 c-pointer">
+                                        <img src="../img/manhimg/back.png" alt="Quay lai">
+                                    </div>
+                                </a>
+                                <p>Quản lý kế kết quả đánh giá / Chi tiết</p>
+                            </div>
                             <div class="flex">
                                 <div class="khoi2">
                                     <div class="rightsearch flex center-height bot-20">
                                         <div class="flex rightsearch_con2">
                                             <div class="flex rightsearch_con2_2">
-                                                <button class="btn-nenxanhluc-chutrang button center-height br-10 size-16 ">
+                                                <button
+                                                    class="btn-nenxanhluc-chutrang button center-height br-10 size-16 ">
                                                     <img src="../../img/manhimg/xuatexcel.png" class="wh14" alt="">
                                                     <p class="left-10 font-medium">Xuất excel</p>
                                                 </button>
@@ -55,7 +64,8 @@
                                                 <div class="flex c-pointer center-heght hidden js_chitiet">
                                                     <p class="size-14 right-10 text_anbot">Chi tiết</p>
                                                     <div class="flex center-height ">
-                                                        <img class="img_anbot" src="../img/manhimg/down2.png" alt="An bot">
+                                                        <img class="img_anbot" src="../img/manhimg/down2.png"
+                                                            alt="An bot">
                                                     </div>
                                                 </div>
                                             </div>
@@ -95,17 +105,18 @@
                                                 <div class="flex">
                                                     <p class="cacmuc">Người đánh giá:</p>
                                                     <p class="cacketqua">
-                                                        <div class="flex center-height">
-                                                            <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                            <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                            <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                            <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                            
+                                                    <div class="flex center-height">
+                                                        <img src="../../img/manhimg/avata.png" class="" alt="">
+                                                        <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                        <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                        <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+
                                                         <div class="bonus flex center-center chutrang left_am">
-                                                        10
+                                                            10
+                                                        </div>
+
                                                     </div>
-                                                    
-                                                </div></p>
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="padding15 khoicon">
@@ -118,11 +129,11 @@
                                                 <div class="flex">
                                                     <p class="cacmuc">Người duyệt:</p>
                                                     <div class="flex center-height">
-                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="">
-                                                    <a class="chuden  size-14
+                                                        <img src="../../img/manhimg/avata.png" class="right-10" alt="">
+                                                        <a class="chuden  size-14
                                                     " href="/phanquyen_chitiet.html">Nguyễn Trần Trung Quân
-                                                    </a>
-                                                </div>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="padding15 khoicon">
@@ -135,15 +146,15 @@
                                     </div>
 
                                     <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề đánh giá</h4>
-                                     <? include('../includes/bang_phieu_NN.php'); ?>
-                                     <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề đánh giá</h4>
-                                     <? include('../includes/bang_1nv_NN.php'); ?>
+                                    <? include('../includes/bang_phieu_NN.php'); ?>
+                                    <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề đánh giá</h4>
+                                    <? include('../includes/bang_1nv_NN.php'); ?>
 
-                                     <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề kiểm tra</h4>
-                                     <? include('../includes/bang_cauhoi_1N.php'); ?>
+                                    <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề kiểm tra</h4>
+                                    <? include('../includes/bang_cauhoi_1N.php'); ?>
 
-                                     <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề kiểm tra</h4>
-                                     <? include('../includes/bang_cauhoi_NN.php'); ?>
+                                    <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề kiểm tra</h4>
+                                    <? include('../includes/bang_cauhoi_NN.php'); ?>
                                 </div>
                             </div>
                         </div>
@@ -157,4 +168,5 @@
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
+
 </html>

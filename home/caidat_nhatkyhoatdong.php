@@ -25,23 +25,28 @@
                     </div>
                     <div class="main_body">
                         <div class="nhatkyhoatdong">
+                            <p class="chuden size-14 tieude1024 bot-15">Cài đặt / Nhật ký hoạt động</p>
                             <div class="flex">
                                 <div class="khoi2">
                                     <div class="khoidanhmuc ">
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_caidatchung.html" class="tendanhmuccon  size-14">Cài đặt chung</a>
+                                            <a href="/caidat_caidatchung.html" class="tendanhmuccon  size-14">Cài đặt
+                                                chung</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_nhatkyhoatdong.html" class="tendanhmuccon chuxanhdam size-14">Nhật ký hoạt động</a>
+                                            <a href="/caidat_nhatkyhoatdong.html"
+                                                class="tendanhmuccon chuxanhdam size-14">Nhật ký hoạt động</a>
                                             <div class="border border-active"></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_thongtinbaomat.html" class="tendanhmuccon size-14">Thông tin bảo mật</a>
+                                            <a href="/caidat_thongtinbaomat.html" class="tendanhmuccon size-14">Thông
+                                                tin bảo mật</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_thangdiem.html" class="tendanhmuccon size-14">Thang điểm</a>
+                                            <a href="/caidat_thangdiem.html" class="tendanhmuccon size-14">Thang
+                                                điểm</a>
                                             <div class="border "></div>
                                         </div>
                                     </div>
@@ -71,8 +76,7 @@
                                                     <td class="text-left">Công ty cổ phần thanh toán hưng hà</td>
                                                     <td>10:10 - 10/10/2021</td>
                                                     <td class="text-left">Duyệt biên bản tài sản cần bảo dưỡng</td>
-                                                    <td class="chuxanh"><a class="ko-gachchan chuxanh"
-                                                            href="">
+                                                    <td class="chuxanh"><a class="ko-gachchan chuxanh" href="">
                                                             Máy in sony - SBB000001</a>
                                                     </td>
                                                 </tr>
@@ -81,8 +85,7 @@
                                                     <td class="text-left">Nguyễn Trần Trung Quân</td>
                                                     <td>10:10 - 10/10/2021</td>
                                                     <td class="text-left">Duyệt biên bản tài sản cần bảo dưỡng</td>
-                                                    <td class="chuxanh"><a class="ko-gachchan chuxanh"
-                                                            href="">
+                                                    <td class="chuxanh"><a class="ko-gachchan chuxanh" href="">
                                                             Bảo dưỡng tài sản - SBB000001</a>
                                                     </td>
                                                 </tr>
@@ -91,13 +94,29 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex top-10 center-height ">
-                                <p class="chuden size-14 right-10">Hiển thị:</p>
-                                <div class="nentrang m_hienthi">
-                                    <div class="flex center-height hienthi">
-                                        <p class="chuden size-14 right-15">40</p>
-                                        <div class="center-height flex">
-                                            <img src="../img/manhimg/down.png" alt="muitenxuong">
+                            <div class="flex center-height space">
+                                <div class="flex top-10 center-height ">
+                                    <p class="chuden size-14 right-10">Hiển thị:</p>
+                                    <div class="nentrang m_hienthi">
+                                        <div class="flex center-height hienthi">
+                                            <p class="chuden size-14 right-15">40</p>
+                                            <div class="center-height flex">
+                                                <img src="../img/manhimg/down.png" alt="muitenxuong">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex">
+                                    <div class="m_phantrang flex">
+                                        <div class="phantrangcon right-15 ">
+                                            << /div>
+                                                <div class="phantrangcon right-10 pt_active">1</div>
+                                                <div class="phantrangcon right-10 ">2</div>
+                                                <div class="phantrangcon right-10 ">3</div>
+                                                <div class="phantrangcon right-10 ">4</div>
+                                                <div class="phantrangcon">5</div>
+                                                <div class="phantrangcon left-15 ">></div>
                                         </div>
                                     </div>
                                 </div>
@@ -107,8 +126,8 @@
                 </div>
             </div>
         </div>
-    </div>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
+
 </html>

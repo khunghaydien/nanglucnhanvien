@@ -1307,31 +1307,14 @@
                                     <div class="d_flex width_100 mt_15 align_c space_b">
                                         <div class="d_flex align_c">
                                             <p class="font_s14 mr_10">Hiển thị:</p>
-                                            <div class="chon_soluong font_s14 position_r">
-                                                <div class="btn d_flex">
-                                                    <p class="mr_15">40</p>
-                                                    <img src="../img/icon_so.png" alt="Chọn">
-                                                </div>
-                                                <div class="modal_d modal_ql_soluong position_a">
-                                                    <div class="container">
-                                                        <div class="item content_c">
-                                                            <p>10</p>
-                                                        </div>
-                                                        <div class="item content_c">
-                                                            <p>20</p>
-                                                        </div>
-
-                                                        <div class="item content_c">
-                                                            <p>40</p>
-                                                        </div>
-                                                        <div class="item content_c">
-                                                            <p>80</p>
-                                                        </div>
-                                                        <div class="item content_c">
-                                                            <p>100</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="select_no_muti select_no_muti_chon ">
+                                                <select class="js_select_2" name="loai_tc">
+                                                    <option value="">40</option>
+                                                    <option value="">10</option>
+                                                    <option value="">20</option>
+                                                    <option value="">80</option>
+                                                    <option value="">100</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="phan_trang">

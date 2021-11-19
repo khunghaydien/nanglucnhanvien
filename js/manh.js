@@ -1,4 +1,3 @@
-
 $(".js_thanhvien").click(function() {
     $(".show_thanhvien").show();
 });
@@ -18,21 +17,23 @@ $(".x_close").click(function() {
     $(".show_themyccv").hide();
     $(".show_xacnhan").hide();
 });
-$(".x_close").click(function(){
+$(".x_close").click(function() {
     $(".popup").addClass("hidden");
     $(".popup").removeClass("flex");
 });
-$(".close").click(function(){
+$(".close").click(function() {
     $(".popup").addClass("hidden");
     $(".popup").removeClass("flex");
 });
-$(".close_xacnhan").click(function(){
+$(".close_xacnhan").click(function() {
     $(".popup_xacnhan").addClass("hidden");
     $(".popup_xacnhan").removeClass("flex");
 });
+
 function hienpopup(tenclass) {
     $("." + tenclass).show();
 };
+
 function hienpopupid(tenid) {
     $("#" + tenid).removeClass("hidden");
 };
@@ -49,12 +50,10 @@ $(".js_chitiet").click(function() {
     $(".js_nx_ct").removeClass("br-10");
 });
 
-$(document).mouseup(function(e) 
-{
+$(document).mouseup(function(e) {
     var container1 = $(".js_menu_curd2");
     var container = $(".js_menu_curd");
-    if (!container.is(e.target) && container.has(e.target).length === 0 && !container1.is(e.target) && container1.has(e.target).length === 0 ) 
-    {
+    if (!container.is(e.target) && container.has(e.target).length === 0 && !container1.is(e.target) && container1.has(e.target).length === 0) {
         $(".show_menu_curd").hide();
         $(".show_menu_curd2").hide();
     }
@@ -67,9 +66,23 @@ $('.themmoiphanloai').click(function() {
 
 function xoa_phanloai() {
     $('.xoaphanloai').click(function() {
-    $(this).parents('.khoiphanloaicon').find('.khoiphanloaiconcon').remove();
-});
+        $(this).parents('.khoiphanloaicon').find('.khoiphanloaiconcon').remove();
+    });
 };
 $('.xoaphanloai').click(function() {
     $(this).parents('.khoiphanloaicon').find('.khoiphanloaiconcon').remove();
+});
+$('.js_checkbox').click(function() {
+    if ($('.js_checkbox').is(':checked')) {
+        $('.tongso_xoavv').removeClass("hidden");
+        $('.tongso_khoiphuc').removeClass("hidden");
+
+    } else {
+        $('.tongso_xoavv').addClass("hidden");
+        $('.tongso_khoiphuc').addClass("hidden");
+    }
+
+});
+$(document).ready(function() {
+    $('.js_xuatexcel').css("margin-top", "0px");
 });

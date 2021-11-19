@@ -5,6 +5,7 @@
     <title>Quản lý tiêu chí đánh giá</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/dat.css">
 </head>
@@ -28,24 +29,12 @@
                                     <p>Danh sách lý tiêu chí đánh giá </p>
                                 </div>
                                 <div class="d_flex space_b align_c mb_20">
-                                    <div class="chon_trangthai font_s14 position_r">
-                                        <div class="btn d_flex">
-                                            <p>Tất cả trạng thái</p>
-                                            <img src="../img/icon_so.png" alt="Chọn">
-                                        </div>
-                                        <div class="modal_d modal_ql_tieuchi modal_ql_tieuchi_danhgia position_a">
-                                            <div class="container">
-                                                <div class="item">
-                                                    <p>Tất cả trạng thái</p>
-                                                </div>
-                                                <div class="item">
-                                                    <p>Đang mở</p>
-                                                </div>
-                                                <div class="item">
-                                                    <p>Đã đóng</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="select_no_muti select_no_muti_2 ">
+                                        <select class="js_select_2" name="loai_tc">
+                                            <option value="">Tất cả trạng thái</option>
+                                            <option value="">Đang mở</option>
+                                            <option value="">Đã đóng</option>
+                                        </select>
                                     </div>
                                     <a href="/huong_dan.html" class="huong_dan d_flex align_c">
                                         <img src="../img/chamhoi.png" alt="Hướng đẫn" class="mr_6">
@@ -96,19 +85,18 @@
                                                     <p class="phantucon">Chức năng</p>
                                                 </th>
                                             </tr>
-                                            <tr>
+                                            <tr class="cha_tieuchi_1">
                                                 <td>
                                                     <p>1</p>
                                                 </td>
                                                 <td>
-                                                    <a href="quan_ly_tieu_chi_danh_gia_chi_tiet.html">
-                                                        <div class="d_flex btn_soxuong">
-                                                            <p class="mr_10 color_blue font_w5">Kiến thức</p>
-                                                            <div class="img so_xoay">
-                                                                <img src="../img/icon_so.png" alt="Sổ xuống">
-                                                            </div>
+                                                    <div class="d_flex btn_soxuong">
+                                                        <a href="quan_ly_tieu_chi_danh_gia_chi_tiet.html"
+                                                            class="mr_10 color_blue font_w5">Kiến thức</a>
+                                                        <div class="img so_xoay so_xoay_1">
+                                                            <img src="../img/icon_so.png" alt="Sổ xuống">
                                                         </div>
-                                                    </a>
+                                                    </div>
                                                 </td>
                                                 <td>
                                                     <p>Tiêu chí tổng hợp</p>
@@ -138,7 +126,7 @@
                                                     </a>
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="con_tieuchi_1">
                                                 <td>
                                                     <p>1</p>
                                                 </td>
@@ -178,7 +166,7 @@
                                                     </a>
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="con_tieuchi_1">
                                                 <td>
                                                     <p>1</p>
                                                 </td>
@@ -218,21 +206,20 @@
                                                     </a>
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="cha_tieuchi_2">
                                                 <td>
                                                     <p>1</p>
                                                 </td>
                                                 <td>
-                                                    <a href="/quan_ly_tieu_chi_danh_gia_chi_tiet.html">
-                                                        <div class="d_flex btn_soxuong">
-                                                            <p class="mr_10 color_blue font_w5">Tiêu chí cha người dụng
-                                                                tự
-                                                                tạo</p>
-                                                            <div class="img so_xoay">
-                                                                <img src="../img/icon_so.png" alt="Sổ xuống">
-                                                            </div>
+                                                    <div class="d_flex btn_soxuong">
+                                                        <a href="/quan_ly_tieu_chi_danh_gia_chi_tiet.html"
+                                                            class="mr_10 color_blue font_w5">Tiêu chí cha người dụng
+                                                            tự
+                                                            tạo</a>
+                                                        <div class="img so_xoay so_xoay_2">
+                                                            <img src="../img/icon_so.png" alt="Sổ xuống">
                                                         </div>
-                                                    </a>
+                                                    </div>
                                                 </td>
                                                 <td>
                                                     <p>Tiêu chí tổng hợp</p>
@@ -276,6 +263,246 @@
                                                     </div>
                                                 </td>
                                             </tr>
+                                            <tr class="con_tieuchi_2">
+                                                <td>
+                                                    <p>1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l color_blue">
+                                                        <a class="color_blue"
+                                                            href="quan_ly_tieu_chi_danh_gia_chi_tiet.html">Hiểu biết
+                                                            thấu
+                                                            đáo</a>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>Tiêu chí đơn</p>
+                                                </td>
+                                                <td>
+                                                    <p>10</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l">Mặc định</p>
+                                                </td>
+                                                <td>
+                                                    <p>10/10/2020</p>
+                                                </td>
+                                                <td>
+                                                    <label class="switch_tatmo">
+                                                        <input type="checkbox" checked>
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <a href="/quan_ly_tieu_chi_danh_gia_chinh_sua.html"
+                                                        class="btn_chinhsua d_flex content_c">
+                                                        <div class="img mr_5">
+                                                            <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
+                                                        </div>
+                                                        <p class="color_blue font_w5">Sửa</p>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr class="con_tieuchi_2">
+                                                <td>
+                                                    <p>1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l color_blue">
+                                                        <a class="color_blue"
+                                                            href="quan_ly_tieu_chi_danh_gia_chi_tiet.html">Hiểu biết
+                                                            thấu
+                                                            đáo</a>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>Tiêu chí đơn</p>
+                                                </td>
+                                                <td>
+                                                    <p>10</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l">Mặc định</p>
+                                                </td>
+                                                <td>
+                                                    <p>10/10/2020</p>
+                                                </td>
+                                                <td>
+                                                    <label class="switch_tatmo">
+                                                        <input type="checkbox" checked>
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <a href="/quan_ly_tieu_chi_danh_gia_chinh_sua.html"
+                                                        class="btn_chinhsua d_flex content_c">
+                                                        <div class="img mr_5">
+                                                            <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
+                                                        </div>
+                                                        <p class="color_blue font_w5">Sửa</p>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr class="con_tieuchi_2">
+                                                <td>
+                                                    <p>1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l color_blue">
+                                                        <a class="color_blue"
+                                                            href="quan_ly_tieu_chi_danh_gia_chi_tiet.html">Hiểu biết
+                                                            thấu
+                                                            đáo</a>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>Tiêu chí đơn</p>
+                                                </td>
+                                                <td>
+                                                    <p>10</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l">Mặc định</p>
+                                                </td>
+                                                <td>
+                                                    <p>10/10/2020</p>
+                                                </td>
+                                                <td>
+                                                    <label class="switch_tatmo">
+                                                        <input type="checkbox" checked>
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <a href="/quan_ly_tieu_chi_danh_gia_chinh_sua.html"
+                                                        class="btn_chinhsua d_flex content_c">
+                                                        <div class="img mr_5">
+                                                            <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
+                                                        </div>
+                                                        <p class="color_blue font_w5">Sửa</p>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr class="con_tieuchi_2">
+                                                <td>
+                                                    <p>1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l color_blue">
+                                                        <a class="color_blue"
+                                                            href="quan_ly_tieu_chi_danh_gia_chi_tiet.html">Hiểu biết
+                                                            thấu
+                                                            đáo</a>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>Tiêu chí đơn</p>
+                                                </td>
+                                                <td>
+                                                    <p>10</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l">Mặc định</p>
+                                                </td>
+                                                <td>
+                                                    <p>10/10/2020</p>
+                                                </td>
+                                                <td>
+                                                    <label class="switch_tatmo">
+                                                        <input type="checkbox" checked>
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <a href="/quan_ly_tieu_chi_danh_gia_chinh_sua.html"
+                                                        class="btn_chinhsua d_flex content_c">
+                                                        <div class="img mr_5">
+                                                            <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
+                                                        </div>
+                                                        <p class="color_blue font_w5">Sửa</p>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr class="con_tieuchi_2">
+                                                <td>
+                                                    <p>1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l color_blue">
+                                                        <a class="color_blue"
+                                                            href="quan_ly_tieu_chi_danh_gia_chi_tiet.html">Hiểu biết
+                                                            thấu
+                                                            đáo</a>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>Tiêu chí đơn</p>
+                                                </td>
+                                                <td>
+                                                    <p>10</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l">Mặc định</p>
+                                                </td>
+                                                <td>
+                                                    <p>10/10/2020</p>
+                                                </td>
+                                                <td>
+                                                    <label class="switch_tatmo">
+                                                        <input type="checkbox" checked>
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <a href="/quan_ly_tieu_chi_danh_gia_chinh_sua.html"
+                                                        class="btn_chinhsua d_flex content_c">
+                                                        <div class="img mr_5">
+                                                            <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
+                                                        </div>
+                                                        <p class="color_blue font_w5">Sửa</p>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr class="con_tieuchi_2">
+                                                <td>
+                                                    <p>1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l color_blue">
+                                                        <a class="color_blue"
+                                                            href="quan_ly_tieu_chi_danh_gia_chi_tiet.html">Hiểu biết
+                                                            thấu
+                                                            đáo</a>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>Tiêu chí đơn</p>
+                                                </td>
+                                                <td>
+                                                    <p>10</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text_a_l">Mặc định</p>
+                                                </td>
+                                                <td>
+                                                    <p>10/10/2020</p>
+                                                </td>
+                                                <td>
+                                                    <label class="switch_tatmo">
+                                                        <input type="checkbox" checked>
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <a href="/quan_ly_tieu_chi_danh_gia_chinh_sua.html"
+                                                        class="btn_chinhsua d_flex content_c">
+                                                        <div class="img mr_5">
+                                                            <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
+                                                        </div>
+                                                        <p class="color_blue font_w5">Sửa</p>
+                                                    </a>
+                                                </td>
+                                            </tr>
                                         </table>
                                     </div>
                                 </div>
@@ -283,31 +510,14 @@
                                     <div class="d_flex width_100 mt_15 align_c space_b">
                                         <div class="d_flex align_c">
                                             <p class="font_s14 mr_10">Hiển thị:</p>
-                                            <div class="chon_soluong font_s14 position_r">
-                                                <div class="btn d_flex">
-                                                    <p class="mr_15">40</p>
-                                                    <img src="../img/icon_so.png" alt="Chọn">
-                                                </div>
-                                                <div class="modal_d modal_ql_soluong position_a">
-                                                    <div class="container">
-                                                        <div class="item content_c">
-                                                            <p>10</p>
-                                                        </div>
-                                                        <div class="item content_c">
-                                                            <p>20</p>
-                                                        </div>
-
-                                                        <div class="item content_c">
-                                                            <p>40</p>
-                                                        </div>
-                                                        <div class="item content_c">
-                                                            <p>80</p>
-                                                        </div>
-                                                        <div class="item content_c">
-                                                            <p>100</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="select_no_muti select_no_muti_chon ">
+                                                <select class="js_select_2" name="loai_tc">
+                                                    <option value="">40</option>
+                                                    <option value="">10</option>
+                                                    <option value="">20</option>
+                                                    <option value="">80</option>
+                                                    <option value="">100</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="phan_trang">
@@ -334,7 +544,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -344,6 +553,20 @@
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
+<script type="text/javascript" src="../js/select2.min.js"></script>
 <script type="text/javascript" src="../js/dat.js"></script>
+<script>
+$('.js_select_2').select2({
+    width: '100%',
+})
+$('.so_xoay_1').click(function() {
+    $('.con_tieuchi_1').toggle();
+    $(this).toggleClass('xoay_ro');
+})
+$('.so_xoay_2').click(function() {
+    $('.con_tieuchi_2').toggle();
+    $(this).toggleClass('xoay_ro');
+})
+</script>
 
 </html>

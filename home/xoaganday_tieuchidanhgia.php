@@ -18,18 +18,29 @@
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
                         <div class="title_header flex center-height">
-                            <a href="/xoaganday-dulieuxoaganday.html"><div class="flex center-height right-10 c-pointer">
-                                <img src="../img/manhimg/back.png" alt="Quay lai">               
-                            </div></a>
+                            <a href="/xoaganday-dulieuxoaganday.html">
+                                <div class="flex center-height right-10 c-pointer">
+                                    <img src="../img/manhimg/back.png" alt="Quay lai">
+                                </div>
+                            </a>
                             <p>Dữ liệu đã xóa gần đây / Tiêu chí đánh giá</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
                     <div class="main_body">
                         <div class="tieuchidanhgia box-qlinhanvien">
+                            <div class="tieude1024 size-14 flex center-height bot-15">
+                                <a href="/xoaganday-dulieuxoaganday.html">
+                                    <div class="flex center-height right-10 c-pointer">
+                                        <img src="../img/manhimg/back.png" alt="Quay lai">
+                                    </div>
+                                </a>
+                                <p>Dữ liệu đã xóa gần đây / Tiêu chí đánh giá</p>
+                            </div>
                             <div class="khoidanhmuc ">
                                 <div class="khoidanhmuccon">
-                                    <a href="/xoaganday-tieuchi-danh-gia.html" class="tendanhmuccon chuxanhdam size-14">Tiêu chí
+                                    <a href="/xoaganday-tieuchi-danh-gia.html"
+                                        class="tendanhmuccon chuxanhdam size-14">Tiêu chí
                                         đánh giá</a>
                                     <div class="border border-active"></div>
                                 </div>
@@ -48,27 +59,34 @@
                                 </div>
                                 <div class="rightsearch flex center-height">
                                     <div class="flex rightsearch_con2">
-                                        <button class="button btn-nentrang-chuxanh un-m-r center-height br-10 size-16 c-pointer tongso_xoavv" onclick="hienpopupid('popup_before')">
+                                        <button
+                                            class="hidden button btn-nentrang-chuxanh un-m-r center-height br-10 size-16 c-pointer tongso_xoavv"
+                                            onclick="hienpopupid('popup_before')">
                                             <p class=" chuxanh font-medium">
                                                 Xóa vĩnh viễn
                                             </p>
                                         </button>
-                                        <button class="button nenxanh-chutrang un-m-r center-height br-10 size-16 c-pointer tongso_khoiphuc" onclick="hienpopupid('popup_before')">
-                                            <p class=" chutrang font-medium " >
+                                        <button
+                                            class="hidden button nenxanh-chutrang un-m-r center-height br-10 size-16 c-pointer tongso_khoiphuc"
+                                            onclick="hienpopupid('popup_before')">
+                                            <p class=" chutrang font-medium ">
                                                 Khôi phục
                                             </p>
                                         </button>
-                                        <div class="flex rightsearch_con2_2">
-                                            <button class="btn-nenxanhluc-chutrang button center-height br-10 size-16 ">
-                                                <img src="../../img/manhimg/xuatexcel.png" class="wh14" alt="">
-                                                <p class="left-10 font-medium">Xuất excel</p>
-                                            </button>
 
+                                        <button
+                                            class="btn-nenxanhluc-chutrang button center-height br-10 size-16 js_xuatexcel">
+                                            <img src="../../img/manhimg/xuatexcel.png" class="wh14" alt="">
+                                            <p class="left-10 font-medium">Xuất excel</p>
+                                        </button>
+
+                                        <a href="/huongdan.html">
                                             <div class="huongdan flex center-height ">
                                                 <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
                                                 <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                             </div>
-                                        </div>
+                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +117,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td><input class="wh16" type="checkbox"></td>
+                                            <td><input class="wh16 js_checkbox" type="checkbox"></td>
                                             <td class="chuxanh text-left font-medium">Tiêu chí con người dùng tự tạo
                                             </td>
                                             <td>Tiêu chí tổng hợp</td>
@@ -115,25 +133,27 @@
                                             <td>10:10 - 10/10/2020</td>
                                             <td>
                                                 <div class="flex center-height space">
-                                                    <div class="c-pointer flex js_khoiphuc" onclick="hienpopupid('popup_before')">
-                                                    <img src="../img/manhimg/khoiphuc.png" class="right-5"
-                                                        alt="khooi phuc">
-                                                    <p class="chuxanh font-medium size-14"
-                                                        >Khôi phục
-                                                    </p>
+                                                    <div class="c-pointer flex js_khoiphuc"
+                                                        onclick="hienpopupid('popup_before')">
+                                                        <img src="../img/manhimg/khoiphuc.png" class="right-5"
+                                                            alt="khooi phuc">
+                                                        <p class="chuxanh font-medium size-14">Khôi phục
+                                                        </p>
                                                     </div>
                                                     <p class="chuxanh right-5 left-5">|</p>
-                                                    <div class="c-pointer flex js_xoavv" onclick="hienpopupid('popup_before')">
-                                                    <img src="../img/manhimg/xoa.png" class="right-5" alt="khooi phuc">
-                                                    <a class="chudo font-medium size-14"
-                                                        href="/phanquyen_chitiet.html">Xóa
-                                                    </a>
+                                                    <div class="c-pointer flex js_xoavv"
+                                                        onclick="hienpopupid('popup_before')">
+                                                        <img src="../img/manhimg/xoa.png" class="right-5"
+                                                            alt="khooi phuc">
+                                                        <a class="chudo font-medium size-14"
+                                                            href="/phanquyen_chitiet.html">Xóa
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="wh16" type="checkbox"></td>
+                                            <td><input class="wh16 js_checkbox" type="checkbox"></td>
                                             <td class="chuxanh text-left font-medium">Tiêu chí con người dùng tự tạo
                                             </td>
                                             <td>Tiêu chí tổng hợp</td>
@@ -163,7 +183,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="wh16" type="checkbox"></td>
+                                            <td><input class="wh16 js_checkbox" type="checkbox"></td>
                                             <td class="chuxanh text-left font-medium">Tiêu chí con người dùng tự tạo
                                             </td>
                                             <td>Tiêu chí tổng hợp</td>
@@ -221,53 +241,74 @@
                 </div>
             </div>
         </div>
-    </div> 
-<? include('../includes/manh_modal.php'); ?>
+    </div>
+    <? include('../includes/manh_modal.php'); ?>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
+
 </html>
 <script type="text/javascript">
-    $(".js_khoiphuc").click(function(){
-        $(".text_before_change").html('<p> Bạn có chắc chắn muốn khôi phục tiêu chí đánh giá</p><p class="top-5 font-medium">Tiêu chí 1!</p>');
-        $(".h4_change").text('Khôi phục tiêu chí đánh giá đã xóa');
-        $(".btnhuy_before").click(function(){
-        $(".change_text_tb").html('<p> Khôi phục tiêu chí đánh giá  <span class="font-medium">Tiêu chí 1</span></p><p class="top-5">thất bại!!</p>');
-        });
-        $(".btnluu_before").click(function(){
-            $(".change_text_tc").html('<p> Khôi phục tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thành công!</p>');
-        });
+$(".js_khoiphuc").click(function() {
+    $(".text_before_change").html(
+        '<p> Bạn có chắc chắn muốn khôi phục tiêu chí đánh giá</p><p class="top-5 font-medium">Tiêu chí 1!</p>'
+    );
+    $(".h4_change").text('Khôi phục tiêu chí đánh giá đã xóa');
+    $(".btnhuy_before").click(function() {
+        $(".change_text_tb").html(
+            '<p> Khôi phục tiêu chí đánh giá  <span class="font-medium">Tiêu chí 1</span></p><p class="top-5">thất bại!!</p>'
+        );
     });
-    $(".js_xoavv").click(function(){
-        $(".text_before_change").html('<p> Bạn có chắc chắn muốn xóa tiêu chí đánh giá</p><p class="top-5 font-medium">Đề đánh giá 1!</p>');
-        $(".h4_change").text('Xóa vĩnh viễn tiêu chí đánh giá');
-        $(".btnhuy_before").click(function(){
-        $(".change_text_tb").html('<p> Xóa tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thất bại!!</p>');
-        });
-        $(".btnluu_before").click(function(){
-            $(".change_text_tc").html('<p> Xóa tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thành công!</p>');
-        });
+    $(".btnluu_before").click(function() {
+        $(".change_text_tc").html(
+            '<p> Khôi phục tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thành công!</p>'
+        );
     });
-    $(".tongso_khoiphuc").click(function(){
-        $(".h4_change").text('Khôi phục tiêu chí đánh giá đã xóa');
-        $(".text_before_change").html('<p> Bạn có chắc chắn muốn khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn</p>');
-        $(".btnhuy_before").click(function(){
-        $(".change_text_tb").html('<p> Khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thất bại!</p>');
-        });
-        $(".btnluu_before").click(function(){
-            $(".change_text_tc").html('<p> Khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thành công!</p>');
-        });
+});
+$(".js_xoavv").click(function() {
+    $(".text_before_change").html(
+        '<p> Bạn có chắc chắn muốn xóa tiêu chí đánh giá</p><p class="top-5 font-medium">Đề đánh giá 1!</p>'
+    );
+    $(".h4_change").text('Xóa vĩnh viễn tiêu chí đánh giá');
+    $(".btnhuy_before").click(function() {
+        $(".change_text_tb").html(
+            '<p> Xóa tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thất bại!!</p>'
+        );
     });
-    $(".tongso_xoavv").click(function(){
-        $(".h4_change").text('Xóa vĩnh viễn tiêu chí đánh giá');
-        $(".text_before_change").html('<p> Bạn có chắc chắn muốn xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn</p>');
-        $(".btnhuy_before").click(function(){
-        $(".change_text_tb").html('<p>Xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thất bại!</p>');
-        });
-        $(".btnluu_before").click(function(){
-            $(".change_text_tc").html('<p>Xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thành công!</p>');
-        });
+    $(".btnluu_before").click(function() {
+        $(".change_text_tc").html(
+            '<p> Xóa tiêu chí đánh giá  <span class="font-medium">Đề đánh giá 1</span></p><p class="top-5">thành công!</p>'
+        );
     });
-    
+});
+$(".tongso_khoiphuc").click(function() {
+    $(".h4_change").text('Khôi phục tiêu chí đánh giá đã xóa');
+    $(".text_before_change").html(
+        '<p> Bạn có chắc chắn muốn khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn</p>'
+    );
+    $(".btnhuy_before").click(function() {
+        $(".change_text_tb").html(
+            '<p> Khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thất bại!</p>'
+        );
+    });
+    $(".btnluu_before").click(function() {
+        $(".change_text_tc").html(
+            '<p> Khôi phục <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thành công!</p>'
+        );
+    });
+});
+$(".tongso_xoavv").click(function() {
+    $(".h4_change").text('Xóa vĩnh viễn tiêu chí đánh giá');
+    $(".text_before_change").html(
+        '<p> Bạn có chắc chắn muốn xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn</p>');
+    $(".btnhuy_before").click(function() {
+        $(".change_text_tb").html(
+            '<p>Xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thất bại!</p>');
+    });
+    $(".btnluu_before").click(function() {
+        $(".change_text_tc").html(
+            '<p>Xóa <span class="font-medium">4</span> tiêu chí đánh giá đã chọn thành công!</p>');
+    });
+});
 </script>

@@ -24,32 +24,36 @@
                     </div>
                     <div class="main_body">
                         <div class="phanquyen box-qlinhanvien">
+                            <p class="chuden size-14 tieude1024">Phân quyền</p>
                             <div class="search-qlnv">
                                 <div class="khoi_left">
                                     <div class="leftsearch">
                                         <input type="text" name="" placeholder="Tìm kiếm nhân viên">
-                                        <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15"
-                                            alt="">
+                                        <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15" alt="">
                                     </div>
                                 </div>
                                 <div class="rightsearch flex center-height">
                                     <div class="flex rightsearch_con2">
-                                        <button class="button nenxanh-chutrang un-m-r center-height br-10 size-16 ">
+                                        <button
+                                            class="hidden button nenxanh-chutrang un-m-r center-height br-10 size-16 tongso_khoiphuc">
                                             <a class=" chutrang font-medium " href="phanquyen_chitiet.html">
                                                 Thiết lập quyền
                                             </a>
                                         </button>
-                                        <div class="flex rightsearch_con2_2">
-                                            <button class="btn-nenxanhluc-chutrang button center-height br-10 size-16 ">
-                                                <img src="../../img/manhimg/xuatexcel.png" class="wh14" alt="">
-                                                <p class="left-10 font-medium">Xuất excel</p>
-                                            </button>
 
+                                        <button
+                                            class="btn-nenxanhluc-chutrang button center-height br-10 size-16 js_xuatexcel">
+                                            <img src="../../img/manhimg/xuatexcel.png" class="wh14" alt="">
+                                            <p class="left-10 font-medium">Xuất excel</p>
+                                        </button>
+
+                                        <a href="/huongdan.html">
                                             <div class="huongdan flex center-height ">
-                                                <img src="../../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                                <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
                                                 <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                             </div>
-                                        </div>
+                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +81,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td><input class="wh16" type="checkbox"></td>
+                                            <td><input class="wh16 js_checkbox" type="checkbox"></td>
                                             <td>00000001</td>
                                             <td class="">
                                                 <div class="flex center-height">
@@ -99,7 +103,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="wh16" type="checkbox"></td>
+                                            <td><input class="wh16 js_checkbox" type="checkbox"></td>
                                             <td>00000001</td>
                                             <td class="">
                                                 <div class="flex center-height">
@@ -131,4 +135,6 @@
     </div>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../js/manh.js"></script>
+
 </html>

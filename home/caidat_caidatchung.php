@@ -24,30 +24,35 @@
                     </div>
                     <div class="main_body">
                         <div class="caidat">
+                            <p class="chuden size-14 tieude1024 bot-15">Cài đặt / Cài đặt chung</p>
                             <div class="flex">
                                 <div class="khoi2">
                                     <div class="khoidanhmuc ">
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_caidatchung.html" class="tendanhmuccon chuxanhdam size-14">Cài đặt chung</a>
+                                            <a href="/caidat_caidatchung.html"
+                                                class="tendanhmuccon chuxanhdam size-14">Cài đặt chung</a>
                                             <div class="border border-active"></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_nhatkyhoatdong.html" class="tendanhmuccon size-14">Nhật ký hoạt động</a>
+                                            <a href="/caidat_nhatkyhoatdong.html" class="tendanhmuccon size-14">Nhật ký
+                                                hoạt động</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_thongtinbaomat.html" class="tendanhmuccon size-14">Thông tin bảo mật</a>
+                                            <a href="/caidat_thongtinbaomat.html" class="tendanhmuccon size-14">Thông
+                                                tin bảo mật</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_thangdiem.html" class="tendanhmuccon size-14">Thang điểm</a>
+                                            <a href="/caidat_thangdiem.html" class="tendanhmuccon size-14">Thang
+                                                điểm</a>
                                             <div class="border "></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="nentrang br-10">
-                                <div class="padding-20 width50pt space">
+                                <div class="padding-20 width70pt space">
                                     <div class="ngonngu flex center-height">
                                         <div class="tieudengongu">
                                             <p class="chuden size-15 font-medium">Ngôn ngữ:</p>
@@ -137,4 +142,5 @@
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
+
 </html>

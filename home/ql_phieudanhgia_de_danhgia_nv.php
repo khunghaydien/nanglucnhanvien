@@ -28,6 +28,12 @@
                     </div>
                     <div class="main_body">
                         <div class="phieudanhgia_chitiet">
+                            <div class="tieude1024 size-14 flex center-height ">
+                                <a href="/quanly-phieudanhgia.html"><div class="flex center-height right-10 c-pointer">
+                                    <img src="../img/manhimg/back.png" alt="Quay lai">
+                                </div></a>
+                                <p>Quản lý phiếu đánh giá / Chi tiết phiếu đánh giá </p>
+                            </div>
                             <div class="flex">
                                 <div class="khoi2">
                                     <div class="search-qlnv">
@@ -45,7 +51,7 @@
                                                         Đánh giá
                                                     </a>
                                                 </button>
-                                                <button class="button btn-nentrang-chuxanh un-m-r center-height br-10 size-16 ">
+                                                <button class="button btn-nentrang-chuxanh tongso_xoavv un-m-r center-height br-10 size-16 c-pointer" onclick="hienpopupid('popup_before')">
                                                     <p class=" chuxanh font-medium" >
                                                         Xóa phiếu
                                                     </p>
@@ -301,9 +307,21 @@
             </div>
         </div>
     </div>
-
+<? include('../includes/manh_modal.php'); ?>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
 </html>
+<script type="text/javascript" >
+$(".tongso_xoavv").click(function(){
+        $(".h4_change").text('Xóa phiếu đánh giá');
+        $(".text_before_change").html('<p> Bạn có chắc chắn xóa phiếu đánh giá <span class="font-medium">PDG00001</span>?</p>');
+        $(".btnhuy_before").click(function(){
+        $(".change_text_tb").html('<p>Xóa phiếu đánh giá <span class="font-medium">PDG00001</span> thất bại!</p>');
+        });
+        $(".btnluu_before").click(function(){
+            $(".change_text_tc").html('<p>Xóa phiếu đánh giá <span class="font-medium">PDG00001</span> thành công!</p>');
+        });
+    });
+</script>

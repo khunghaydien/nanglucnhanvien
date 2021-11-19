@@ -25,6 +25,12 @@
                     </div>
                     <div class="main_body">
                         <div class="dekiemtra box-qlinhanvien">
+                            <div class="tieude1024 size-14 flex center-height bot-15">
+                                <a href="/xoaganday-dulieuxoaganday.html"><div class="flex center-height right-10 c-pointer">
+                                    <img src="../img/manhimg/back.png" alt="Quay lai">               
+                                </div></a>
+                                <p>Dữ liệu đã xóa gần đây / Đề kiểm tra</p>
+                            </div>
                             <div class="search-qlnv">
                                 <div class="khoi_left">
                                     <div class="leftsearch">
@@ -34,27 +40,27 @@
                                 </div>
                                 <div class="rightsearch flex center-height">
                                     <div class="flex rightsearch_con2">
-                                       <button class="button btn-nentrang-chuxanh un-m-r center-height br-10 size-16 c-pointer tongso_xoavv" onclick="hienpopupid('popup_before')">
+                                        <button class="hidden button btn-nentrang-chuxanh un-m-r center-height br-10 size-16 c-pointer tongso_xoavv" onclick="hienpopupid('popup_before')">
                                             <p class=" chuxanh font-medium">
                                                 Xóa vĩnh viễn
                                             </p>
                                         </button>
-                                         <button class="button nenxanh-chutrang un-m-r c-pointer tongso_khoiphuc center-height br-10 size-16 "onclick="hienpopupid('popup_before')">
-                                            <p class=" chutrang font-medium ">
+                                        <button class="hidden button nenxanh-chutrang un-m-r center-height br-10 size-16 c-pointer tongso_khoiphuc" onclick="hienpopupid('popup_before')">
+                                            <p class=" chutrang font-medium " >
                                                 Khôi phục
                                             </p>
                                         </button>
-                                        <div class="flex rightsearch_con2_2">
-                                            <button class="btn-nenxanhluc-chutrang button center-height br-10 size-16 ">
-                                                <img src="../img/manhimg/xuatexcel.png" class="wh14" alt="">
-                                                <p class="left-10 font-medium">Xuất excel</p>
-                                            </button>
+                                        
+                                        <button class="btn-nenxanhluc-chutrang button center-height br-10 size-16 js_xuatexcel">
+                                            <img src="../../img/manhimg/xuatexcel.png" class="wh14" alt="">
+                                            <p class="left-10 font-medium">Xuất excel</p>
+                                        </button>
 
-                                            <div class="huongdan flex center-height ">
-                                                <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
-                                                <p class="left-10 font-medium size-15">Hướng dẫn</p>
-                                            </div>
-                                        </div>
+                                        <a href="/huongdan.html"><div class="huongdan flex center-height ">
+                                            <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                            <p class="left-10 font-medium size-15">Hướng dẫn</p>
+                                        </div></a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +93,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <td><input class="wh16" type="checkbox"></td>
+                                            <td><input class="wh16 js_checkbox" type="checkbox"></td>
                                             <td class="chuxanh text-left ">Bài đánh giá nhân viên 1</td>
                                             <td class="">
                                                 <div class="flex center-height">
@@ -121,7 +127,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="wh16" type="checkbox"></td>
+                                            <td><input class="wh16 js_checkbox" type="checkbox"></td>
                                             <td class="chuxanh text-left ">Bài đánh giá nhân viên 1</td>
                                             <td class="">
                                                 <div class="flex center-height">

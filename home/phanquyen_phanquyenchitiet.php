@@ -17,13 +17,24 @@
             <div class="main">
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
-                        <div class="title_header">
+                        <div class="title_header flex center-height">
+                        <a href="/phanquyen.html">
+                            <div class="flex center-height right-10 c-pointer">
+                                <img src="../img/manhimg/back.png" alt="Quay lai">               
+                            </div>
+                        </a>
                             <p>Phân quyền / Nguyễn Trần Trung Quân</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
                     <div class="main_body">
                         <div class="phanquyenchitiet box-qlinhanvien">
+                            <div class="tieude1024 size-14 flex center-height bot-15">
+                                <a href="/phanquyen.html"><div class="flex center-height right-10 c-pointer">
+                                    <img src="../img/manhimg/back.png" alt="Quay lai">               
+                                </div></a>
+                                <p>Phân quyền / Chi tiết</p>
+                            </div>
                             <div class="khoibang">
                                 <div class="bangchung">
                                     <table class="bangchinh chuden">

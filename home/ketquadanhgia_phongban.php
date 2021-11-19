@@ -55,17 +55,19 @@
                                                 <option value="">Không sắp xếp số điểm</option>
                                                 <option value="">Số điểm giảm dần</option>
                                                 <option value="">Số điểm tăng dấn</option>
-                                                
+
                                             </select>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="huongdan flex center-height ">
-                                    <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
-                                    <p class="left-10 font-medium size-15">Hướng dẫn</p>
-                                </div>
+                                <a href="/huongdan.html">
+                                    <div class="huongdan flex center-height ">
+                                        <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                        <p class="left-10 font-medium size-15">Hướng dẫn</p>
+                                    </div>
+                                </a>
                             </div>
-                            
+
                             <div class="khoibang">
                                 <div class="bangchung">
                                     <table class="bangchinh chuden">
@@ -81,9 +83,11 @@
                                             </th>
                                             <th>
                                                 <p class="phantucon">Phiếu đánh giá</p>
-                                            </th><th>
+                                            </th>
+                                            <th>
                                                 <p class="phantucon">Điểm trung bình</p>
-                                            </th><th>
+                                            </th>
+                                            <th>
                                                 <p class="phantucon">Xếp loại</p>
                                             </th>
                                         </tr>
@@ -91,7 +95,8 @@
                                             <td>1</td>
                                             <td class="text-left">Phòng nhân sự</td>
                                             <td class="text-left">Kế hoạch đánh giá nhân viên 1</td>
-                                            <td ><a class="chuxanh" href="/ketquadanhgia-phongban-chitiet.html">PDG0000</a></td>
+                                            <td><a class="chuxanh"
+                                                    href="/ketquadanhgia-phongban-chitiet.html">PDG0000</a></td>
                                             <td class="text-right">80</td>
                                             <td class="chunau">Yếu</td>
                                         </tr>
@@ -99,7 +104,7 @@
                                             <td>1</td>
                                             <td class="text-left">Phòng nhân sự</td>
                                             <td class="text-left">Kế hoạch đánh giá nhân viên 1</td>
-                                            <td ><a class="chuxanh" href="">PDG0000</a></td>
+                                            <td><a class="chuxanh" href="">PDG0000</a></td>
                                             <td class="text-right">80</td>
                                             <td class="chuxanh">Trung bình</td>
                                         </tr>
@@ -107,27 +112,27 @@
                                             <td>1</td>
                                             <td class="text-left">Phòng nhân sự</td>
                                             <td class="text-left">Kế hoạch đánh giá nhân viên 1</td>
-                                            <td ><a class="chuxanh" href="">PDG0000</a></td>
+                                            <td><a class="chuxanh" href="">PDG0000</a></td>
                                             <td class="text-right">80</td>
                                             <td class="chuxanhluc">Khá</td>
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                        
+
                                             <td class="text-left">Phòng nhân sự</td>
-                                            
+
                                             <td class="text-left">Kế hoạch đánh giá nhân viên 1</td>
-                                            <td ><a class="chuxanh" href="">PDG0000</a></td>
+                                            <td><a class="chuxanh" href="">PDG0000</a></td>
                                             <td class="text-right">80</td>
                                             <td class="chucam">Giỏi</td>
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            
+
                                             <td class="text-left">Phòng nhân sự</td>
-                                           
+
                                             <td class="text-left">Kế hoạch đánh giá nhân viên 1</td>
-                                            <td ><a class="chuxanh" href="">PDG0000</a></td>
+                                            <td><a class="chuxanh" href="">PDG0000</a></td>
                                             <td class="text-right">80</td>
                                             <td class="chudo">Xuất sắc</td>
                                         </tr>
@@ -137,16 +142,16 @@
                         </div>
                     </div>
                     <div class="flex top-10 center-height ">
-                                <p class="chuden size-14 right-10">Hiển thị:</p>
-                                <div class="nentrang m_hienthi">
-                                    <div class="flex center-height hienthi">
-                                        <p class="chuden size-14 right-15">40</p>
-                                        <div class="center-height flex">
-                                            <img src="/../img/manhimg/down.png" alt="muitenxuong">
-                                        </div>
-                                    </div>
+                        <p class="chuden size-14 right-10">Hiển thị:</p>
+                        <div class="nentrang m_hienthi">
+                            <div class="flex center-height hienthi">
+                                <p class="chuden size-14 right-15">40</p>
+                                <div class="center-height flex">
+                                    <img src="/../img/manhimg/down.png" alt="muitenxuong">
                                 </div>
                             </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -157,8 +162,9 @@
 <script type="text/javascript" src="../js/select2.min.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
 <script>
-    $('.js_select_2').select2({
+$('.js_select_2').select2({
     width: '100%'
 })
 </script>
+
 </html>

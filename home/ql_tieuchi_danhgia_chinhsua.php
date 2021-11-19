@@ -21,10 +21,11 @@
                         <div class="box_header d_flex space_b align_c position_r">
                             <div class="title_header ">
                                 <div class="d_flex">
-                                    <a href='/quan_ly_tieu_chi_danh_gia.html' class="img_quaylai mr_10">
+                                    <a href='/quan_ly_tieu_chi_danh_gia_chi_tiet.html' class="img_quaylai mr_10">
                                         <img src="../img/icon_so.png" alt="Quay lại">
                                     </a>
-                                    <p>Danh sách lý tiêu chí đánh giá <span> / </span><span> Chỉnh sửa</span></p>
+                                    <p>Danh sách lý tiêu chí đánh giá <span> / </span><span> Chỉnh sửa tiêu chí</span>
+                                    </p>
                                 </div>
                             </div>
                             <? include('../includes/menu_header.php') ?>
@@ -33,10 +34,11 @@
                             <div class="body_ql_tieuchi">
                                 <div class="title_header ">
                                     <div class="d_flex">
-                                        <a href='/quan_ly_tieu_chi_danh_gia.html' class="img_quaylai mr_10">
+                                        <a href='/quan_ly_tieu_chi_danh_gia_chi_tiet.html' class="img_quaylai mr_10">
                                             <img src="../img/icon_so.png" alt="Quay lại">
                                         </a>
-                                        <p>Danh sách lý tiêu chí đánh giá <span> / </span><span> Chỉnh sửa</span></p>
+                                        <p>Danh sách lý tiêu chí đánh giá <span> / </span><span> Chỉnh sửa tiêu
+                                                chí</span></p>
                                     </div>
                                 </div>
                                 <div class="header width_100">

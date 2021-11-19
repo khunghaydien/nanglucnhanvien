@@ -25,23 +25,28 @@
                     </div>
                     <div class="main_body">
                         <div class="thongtinbaomat">
+                            <p class="chuden size-14 tieude1024 bot-15">Cài đặt / Thông tin bảo mật</p>
                             <div class="flex">
                                 <div class="khoi2">
                                     <div class="khoidanhmuc ">
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_caidatchung.html" class="tendanhmuccon  size-14">Cài đặt chung</a>
+                                            <a href="/caidat_caidatchung.html" class="tendanhmuccon  size-14">Cài đặt
+                                                chung</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_nhatkyhoatdong.html" class="tendanhmuccon  size-14">Nhật ký hoạt động</a>
+                                            <a href="/caidat_nhatkyhoatdong.html" class="tendanhmuccon  size-14">Nhật ký
+                                                hoạt động</a>
                                             <div class="border "></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_thongtinbaomat.html" class="tendanhmuccon chuxanhdam size-14">Thông tin bảo mật</a>
+                                            <a href="/caidat_thongtinbaomat.html"
+                                                class="tendanhmuccon chuxanhdam size-14">Thông tin bảo mật</a>
                                             <div class="border border-active"></div>
                                         </div>
                                         <div class="khoidanhmuccon">
-                                            <a href="/caidat_thangdiem.html" class="tendanhmuccon size-14 ">Thang điểm</a>
+                                            <a href="/caidat_thangdiem.html" class="tendanhmuccon size-14 ">Thang
+                                                điểm</a>
                                             <div class="border "></div>
                                         </div>
                                     </div>
@@ -68,9 +73,11 @@
                                                     <td class="text-left">IPHONE 6PLUS</td>
                                                     <td class="text-left">Version: ANDROID 13.0.1</td>
                                                     <td>
-                                                        <div class="flex center-center c-pointer js_bolienket" onclick="hienpopupid('popup_bolienket')" >
+                                                        <div class="flex center-center c-pointer js_bolienket"
+                                                            onclick="hienpopupid('popup_bolienket')">
                                                             <div class="flex center-height right-5">
-                                                               <img src="/../img/manhimg/xoado.png" alt="muitenxuongbỏ liên kết"> 
+                                                                <img src="/../img/manhimg/xoado.png"
+                                                                    alt="muitenxuongbỏ liên kết">
                                                             </div>
                                                             <p class="chudo">Bỏ liên kết</p>
                                                         </div>
@@ -81,9 +88,11 @@
                                                     <td class="text-left">IPHONE 6PLUS</td>
                                                     <td class="text-left">Version: ANDROID 13.0.1</td>
                                                     <td>
-                                                        <div class="flex center-center c-pointer" onclick="hienpopupid('popup_bolienket')">
+                                                        <div class="flex center-center c-pointer"
+                                                            onclick="hienpopupid('popup_bolienket')">
                                                             <div class="flex center-height right-5">
-                                                               <img src="/../img/manhimg/xoado.png" alt="muitenxuongbỏ liên kết"> 
+                                                                <img src="/../img/manhimg/xoado.png"
+                                                                    alt="muitenxuongbỏ liên kết">
                                                             </div>
                                                             <p class="chudo">Bỏ liên kết</p>
                                                         </div>
@@ -111,46 +120,48 @@
             </div>
         </div>
     </div>
-<div id="popup_bolienket" class="hidden popup">
-    <div class="pop ">
-        <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
-            <div class="">
-                <h4 class="size-18 font-bold">Bỏ liên kết với thiết bị</h4>
+    <div id="popup_bolienket" class="hidden popup">
+        <div class="pop ">
+            <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
+                <div class="">
+                    <h4 class="size-18 font-bold">Bỏ liên kết với thiết bị</h4>
+                </div>
+                <div class="flex center-height c-pointer x_close">
+                    <img src="../img/manhimg/x.png" alt="Huong dan">
+                </div>
             </div>
-            <div class="flex center-height c-pointer x_close">
-                <img src="../img/manhimg/x.png" alt="Huong dan">
-            </div>
-        </div>
-        <div class="nentrang br-b-10">
-            <div class="boder_bolk">
-                <p class="text-center size-15">Bạn có muốn bỏ liên kết với thiết bị SAMSUNG S20?</p>
-            <p class="text-center size-15">Tài khoản sẽ đăng xuất khỏi thiết bị.</p>
-                <div class="khoibutton_form top-27">
-                    <div onclick="hienpopupid('popup_thatbai')" 
-                        class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_thangdiem">
-                        Hủy
-                    </div>
-                    <div onclick="hienpopupid('popup_thanhcong')" class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu_thangdiem">
-                        Lưu
+            <div class="nentrang br-b-10">
+                <div class="boder_bolk">
+                    <p class="text-center size-15">Bạn có muốn bỏ liên kết với thiết bị SAMSUNG S20?</p>
+                    <p class="text-center size-15">Tài khoản sẽ đăng xuất khỏi thiết bị.</p>
+                    <div class="khoibutton_form top-27">
+                        <div onclick="hienpopupid('popup_thatbai')"
+                            class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_thangdiem">
+                            Hủy
+                        </div>
+                        <div onclick="hienpopupid('popup_thanhcong')"
+                            class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu_thangdiem">
+                            Lưu
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<? include('../includes/manh_modal.php') ?>
+    <? include('../includes/manh_modal.php') ?>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
+
 </html>
 <script type="text/javascript">
-    $(".js_bolienket").click(function(){
-     $(".btnhuy_thangdiem").click(function(){
+$(".js_bolienket").click(function() {
+    $(".btnhuy_thangdiem").click(function() {
         $(".change_text_tb").text(' Bỏ liên kết thất bại!!');
     });
-    $(".btnluu_thangdiem").click(function(){
+    $(".btnluu_thangdiem").click(function() {
         $(".change_text_tc").text(' Bỏ liên kết thành công!');
-    }); 
+    });
 });
 </script>
