@@ -96,101 +96,103 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="nentrang show_js_anbot ">
-                                            <div class="padding15 khoicon">
-                                                <div class=" flex">
-                                                    <p class="cacmuc">Mã phiếu đánh giá:</p>
-                                                    <p class="cacketqua">PDG0000</p>
-                                                </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Ngày tạo:</p>
-                                                    <p class="cacketqua">10/10/2020</p>
-                                                </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Đối tượng đánh giá:</p>
-                                                    <p class="cacketqua">Nhân viên</p>
-                                                </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Số đối tượng:</p>
-                                                    <p class="cacketqua">3</p>
-                                                </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Kế hoạch đánh giá:</p>
-                                                    <p class="cacketqua">Kế hoạch đánh giá tháng 1</p>
-                                                </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Người đánh giá:</p>
-                                                    <p class="cacketqua">
-                                                    <div class="flex center-height">
-                                                        <img src="../img/manhimg/avata.png" class="" alt="">
-                                                        <img src="../img/manhimg/avata.png" class="left_am" alt="">
-                                                        <img src="../img/manhimg/avata.png" class="left_am" alt="">
-                                                        <img src="../img/manhimg/avata.png" class="left_am" alt="">
-
-                                                        <div class="bonus flex center-center chutrang left_am">
-                                                            10
-                                                        </div>
-
+                                        <div class="over_scroll_x">
+                                            <div class="nentrang show_js_anbot scrollx_lotrinhchitiet">
+                                                <div class="padding15 khoicon">
+                                                    <div class=" flex">
+                                                        <p class="cacmuc">Mã phiếu đánh giá:</p>
+                                                        <p class="cacketqua">PDG0000</p>
                                                     </div>
-                                                    </p>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Thời gian bắt đầu:</p>
-                                                    <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Ngày tạo:</p>
+                                                        <p class="cacketqua">10/10/2020</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Thời gian kết thúc:</p>
-                                                    <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Đối tượng đánh giá:</p>
+                                                        <p class="cacketqua">Nhân viên</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Thang điểm:</p>
-                                                    <p class="cacketqua">100</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Số đối tượng:</p>
+                                                        <p class="cacketqua">3</p>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Kế hoạch đánh giá:</p>
+                                                        <p class="cacketqua">Kế hoạch đánh giá tháng 1</p>
+                                                    </div>
+                                                </div>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Người đánh giá:</p>
+                                                        <p class="cacketqua">
+                                                        <div class="flex center-height">
+                                                            <img src="../img/manhimg/avata.png" class="" alt="">
+                                                            <img src="../img/manhimg/avata.png" class="left_am" alt="">
+                                                            <img src="../img/manhimg/avata.png" class="left_am" alt="">
+                                                            <img src="../img/manhimg/avata.png" class="left_am" alt="">
 
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Trạng thái:</p>
-                                                    <p class="cacketqua chuxanhluc">Đã duyệt</p>
-                                                </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Tiến độ:</p>
+                                                            <div class="bonus flex center-center chutrang left_am">
+                                                                10
+                                                            </div>
 
-                                                    <div class="flex center-center">
-                                                        <div style="width:100px; height:26px">
-                                                            <div class="khoi_pro_bar">
-                                                                <div class="progress">
-                                                                </div>
-                                                                <div class="progress--bar" style="width: 80%">80%
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Thời gian bắt đầu:</p>
+                                                        <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                    </div>
+                                                </div>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Thời gian kết thúc:</p>
+                                                        <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                    </div>
+                                                </div>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Thang điểm:</p>
+                                                        <p class="cacketqua">100</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Trạng thái:</p>
+                                                        <p class="cacketqua chuxanhluc">Đã duyệt</p>
+                                                    </div>
+                                                </div>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Tiến độ:</p>
+
+                                                        <div class="flex center-center">
+                                                            <div style="width:100px; height:26px">
+                                                                <div class="khoi_pro_bar">
+                                                                    <div class="progress">
+                                                                    </div>
+                                                                    <div class="progress--bar" style="width: 80%">80%
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
 
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Ghi chú:</p>
-                                                    <p class="cacketqua">Ghi chú 1</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Ghi chú:</p>
+                                                        <p class="cacketqua">Ghi chú 1</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

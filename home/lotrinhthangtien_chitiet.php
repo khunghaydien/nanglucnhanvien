@@ -38,7 +38,7 @@
                                 </a>
                                 <p>Lộ trình thăng tiến / Chi tiết</p>
                             </div>
-                            <div class="m_lotrinh_chitiet">
+                           <div class="m_lotrinh_chitiet">
                                 <div class="flex nenxanh-chutrang space br-t-10 tieude_phongban">
                                     <div class=" flex center-height">
                                         <p class="size-16 font-bold">Phòng nhân sự</p>
@@ -50,164 +50,166 @@
                                         <p class="size-14">Thêm chức vụ</p>
                                     </div>
                                 </div>
-                                <div class="nentrang">
-                                    <div class="nenxam flex m_chitiet_phongban">
-                                        <div class="chitiet_phongban flex space">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Nhân viên</p>
-                                                <p class="chuden size-14">Yêu cầu: 2</p>
-                                            </div>
-                                            <div class="c-pointer js_menu_curd">
-                                                <img src="../img/manhimg/3cham.png" class="" alt="them chuc vu">
-                                                <div class="show_menu_curd nentrang">
-                                                    <div
-                                                        class="nd_con_menu_curd flex center-height br-t-10 js_thanhvien c-pointer">
-                                                        <img src="../img/manhimg/xemds.png"
-                                                            class="flex center-height right-10" alt="xem danh sach">
-                                                        <p class="chuden size-14">Xem danh sách thành viên</p>
-                                                    </div>
-                                                    <div class="nd_con_menu_curd flex center-height"
-                                                        onclick="hienpopupid('popup_show_suachucvu')">
-                                                        <img src="../img/manhimg/chinhsua.png"
-                                                            class="flex center-height right-10" alt="chinh sua">
-                                                        <p class="chuden size-14">Chỉnh sửa</p>
-                                                    </div>
-                                                    <div class="nd_con_menu_curd flex center-height"
-                                                        onclick="hienpopupid('popup_show_themyccv')">
-                                                        <img src="../img/manhimg/them.png"
-                                                            class="flex center-height right-10" alt="chinh sua">
-                                                        <p class="chuden size-14">Thêm yêu cầu công việc</p>
-                                                    </div>
-                                                    <div class="nd_con_menu_curd flex center-height br-b-10 js_xoachucvu"
-                                                        onclick="hienpopupid('popup_before')">
-                                                        <img src="../img/manhimg/xoamn.png"
-                                                            class="flex center-height right-10" alt="chinh sua">
-                                                        <p class="chuden size-14">Xóa chức vụ</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="chitiet_phongban flex space">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Phó trưởng phòng</p>
-                                                <p class="chuden size-14">Yêu cầu: 2</p>
-                                            </div>
-                                            <div>
-                                                <img src="../img/manhimg/3cham.png" class="" alt="them chuc vu">
-                                            </div>
-                                        </div>
-                                        <div class="chitiet_phongban flex space">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Trưởng phòng</p>
-                                                <p class="chuden size-14">Yêu cầu: 2</p>
-                                            </div>
-                                            <div>
-                                                <img src="../img/manhimg/3cham.png" class="" alt="them chuc vu">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class=" flex m_chitiet_phongban">
-                                        <div class="chitiet_phongban">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 1</p>
-                                                <p class="chuden size-14 lineheight16">Mô tả công việc hoặc JD là một
-                                                    tường thuật bằng văn bản mô tả các nhiệm vụ chung hoặc các nhiệm vụ
-                                                    liên quan khác và trách nhiệm của một vị trí.</p>
-                                            </div>
-                                            <div class="flex just-end c-pointer js_menu_curd2">
+                                <div class="nentrang over_scroll_x">
+                                   <div class="scrollx_lotrinhchitiet">
+                                        <div class="nenxam flex m_chitiet_phongban ">
+                                            <div class="chitiet_phongban flex space">
                                                 <div>
-                                                    <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    <p class="chuden size-15 font-medium bot-5 ">Nhân viên</p>
+                                                    <p class="chuden size-14">Yêu cầu: 2</p>
                                                 </div>
-                                                <div class="show_menu_curd2 nentrang ">
-                                                    <div class="nd_con_menu_curd br-t-10 flex center-height sua_yccv"
-                                                        onclick="hienpopupid('popup_show_themyccv')">
-                                                        <img src="../img/manhimg/chinhsua.png"
-                                                            class="flex center-height right-10" alt="chinh sua">
-                                                        <p class="chuden size-14">Chỉnh sửa yêu cầu công việc</p>
-                                                    </div>
-                                                    <div class="nd_con_menu_curd flex center-height br-b-10 js_xoa_yc"
-                                                        onclick="hienpopupid('popup_before')">
-                                                        <img src="../img/manhimg/xoamn.png"
-                                                            class="flex center-height right-10" alt="chinh sua">
-                                                        <p class="chuden size-14">Xóa yêu cầu công việc</p>
+                                                <div class="c-pointer js_menu_curd">
+                                                    <img src="../img/manhimg/3cham.png" class="" alt="them chuc vu">
+                                                    <div class="show_menu_curd nentrang">
+                                                        <div
+                                                            class="nd_con_menu_curd flex center-height br-t-10 js_thanhvien c-pointer">
+                                                            <img src="../img/manhimg/xemds.png"
+                                                                class="flex center-height right-10" alt="xem danh sach">
+                                                            <p class="chuden size-14">Xem danh sách thành viên</p>
+                                                        </div>
+                                                        <div class="nd_con_menu_curd flex center-height"
+                                                            onclick="hienpopupid('popup_show_suachucvu')">
+                                                            <img src="../img/manhimg/chinhsua.png"
+                                                                class="flex center-height right-10" alt="chinh sua">
+                                                            <p class="chuden size-14">Chỉnh sửa</p>
+                                                        </div>
+                                                        <div class="nd_con_menu_curd flex center-height"
+                                                            onclick="hienpopupid('popup_show_themyccv')">
+                                                            <img src="../img/manhimg/them.png"
+                                                                class="flex center-height right-10" alt="chinh sua">
+                                                            <p class="chuden size-14">Thêm yêu cầu công việc</p>
+                                                        </div>
+                                                        <div class="nd_con_menu_curd flex center-height br-b-10 js_xoachucvu"
+                                                            onclick="hienpopupid('popup_before')">
+                                                            <img src="../img/manhimg/xoamn.png"
+                                                                class="flex center-height right-10" alt="chinh sua">
+                                                            <p class="chuden size-14">Xóa chức vụ</p>
+                                                        </div>
                                                     </div>
                                                 </div>
+
                                             </div>
-                                        </div>
-                                        <div class="chitiet_phongban">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 1</p>
-                                                <p class="chuden size-14 lineheight16">Mô tả công việc hoặc JD là một
-                                                    tường thuật bằng văn bản mô tả các nhiệm vụ chung hoặc các nhiệm vụ
-                                                    liên quan khác và trách nhiệm của một vị trí.</p>
-                                            </div>
-                                            <div class="flex just-end">
+                                            <div class="chitiet_phongban flex space">
                                                 <div>
-                                                    <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    <p class="chuden size-15 font-medium bot-5 ">Phó trưởng phòng</p>
+                                                    <p class="chuden size-14">Yêu cầu: 2</p>
+                                                </div>
+                                                <div>
+                                                    <img src="../img/manhimg/3cham.png" class="" alt="them chuc vu">
+                                                </div>
+                                            </div>
+                                            <div class="chitiet_phongban flex space">
+                                                <div>
+                                                    <p class="chuden size-15 font-medium bot-5 ">Trưởng phòng</p>
+                                                    <p class="chuden size-14">Yêu cầu: 2</p>
+                                                </div>
+                                                <div>
+                                                    <img src="../img/manhimg/3cham.png" class="" alt="them chuc vu">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="chitiet_phongban">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 1</p>
-                                                <p class="chuden size-14 lineheight16">Mô tả công việc hoặc JD là một
-                                                    tường thuật bằng văn bản mô tả các nhiệm vụ chung hoặc các nhiệm vụ
-                                                    liên quan khác và trách nhiệm của một vị trí.</p>
-                                            </div>
-                                            <div class="flex just-end">
+                                        <div class=" flex m_chitiet_phongban">
+                                            <div class="chitiet_phongban">
                                                 <div>
-                                                    <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 1</p>
+                                                    <p class="chuden size-14 lineheight16">Mô tả công việc hoặc JD là một
+                                                        tường thuật bằng văn bản mô tả các nhiệm vụ chung hoặc các nhiệm vụ
+                                                        liên quan khác và trách nhiệm của một vị trí.</p>
+                                                </div>
+                                                <div class="flex just-end c-pointer js_menu_curd2">
+                                                    <div>
+                                                        <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    </div>
+                                                    <div class="show_menu_curd2 nentrang ">
+                                                        <div class="nd_con_menu_curd br-t-10 flex center-height sua_yccv"
+                                                            onclick="hienpopupid('popup_show_themyccv')">
+                                                            <img src="../img/manhimg/chinhsua.png"
+                                                                class="flex center-height right-10" alt="chinh sua">
+                                                            <p class="chuden size-14">Chỉnh sửa yêu cầu công việc</p>
+                                                        </div>
+                                                        <div class="nd_con_menu_curd flex center-height br-b-10 js_xoa_yc"
+                                                            onclick="hienpopupid('popup_before')">
+                                                            <img src="../img/manhimg/xoamn.png"
+                                                                class="flex center-height right-10" alt="chinh sua">
+                                                            <p class="chuden size-14">Xóa yêu cầu công việc</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="chitiet_phongban">
+                                                <div>
+                                                    <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 1</p>
+                                                    <p class="chuden size-14 lineheight16">Mô tả công việc hoặc JD là một
+                                                        tường thuật bằng văn bản mô tả các nhiệm vụ chung hoặc các nhiệm vụ
+                                                        liên quan khác và trách nhiệm của một vị trí.</p>
+                                                </div>
+                                                <div class="flex just-end">
+                                                    <div>
+                                                        <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="chitiet_phongban">
+                                                <div>
+                                                    <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 1</p>
+                                                    <p class="chuden size-14 lineheight16">Mô tả công việc hoặc JD là một
+                                                        tường thuật bằng văn bản mô tả các nhiệm vụ chung hoặc các nhiệm vụ
+                                                        liên quan khác và trách nhiệm của một vị trí.</p>
+                                                </div>
+                                                <div class="flex just-end">
+                                                    <div>
+                                                        <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class=" flex m_chitiet_phongban">
-                                        <div class="chitiet_phongban">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 2</p>
-
-                                            </div>
-                                            <div class="flex just-end">
+                                        <div class=" flex m_chitiet_phongban">
+                                            <div class="chitiet_phongban">
                                                 <div>
-                                                    <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 2</p>
+
+                                                </div>
+                                                <div class="flex just-end">
+                                                    <div>
+                                                        <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="chitiet_phongban">
+                                                <div>
+                                                    <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 2</p>
+
+                                                </div>
+                                                <div class="flex just-end">
+                                                    <div>
+                                                        <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="chitiet_phongban">
+                                                <div>
+                                                    <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 2</p>
+
+                                                </div>
+                                                <div class="flex just-end">
+                                                    <div>
+                                                        <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="chitiet_phongban">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 2</p>
+                                        <div class=" flex m_chitiet_phongban2">
+                                            <div class="chitiet_phongban">
 
                                             </div>
-                                            <div class="flex just-end">
-                                                <div>
-                                                    <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="chitiet_phongban">
-                                            <div>
-                                                <p class="chuden size-15 font-medium bot-5 ">Yêu cầu 2</p>
+                                            <div class="chitiet_phongban">
 
                                             </div>
-                                            <div class="flex just-end">
-                                                <div>
-                                                    <img src="../img/manhimg/3chamx.png" class="" alt="them chuc vu">
-                                                </div>
+                                            <div class="chitiet_phongban">
+
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class=" flex m_chitiet_phongban2">
-                                        <div class="chitiet_phongban">
-
-                                        </div>
-                                        <div class="chitiet_phongban">
-
-                                        </div>
-                                        <div class="chitiet_phongban">
-
-                                        </div>
-                                    </div>
+                                    </div>    
                                 </div>
                             </div>
                             <? include('../includes/manh_modal.php'); ?>

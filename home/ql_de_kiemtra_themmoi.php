@@ -40,7 +40,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="header width_100">
+                                <div class="header_d width_100">
                                     <h4>Thêm mới đề kiểm tra năng lực nhân viên</h4>
                                 </div>
                                 <div class="body width_100">

@@ -51,8 +51,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="khoibang top-20">
-                                        <div class="bangchung">
+                                    <div class="khoibang top-20 po_r">
+                                        <div class="thanh_dk tieude375">
+                                            <div class="turn turn_left" id="turn_left">
+                                                <img src="../img/left.png" alt="sang trái">
+                                            </div>
+                                            <div class=" turn turn_right" id="turn_right">
+                                                <img src="../img/right.png" alt="sang phải">
+                                            </div>
+                                        </div>
+                                        <div class="bangchung" id="bang_chung">
                                             <table class="bangchinh chuden">
                                                 <tr>
                                                     <th>
@@ -88,7 +96,7 @@
                                                     <td class="text-left">IPHONE 6PLUS</td>
                                                     <td class="text-left">Version: ANDROID 13.0.1</td>
                                                     <td>
-                                                        <div class="flex center-center c-pointer"
+                                                        <div class="flex center-center c-pointer js_bolienket"
                                                             onclick="hienpopupid('popup_bolienket')">
                                                             <div class="flex center-height right-5">
                                                                 <img src="/../img/manhimg/xoado.png"
@@ -103,17 +111,31 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex top-10 center-height ">
-                                <p class="chuden size-14 right-10">Hiển thị:</p>
-                                <div class="nentrang m_hienthi">
-                                    <div class="flex center-height hienthi">
-                                        <p class="chuden size-14 right-15">40</p>
-                                        <div class="center-height flex">
-                                            <img src="/../img/manhimg/down.png" alt="muitenxuong">
+                            <div class="flex center-height space khoi_footerbang">
+                                <div class="flex top-10 center-height khoi_footerbang_hienthi">
+                                    <p class="chuden size-14 right-10">Hiển thị:</p>
+                                    <div class="nentrang m_hienthi">
+                                        <div class="flex center-height hienthi">
+                                            <p class="chuden size-14 right-15">40</p>
+                                            <div class="center-height flex">
+                                                <img src="../img/manhimg/down.png" alt="muitenxuong">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+
+                                    <div class="flex khoi_footerbang_phantrang">
+                                        <div class="m_phantrang flex">
+                                            <div class="phantrangcon right-15 "><</div>
+                                            <div class="phantrangcon right-10 pt_active">1</div>
+                                            <div class="phantrangcon right-10 ">2</div>
+                                            <div class="phantrangcon right-10 ">3</div>
+                                            <div class="phantrangcon right-10 ">4</div>
+                                            <div class="phantrangcon">5</div>
+                                            <div class="phantrangcon left-15 ">></div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -132,8 +154,10 @@
             </div>
             <div class="nentrang br-b-10">
                 <div class="boder_bolk">
-                    <p class="text-center size-15">Bạn có muốn bỏ liên kết với thiết bị SAMSUNG S20?</p>
-                    <p class="text-center size-15">Tài khoản sẽ đăng xuất khỏi thiết bị.</p>
+                    <div class="boder_bolk_trong">
+                        <p class="text-center size-15">Bạn có muốn bỏ liên kết với thiết bị <span class="font-medium">SAMSUNG S20</span>?</p>
+                        <p class="text-center size-15">Tài khoản sẽ đăng xuất khỏi thiết bị.</p>
+                    </div>    
                     <div class="khoibutton_form top-27">
                         <div onclick="hienpopupid('popup_thatbai')"
                             class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_thangdiem">
@@ -144,6 +168,7 @@
                             Lưu
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -153,15 +178,14 @@
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
-
 </html>
 <script type="text/javascript">
 $(".js_bolienket").click(function() {
     $(".btnhuy_thangdiem").click(function() {
-        $(".change_text_tb").text(' Bỏ liên kết thất bại!!');
+        $(".change_text_tb").text("Bỏ liên kết thất bại,vui lòng thử lại sau");
     });
     $(".btnluu_thangdiem").click(function() {
-        $(".change_text_tc").text(' Bỏ liên kết thành công!');
+        $(".change_text_tc").text('Bỏ liên kết thành công!');
     });
 });
 </script>

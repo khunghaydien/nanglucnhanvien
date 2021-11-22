@@ -127,7 +127,7 @@
     <div id="show_thietlapid" class="popup hidden">
         <div class="show_thietlap pop">
             <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
-                <div class="">
+                <div class="changesize18">
                     <h4 class="size-18 font-bold">Thiết lập thang điểm cho hệ thống</h4>
                 </div>
                 <div class="flex center-height c-pointer x_close">
@@ -158,7 +158,7 @@
                                 class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_thangdiem">
                                 Hủy
                             </div>
-                            <div onclick="hienpopupid('popup_thanhcong')"
+                            <div type="submit" onclick="hienpopupid('popup_thanhcong')"
                                 class="btn  btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 close c-pointer btnluu_thangdiem">
                                 Đồng ý
                             </div>
@@ -171,7 +171,7 @@
     <div id="show_phanloaidanhgiaid" class="popup hidden">
         <div class="popto">
             <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
-                <div class="">
+                <div class="changesize18">
                     <h4 class="size-18 font-bold">Phân loại đánh giá</h4>
                 </div>
                 <div class="flex center-height c-pointer x_close">

@@ -212,29 +212,31 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                <div class="btn_form  btn_form_chip d_flex content_c mt_25">
+                                    <div class="btn btn_168 btn_trang mr_68">
+                                        Hủy
+                                    </div>
+                                    <a href="/quan_ly_ke_hoach_danh_gia_them_moi.html"
+                                        class="btn btn_168 btn_xanh  mr_68 ">
+                                        <div class="d_flex align_c ">
+                                            <div class="img height_15 mr_10">
+                                                <img src="../img/pre_trang.png" alt="Quay lại">
+                                            </div>
+                                            <p>Quay lai</p>
+                                        </div>
+                                    </a>
+                                    <div class="div_tieptuc">
+                                        <div class="btn btn_168 btn_xanh ">
+                                            <div class="d_flex align_c btn_tieptuc">
+                                                <p class="mr_10">Tiếp tục</p>
+                                                <div class="img height_15">
+                                                    <img src="../img/next_trang.png" alt="Tiếp tục">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
-                            <div class="btn_form  btn_form_chip d_flex content_c mt_25">
-                                <div class="btn btn_168 btn_trang mr_68">
-                                    Hủy
-                                </div>
-                                <a href="/quan_ly_ke_hoach_danh_gia_them_moi.html" class="btn btn_168 btn_xanh  mr_68 ">
-                                    <div class="d_flex align_c ">
-                                        <div class="img height_15 mr_10">
-                                            <img src="../img/pre_trang.png" alt="Quay lại">
-                                        </div>
-                                        <p>Quay lai</p>
-                                    </div>
-                                </a>
-                                <div class="btn btn_168 btn_xanh ">
-                                    <div class="d_flex align_c btn_tieptuc">
-                                        <p class="mr_10">Tiếp tục</p>
-                                        <div class="img height_15">
-                                            <img src="../img/next_trang.png" alt="Tiếp tục">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="main_body main_body_3 display_none">
                             <div class="title_header ">
@@ -788,10 +790,12 @@
                                                 <p>Quay lai</p>
                                             </div>
                                         </div>
-                                        <div class="btn btn_168 btn_xanh ">
-                                            <div class="d_flex align_c ">
-                                                <p>Lưu</p>
-                                            </div>
+                                        <div class="div_tieptuc">
+                                            <button type="submit" class="btn btn_168 btn_xanh ">
+                                                <div class="d_flex align_c ">
+                                                    <p>Lưu</p>
+                                                </div>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

@@ -1,3 +1,27 @@
+(function(w) {
+    w.addEventListener('load', function() {
+        const btn_left = document.getElementById('turn_left'),
+            btn_right = document.getElementById('turn_right'),
+            content = document.getElementById('bang_chung');
+        const content_scroll_width = content.scrollWidth;
+        let content_scoll_left = content.scrollLeft;
+        btn_right.addEventListener('click', () => {
+            content_scoll_left += 100;
+            if (content_scoll_left >= content_scroll_width) {
+                content_scoll_left = content_scroll_width;
+            }
+            content.scrollLeft = content_scoll_left;
+        });
+        btn_left.addEventListener('click', () => {
+            content_scoll_left -= 100;
+            if (content_scoll_left <= 0) {
+                content_scoll_left = 0;
+            }
+            content.scrollLeft = content_scoll_left;
+        });
+    });
+})
+(window);
 $(".js_thanhvien").click(function() {
     $(".show_thanhvien").show();
 });

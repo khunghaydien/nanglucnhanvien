@@ -1,5 +1,3 @@
-// end dùng chung
-
 // chức năng click to scroll
 (function(w) {
     w.addEventListener('load', function() {
@@ -75,6 +73,10 @@ var modal_ql_tieuchi_danhgia = $('.modal_ql_tieuchi_danhgia');
 chon_trangthai.click(function() {
     modal_ql_tieuchi_danhgia.toggle();
 })
+
+var input_block = $('.form_group_block input')
+
+input_block.attr('disabled', true);
 
 $(window).click(function(e) {
     if (!chon_trangthai.is(e.target) && chon_trangthai.has(e.target).length == 0 &&

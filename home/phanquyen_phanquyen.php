@@ -47,7 +47,7 @@
                                             <p class="left-10 font-medium">Xuất excel</p>
                                         </button>
 
-                                        <a href="/huongdan.html">
+                                        <a href="/huong_dan.html">
                                             <div class="huongdan flex center-height ">
                                                 <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
                                                 <p class="left-10 font-medium size-15">Hướng dẫn</p>
@@ -129,6 +129,31 @@
                             </div>
                         </div>
                     </div>
+                    <div class="flex center-height space khoi_footerbang">
+                                <div class="flex top-10 center-height khoi_footerbang_hienthi">
+                                    <p class="chuden size-14 right-10">Hiển thị:</p>
+                                    <div class="nentrang m_hienthi">
+                                        <div class="flex center-height hienthi">
+                                            <p class="chuden size-14 right-15">40</p>
+                                            <div class="center-height flex">
+                                                <img src="../img/manhimg/down.png" alt="muitenxuong">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex khoi_footerbang_phantrang">
+                                    <div class="m_phantrang flex">
+                                        <div class="phantrangcon right-15 "><</div>
+                                        <div class="phantrangcon right-10 pt_active">1</div>
+                                        <div class="phantrangcon right-10 ">2</div>
+                                        <div class="phantrangcon right-10 ">3</div>
+                                        <div class="phantrangcon right-10 ">4</div>
+                                        <div class="phantrangcon">5</div>
+                                        <div class="phantrangcon left-15 ">></div>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
             </div>
         </div>

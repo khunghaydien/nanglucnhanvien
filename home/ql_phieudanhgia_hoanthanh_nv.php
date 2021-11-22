@@ -25,8 +25,8 @@
                     </div>
                     <div class="main_body">
                         <div class="phieudanhgia_chitiet danhgia_hoanthanh">
-                            <div class="tieude1024 size-14 flex center-height ">
-                                <a href="/quanly-phieudanhgia.html">
+                            <div class="tieude1024 size-14 flex  ">
+                                <a href="/quanly-phieudanhgia.html" class="pdl_3">
                                     <div class="flex center-height right-10 c-pointer">
                                         <img src="../img/manhimg/back.png" alt="Quay lai">
                                     </div>

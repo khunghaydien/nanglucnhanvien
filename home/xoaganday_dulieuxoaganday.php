@@ -32,7 +32,8 @@
                                             <div class="right-10">
                                                 <img src="../img/manhimg/sao.png" alt="tiêu chí đè đánh giá">
                                             </div>
-                                            <a class="size-16 chuden font-medium" href="xoaganday-tieuchi-danh-gia.html">Tiêu chí - Đề đánh giá</a>
+                                            <a class="size-16 chuden font-medium"
+                                                href="xoaganday-tieuchi-danh-gia.html">Tiêu chí - Đề đánh giá</a>
                                         </div>
                                         <div class="flex center-height">
                                             <p class="chudo font-bold right-5">30</p>
@@ -46,7 +47,8 @@
                                             <div class="right-10">
                                                 <img src="../img/manhimg/phitieu.png" alt="tiêu chí đè đánh giá">
                                             </div>
-                                            <a class="size-16 chuden font-medium" href="/xoaganday-kehoach-danh-gia.html">Kế hoạch đánh giá</a>
+                                            <a class="size-16 chuden font-medium"
+                                                href="/xoaganday-kehoach-danh-gia.html">Kế hoạch đánh giá</a>
                                         </div>
                                         <div class="flex center-height">
                                             <p class="chudo font-bold right-5">30</p>
@@ -60,7 +62,8 @@
                                             <div class="right-10">
                                                 <img src="../img/manhimg/phieu.png" alt="tiêu chí đè đánh giá">
                                             </div>
-                                            <a class="size-16 chuden font-medium" href="/xoaganday-phieu-danh-gia.html">Phiếu đánh giá</a>
+                                            <a class="size-16 chuden font-medium"
+                                                href="/xoaganday-phieu-danh-gia.html">Phiếu đánh giá</a>
                                         </div>
                                         <div class="flex center-height">
                                             <p class="chudo font-bold right-5">30</p>
@@ -74,7 +77,8 @@
                                             <div class="right-10">
                                                 <img src="../img/manhimg/phieunho.png" alt="tiêu chí đè đánh giá">
                                             </div>
-                                            <a class="size-16 chuden font-medium" href="/xoaganday-de-kiem-tra.html">Đề kiểm tra</a>
+                                            <a class="size-16 chuden font-medium" href="/xoaganday-de-kiem-tra.html">Đề
+                                                kiểm tra</a>
                                         </div>
                                         <div class="flex center-height">
                                             <p class="chudo font-bold right-5">30</p>

@@ -31,9 +31,11 @@
 body {
     background: #e5e5e5;
 }
-.chunghieng{
+
+.chunghieng {
     font-style: italic;
 }
+
 .c-pointer {
     cursor: pointer;
 }
@@ -69,9 +71,11 @@ body {
 
 
 /* Size */
+
 .size-12 {
     font-size: 12px;
 }
+
 .size-14 {
     font-size: 14px;
 }
@@ -706,7 +710,7 @@ table tr td:last-child {
     font-family: Roboto;
     font-size: 14px;
     width: 100%;
-    padding: 0 55px 0 15px;
+    padding: 0 55px 0 12px;
     border-radius: 10px;
     border: 1px solid #666666;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
@@ -815,8 +819,6 @@ table tr td:last-child {
     z-index: 300;
 }
 
-
-
 .input_search_pp::before {
     content: "";
     background: url('../img/search_map.png');
@@ -830,7 +832,6 @@ table tr td:last-child {
 
 /*end select no_muti*/
 
-
-.title_header > p{
+.title_header>p {
     padding-top: 2px;
 }

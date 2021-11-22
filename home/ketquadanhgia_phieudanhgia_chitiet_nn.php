@@ -70,79 +70,86 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="nentrang show_js_anbot ">
-                                            <div class="padding15 khoicon">
-                                                <div class=" flex">
-                                                    <p class="cacmuc">Mã phiếu đánh giá:</p>
-                                                    <p class="cacketqua">PDG0000</p>
+                                        <div class="over_scroll_x">
+                                            <div class="nentrang show_js_anbot scrollx_lotrinhchitiet">
+                                                <div class="padding15 khoicon">
+                                                    <div class=" flex">
+                                                        <p class="cacmuc">Mã phiếu đánh giá:</p>
+                                                        <p class="cacketqua">PDG0000</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Ngày tạo:</p>
-                                                    <p class="cacketqua">10/10/2020</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Ngày tạo:</p>
+                                                        <p class="cacketqua">10/10/2020</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Kế hoạch đánh giá:</p>
-                                                    <p class="cacketqua">Kế hoạch đánh giá tháng 1</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Kế hoạch đánh giá:</p>
+                                                        <p class="cacketqua">Kế hoạch đánh giá tháng 1</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Thời gian bắt đầu:</p>
-                                                    <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Thời gian bắt đầu:</p>
+                                                        <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Thời gian kết thúc:</p>
-                                                    <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Thời gian kết thúc:</p>
+                                                        <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Người đánh giá:</p>
-                                                    <p class="cacketqua">
-                                                    <div class="flex center-height">
-                                                        <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                        <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                        <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                        <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Người đánh giá:</p>
+                                                        <p class="cacketqua">
+                                                        <div class="flex center-height">
+                                                            <img src="../../img/manhimg/avata.png" class="" alt="">
+                                                            <img src="../../img/manhimg/avata.png" class="left_am"
+                                                                alt="">
+                                                            <img src="../../img/manhimg/avata.png" class="left_am"
+                                                                alt="">
+                                                            <img src="../../img/manhimg/avata.png" class="left_am"
+                                                                alt="">
 
-                                                        <div class="bonus flex center-center chutrang left_am">
-                                                            10
+                                                            <div class="bonus flex center-center chutrang left_am">
+                                                                10
+                                                            </div>
+
                                                         </div>
-
-                                                    </div>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Trạng thái:</p>
-                                                    <p class="cacketqua chuxanhluc">Đã duyệt</p>
-                                                </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Người duyệt:</p>
-                                                    <div class="flex center-height">
-                                                        <img src="../../img/manhimg/avata.png" class="right-10" alt="">
-                                                        <a class="chuden  size-14
-                                                    " href="/phanquyen_chitiet.html">Nguyễn Trần Trung Quân
-                                                        </a>
+                                                        </p>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="padding15 khoicon">
-                                                <div class="flex">
-                                                    <p class="cacmuc">Ngày duyệt:</p>
-                                                    <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Trạng thái:</p>
+                                                        <p class="cacketqua chuxanhluc">Đã duyệt</p>
+                                                    </div>
+                                                </div>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Người duyệt:</p>
+                                                        <div class="flex center-height">
+                                                            <img src="../../img/manhimg/avata.png" class="right-10"
+                                                                alt="">
+                                                            <a class="chuden  size-14
+                                                    ">Nguyễn Trần Trung Quân
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="padding15 khoicon">
+                                                    <div class="flex">
+                                                        <p class="cacmuc">Ngày duyệt:</p>
+                                                        <p class="cacketqua">10:10 - 10/10/2020</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
 
                                     <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề đánh giá</h4>

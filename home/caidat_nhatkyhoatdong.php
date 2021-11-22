@@ -51,8 +51,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="khoibang">
-                                        <div class="bangchung">
+                                    <div class="khoibang po_r">
+                                        <div class="thanh_dk tieude375">
+                                            <div class="turn turn_left" id="turn_left">
+                                                <img src="../img/left.png" alt="sang trái">
+                                            </div>
+                                            <div class=" turn turn_right" id="turn_right">
+                                                <img src="../img/right.png" alt="sang phải">
+                                            </div>
+                                        </div>
+                                        <div class="bangchung" id="bang_chung">
                                             <table class="bangchinh chuden">
                                                 <tr>
                                                     <th>
@@ -109,17 +117,17 @@
 
                                 <div class="flex khoi_footerbang_phantrang">
                                     <div class="m_phantrang flex">
-                                        <div class="phantrangcon right-15 "><</div>
-                                        <div class="phantrangcon right-10 pt_active">1</div>
-                                        <div class="phantrangcon right-10 ">2</div>
-                                        <div class="phantrangcon right-10 ">3</div>
-                                        <div class="phantrangcon right-10 ">4</div>
-                                        <div class="phantrangcon">5</div>
-                                        <div class="phantrangcon left-15 ">></div>
+                                        <div class="phantrangcon right-15 ">
+                                            << /div>
+                                                <div class="phantrangcon right-10 pt_active">1</div>
+                                                <div class="phantrangcon right-10 ">2</div>
+                                                <div class="phantrangcon right-10 ">3</div>
+                                                <div class="phantrangcon right-10 ">4</div>
+                                                <div class="phantrangcon">5</div>
+                                                <div class="phantrangcon left-15 ">></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                                
                             </div>
                         </div>
                     </div>

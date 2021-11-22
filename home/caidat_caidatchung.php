@@ -59,17 +59,17 @@
                                         </div>
 
                                         <div class="ngonngu_tiengviet flex center-height">
-                                            <input type="checkbox" class="wh16 right-10">
+                                            <input type="checkbox" class="wh16 right-10" checked="">
                                             <label for="" class="chuden size-14">Tiếng Việt</label>
                                             <div class="center-height wh18 left-5">
-                                                <img src="../img/manhimg/vnese.png" alt="">
+                                                <img src="../img/manhimg/vnese.png" alt="Tiếng Việt">
                                             </div>
                                         </div>
                                         <div class="ngonngu_tienganh flex center-height">
                                             <input type="checkbox" class="wh16 right-10">
                                             <label for="" class="chuden size-14">Tiếng Anh</label>
                                             <div class="center-height wh18 left-5">
-                                                <img src="../img/manhimg/eng.png" alt="">
+                                                <img src="../img/manhimg/eng.png" alt="Tiếng Anh">
                                             </div>
                                         </div>
                                     </div>
@@ -78,18 +78,19 @@
                                             <p class="chuden size-15 font-medium">Giao diện:</p>
                                         </div>
 
-                                        <div class="ngonngu_tiengviet flex center-height">
-                                            <input type="checkbox" class="wh16 right-10">
-                                            <label for="" class="chuden size-14">Xanh</label>
+                                        <div class="ngonngu_tiengviet flex center-height giaodien_nenxanh">
+                                            <input type="checkbox" checked="" class="wh16 right-10"
+                                                id="giaodien_nenxanh">
+                                            <label for="giaodien_nenxanh" class="chuden size-14">Xanh</label>
                                             <div class="center-height wh18 left-5">
-                                                <img src="../img/manhimg/vnese.png" alt="">
+                                                <img src="../img/manhimg/gdxanh.png" alt="giao diện xanh">
                                             </div>
                                         </div>
-                                        <div class="ngonngu_tienganh flex center-height">
-                                            <input type="checkbox" class="wh16 right-10">
-                                            <label for="" class="chuden size-14">Trắng</label>
+                                        <div class="ngonngu_tienganh flex center-height giaodien_nentrang">
+                                            <input type="checkbox" class="wh16 right-10" id="giaodien_nentrang">
+                                            <label for="giaodien_nentrang" class="chuden size-14">Trắng</label>
                                             <div class="center-height wh18 left-5">
-                                                <img src="../img/manhimg/eng.png" alt="">
+                                                <img src="../img/manhimg/gdtrang.png" alt="Giao diện trắng">
                                             </div>
                                         </div>
                                     </div>
@@ -100,13 +101,14 @@
 
                                         <div>
                                             <div class="flex center-height bot-15">
-                                                <input type="checkbox" class="wh16 right-10">
+                                                <div><input type="checkbox" class="wh16 right-10"></div>
                                                 <label for="" class="chuden size-14">Nhận thông báo khi có sự thay đổi
                                                     liên quan đến tôi</label>
+
                                             </div>
 
                                             <div class="flex center-height">
-                                                <input type="checkbox" class="wh16 right-10">
+                                                <div><input type="checkbox" class="wh16 right-10"></div>
                                                 <label for="" class="chuden size-14">Nhận thông báo khi có kết quả đánh
                                                     giá</label>
                                             </div>
@@ -119,13 +121,13 @@
 
                                         <div>
                                             <div class="flex center-height bot-15">
-                                                <input type="checkbox" class="wh16 right-10">
+                                                <div><input type="checkbox" class="wh16 right-10"></div>
                                                 <label for="" class="chuden size-14">Nhắc nhở khi có kế hoạch/bài đánh
                                                     giá diễn ra</label>
                                             </div>
 
                                             <div class="flex center-height">
-                                                <input type="checkbox" class="wh16 right-10">
+                                                <div><input type="checkbox" class="wh16 right-10"></div>
                                                 <label for="" class="chuden size-14">Nhắc nhở khi kế hoạch/bài đánh giá
                                                     sắp hết thời hạn</label>
                                             </div>
@@ -142,5 +144,6 @@
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
+
 
 </html>

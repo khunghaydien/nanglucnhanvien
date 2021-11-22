@@ -11,34 +11,39 @@
                 <th>
                     <p class="phantucon">Kết quả</p>
                 </th>
-                
+
             </tr>
             <tr>
                 <td class="text-left">Câu hỏi 1</td>
                 <td class="">10</td>
                 <td class="">10</td>
-            </tr><tr>
-                <td class="text-left">Câu hỏi 1</td>
-                <td class="">10</td>
-                <td class="">10</td>
-            </tr><tr>
-                <td class="text-left">Câu hỏi 1</td>
-                <td class="">10</td>
-                <td class="">10</td>
-            </tr><tr>
-                <td class="text-left">Câu hỏi 1</td>
-                <td class="">10</td>
-                <td class="">10</td>
-            </tr><tr>
-                <td class="text-left">Câu hỏi 1</td>
-                <td class="">10</td>
-                <td class="">10</td>
-            </tr><tr>
+            </tr>
+            <tr>
                 <td class="text-left">Câu hỏi 1</td>
                 <td class="">10</td>
                 <td class="">10</td>
             </tr>
-            
+            <tr>
+                <td class="text-left">Câu hỏi 1</td>
+                <td class="">10</td>
+                <td class="">10</td>
+            </tr>
+            <tr>
+                <td class="text-left">Câu hỏi 1</td>
+                <td class="">10</td>
+                <td class="">10</td>
+            </tr>
+            <tr>
+                <td class="text-left">Câu hỏi 1</td>
+                <td class="">10</td>
+                <td class="">10</td>
+            </tr>
+            <tr>
+                <td class="text-left">Câu hỏi 1</td>
+                <td class="">10</td>
+                <td class="">10</td>
+            </tr>
+
             <tr>
                 <td class="text-left">Tiêu chí 1</td>
                 <td class="">10</td>

@@ -81,7 +81,7 @@
                                             <p class="left-10 font-medium">Xuất excel</p>
                                         </button>
 
-                                        <a href="/huongdan.html">
+                                        <a href="/huong_dan.html">
                                             <div class="huongdan flex center-height ">
                                                 <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
                                                 <p class="left-10 font-medium size-15">Hướng dẫn</p>
@@ -91,8 +91,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="khoibang">
-                                <div class="bangchung">
+                            <div class="khoibang po_r">
+                                <div class="thanh_dk">
+                                    <div class="turn turn_left" id="turn_left">
+                                        <img src="../img/left.png" alt="sang trái">
+                                    </div>
+                                    <div class=" turn turn_right" id="turn_right">
+                                        <img src="../img/right.png" alt="sang phải">
+                                    </div>
+                                </div>
+                                <div class="bangchung" id="bang_chung">
                                     <table class="bangchinh chuden">
                                         <tr>
                                             <th>
@@ -120,7 +128,7 @@
                                             <td class="">
                                                 <div class="flex center-height">
                                                     <img src="../../img/manhimg/avata.png" class="right-10" alt="">
-                                                    <a class="chuden  size-14" href="/phanquyen_chitiet.html">Nguyễn
+                                                    <a class="chuden  size-14">Nguyễn
                                                         Trần Trung Quân
                                                     </a>
                                                 </div>
@@ -136,9 +144,10 @@
                                                         <p class="chuxanh font-medium size-14">Khôi phục
                                                         </p>
                                                     </div>
+                                                    <p class="chuxanh right-5 left-5">|</p>
                                                     <div class="c-pointer flex js_xoavv"
                                                         onclick="hienpopupid('popup_before')">
-                                                        <p class="chuxanh right-5 left-5">|</p>
+
                                                         <img src="../img/manhimg/xoa.png" class="right-5"
                                                             alt="khooi phuc">
                                                         <p class="chudo font-medium size-14">Xóa
@@ -153,7 +162,7 @@
                                             <td class="">
                                                 <div class="flex center-height">
                                                     <img src="../../img/manhimg/avata.png" class="right-10" alt="">
-                                                    <a class="chuden  size-14" href="/phanquyen_chitiet.html">Nguyễn
+                                                    <a class="chuden  size-14">Nguyễn
                                                         Trần Trung Quân
                                                     </a>
                                                 </div>
@@ -165,13 +174,11 @@
                                                 <div class="flex center-height space">
                                                     <img src="../img/manhimg/khoiphuc.png" class="right-5"
                                                         alt="khooi phuc">
-                                                    <a class="chuxanh font-medium size-14"
-                                                        href="/phanquyen_chitiet.html">Khôi phục
+                                                    <a class="chuxanh font-medium size-14">Khôi phục
                                                     </a>
                                                     <p class="chuxanh right-5 left-5">|</p>
                                                     <img src="../img/manhimg/xoa.png" class="right-5" alt="khooi phuc">
-                                                    <a class="chudo font-medium size-14"
-                                                        href="/phanquyen_chitiet.html">Xóa
+                                                    <a class="chudo font-medium size-14">Xóa
                                                     </a>
                                                 </div>
                                             </td>
@@ -182,7 +189,7 @@
                                             <td class="">
                                                 <div class="flex center-height">
                                                     <img src="../../img/manhimg/avata.png" class="right-10" alt="">
-                                                    <a class="chuden  size-14" href="/phanquyen_chitiet.html">Nguyễn
+                                                    <a class="chuden  size-14">Nguyễn
                                                         Trần Trung Quân
                                                     </a>
                                                 </div>
@@ -193,28 +200,44 @@
                                                 <div class="flex center-height space">
                                                     <img src="../img/manhimg/khoiphuc.png" class="right-5"
                                                         alt="khooi phuc">
-                                                    <a class="chuxanh font-medium size-14"
-                                                        href="/phanquyen_chitiet.html">Khôi phục
+                                                    <a class="chuxanh font-medium size-14">Khôi phục
                                                     </a>
                                                     <p class="chuxanh right-5 left-5">|</p>
                                                     <img src="../img/manhimg/xoa.png" class="right-5" alt="khooi phuc">
-                                                    <a class="chudo font-medium size-14"
-                                                        href="/phanquyen_chitiet.html">Xóa
+                                                    <a class="chudo font-medium size-14">Xóa
                                                     </a>
                                                 </div>
                                             </td>
                                         </tr>
                                     </table>
-                                    <div class="nentrang keotrai flex center-center">
-                                        <div class="flex">
-                                            <img src="../img/manhimg/phai.png" alt="">
-                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex center-height space khoi_footerbang">
+                        <div class="flex top-10 center-height khoi_footerbang_hienthi">
+                            <p class="chuden size-14 right-10">Hiển thị:</p>
+                            <div class="nentrang m_hienthi">
+                                <div class="flex center-height hienthi">
+                                    <p class="chuden size-14 right-15">40</p>
+                                    <div class="center-height flex">
+                                        <img src="../img/manhimg/down.png" alt="muitenxuong">
                                     </div>
-                                    <div class="nentrang keophai flex center-center">
-                                        <div class="flex">
-                                            <img src="../img/manhimg/trai.png" alt="">
-                                        </div>
-                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex khoi_footerbang_phantrang">
+                            <div class="m_phantrang flex">
+                                <div class="phantrangcon right-15 ">
+                                    << /div>
+                                        <div class="phantrangcon right-10 pt_active">1</div>
+                                        <div class="phantrangcon right-10 ">2</div>
+                                        <div class="phantrangcon right-10 ">3</div>
+                                        <div class="phantrangcon right-10 ">4</div>
+                                        <div class="phantrangcon">5</div>
+                                        <div class="phantrangcon left-15 ">></div>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +245,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </body>
 <? include('../includes/manh_modal.php'); ?>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>

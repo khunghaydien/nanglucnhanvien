@@ -25,8 +25,9 @@
                     </div>
                     <div class="main_body">
                         <div class="kqdanhgia_pb box-qlinhanvien">
+                            <p class="chuden size-14 tieude1024 bot-15">Quản lý kết quả đánh giá</p>
                             <div class="flex space bot-20">
-                                <div class="flex">
+                                <div class="flex wrap khoi_chon_kqdg1">
                                     <div class="nentrang m_danhmucdanhgia br-10">
                                         <div class="select_no_muti danhmucdanhgia">
                                             <select name="" id="" class="js_select_2">
@@ -49,27 +50,53 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="nentrang m_danhmucdanhgia br-10">
-                                        <div class="select_no_muti danhmucdanhgia">
-                                            <select name="" id="" class="js_select_2">
-                                                <option value="">Không sắp xếp số điểm</option>
-                                                <option value="">Số điểm giảm dần</option>
-                                                <option value="">Số điểm tăng dấn</option>
+                                    <div class="flex space top375_15">
+                                        <div class="nentrang m_danhmucdanhgia br-10 ">
+                                            <div class="select_no_muti danhmucdanhgia">
+                                                <select name="" id="" class="js_select_2">
+                                                    <option value="">Không sắp xếp số điểm</option>
+                                                    <option value="">Số điểm giảm dần</option>
+                                                    <option value="">Số điểm tăng dấn</option>
 
-                                            </select>
+                                                </select>
+                                            </div> 
+                                        </div>
+                                        <div class="tieude375">
+                                            <a href="/huong_dan.html" class="">
+                                                <div class="huongdan flex center-height ">
+                                                    <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                                    <p class="left-10 font-medium size-15">Hướng dẫn</p>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="/huongdan.html">
+                                <a href="/huong_dan.html" class="khoi_chon_kqdg2">
                                     <div class="huongdan flex center-height ">
                                         <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
                                         <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                     </div>
                                 </a>
                             </div>
-
-                            <div class="khoibang">
-                                <div class="bangchung">
+                            <div class="search-qlnv">
+                                <div class="khoi_left">
+                                    <div class="leftsearch">
+                                        <input type="text" name="" placeholder="Tìm kiếm nhân viên">
+                                        <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15"
+                                            alt="timkiem">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="khoibang po_r">
+                                <div class="thanh_dk">
+                                    <div class="turn turn_left" id="turn_left">
+                                        <img src="../img/left.png" alt="sang trái">
+                                    </div>
+                                    <div class=" turn turn_right" id="turn_right">
+                                        <img src="../img/right.png" alt="sang phải">
+                                    </div>
+                                </div>
+                                <div class="bangchung" id="bang_chung">
                                     <table class="bangchinh chuden">
                                         <tr>
                                             <th>
@@ -141,17 +168,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex top-10 center-height ">
-                        <p class="chuden size-14 right-10">Hiển thị:</p>
-                        <div class="nentrang m_hienthi">
-                            <div class="flex center-height hienthi">
-                                <p class="chuden size-14 right-15">40</p>
-                                <div class="center-height flex">
-                                    <img src="/../img/manhimg/down.png" alt="muitenxuong">
+                    <div class="flex center-height space khoi_footerbang">
+                                <div class="flex top-10 center-height khoi_footerbang_hienthi">
+                                    <p class="chuden size-14 right-10">Hiển thị:</p>
+                                    <div class="nentrang m_hienthi">
+                                        <div class="flex center-height hienthi">
+                                            <p class="chuden size-14 right-15">40</p>
+                                            <div class="center-height flex">
+                                                <img src="../img/manhimg/down.png" alt="muitenxuong">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex khoi_footerbang_phantrang">
+                                    <div class="m_phantrang flex">
+                                        <div class="phantrangcon right-15 "><</div>
+                                        <div class="phantrangcon right-10 pt_active">1</div>
+                                        <div class="phantrangcon right-10 ">2</div>
+                                        <div class="phantrangcon right-10 ">3</div>
+                                        <div class="phantrangcon right-10 ">4</div>
+                                        <div class="phantrangcon">5</div>
+                                        <div class="phantrangcon left-15 ">></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

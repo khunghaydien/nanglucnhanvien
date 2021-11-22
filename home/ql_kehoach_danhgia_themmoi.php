@@ -89,7 +89,7 @@
                                         </div>
                                         <div class="body width_100">
                                             <div class="container">
-                                                <div class="form_container">
+                                                <div class="form_container form_container_3">
                                                     <div class="form_group width_50">
                                                         <label for="">Tên kế hoạch đánh giá<span
                                                                 class="color_red">*</span></label>
@@ -110,7 +110,7 @@
                                                 </div>
                                                 <div class="form_container">
                                                     <div class="form_group width_50">
-                                                        <label for="">Đánh giá lặp lại<span
+                                                        <label for="">Loại đánh giá<span
                                                                 class="color_red">*</span></label>
                                                         <div class="select_no_muti">
                                                             <select class="js_select_2" name="loai_de" id="loai_de">
@@ -121,7 +121,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="form_group width_50">
-                                                        <label for="">Người tạo</label>
+                                                        <label for="">Đánh giá lặp lại</label>
                                                         <div class="select_no_muti">
                                                             <select class="js_select_2" name="loai_tc">
                                                                 <option value="">Không lặp lại</option>
