@@ -53,11 +53,11 @@
                     </div>
                     <div class="item">
                         <img src="../img/menu_4.png" alt="Hướng dẫn">
-                        <p>Hướng dẫn</p>
+                        <a href="/huong_dan.html" class="color_b">Hướng dẫn</p>
                     </div>
                     <div class="item">
                         <img src="../img/menu_5.png" alt="Đăng xuất">
-                        <p>Đăng xuất</p>
+                        <a href="/" class="color_b">Đăng xuất</a>
                     </div>
                 </div>
             </div>

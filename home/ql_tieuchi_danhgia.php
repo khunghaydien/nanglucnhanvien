@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div id="ql_tieuchi_danhgia" class="ql_tieuchi">
+    <div id="ql_tieuchi_danhgia" class="ql_tieuchi_danhgia">
         <div class="wapper color_b">
             <div class="d_flex">
                 <? include('../includes/cd_sidebar.php'); ?>
@@ -28,7 +28,7 @@
                                 <div class="title_header">
                                     <p>Danh sách lý tiêu chí đánh giá </p>
                                 </div>
-                                <div class="d_flex space_b align_c mb_20">
+                                <div class="sle_huongdan d_flex space_b align_c mb_20">
                                     <div class="select_no_muti select_no_muti_2 ">
                                         <select class="js_select_2" name="loai_tc">
                                             <option value="">Tất cả trạng thái</option>
@@ -41,7 +41,7 @@
                                         <p class="font_s15 font_w5 color_blue">Hướng dẫn</p>
                                     </a>
                                 </div>
-                                <div class="d_flex space_b align_c">
+                                <div class="tim_themmoi d_flex space_b align_c">
                                     <div class="thanh_search ql_tieuchi">
                                         <input type="text" class="search_item font_s14 color_gray"
                                             placeholder="Tìm kiếm theo tên tiêu chí">

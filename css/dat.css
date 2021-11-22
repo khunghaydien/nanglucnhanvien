@@ -1,9 +1,5 @@
             /* trang chủ trước đăng nhâp */
             
-            .modal_menu_header {
-                z-index: 3;
-            }
-            
             .title {
                 text-align: center;
                 font-weight: bold;
@@ -371,7 +367,7 @@
                 font-size: 30px;
                 line-height: 42px;
                 color: #FFFFFF;
-                width: 439px;
+                padding: 0px 50px;
                 text-align: center;
             }
             
@@ -384,6 +380,16 @@
                 position: absolute;
             }
             
+            .huongdan_banner .container_img .img {
+                height: 750px;
+            }
+            
+            .huongdan_banner .container_img .img img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            
             .app_lala {
                 margin: 40px 0px 40px 0px;
             }
@@ -392,6 +398,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                padding: 20px;
             }
             
             .huongdan_menu {
@@ -405,6 +412,11 @@
                 height: 400px;
                 border-radius: 10px;
                 background: #4C5BD4;
+                margin-right: 20px;
+            }
+            
+            .menu_huongdan .ul_sidebar {
+                width: 280px;
             }
             
             .menu_huongdan .li_sidebar:hover {
@@ -423,8 +435,32 @@
                 height: 50px;
             }
             
+            .btn_menu_huongdan .li_sidebar_1:hover {
+                background: #2A38A2;
+                border-radius: 10px 10px 0px 0px;
+            }
+            
+            .border_radius_10 {
+                border-radius: 10px;
+            }
+            
+            .border_radius_d {
+                border-radius: 10px 10px 0px 0px;
+            }
+            
+            .btn_menu_huongdan .li_sidebar_1 {
+                width: 100%;
+                height: 52px;
+                padding-left: 25px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                justify-content: space-between;
+                padding-right: 20px;
+            }
+            
             .huongdan_menu .main {
-                width: 78%;
+                width: calc(100% - 300px);
                 height: 1180px;
                 background: #FFFFFF;
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -432,10 +468,19 @@
                 padding: 14px 46px 40px 32px;
             }
             
+            .huongdan_menu .main .anh {
+                width: 80%;
+            }
+            
             .huongdan_menu .main .img {
-                width: 540px;
+                max-width: 540px;
+                width: 100%;
                 height: 304px;
                 background: #C4C4C4;
+            }
+            
+            .huongdan_menu .btn_menu_huongdan {
+                display: none;
             }
             
             .huongdan_menu .sidebar {
@@ -832,6 +877,16 @@
             .body_ql_tieuchi .header {
                 height: 50px;
                 background: #4C5BD4;
+                border-radius: 10px 10px 0px 0px;
+                font-size: 16px;
+                line-height: 19px;
+                color: #fff;
+                padding: 15px 10px 16px 20px;
+            }
+            
+            .body_ql_tieuchi .header_d {
+                background: #4C5BD4;
+                height: 50px;
                 border-radius: 10px 10px 0px 0px;
                 font-size: 16px;
                 line-height: 19px;
@@ -1574,6 +1629,10 @@
             }
             /*end popup */
             
+            .container_thietlap {
+                display: flex;
+            }
+            
             @media(max-width:1370px) {
                 .body_tongquan .container .item_chucnang {
                     width: 31.5%
@@ -1581,6 +1640,20 @@
             }
             
             @media (max-width: 1024px) {
+                .dai_vai .btn_header_ql_tieuchi {
+                    flex-wrap: wrap;
+                    justify-content: flex-end;
+                }
+                .dai_vai .btn_header_ql_tieuchi .sua {
+                    margin-right: 0px;
+                    margin-top: 20px;
+                }
+                .sua_ahaha {
+                    order: 1;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
                 .container_thacmac_r,
                 .container_thacmac_l {
                     width: 100%;
@@ -1671,6 +1744,30 @@
             }
             
             @media(max-width:768px) {
+                .huongdan_menu .ul_sidebar {
+                    display: none;
+                }
+                .huongdan_menu .btn_menu_huongdan {
+                    display: block;
+                }
+                .menu_huongdan .ul_sidebar .sidebar_item:first-child {
+                    display: none;
+                }
+                .menu_huongdan .ul_sidebar {
+                    width: 100%;
+                    height: 100%;
+                }
+                .huongdan_menu .menu_huongdan {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    height: unset;
+                }
+                .huongdan_menu .main {
+                    width: 100%;
+                }
+                .huongdan_menu {
+                    flex-direction: column;
+                }
                 .body_tongquan .container .item_uudiem:nth-child(3) {
                     margin-top: 20px;
                 }
@@ -1735,6 +1832,90 @@
                 .trangchu_uudiem .item_uu:nth-child(2n) {
                     margin-right: 0px;
                 }
+                .header_ql_tieuchi .thanh_search {
+                    width: 55%;
+                }
+                .ql_tieuchi .search_item {
+                    width: 100%;
+                }
+            }
+            
+            @media(max-width:650px) {
+                .dai_vai .div_tuchoi {
+                    order: 5;
+                    width: 45%;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 20px;
+                }
+                .dai_vai .btn_duyet,
+                .dai_vai .btn_xoa_kh,
+                .dai_vai .btn_tuchoi {
+                    margin-right: 0px;
+                }
+                .dai_vai .div_xoa {
+                    margin-top: 20px;
+                    order: 4;
+                    width: max-content;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .dai_vai .div_duyet {
+                    margin-right: 15px;
+                    margin-top: 20px;
+                    order: 3;
+                    width: 45%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .dai_vai .div_excel {
+                    order: 2;
+                    width: max-content;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .sua_ahaha {
+                    margin-right: 15px;
+                    width: 45%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .dai_vai .btn_header_ql_tieuchi .sua {
+                    margin-top: 0px;
+                }
+                .ql_tieuchi .header_ql_tieuchi .thanh_search {
+                    width: 40%;
+                }
+                .ql_tieuchi .select_no_muti_2 {
+                    margin-top: 20px;
+                }
+                .header_ql_tieuchi div#header_kehoach {
+                    flex-wrap: wrap;
+                }
+                .ql_kehoach_danhgia .sel_huongdan {
+                    margin-top: 20px;
+                }
+                .popup_680 .container {
+                    width: 90%;
+                }
+                .popup_them_tieuchi .bangchinh tr th:nth-child(1),
+                .popup_them_tieuchi .bangchinh tr td:nth-child(1) {
+                    width: 20%;
+                }
+                .popup_them_tieuchi .bangchinh tr th:nth-child(2),
+                .popup_them_tieuchi .bangchinh tr td:nth-child(2) {
+                    width: 40%;
+                }
+                .popup_them_tieuchi .bangchinh tr th:nth-child(3),
+                .popup_them_tieuchi .bangchinh tr td:nth-child(3) {
+                    width: 20%;
+                }
+                .popup_them_tieuchi .bangchinh tr th:nth-child(4) {
+                    width: 20%;
+                }
+                .popup_them_tieuchi .bangchinh tr td:nth-child(4) {
+                    width: 18%;
+                }
             }
             
             @media(max-width:519px) {
@@ -1750,7 +1931,189 @@
             }
             
             @media(max-width:480px) {
+                .ql_tieuchi .body_them_kehoach .select_no_muti_2 {
+                    width: 100%;
+                }
+                .body_them_kehoach>.d_flex {
+                    flex-wrap: wrap;
+                }
+                .body_them_kehoach .select_no_muti_2 .select2-container--default .select2-selection--single {
+                    width: 100%;
+                }
+                .form_container .mot_nua {
+                    width: 100%;
+                    flex-wrap: wrap;
+                }
+                .form_container .mot_nua .form_group {
+                    width: 100%;
+                }
+                .form_container_4 .form_group {
+                    margin-right: 0px;
+                }
+                .body_doituong .khoibang .bangchung {
+                    overflow-x: scroll;
+                }
+                .body_doituong .khoibang .bangchinh {
+                    width: 800px;
+                }
+                .btn_header_ql_tieuchi .btn_xoade {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 20px;
+                }
+                .btn_header_ql_tieuchi .btn.btn_trang.xoa.mr_15 {
+                    margin-right: 0px;
+                }
+                .btn_header_ql_tieuchi_a {
+                    flex-direction: column-reverse;
+                    justify-content: flex-end;
+                }
+                .thiet_lap {
+                    flex-wrap: wrap;
+                }
+                .thiet_lap .container_thietlap {
+                    margin-top: 20px;
+                    justify-content: center;
+                    width: 100%;
+                }
+                .bang_tieuchi_danhgia .khoibang .bangchung {
+                    overflow-x: scroll;
+                    margin-bottom: 20px;
+                }
+                .bang_tieuchi_danhgia .bangchinh {
+                    width: 500px;
+                }
+                .popup_680 .container_khoibang {
+                    overflow-x: scroll;
+                }
+                .popup_680 .a_khoibang {
+                    width: 680px;
+                }
+                .popup_680 .container_khoibang::-webkit-scrollbar {
+                    background: #EEEEEE;
+                    border-radius: 30px;
+                    height: 10px;
+                    width: 280px;
+                }
+                .popup_680 .container_khoibang::-webkit-scrollbar-thumb {
+                    background: #4C5BD4;
+                    border-radius: 30px;
+                    height: 10px;
+                    width: 150px;
+                }
+                .popup_680 .khoibang_2 .bangchung_2_a {
+                    overflow-x: scroll;
+                    width: 680px;
+                }
+                .popup_680 .khoibang_2 .bangchung_2_a::-webkit-scrollbar {
+                    background: #EEEEEE;
+                    border-radius: 30px;
+                    width: 280px;
+                    height: 10px;
+                }
+                .popup_680 .khoibang_2 .bangchung_2_a::-webkit-scrollbar-thumb {
+                    background: #4C5BD4;
+                    border-radius: 30px;
+                    width: 150px;
+                    height: 10px;
+                }
+                .form_container {
+                    width: 100%;
+                    flex-wrap: wrap;
+                }
+                .form_container .form_group:first-child {
+                    margin-right: 0px;
+                }
+                .form_container .form_group {
+                    width: 100%;
+                }
+                .ql_tieuchi_danhgia .tim_themmoi {
+                    flex-wrap: wrap;
+                }
+                .ql_tieuchi_danhgia .tim_themmoi .thanh_search {
+                    width: 100%;
+                }
+                .tieuchi_themmoi {
+                    flex-wrap: wrap;
+                }
+                .tieuchi_themmoi .thanh_search {
+                    width: 100%;
+                }
+                .footer_bang .d_flex.width_100.mt_15.align_c.space_b {
+                    flex-wrap: wrap;
+                }
+                .footer_bang .phan_trang {
+                    width: 100%;
+                    margin-top: 20px;
+                }
+                .ql_tieuchi .header_ql_tieuchi .d_flex.space_b.align_c .d_flex {
+                    justify-content: flex-end;
+                    width: 100%;
+                }
+                .ql_tieuchi .header_ql_tieuchi .d_flex.space_b.align_c a.huong_dan.d_flex.align_c {
+                    margin-top: 20px;
+                    width: 60%;
+                }
+                .header_ql_tieuchi .them_moi {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 20px;
+                }
+                .ql_tieuchi .header_ql_tieuchi .d_flex.space_b.align_c {
+                    flex-wrap: wrap;
+                }
+                .ql_tieuchi .header_ql_tieuchi .thanh_search {
+                    width: 100%;
+                }
+                .body_tongquan .container .item_ketqua:first-child {
+                    margin-right: 0px;
+                }
+                .container_tongquan.space_b,
+                .container_kehoach.space_b,
+                .container_ketqua.space_b,
+                .container_uudiem.space_b {
+                    justify-content: center;
+                }
+                .body_tongquan .container .item_uudiem:first-child,
+                .body_tongquan .container_kehoach .item_1,
+                .body_tongquan .container .item_chucnang:first-child {
+                    margin-bottom: 20px;
+                }
+                .body_tongquan .container .item_ketqua:nth-child(2) {
+                    display: none;
+                }
+                .container_kehoach {
+                    flex-wrap: wrap;
+                }
+                .body_tongquan .container .item {
+                    width: 100%;
+                }
+                .popup_body .cont_1 {
+                    padding: 44px;
+                }
                 .trangchu_thacmac .form_row .btn {
                     width: unset;
+                }
+                .trangchu_thacmac {
+                    padding: 20px;
+                }
+                .container_thacmac {
+                    padding: 0px;
+                }
+                .trangchu_tieuchi {
+                    padding: 20px;
+                }
+                .trangchu_tieuchi .content {
+                    padding: 40px 20px;
+                }
+                .trangchu_timhieu {
+                    padding: 40px 20px;
+                }
+                .popup_thietlap_diem .container {
+                    width: 90%;
+                }
+                .popup_500 .container {
+                    width: 90%;
                 }
             }

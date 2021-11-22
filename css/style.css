@@ -20,7 +20,7 @@
     
     * {
         padding: 0;
-        margin: 0; 
+        margin: 0;
         font-family: roboto;
         box-sizing: border-box;
     }
@@ -40,6 +40,10 @@
     
     .flex_d_c {
         flex-direction: column;
+    }
+    
+    .mr_11 {
+        margin-right: 11px;
     }
     
     .flex_end {
@@ -679,6 +683,7 @@
         height: 200px;
         top: 55px;
         right: 0px;
+        z-index: 2;
     }
     
     .modal_menu_header .item:last-child {
@@ -1889,23 +1894,6 @@
         }
     }
     
-    @media (max-width: 768px) {
-        .main_full_img {
-            padding: 0px 30px 35px 30px;
-            height: calc(100% - 35px);
-        }
-        .chk_google_map {
-            height: 425px;
-            width: 100%;
-        }
-    }
-    
-    @media (max-width: 680px) {
-        .tin-nhan {
-            right: calc(50% - 170px);
-        }
-    }
-    
     @media (max-width: 480px) {
         .tin-nhan {
             right: calc(50% - 170px);
@@ -1922,63 +1910,4 @@
         .popup_del_tinnhan .text_popuo_xoa {
             padding: 15px 0px;
         }
-    }
-    
-    @media (max-width: 414px) {
-        .popup_logout .container {
-            width: 90%;
-        }
-        .popup_logout .form_btn .btn_popup {
-            width: 110px;
-        }
-        .popup_logout .form_btn {
-            width: 235px;
-            margin: 0px auto;
-            margin-top: 30px;
-        }
-        .header_right .flex_grow1024 {
-            display: none;
-        }
-        .header_right .header_icon_left {
-            width: 20%;
-        }
-        .header_right .header_tt {
-            width: 20%;
-            display: flex;
-            justify-content: flex-end;
-        }
-        .header_right .header_icon {
-            width: 60%;
-        }
-        .header_right .header_icon .icon_thongbao {
-            width: calc(100%/3);
-            display: flex;
-            justify-content: space-around;
-            margin-right: 0px;
-        }
-        .header_right .header_icon .icon_thongbao .img_icon {
-            display: flex;
-            width: 22px;
-            height: 22px;
-            margin-top: 3px;
-        }
-        .header_right .header_icon .icon_thongbao#icon_nhacnho .img_icon {
-            margin-left: calc(50% - 11px);
-        }
-        .header_right .header_icon .icon_thongbao#icon_thongbao .img_icon {
-            margin-left: calc(100% - 22px);
-        }
-        .popup_tb_nc {
-            position: fixed;
-            left: calc(50% - 170px);
-            top: 52px;
-        }
-        .form_popup_xoa .form_btn {
-            margin-top: 40px;
-        }
-        /*dung chung trang tin nhaw*/
-        .popup_ctaonhom_tn .container {
-            width: 92%;
-        }
-        /*end*/
     }

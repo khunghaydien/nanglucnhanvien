@@ -175,7 +175,7 @@
                                     </div>
 
                                     <div class="body_ql_tieuchi phanloai_danhgia">
-                                        <div class="header width_100">
+                                        <div class="header_d width_100">
                                             <h4>Phân loại đánh giá</h4>
                                         </div>
                                         <div class="body width_100">
@@ -216,7 +216,7 @@
                                 </div>
 
                             </form>
-                            <div class="btn_form d_flex content_c mt_25">
+                            <div class="btn_form btn_form_chip d_flex content_c mt_25">
                                 <div class="btn btn_168 btn_trang mr_68">
                                     Hủy
                                 </div>
@@ -304,7 +304,7 @@
                                             vụ việc cụ thể trong khâu quản lý.</p>
                                     </div>
                                     <div class="body_ql_tieuchi phanloai_danhgia">
-                                        <div class="header width_100">
+                                        <div class="header_d width_100">
                                             <h4>Phân loại đánh giá</h4>
                                         </div>
                                         <div class="body width_100">
@@ -344,7 +344,7 @@
                                     </div>
                                 </div>
                             </form>
-                            <div class="btn_form d_flex content_c mt_25">
+                            <div class="btn_form btn_form_chip d_flex content_c mt_25">
                                 <div class="btn btn_168 btn_trang mr_68">
                                     Hủy
                                 </div>
@@ -394,19 +394,22 @@
                                 </div>
                                 <div class="body_them_kehoach">
                                     <div class="d_flex space_b width_100 align_c color_blue mb_10">
-                                        <div class="d_flex mb_20">
+
+                                        <div class="thiet_lap d_flex mb_20">
                                             <h4 class="color_blue font_wB font_ss16 mr_20">
                                                 Thiết lập phân loại đánh giá:
                                             </h4>
-                                            <div class="d_flex align_c mr_30">
-                                                <input type="radio" name="drone" id="radio_macdinh" value="nhanvien"
-                                                    class="mr_5" class="check_dm" checked>
-                                                <label for="huey">Nhân viên </label>
-                                            </div>
-                                            <div class="d_flex align_c">
-                                                <input type="radio" name="drone" id="radio_khac" value="phongban"
-                                                    class="mr_5" class="check_dm">
-                                                <label for="dewey">Phòng ban</label>
+                                            <div class="container_thietlap">
+                                                <div class="d_flex align_c mr_30">
+                                                    <input type="radio" name="drone" id="radio_macdinh" value="nhanvien"
+                                                        class="mr_5" class="check_dm" checked>
+                                                    <label for="huey">Nhân viên </label>
+                                                </div>
+                                                <div class="d_flex align_c">
+                                                    <input type="radio" name="drone" id="radio_khac" value="phongban"
+                                                        class="mr_5" class="check_dm">
+                                                    <label for="dewey">Phòng ban</label>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="nhanvien">
@@ -908,7 +911,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="btn_form d_flex content_c mt_25">
+                                    <div class="btn_form btn_form_chip d_flex content_c mt_25">
                                         <div class="btn btn_168 btn_trang mr_68">
                                             Hủy
                                         </div>

@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="body_ql_tieuchi body_ql_tieuchi_chitiet">
-                                <div class="header width_100">
+                                <div class="header_d width_100">
                                     <h4>Thêm mới tiêu chí</h4>
                                 </div>
                                 <div class="body width_100">

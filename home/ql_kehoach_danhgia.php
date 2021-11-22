@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div id="" class="ql_tieuchi">
+    <div id="" class="ql_kehoach_danhgia">
         <div class="wapper color_b">
             <div class="d_flex">
                 <? include('../includes/cd_sidebar.php'); ?>
@@ -28,27 +28,29 @@
                                 <div class="title_header">
                                     <p>Quản lý kế hoạch đánh giá</p>
                                 </div>
-                                <div class="d_flex space_b align_c mb_20">
-                                    <div class="header_kehoach d_flex" id="header_kehoach">
+                                <div class="d_flex space_b align_c mb_20 width_100">
+                                    <div class="header_kehoach d_flex width_100 " id="header_kehoach">
                                         <div class="select_no_muti select_no_muti_3 mr_15">
                                             <select class="js_select_2" name="loai_tc">
                                                 <option value="">Thời gian đánh giá: 12/05 - 12/07/2021 </option>
                                             </select>
                                         </div>
-                                        <div class="select_no_muti select_no_muti_2 ">
-                                            <select class="js_select_2" name="loai_tc">
-                                                <option value="">Tất cả trạng thái </option>
-                                                <option value="">Đã duyệt</option>
-                                                <option value="">Đóng</option>
-                                            </select>
+                                        <div class="d_flex space_b sel_huongdan width_100 ">
+                                            <div class="select_no_muti select_no_muti_2 ">
+                                                <select class="js_select_2" name="loai_tc">
+                                                    <option value="">Tất cả trạng thái </option>
+                                                    <option value="">Đã duyệt</option>
+                                                    <option value="">Đóng</option>
+                                                </select>
+                                            </div>
+                                            <a href="/huong_dan.html" class="huong_dan d_flex align_c">
+                                                <img src="../img/chamhoi.png" alt="Hướng đẫn" class="mr_6">
+                                                <p class="font_s15 font_w5 color_blue">Hướng dẫn</p>
+                                            </a>
                                         </div>
                                     </div>
-                                    <a href="/huong_dan.html" class="huong_dan d_flex align_c">
-                                        <img src="../img/chamhoi.png" alt="Hướng đẫn" class="mr_6">
-                                        <p class="font_s15 font_w5 color_blue">Hướng dẫn</p>
-                                    </a>
                                 </div>
-                                <div class="d_flex space_b align_c">
+                                <div class="tieuchi_themmoi d_flex space_b align_c">
                                     <div class="thanh_search ql_tieuchi">
                                         <input type="text" class="search_item font_s14 color_gray"
                                             placeholder="Tìm kiếm theo tên kế hoạch">

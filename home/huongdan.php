@@ -30,21 +30,37 @@
                                 <img src="../img/huongdan_3.png" alt="google play" class="mr_15">
                                 <img src="../img/huongdan_4.png" alt="app">
                             </div>
-                            <div class="video">
-                                <img src="../img/huongdan_2.png" alt="Video">
+                            <div class="video width_100">
+                                <img src="../img/huongdan_2.png" alt="Video" class="width_100">
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
             <div class="huongdan_menu">
                 <div class="menu_huongdan">
+                    <div class="btn_menu_huongdan">
+                        <div class="sidebar_item">
+                            <div class="li_sidebar_1 border_radius_10">
+                                <a href="/quan_ly_tieu_chi_danh_gia.html"
+                                    class="item_sidebar item_sidebar_cha d_flex flex_start align_c">
+                                    <div class="img_li d_flex space_around align_c mr_11">
+                                        <img src="../img/sidebar_2.png" alt="Quản lý tiêu chí đánh giá">
+                                    </div>
+                                    <p class="p_item_sidebar font_ss16 font_w5 ">Quản lý tiêu
+                                        chí đánh giá</p>
+                                </a>
+                                <div class="img tam_giac">
+                                    <img src="../img/tam_giac.png" alt="Sổ xuống">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="ul_sidebar">
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/quan_ly_tieu_chi_danh_gia.html"
-                                    class="item_sidebar item_sidebar_cha d_flex flex_star">
+                                    class="item_sidebar item_sidebar_cha d_flex flex_start">
                                     <div class="img_li d_flex space_around align_c">
                                         <img src="../img/sidebar_2.png" alt="Quản lý tiêu chí đánh giá">
                                     </div>
@@ -56,7 +72,7 @@
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/quan_ly_ke_hoach_danh_gia.html">
-                                    <div class="item_sidebar d_flex flex_star ">
+                                    <div class="item_sidebar d_flex flex_start ">
                                         <div class="img_li d_flex space_around align_c">
                                             <img src="../img/sidebar_4.png" alt="">
                                         </div>
@@ -68,7 +84,7 @@
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/quanly-phieudanhgia.html"
-                                    class="item_sidebar item_sidebar_cha d_flex flex_star ">
+                                    class="item_sidebar item_sidebar_cha d_flex flex_start ">
                                     <div class="img_li d_flex space_around align_c">
                                         <img src="../img/sidebar_5.png" alt="">
                                     </div>
@@ -79,7 +95,7 @@
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/ketquadanhgia-nhanvien.html"
-                                    class="item_sidebar item_sidebar_cha d_flex flex_star ">
+                                    class="item_sidebar item_sidebar_cha d_flex flex_start ">
                                     <div class="img_li d_flex space_around align_c">
                                         <img src="../img/sidebar_6.png" alt="">
                                     </div>
@@ -90,7 +106,7 @@
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/lotrinhthangtien.html">
-                                    <div class="item_sidebar d_flex flex_star ">
+                                    <div class="item_sidebar d_flex flex_start ">
                                         <div class="img_li d_flex space_around align_c">
                                             <img src="../img/sidebar_7.png" alt="">
                                         </div>
@@ -102,7 +118,7 @@
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/phanquyen.html">
-                                    <div class="item_sidebar d_flex flex_star ">
+                                    <div class="item_sidebar d_flex flex_start ">
                                         <div class="img_li d_flex space_around align_c">
                                             <img src="../img/sidebar_8.png" alt="">
                                         </div>
@@ -114,7 +130,7 @@
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/xoaganday-dulieuxoaganday.html">
-                                    <div class="item_sidebar d_flex flex_star ">
+                                    <div class="item_sidebar d_flex flex_start ">
                                         <div class="img_li d_flex space_around align_c">
                                             <img src="../img/sidebar_9.png" alt="">
                                         </div>
@@ -126,7 +142,7 @@
                         <div class="sidebar_item">
                             <div class="li_sidebar">
                                 <a href="/caidat_caidatchung.html">
-                                    <div class="item_sidebar d_flex flex_star ">
+                                    <div class="item_sidebar d_flex flex_start ">
                                         <div class="img_li d_flex space_around align_c">
                                             <img src="../img/sidebar_10.png" alt="">
                                         </div>
@@ -192,6 +208,10 @@ $(window).click(function(e) {
         $('.menu-768').hide();
     }
 });
+$('.btn_menu_huongdan').click(function() {
+    $(this).parents('.menu_huongdan').find('.ul_sidebar').toggle();
+    $(this).parents('.menu_huongdan').find('.tam_giac').toggle();
+})
 </script>
 
 </html>

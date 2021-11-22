@@ -5,17 +5,15 @@
         </div>
         <div class="menu">
             <ul class="menu-ul">
-                <li class="menu-li "><a class="amneu amneu1 " href="">Trang chủ</a></li>
-                <li class="menu-li"><a class="amneu amneu2 " href="">Sản phẩm</a></li>
-                <li class="menu-li"><a class="amneu amneu3" href="">Hệ sinh thái</a></li>
-                <li class="menu-li"><a class="amneu amneu4" href="">Công ty</a></li>
+                <li class="menu-li "><a class="amneu amneu1 " href="/trang_chu_sau_dang_nhap.html">Trang chủ</a></li>
+                <li class="menu-li"><a class="amneu amneu2 " href="/huong_dan.html">Hướng dẫn</a></li>
                 <li class="menu-li"><a class="amneu" href="">Tin tức</a></li>
             </ul>
             <div class="login-sign_in">
                 <div class="login">Đăng ký</div>
                 <p class="quota">/</p>
-                <div class="singn-in"><a href="/trang_chu_sau_dang_nhap.html" class="font_ss16 font_wB color_w">Đăng
-                        nhập(demo)</a> </div>
+                <div class="singn-in"><a href="" class="font_ss16 font_wB color_w">Đăng
+                        nhập</a> </div>
             </div>
         </div>
     </div>
@@ -23,11 +21,11 @@
         <div class="drop">
             <img class="js-drop-menu1024" src="../img/nav_1.png" alt="">
             <div class="menu1024 js-show-menu1024">
-                <a href="" class="menu-sl">
+                <a href="/trang_chu_sau_dang_nhap.html" class="menu-sl">
                     <img class="img-sl1" src="../img/nav_2.png" alt="">
                     <div class="text-sl1">Trang chủ</div>
                 </a>
-                <a href="" class="menu-sl">
+                <a href="/huong_dan.html" class="menu-sl">
                     <img class="img-sl1" src="../img/nav_3.png" alt="">
                     <div class="text-sl1">Hướng dẫn </div>
                 </a>

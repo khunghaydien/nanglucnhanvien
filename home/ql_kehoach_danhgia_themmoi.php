@@ -84,7 +84,7 @@
                                 </div>
                                 <div class="body_them_kehoach">
                                     <div class="form body_ql_tieuchi">
-                                        <div class="header width_100">
+                                        <div class="header_d width_100">
                                             <h4>Thêm mới kế hoạch đánh giá</h4>
                                         </div>
                                         <div class="body width_100">

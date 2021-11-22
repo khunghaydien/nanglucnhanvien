@@ -570,11 +570,15 @@
             <div class="trangchu_timhieu d_flex content_c width_100">
                 <div class="container width_100 font_s18">
                     <p><span class="font_w5">1.1. Máy chấm công bạn hiểu là gì?</span></br>
-                        Ngay từ thời điểm doanh nghiệp hình thành,các thiết bị chấm công kết hợp với việc điểm danh cơ
-                        học của nhân sự trở thành căn cứ tiêu biểu giúp các công ty ghi lại
-                        được thời điểm đến làm việc, tan làm, nghỉ phép của người lao động từ đó, tính công và lương,
-                        thưởng cho người lao động vào cuối tháng một cách chính xác,
-                        đồng thời góp phần nâng cao ý thức làm việc và kỷ luật của nhân viên tại nơi làm việc.</p>
+                        <span class="font_ss16">Ngay từ thời điểm doanh nghiệp hình thành,các thiết bị chấm công kết hợp
+                            với việc điểm danh cơ
+                            học của nhân sự trở thành căn cứ tiêu biểu giúp các công ty ghi lại
+                            được thời điểm đến làm việc, tan làm, nghỉ phép của người lao động từ đó, tính công và
+                            lương,
+                            thưởng cho người lao động vào cuối tháng một cách chính xác,
+                            đồng thời góp phần nâng cao ý thức làm việc và kỷ luật của nhân viên tại nơi làm
+                            việc.</span>
+                    </p>
                     <div class="img d_flex content_c width_100">
                         <img src="../img/timhieu.png" alt="">
                     </div>

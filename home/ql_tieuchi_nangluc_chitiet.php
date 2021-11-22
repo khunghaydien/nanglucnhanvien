@@ -39,31 +39,36 @@
                                         </a>
                                         <p>Đề đánh giá năng lực<span> / </span><span> chi tiết </span></p>
                                     </div>
-
                                 </div>
                                 <div class="d_flex align_c flex_end mb_20">
-                                    <div class="btn_header_ql_tieuchi d_flex">
-                                        <div class="btn btn_trang xoa mr_15">
-                                            <p class="color_blue">Xóa đề đánh giá</p>
-                                        </div>
-                                        <a href="/quan_ly_tieu_chi_nang_luc_chinh_sua.html" class="btn sua">
-                                            <div class="img mr_12">
-                                                <img src="../img/icon_but.png" alt="Chỉnh sửa">
+                                    <div class="btn_header_ql_tieuchi  btn_header_ql_tieuchi_a d_flex">
+                                        <div class="btn_xoade">
+                                            <div class="btn btn_trang xoa mr_15">
+                                                <p class="color_blue">Xóa đề đánh giá</p>
                                             </div>
-                                            <p>Chỉnh sửa</p>
-                                        </a>
-                                        <div class="btn excel">
-                                            <div class="img mr_12">
-                                                <img src="../img/icon_excel.png" alt="File excel">
-                                            </div>
-                                            <p>Xuất excel</p>
                                         </div>
+
+                                        <div class="sua_excel d_flex">
+                                            <a href="/quan_ly_tieu_chi_nang_luc_chinh_sua.html" class="btn sua">
+                                                <div class="img mr_12">
+                                                    <img src="../img/icon_but.png" alt="Chỉnh sửa">
+                                                </div>
+                                                <p>Chỉnh sửa</p>
+                                            </a>
+                                            <div class="btn excel">
+                                                <div class="img mr_12">
+                                                    <img src="../img/icon_excel.png" alt="File excel">
+                                                </div>
+                                                <p>Xuất excel</p>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
 
                             <div class="body_ql_tieuchi body_ql_tieuchi_chitiet mb_20">
-                                <div class="header width_100">
+                                <div class="header_d width_100">
                                     <h4>Thông tin đề đánh giá năng lực</h4>
                                 </div>
                                 <div class="body width_100">
@@ -210,7 +215,7 @@
                             </div>
 
                             <div class="body_ql_tieuchi phanloai_danhgia phanloai_danhgia_macdinh ">
-                                <div class="header width_100">
+                                <div class="header_d width_100">
                                     <h4>Phân loại đánh giá</h4>
                                 </div>
                                 <div class="body width_100">

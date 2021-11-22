@@ -1,305 +1,329 @@
+.thanh_dk .turn{
+z-index: 1;  
+background: #fff;
+}.thanh_dk .turn:hover{
+background: #eeeeee;
+}
+.po_r{
+position: relative;
+}
+.phanquyen .khoibang .bangchung{
+overflow-x: unset;
+}.kqdanhgia_pb .khoibang .bangchung{
+overflow-x: unset;
+}
+.khoibang .bangchung .bangchinh tr:last-child td:first-child{
+border-radius: 0px 0px 0px 10px !important;
+}.khoibang .bangchung .bangchinh tr:last-child td:last-child{
+border-radius: 0px 0px 10px 0px !important;
+}
+
 /*********************************************** CAI DAT ******************************************/
 
 .phantrangcon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 19px;
-    height: 19px;
-    background: #FFFFFF;
-    border: 1px solid #666666;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.02);
-    border-radius: 4px;
-    font-size: 13px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 19px;
+height: 19px;
+background: #FFFFFF;
+border: 1px solid #666666;
+box-sizing: border-box;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.02);
+border-radius: 4px;
+font-size: 13px;
 }
 
 .pt_active {
-    color: #fff;
-    background: #4C5BD4;
+color: #fff;
+background: #4C5BD4;
 }
 
 .width50pt {
-    width: 50%;
+width: 50%;
 }
 
 .width70pt {
-    width: 70%;
+width: 70%;
 }
 
 .tieudengongu {
-    width: 22%;
+width: 22%;
 }
 
 .ngonngu_tiengviet {
-    width: 34.5%;
+width: 34.5%;
 }
 
 .ngonngu,
 .giaodien {
-    margin-bottom: 40px;
+margin-bottom: 40px;
 }
 
 .thongbao {
-    margin-bottom: 42px;
+margin-bottom: 42px;
 }
 
 .nhacnho {
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .caidat .nentrang {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-
+.nhatkyhoatdong .khoibang .bangchung{
+overflow-x: unset;
+}.thongtinbaomat .khoibang .bangchung{
+overflow-x: unset;
+}
 .nhatkyhoatdong .khoibang .bangchung .bangchinh tr td:nth-child(2) {
-    width: 350px;
+width: 350px;
 }
 
 .nhatkyhoatdong .khoibang .bangchung .bangchinh tr td:nth-child(3) {
-    width: 155px;
+width: 155px;
 }
 
 .nhatkyhoatdong .khoibang .bangchung .bangchinh tr td:nth-child(5) {
-    width: 230px;
+width: 230px;
 }
 
 .nhatkyhoatdong .khoibang .bangchung .bangchinh tr:nth-child(odd) {
-    background-color: #eeeeee;
+background-color: #eeeeee;
 }
 
 .nhatkyhoatdong .khoibang .bangchung .bangchinh tr:first-child {
-    background-color: #4c5bd4;
-    color: #fff;
-    font-size: 16px;
+background-color: #4c5bd4;
+color: #fff;
+font-size: 16px;
 }
 
 .thongtinbaomat .khoibang .bangchung .bangchinh tr:nth-child(odd) {
-    background-color: #eeeeee;
+background-color: #eeeeee;
 }
 
 .thongtinbaomat .khoibang .bangchung .bangchinh tr:first-child {
-    background-color: #4c5bd4;
-    color: #fff;
-    font-size: 16px;
+background-color: #4c5bd4;
+color: #fff;
+font-size: 16px;
 }
 
 .hienthi {
-    padding: 5px 11px 5px 22px;
+padding: 5px 11px 5px 22px;
 }
 
 .m_hienthi {
-    border-radius: 3px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+border-radius: 3px;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
 }
 
 .thangdiem .nenxanh-chutrang {
-    border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px;
 }
 
 .thangdiem .nentrang {
-    border-radius: 0px 0px 10px 10px;
+border-radius: 0px 0px 10px 10px;
 }
 
 .thangdiem {
-    width: 100%;
-    border-radius: 10px;
+width: 100%;
+border-radius: 10px;
 }
 
 #show_phanloaidanhgiaid .border_input.text {
-    padding-right: unset;
+padding-right: unset;
 }
 
 
 /***************************************DU LIEU XOA********************************************/
 
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+width: 10px;
+height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    border-radius: 10px;
+border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #4C5BD4;
-    border-radius: 5px;
+background: #4C5BD4;
+border-radius: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #eeeeee;
+background: #eeeeee;
 }
 
 .m_dl_xoa {
-    flex-wrap: wrap;
+flex-wrap: wrap;
 }
 
 .xoa_con {
-    margin-right: 20px;
-    width: calc(100%/3 - 14px);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+margin-right: 20px;
+width: calc(100%/3 - 14px);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
 }
 
 .xoa_con:nth-child(3n) {
-    margin-right: unset;
+margin-right: unset;
 }
 
 .xoa_con:nth-child(4n) {
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 .tieuchidanhgia .khoibang .bangchung .bangchinh {
-    width: 1262px;
+width: 1262px;
 }
 
 .dedanhgia .khoibang .bangchung .bangchinh {
-    width: 1336px;
+width: 1336px;
 }
 
 .kehoachdanhgia .khoibang .bangchung .bangchinh {
-    width: 1876px;
+width: 1876px;
 }
 
 .tieuchidanhgia .khoibang .bangchung .bangchinh tr td:nth-child(7) {
-    width: 172px;
+width: 172px;
 }
 
 .tieuchidanhgia .khoibang .bangchung .bangchinh tr td:nth-child(5) {
-    width: 252px;
+width: 252px;
 }
 
 .tieuchidanhgia .khoibang .bangchung .bangchinh tr td:nth-child(2) {
-    width: 370px;
+width: 370px;
 }
 
 .tieuchidanhgia .khoibang .bangchung .bangchinh tr td:nth-child(4) {
-    width: 114px;
+width: 114px;
 }
 
 .dedanhgia .khoibang .bangchung .bangchinh tr td:nth-child(4) {
-    width: 330px;
+width: 330px;
 }
 
 .dedanhgia .khoibang .bangchung .bangchinh tr td:nth-child(2) {
-    width: 370px;
+width: 370px;
 }
 
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:nth-child(7) {
-    width: 133px;
+width: 133px;
 }
 
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:nth-child(9) {
-    width: 330px;
+width: 330px;
 }
 
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:nth-child(2) {
-    width: 370px;
+width: 370px;
 }
 
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:nth-child(8) {
-    width: 130px;
+width: 130px;
 }
 
 .kehoachdanhgia .khoibang .bangchung .bangchinh tr td:last-child {
-    width: 170px;
+width: 170px;
 }
 
 .keotrai,
 .keophai {
-    top: 50%;
-    border-radius: 50%;
-    position: absolute;
-    width: 36px;
-    opacity: 0.86;
-    transform: rotate(-180deg);
-    height: 36px;
+top: 50%;
+border-radius: 50%;
+position: absolute;
+width: 36px;
+opacity: 0.86;
+transform: rotate(-180deg);
+height: 36px;
 }
 
 .keotrai {
-    left: 24%;
+left: 24%;
 }
 
 .keophai {
-    right: 35px;
+right: 35px;
 }
 
 .keotrai:hover,
 .keophai:hover {
-    background: rgb(0 0 0 / 10%) !important;
+background: rgb(0 0 0 / 10%) !important;
 }
 
 .left_am {
-    margin-left: -10px;
+margin-left: -10px;
 }
 
 .bonus {
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    background: rgba(196, 196, 196, 0.86);
+width: 26px;
+height: 26px;
+border-radius: 50%;
+background: rgba(196, 196, 196, 0.86);
 }
 
 .left_time {
-    width: 35px;
+width: 35px;
 }
 
 .dekiemtra .khoibang .bangchung .bangchinh {
-    width: 1443px;
+width: 1443px;
 }
 
 .dekiemtra .khoibang .bangchung .bangchinh tr td:last-child {
-    width: 172px;
+width: 172px;
 }
 
 .dekiemtra .khoibang .bangchung .bangchinh tr td:nth-child(5) {
-    width: 330px;
+width: 330px;
 }
 
 .dekiemtra .khoibang .bangchung .bangchinh tr td:nth-child(2) {
-    width: 370px;
+width: 370px;
 }
 
 .dekiemtra .khoibang .bangchung .bangchinh tr td:nth-child(4) {
-    width: 105px;
+width: 105px;
 }
 
 
 /*************************************************PHAN QUYEN***********************************/
 
 .phanquyen .khoicon {
-    border-bottom: unset;
+border-bottom: unset;
 }
 
 .phanquyen .khoibang .bangchung .bangchinh tr td:nth-child(4) {
-    width: 269px;
+width: 269px;
 }
 
 .phanquyen .khoibang .bangchung .bangchinh tr td:nth-child(3) {
-    width: 263px;
+width: 263px;
 }
 
 .phanquyen .khoibang .bangchung .bangchinh tr td:nth-child(6) {
-    width: 150px;
+width: 150px;
 }
 
 .phanquyenchitiet .khoibang .bangchung .bangchinh tr td:nth-child(1) {
-    width: 248px;
+width: 248px;
 }
 
 .phanquyenchitiet .khoibang .bangchung .bangchinh tr td:nth-child(6) {
-    width: 158px;
+width: 158px;
 }
 
 .phanquyenchitiet .khoibang .bangchung .bangchinh tr:nth-child(odd) {
-    background-color: #fff;
+background-color: #fff;
 }
 
 .phanquyenchitiet .khoibang .bangchung .bangchinh tr:first-child {
-    background-color: #4c5bd4;
-    color: #fff;
-    font-size: 16px;
+background-color: #4c5bd4;
+color: #fff;
+font-size: 16px;
 }
 
 
@@ -307,658 +331,785 @@
 
 .lotrinhthangtien .padding15,
 .lotrinhthangtien_chitiet .padding15 {
-    padding: 15px;
+padding: 15px;
 }
 
 .m_lotrinh {
-    width: calc(100% / 3 - 14px);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+width: calc(100% / 3 - 14px);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
 }
 
 .lotrinhthangtien_chitiet .select_no_muti .select2-container .select2-selection--single .select2-selection__rendered {
-    padding: 10px 35px 10px 12px;
+padding: 10px 35px 10px 12px;
 }
 
 .m_lotrinh:nth-child(3n) {
-    margin-right: unset;
+margin-right: unset;
 }
 
 .lotrinh_con {
-    padding: 20px 15px;
+padding: 20px 15px;
 }
 
 .br-t-10 {
-    border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px;
 }
 
 .br-b-10 {
-    border-radius: 0px 0px 10px 10px;
+border-radius: 0px 0px 10px 10px;
 }
 
 .show_chinhsuachucvu,
 .show_themyccv,
 .show_xacnhan {
-    z-index: 2;
-    display: none;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 500px;
-    position: absolute;
-    top: 25%;
-    left: 40%;
+z-index: 2;
+display: none;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+width: 500px;
+position: absolute;
+top: 25%;
+left: 40%;
 }
 
 .show_xacnhan .nentrang .padding-20 {
-    height: 256px;
+height: 256px;
 }
 
 .show_thanhvien {
-    z-index: 2;
-    display: none;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 682px;
-    position: absolute;
-    top: 5%;
-    left: 30%;
+z-index: 2;
+display: none;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+width: 682px;
+position: absolute;
+top: 5%;
+left: 30%;
 }
 
 .x_close {
-    position: absolute;
-    right: 20px;
+position: absolute;
+right: 20px;
 }
 
 .m_hang {
-    border-bottom: 1px solid #CCCCCC;
-    height: 50px;
+border-bottom: 1px solid #CCCCCC;
+height: 50px;
 }
 
 .m_hang:last-child {
-    border-bottom: unset;
+border-bottom: unset;
 }
 
 .khoi_stt {
-    width: 60px;
-    border-right: 1px solid #CCCCCC;
+width: 60px;
+border-right: 1px solid #CCCCCC;
 }
 
 .khoi_nv {
-    width: 252px;
-    border-right: 1px solid #CCCCCC;
+width: 252px;
+border-right: 1px solid #CCCCCC;
 }
 
 .khoi_phongban {
-    width: 190px;
-    border-right: 1px solid #CCCCCC;
+width: 190px;
+border-right: 1px solid #CCCCCC;
 }
 
 .khoi_chucvu {
-    width: 180px;
+width: 180px;
 }
 
 .scroll_y_500 {
-    height: 500px;
-    overflow-y: scroll;
+height: 500px;
+overflow-y: scroll;
 }
 
 .m_chitiet_phongban {
-    border-bottom: 0.5px solid #cccccc;
+border-bottom: 0.5px solid #cccccc;
 }
 
 .m_chitiet_phongban2 {
-    border-bottom: 0.5px solid #cccccc;
-    height: 500px;
+border-bottom: 0.5px solid #cccccc;
+height: 500px;
 }
 
 .chitiet_phongban:nth-child(2) {
-    border-right: unset;
-    border-left: unset;
+border-right: unset;
+border-left: unset;
 }
 
 .chitiet_phongban {
-    width: calc(100% / 3);
-    padding: 5px 7px 5px 15px;
-    border-left: 0.5px solid #cccccc;
-    border-right: 0.5px solid #cccccc;
+width: calc(100% / 3);
+padding: 5px 7px 5px 15px;
+border-left: 0.5px solid #cccccc;
+border-right: 0.5px solid #cccccc;
 }
 
 .top-2 {
-    margin-top: 2px;
+margin-top: 2px;
 }
 
 .tieude_phongban {
-    padding: 5px 15px 5px 20px;
+padding: 5px 15px 5px 20px;
 }
 
 .lineheight16 {
-    line-height: 16.41px;
+line-height: 16.41px;
 }
 
 .js_menu_curd,
 .js_menu_curd2 {
-    position: relative;
+position: relative;
 }
 
 .show_menu_curd {
-    display: none;
-    z-index: 1;
-    right: 0;
-    border-radius: 10px;
-    width: 260px;
-    position: absolute;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
-    border: 1px solid #CCCCCC;
+display: none;
+z-index: 1;
+right: 0;
+border-radius: 10px;
+width: 260px;
+position: absolute;
+filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+border: 1px solid #CCCCCC;
 }
 
 .show_menu_curd2 {
-    display: none;
-    top: 20px;
-    z-index: 1;
-    right: 0;
-    border-radius: 10px;
-    width: 260px;
-    position: absolute;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
-    border: 1px solid #CCCCCC;
+display: none;
+top: 20px;
+z-index: 1;
+right: 0;
+border-radius: 10px;
+width: 260px;
+position: absolute;
+filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+border: 1px solid #CCCCCC;
 }
 
 .nd_con_menu_curd {
-    padding: 11px 0px 11.91px 14px;
-    height: 36px;
+padding: 11px 0px 11.91px 14px;
+height: 36px;
 }
 
 .nd_con_menu_curd:hover {
-    background: #eeeeee;
+background: #eeeeee;
 }
 
 .border_input {
-    border: 1px solid #cccccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    height: 36px;
+border: 1px solid #cccccc;
+border-radius: 3px;
+box-sizing: border-box;
+height: 36px;
 }
 
 .border_input.text {
-    padding-left: 12px;
-    padding-right: 40px;
+padding-left: 12px;
+padding-right: 40px;
 }
 
 .border_input.date {
-    padding-left: 12px;
-    padding-right: 14px;
+padding-left: 12px;
+padding-right: 14px;
 }
 
 .border_input.textarea {
-    height: 108px;
+height: 108px;
 }
 
 .pop {
-    position: absolute;
-    width: 500px;
+position: absolute;
+width: 500px;
 }
 
 .popto {
-    width: 680px;
-    position: absolute;
+width: 680px;
+position: absolute;
 }
 
 .pop .khoibutton_form .btn:first-child {
-    margin-right: 68px;
+margin-right: 68px;
 }
 
 .pop .khoibutton_form .btn {
-    border-radius: 6px;
-    width: 140px;
-    height: 36px;
+border-radius: 6px;
+width: 140px;
+height: 36px;
 }
 
 .top-70 {
-    margin-top: 66px;
+margin-top: 66px;
 }
 
 .top-50 {
-    margin-top: 50px;
+margin-top: 50px;
 }
 
 
 /********************************KQ DANH GIA********************************************/
 
 .m_danhmucdanhgia .select_no_muti .select2-container--default .select2-selection--single {
-    border-radius: 10px;
+border-radius: 10px;
 }
 
 .danhmucdanhgia {
-    border-radius: 10px;
-    height: 36px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+height: 36px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .danhmucdanhgia select {
-    padding-left: 12px;
-    border-radius: 10px;
+padding-left: 12px;
+border-radius: 10px;
 }
 
 .m_danhmucdanhgia {
-    width: 200px;
-    margin-right: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+width: 200px;
+margin-right: 20px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .m_danhmucdanhgia:nth-child(2) {
-    width: 240px;
+width: 240px;
 }
 
 .m_danhmucdanhgia:nth-child(3) {
-    width: 195px;
+width: 195px;
 }
 
 .chunau {
-    color: #9a4a4d;
+color: #9a4a4d;
 }
 
 .chitiet_kq_1n .rightsearch .button {
-    margin-right: unset;
+margin-right: unset;
 }
 
 .kqdanhgia_nv .khoibang .bangchung .bangchinh {
-    width: 1559px;
+width: 1559px;
 }
 
 .chitiet_kq_1n .khoibang .bangchung .bangchinh {
-    width: 1398px;
+width: 1398px;
 }
 
 .chitiet_kq_1n .khoibang.mot-mot .bangchung .bangchinh {
-    width: 100%;
+width: 100%;
 }
 
 .chitiet_phieudanhgia .khoibang .bangchung .bangchinh {
-    width: 2186px;
+width: 2186px;
 }
 
 .kqdanhgia_nv .khoibang .bangchung .bangchinh tr td:nth-child(6) {
-    width: 370px;
+width: 370px;
 }
 
 .chitiet_kq_1n .khoibang .bangchung .bangchinh tr td:nth-child(1) {
-    width: 450px;
+width: 450px;
 }
 
 .chitiet_kq_1n .khoibang.mot-mot .bangchung .bangchinh tr td:nth-child(1) {
-    width: 725px;
+width: 725px;
 }
 
 .chitiet_kq_1n .khoibang.mot-mot .bangchung .bangchinh tr td:nth-child(3) {
-    width: 160px;
+width: 160px;
 }
 
 .chitiet_kq_1n .khoibang .bangchung .bangchinh tr td:nth-child(2) {
-    width: 162px;
+width: 162px;
 }
 
 .chitiet_kq_1n .khoibang .bangchung .bangchinh tr td:nth-child(3) {
-    width: 261.5px;
+width: 261.5px;
 }
 
 .chitiet_kq_1n .khoibang .bangchung .bangchinh tr:nth-child(odd) {
-    background-color: #fff;
+background-color: #fff;
 }
 
 .chitiet_kq_1n .khoibang .bangchung .bangchinh tr:first-child {
-    background-color: #4c5bd4;
-    color: #fff;
-    font-size: 16px;
+background-color: #4c5bd4;
+color: #fff;
+font-size: 16px;
 }
 
 .chitiet_kq_1n .cacmuc {
-    width: 180px;
-    font-size: 15px;
+width: 180px;
+font-size: 15px;
 }
 
 .chitiet_kq_1n .cacketqua {
-    width: calc(100% - 180px);
-    font-size: 14px;
+width: calc(100% - 180px);
+font-size: 14px;
 }
 
 .chitiet_kq_1n .khoibang .bangchung {
-    padding-bottom: 10px;
+padding-bottom: 10px;
 }
 
 .chitiet_phieudanhgia .khoibang .bangchung .bangchinh tr:first-child th .phantucon {
-    height: 50px;
+height: 50px;
 }
 
 .chitiet_kq_1n.chitiet_phieudanhgia .khoibang .bangchung .bangchinh tr td:nth-child(1) {
-    width: 465px;
+width: 465px;
 }
 
 .chitiet_phieudanhgia .khoibang .bangchung .bangchinh tr:nth-child(1) {
-    background-color: #4c5bd4;
-    color: #fff;
-    font-size: 16px;
+background-color: #4c5bd4;
+color: #fff;
+font-size: 16px;
 }
 
 .chitiet_phieudanhgia .khoibang .bangchung .bangchinh tr:nth-child(2) {
-    background-color: #4c5bd4;
-    color: #fff;
-    font-size: 16px;
+background-color: #4c5bd4;
+color: #fff;
+font-size: 16px;
 }
 
 .chitiet_phieudanhgia .khoibang .bangchung .bangchinh tr:nth-child(1) th .phantucon {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: unset !important;
+width: 100%;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-right: unset !important;
 }
 
 .chitiet_phieudanhgia .khoibang .bangchung .bangchinh tr:nth-child(2) th .phantucon {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+width: 100%;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .chitiet_phieudanhgia .khoibang .bangchung .bangchinh tr th {
-    border: 1px solid #ffffff;
-    border-left: unset;
-    border-top: unset;
+border: 1px solid #ffffff;
+border-left: unset;
+border-top: unset;
 }
 
 .chitiet_phieudanhgia .khoibang .bangchung .bangchinh tr th:last-child {
-    border-right: unset;
+border-right: unset;
 }
 
 
 /*************************TRANG QUAN LY PHIEU DANH GIA*************************************/
 
 .phieudanhgia .m_danhmucdanhgia:nth-child(1) {
-    width: 300px;
+width: 300px;
 }
 
 .phieudanhgia .m_danhmucdanhgia:nth-child(2) {
-    width: 178px;
+width: 178px;
 }
 
 .phieudanhgia .khoibang .bangchung .bangchinh {
-    width: 1659px;
+width: 1659px;
 }
 
 .phieudanhgia_chitiet .search-qlnv {
-    margin-top: 0px;
+margin-top: 0px;
 }
 
 .phieudanhgia .khoibang .bangchung .bangchinh tr td:nth-child(10) {
-    width: 330px;
+width: 330px;
 }
 
 .phieudanhgia .khoibang .bangchung .bangchinh tr td:nth-child(9) {
-    width: 140px;
+width: 140px;
 }
 
 .phieudanhgia .khoibang .bangchung .bangchinh tr td:nth-child(8) {
-    width: 188px;
+width: 188px;
 }
 
 .phieudanhgia .khoibang .bangchung .bangchinh tr td:nth-child(5) {
-    width: 130px;
+width: 130px;
 }
 
 .phieudanhgia_chitiet .bangtoto .khoibang .bangchung .bangchinh tr td:nth-child(6) {
-    width: 288px;
+width: 288px;
 }
 
 .phieudanhgia_chitiet .bangtoto .khoibang .bangchung .bangchinh tr td:nth-child(5) {
-    width: 130px;
+width: 130px;
 }
 
 .phieudanhgia_chitiet .bangtoto .khoibang .bangchung .bangchinh tr td:nth-child(7) {
-    width: 134px;
+width: 134px;
 }
 
 .phieudanhgia_chitiet .cacmuc {
-    width: 180px;
-    font-size: 15px;
+width: 180px;
+font-size: 15px;
 }
 
 .phieudanhgia_chitiet .cacketqua {
-    width: calc(100% - 180px);
-    font-size: 14px;
+width: calc(100% - 180px);
+font-size: 14px;
 }
 
 .phieudanhgia_chitiet .rightsearch {
-    width: 100%;
+width: 100%;
 }
 
 .phieudanhgia_chitiet .rightsearch .button:last-child {
-    margin-right: unset;
+margin-right: unset;
 }
 
 .bangto3 .khoibang .bangchung .bangchinh {
-    width: 1970px;
+width: 1970px;
 }
 
 .bangto3 .khoibang .bangchung .bangchinh tr:nth-child(odd) {
-    background-color: #fff;
+background-color: #fff;
 }
 
 .bangto3 .khoibang .bangchung .bangchinh tr:nth-child(1),
 .bangto3 .khoibang .bangchung .bangchinh tr:nth-child(2),
 .bangto3 .khoibang .bangchung .bangchinh tr:nth-child(3) {
-    background: #4c5bd4;
-    color: #fff;
-    font-size: 16px;
+background: #4c5bd4;
+color: #fff;
+font-size: 16px;
 }
 
 .bangto3 .khoibang .bangchung .bangchinh tr:first-child th {
-    font-family: unset;
+font-family: unset;
 }
 
 .bangto3 .khoibang .bangchung .bangchinh tr:last-child td:nth-child(1) {
-    border-bottom: 1px solid #cccccc;
+border-bottom: 1px solid #cccccc;
 }
 
 .bangto3 .khoibang .bangchung .bangchinh tr td:last-child {
-    position: unset;
+position: unset;
 }
 
 .khoitieude .rightsearch {
-    width: unset;
+width: unset;
 }
 
 .danhgia_hoanthanh .khoibutton_form .btn:nth-child(2) {
-    margin-right: 60px;
+margin-right: 60px;
 }
 
 .div145 {
-    width: 145px;
+width: 145px;
 }
 
 .xoaphanloai {
-    margin-top: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #4C5BD4;
-    height: 36px;
-    background: #FFFFFF;
-    border: 1px solid #4C5BD4;
-    box-sizing: border-box;
-    border-radius: 3px;
+margin-top: 23px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #4C5BD4;
+height: 36px;
+background: #FFFFFF;
+border: 1px solid #4C5BD4;
+box-sizing: border-box;
+border-radius: 3px;
 }
 
 .themmoiphanloai {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    width: 145px;
-    height: 36px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+border-radius: 3px;
+width: 145px;
+height: 36px;
 }
 
 
 /*          POPUP       */
 
 .boder_thanhcong {
-    padding: 40px 50px 40px 50px;
+padding: 40px 50px 40px 50px;
 }
 
 .top-36 {
-    margin-top: 36px;
+margin-top: 36px;
 }
 
 .top-24 {
-    margin-top: 24px;
+margin-top: 24px;
 }
 
 .top-27 {
-    margin-top: 27px;
+margin-top: 27px;
 }
 
 .close_xacnhan {
-    width: 400px;
-    height: 36px;
-    border-radius: 6px;
+width: 400px;
+height: 36px;
+border-radius: 6px;
 }
 
 .boder_bolk {
-    padding: 27px 77px 25px 78px;
+padding: 27px 77px 25px 78px;
 }
 
 .boder_pop_before {
-    padding: 69px 35px 40px 35px;
+padding: 69px 35px 40px 35px;
 }
 
 .phieudanhgia .m_danhmucdanhgia .select_no_muti .select2-container--default .select2-selection--single {
-    border: unset;
+border: unset;
 }
 
 .phieudanhgia .padding15 {
-    padding: 15px;
+padding: 15px;
 }
 
 #show_thietlaptime .pop {
-    width: 360px;
+width: 360px;
 }
 
 #show_thietlaptime .pop .khoibutton_form .btn {
-    width: 130px;
+width: 130px;
 }
 
 #show_thietlaptime .pop .khoibutton_form .btn:first-child {
-    margin-right: 30px;
+margin-right: 30px;
 }
 
 .phieudanhgia .m_danhmucdanhgia .danhmucdanhgia.flex.center-height {
-    padding-left: 12px;
+padding-left: 12px;
 }
 
 .tieude1024 {
-    display: none;
+display: none;
 }
 
 @media(max-width: 1024px) {
-    .tieude1024 {
-        display: flex;
-    }
-    .flex.rightsearch_con2 {
-        width: 100%;
-        flex-wrap: wrap-reverse;
-        justify-content: end;
-    }
-    .flex.rightsearch_con2 button:nth-child(3) {
-        margin-right: unset;
-    }
-    .flex.rightsearch_con2 button {
-        margin-top: 15px;
-    }
-    .huongdan {
-        margin-left: 15px;
-    }
-    .phanquyen .flex.rightsearch_con2 button {
-        margin-top: 0px;
-    }
-    .phanquyen .flex.rightsearch_con2 button:nth-child(2) {
-        margin-right: unset;
-    }
-    .search-qlnv {
-        margin-top: 15px;
-        margin-bottom: 20px;
-    }
-    .lotrinhthangtien .rightsearch {
-        width: 50%;
-    }
-    .show_thanhvien {
-        left: 14%;
-    }
-    .m_danhmucdanhgia {
-        margin-right: 15px;
-    }
-    .phieudanhgia_chitiet .flex.rightsearch_con2 button:nth-child(3) {
-        margin-right: 15px;
-    }
-    .phieudanhgia_chitiet .khoitieude .flex.rightsearch_con2 button {
-        margin-top: unset;
-    }
-    .bangtoto .khoibang .bangchung .bangchinh {
-        width: 1046px;
-    }
+.title_header {
+    display: none;
+}
+.tieude1024 {
+    display: flex;
+}
+.tieude1024 > p{
+    padding-top: 1px;
+}
+.flex.rightsearch_con2 {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: end;
+}
+.flex.rightsearch_con2 button:nth-child(3) {
+    margin-right: unset;
+}
+.flex.rightsearch_con2 button {
+    margin-top: 15px;
+}
+.huongdan {
+    margin-left: 15px;
+}
+.phanquyen .flex.rightsearch_con2 button {
+    margin-top: 0px;
+}
+.phanquyen .flex.rightsearch_con2 button:nth-child(2) {
+    margin-right: unset;
+}
+.search-qlnv {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.lotrinhthangtien .rightsearch {
+    width: 50%;
+}
+.show_thanhvien {
+    left: 14%;
+}
+.m_danhmucdanhgia {
+    margin-right: 15px;
+}
+.phieudanhgia_chitiet .flex.rightsearch_con2 button:nth-child(3) {
+    margin-right: 15px;
+}
+.phieudanhgia_chitiet .khoitieude .flex.rightsearch_con2 button {
+    margin-top: unset;
+}
+.bangtoto .khoibang .bangchung .bangchinh {
+    width: 1046px;
+}
 }
 
 @media(max-width: 985px) {
-    .bangchinh {
-        width: 1046px;
-    }
+.bangchinh {
+    width: 1046px;
+}
 }
 
 @media(max-width: 876px) {
-    .nhatkyhoatdong .bangchinh {
-        width: 1046px;
-    }
-    .thongtinbaomat .khoibang .bangchung .bangchinh tr td:nth-child(2) {
-        width: 250px;
-    }
-    .xoa_con {
-        width: calc(100%/2 - 10px);
-    }
-    .xoa_con:nth-child(2) {
-        margin-right: unset;
-    }
-    .xoa_con:nth-child(3) {
-        margin-right: 20px;
-        margin-top: 20px;
-    }
-    .xoa_con:nth-child(4) {
-        margin-right: unset;
-    }
-    .flex.rightsearch_con2 button:nth-child(2) {
-        margin-right: unset;
-    }
-    .phanquyen .flex.rightsearch_con2 button {
-        margin-top: 15px;
-    }
-    .phanquyen .flex.rightsearch_con2 button:nth-child(1) {
-        margin-right: unset;
-    }
-    .phanquyen .flex.rightsearch_con2 {
-        width: 275px;
-    }
-    .m_lotrinh:nth-child(2n) {
-        margin-right: unset !important;
-    }
-    .m_lotrinh:nth-child(3n) {
-        margin-right: 20px;
-    }
-    .m_lotrinh {
-        width: calc(100% / 2 - 10px);
-        ;
-    }
-    .show_thanhvien {
-        left: 6%;
-    }
-    .show_menu_curd,
-    .show_menu_curd2 {
-        right: -10px;
-    }
+.nhatkyhoatdong .bangchinh {
+    width: 1046px;
+}
+.thongtinbaomat .khoibang .bangchung .bangchinh tr td:nth-child(2) {
+    width: 250px;
+}
+.xoa_con {
+    width: calc(100%/2 - 10px);
+}
+.xoa_con:nth-child(2) {
+    margin-right: unset;
+}
+.xoa_con:nth-child(3) {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.xoa_con:nth-child(4) {
+    margin-right: unset;
+}
+.flex.rightsearch_con2 button:nth-child(2) {
+    margin-right: unset;
+}
+.phanquyen .flex.rightsearch_con2 button {
+    margin-top: 15px;
+}
+.phanquyen .flex.rightsearch_con2 button:nth-child(1) {
+    margin-right: unset;
+}
+.phanquyen .flex.rightsearch_con2 {
+    width: 275px;
+}
+.m_lotrinh:nth-child(2n) {
+    margin-right: unset !important;
+}
+.m_lotrinh:nth-child(3n) {
+    margin-right: 20px;
+}
+.m_lotrinh {
+    width: calc(100% / 2 - 10px);
+    ;
+}
+.show_thanhvien {
+    left: 6%;
+}
+.show_menu_curd,
+.show_menu_curd2 {
+    right: -10px;
+}
+}
+@media(max-width: 680px){
+.khoiphanloaiconcon{
+flex-wrap: wrap;
+}
+.popto{
+width: 92%;
+}
+}
+@media(max-width: 480px){
+.div145:nth-child(3){
+margin-top: 15px;
+}
+.xoaphanloai{
+margin-top: 38px;
+}
+.wapper .main{
+height: 600px;
+}
+.pop{
+width: 92%;
+}
+.boder_bolk {
+padding: 27px 40px 25px 40px;
+}
+.close_xacnhan {
+width: 100%;
+}
+.boder_thanhcong {
+padding: 38px 32px 38px 32px;
+}
+
+}
+@media(max-width: 375px){
+.div145{
+    width: 142px !important;
+}
+.khoibutton_form .btn {
+width: 140px;
+height: 36px;
+}
+#show_phanloaidanhgiaid .padding-20{
+padding: 25px 20px 20px 20px;
+}
+.changesize18 .size-18{
+font-size: 16px;
+}
+.boder_bolk {
+padding: 16px 17px 25px 18px;
+}   
+.boder_bolk_trong{
+padding: 0 30px;
+}
+.khoibutton_form .btn:first-child {
+margin-right: 30px;
+}
+.pop .khoibutton_form .btn:first-child {
+margin-right: 30px;
+}
+.themmoiphanloai{
+width: 142px;
+}
+.caidat .width70pt{
+width: 100%;
+}
+.ngonngu, .giaodien {
+flex-wrap: wrap;
+margin-bottom: 20px;
+}
+.tieudengongu{
+width: 100%;
+margin-bottom: 15px;
+}
+.ngonngu_tiengviet {
+width: 50%;
+}
+.thongbao, .nhacnho{
+flex-wrap: wrap;
+margin-bottom: 20px;
+}
+.caidat .thongbao .center-height{
+align-items: unset !important;
+}.caidat .nhacnho .center-height{
+align-items: unset !important;
+}
+.khoidanhmuccon:nth-child(1),  .khoidanhmuccon:nth-child(2){
+margin-bottom: 15px;
+}
+.khoi_footerbang{
+flex-wrap: wrap;
+}
+.khoi_footerbang_hienthi{
+width: 100%;
+margin-bottom: 15px;
+}
+.khoi_footerbang_phantrang{
+justify-content: center;
+width: 100%;
+}
+.search-qlnv{
+flex-wrap: wrap;
+}
+.khoi_left {
+width: 100%;
+margin-bottom: 15px;
+}
+.box-qlinhanvien .rightsearch.flex{
+width: 100%;
+}
+.xoa_con{
+width: 100%;
+margin-right: unset !important;
+margin-top: unset !important;
+margin-bottom: 15px !important;
+}
+.boder_pop_before{
+    padding: 69px 17px 40px 18px;
+}
+.change_text_tb p, .change_text_tc p, .text_before_change p{
+    padding: 0 27px;
+}  
 }

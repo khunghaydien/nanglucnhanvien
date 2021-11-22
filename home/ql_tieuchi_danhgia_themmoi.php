@@ -43,7 +43,7 @@ Thêm mới cha (bị ẩn) -->
                                         <p>Danh sách lý tiêu chí đánh giá <span> / </span><span> Thêm mới</span></p>
                                     </div>
                                 </div>
-                                <div class="header width_100">
+                                <div class="header_d width_100">
                                     <h4>Thêm mới tiêu chí</h4>
                                 </div>
                                 <div class="body width_100">

@@ -39,7 +39,7 @@
                                         <p>Đề đánh giá năng lực<span> / </span><span> Thêm mới</span></p>
                                     </div>
                                 </div>
-                                <div class="header width_100">
+                                <div class="header_d width_100">
                                     <h4>Thêm mới đề đánh giá năng lực</h4>
                                 </div>
                                 <!-- form thêm mới đề đánh giá năng lực -->
@@ -207,24 +207,26 @@
                                 </div>
                             </div>
 
-                            <div class="d_flex mb_20">
+                            <div class="thiet_lap d_flex mb_20">
                                 <h4 class="color_blue font_wB font_ss16 mr_20">
                                     Thiết lập phân loại đánh giá:
                                 </h4>
-                                <div class="d_flex align_c mr_30">
-                                    <input type="radio" name="drone" id="radio_macdinh" value="macdinh" class="mr_5"
-                                        class="check_dm" checked>
-                                    <label for="huey">Mặc định</label>
-                                </div>
-                                <div class="d_flex align_c">
-                                    <input type="radio" name="drone" id="radio_khac" value="khac" class="mr_5"
-                                        class="check_dm">
-                                    <label for="dewey">Khác</label>
+                                <div class="container_thietlap">
+                                    <div class="d_flex align_c mr_30">
+                                        <input type="radio" name="drone" id="radio_macdinh" value="macdinh" class="mr_5"
+                                            class="check_dm" checked>
+                                        <label for="huey">Mặc định</label>
+                                    </div>
+                                    <div class="d_flex align_c">
+                                        <input type="radio" name="drone" id="radio_khac" value="khac" class="mr_5"
+                                            class="check_dm">
+                                        <label for="dewey">Khác</label>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="body_ql_tieuchi phanloai_danhgia phanloai_danhgia_macdinh ">
-                                <div class="header width_100">
+                                <div class="header_d width_100">
                                     <h4>Phân loại đánh giá</h4>
                                 </div>
                                 <div class="body width_100">
@@ -254,7 +256,7 @@
                             </div>
 
                             <div class="body_ql_tieuchi phanloai_danhgia phanloai_danhgia_khac display_none">
-                                <div class="header width_100">
+                                <div class="header_d width_100">
                                     <h4>Phân loại đánh giá</h4>
                                 </div>
                                 <div class="body width_100">

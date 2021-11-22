@@ -100,7 +100,7 @@
                                                 </td>
                                                 <td>
                                                     <div class="sua_xoa d_flex content_c ">
-                                                        <a href="/quan_ly_de_kiem_tra_nang_luc_chinhsua.html"
+                                                        <a href="/quan_ly_de_kiem_tra_nang_luc_chinh_sua.html"
                                                             class="btn_chinhsua position_r d_flex mr_14">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
@@ -142,12 +142,13 @@
                                                 </td>
                                                 <td>
                                                     <div class="sua_xoa d_flex content_c ">
-                                                        <div class="btn_chinhsua position_r d_flex mr_14">
+                                                        <a href="/quan_ly_de_kiem_tra_nang_luc_chinh_sua.html"
+                                                            class="btn_chinhsua position_r d_flex mr_14">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
                                                             </div>
                                                             <p class="color_blue font_w5">Sửa</p>
-                                                        </div>
+                                                        </a>
                                                         <div class="btn_xoa d_flex ">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_xoa.png" alt="Xóa">
@@ -182,12 +183,13 @@
                                                 </td>
                                                 <td>
                                                     <div class="sua_xoa d_flex content_c ">
-                                                        <div class="btn_chinhsua position_r d_flex mr_14">
+                                                        <a href="/quan_ly_de_kiem_tra_nang_luc_chinh_sua.html"
+                                                            class="btn_chinhsua position_r d_flex mr_14">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
                                                             </div>
                                                             <p class="color_blue font_w5">Sửa</p>
-                                                        </div>
+                                                        </a>
                                                         <div class="btn_xoa d_flex ">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_xoa.png" alt="Xóa">
@@ -222,12 +224,13 @@
                                                 </td>
                                                 <td>
                                                     <div class="sua_xoa d_flex content_c ">
-                                                        <div class="btn_chinhsua position_r d_flex mr_14">
+                                                        <a href="/quan_ly_de_kiem_tra_nang_luc_chinh_sua.html"
+                                                            class="btn_chinhsua position_r d_flex mr_14">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
                                                             </div>
                                                             <p class="color_blue font_w5">Sửa</p>
-                                                        </div>
+                                                        </a>
                                                         <div class="btn_xoa d_flex ">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_xoa.png" alt="Xóa">
@@ -262,12 +265,13 @@
                                                 </td>
                                                 <td>
                                                     <div class="sua_xoa d_flex content_c ">
-                                                        <div class="btn_chinhsua position_r d_flex mr_14">
+                                                        <a href="/quan_ly_de_kiem_tra_nang_luc_chinh_sua.html"
+                                                            class="btn_chinhsua position_r d_flex mr_14">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
                                                             </div>
                                                             <p class="color_blue font_w5">Sửa</p>
-                                                        </div>
+                                                        </a>
                                                         <div class="btn_xoa d_flex ">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_xoa.png" alt="Xóa">
@@ -302,12 +306,13 @@
                                                 </td>
                                                 <td>
                                                     <div class="sua_xoa d_flex content_c ">
-                                                        <div class="btn_chinhsua position_r d_flex mr_14">
+                                                        <a href="/quan_ly_de_kiem_tra_nang_luc_chinh_sua.html"
+                                                            class="btn_chinhsua position_r d_flex mr_14">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_sua.png" alt="Chỉnh sửa ">
                                                             </div>
                                                             <p class="color_blue font_w5">Sửa</p>
-                                                        </div>
+                                                        </a>
                                                         <div class="btn_xoa d_flex ">
                                                             <div class="img mr_5">
                                                                 <img src="../img/icon_xoa.png" alt="Xóa">

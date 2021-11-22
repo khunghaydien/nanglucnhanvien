@@ -87,4 +87,13 @@ $(window).click(function(e) {
     if (!$('.btn_loaihoi').is(e.target) && $('.btn_loaihoi').has(e.target).length == 0 && !$('.sub_loaihoi').is(e.target) && $('.sub_loaihoi').has(e.target).length == 0) {
         $('.sub_loaihoi').hide();
     }
+    if ($(e.target).is('.popup_xoa')) {
+        $('.popup_xoa').hide();
+    }
+    if ($(e.target).is('.popup_duyet')) {
+        $('.popup_duyet').hide();
+    }
+    if ($(e.target).is('.popup_tuchoi')) {
+        $('.popup_tuchoi').hide();
+    }
 })
