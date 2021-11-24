@@ -22,7 +22,6 @@
                     <div class="btn_banner">
                         <div class="btn btn_dangky cursor_p">Đăng kí miễn phí</div>
                     </div>
-
                 </div>
                 <div class="img">
                     <img src="../img/banner_1.png" alt="banner năng lực">

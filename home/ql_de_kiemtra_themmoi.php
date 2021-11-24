@@ -604,9 +604,6 @@ $('#chon_dang_6').click(function() {
     $('.sel_dang_2').hide();
 })
 
-
-
-
 $('.js_select_2').select2({
     width: '100%',
 })
