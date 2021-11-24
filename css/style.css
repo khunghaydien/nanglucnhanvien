@@ -570,7 +570,6 @@
     }
     
     .sidebar {
-        position: fixed;
         width: 21%;
         height: 630px;
         background: #4C5BD4;
@@ -720,8 +719,6 @@
     /*end popup_dat */
     
     .wapper .main {
-        position: absolute;
-        left: 21%;
         width: 79%;
         padding: 20px 20px 80px 20px;
     }
@@ -1849,6 +1846,7 @@
             width: 280px;
         }
         .wapper .main {
+            left: 0;
             width: 100%;
             padding: 46px 15px 80px 15px;
         }

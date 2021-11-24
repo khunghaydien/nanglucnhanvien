@@ -25,7 +25,6 @@
                                     </a>
                                     <p>Quản lý kế hoạch đánh giá <span> / </span><span> Thêm mới </span></p>
                                 </div>
-
                             </div>
                             <? include('../includes/menu_header.php') ?>
                         </div>
@@ -37,7 +36,6 @@
                                     </a>
                                     <p>Quản lý kế hoạch đánh giá <span> / </span><span> Thêm mới </span></p>
                                 </div>
-
                             </div>
                             <form action="">
                                 <div class="header_them_kehoach d_flex content_c align_c mb_20">
@@ -246,7 +244,6 @@
                                     </a>
                                     <p>Quản lý kế hoạch đánh giá <span> / </span><span> Thêm mới </span></p>
                                 </div>
-
                             </div>
                             <form action="">
                                 <div class="header_them_kehoach d_flex content_c align_c mb_20">
@@ -298,7 +295,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="nhanvien">
                                         <div class="body_doituong body_doituong_nhan_danhgia">
                                             <div class="khoibang">
@@ -485,7 +481,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="phongban display_none">
                                         <div class="body_doituong body_doituong_nhan_danhgia ">
                                             <div class="khoibang">
@@ -593,7 +588,6 @@
                                             <p class="font_s14 font_w5">Thêm người đánh giá</p>
                                         </div>
                                     </div>
-
                                     <div class="body_doituong body_doituong_nhan_danhgia">
                                         <div class="khoibang">
                                             <div class="bangchung">

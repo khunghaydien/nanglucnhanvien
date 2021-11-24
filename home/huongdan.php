@@ -20,15 +20,17 @@
                     <div class="img width_100">
                         <img src="../img/huongdan_1.png" alt="banner" class="width_100">
                     </div>
-                    <div class="content ">
-                        <div class="container">
-                            <h3>
-                                Hướng dẫn sử dụng phần mềm
-                                Đánh giá năng lực nhân viên 365
-                            </h3>
-                            <div class="d_flex app_lala">
-                                <img src="../img/huongdan_3.png" alt="google play" class="mr_15">
-                                <img src="../img/huongdan_4.png" alt="app">
+                    <div class="content">
+                        <div class="container_cont d_flex align_c">
+                            <div class="div_cont mr_68">
+                                <h3>
+                                    Hướng dẫn sử dụng phần mềm
+                                    Đánh giá năng lực nhân viên 365
+                                </h3>
+                                <div class="d_flex app_lala">
+                                    <img src="../img/huongdan_3.png" alt="google play" class="mr_15">
+                                    <img src="../img/huongdan_4.png" alt="app">
+                                </div>
                             </div>
                             <div class="video width_100">
                                 <img src="../img/huongdan_2.png" alt="Video" class="width_100">

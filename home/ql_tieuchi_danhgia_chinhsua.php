@@ -50,12 +50,12 @@
                                         class="form form_them_tieuchi form_sua_tieuchi_con">
                                         <div class="container">
                                             <div class="form_container">
-                                                <div class="form_group">
+                                                <div class="form_group group_ten">
                                                     <label for="">Tên tiêu chí <span class="color_red">*</span></label>
                                                     <input type="text" name="ten" placeholder="Nhập tên tiêu chí"
                                                         value="Tiêu chí người dùng tự tạo">
                                                 </div>
-                                                <div class="form_group">
+                                                <div class="form_group group_loai_tc">
                                                     <label for="" class="d_flex align_c">
                                                         <span>Loại tiêu chí</span>
                                                         <img src="../img/icon_i.png" alt="Thông tin" class="ml_10 mr_5">
@@ -63,47 +63,49 @@
                                                     </label>
                                                     <div class="select_no_muti ">
                                                         <select class="js_select_2 " name="loai_tc">
-                                                            <option value="">Tiêu chí đơn</option>
-                                                            <option value="">Tiêu chí tổng hợp</option>
+                                                            <option value="1">Tiêu chí đơn</option>
+                                                            <option value="2">Tiêu chí tổng hợp</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form_container">
-                                                <div class="form_group">
+                                                <div class="form_group group_trang_thai">
                                                     <label for=""> Trạng thái <span class="color_red">*</span></label>
                                                     <div class="select_no_muti">
-                                                        <select class="js_select_2 " name="loai_tc">
-                                                            <option value="">Mở</option>
-                                                            <option value="">Đóng</option>
+                                                        <select class="js_select_2 " name="trang_thai">
+                                                            <option value="1">Mở</option>
+                                                            <option value="2">Đóng</option>
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="form_group form_group_block">
+                                                <div class="form_group group_nguoi_tao form_group_block">
                                                     <label for="">Người tạo</label>
-                                                    <input type="text" name="ten" placeholder="Nguyễn Trần Trung Quân">
+                                                    <input type="text" name="ten" value="Nguyễn Trần Trung Quân"
+                                                        placeholder="Nguyễn Trần Trung Quân">
                                                 </div>
                                             </div>
                                             <div class="form_container">
-                                                <div class="form_group form_group_block">
+                                                <div class="form_group group_ngay_tao form_group_block">
                                                     <label for="">Ngày tạo</label>
-                                                    <input type="text" name="ten" placeholder="10/10/2020">
+                                                    <input type="text" name="ten" placeholder="10/10/2020"
+                                                        value="Nhập ngày tạo">
                                                 </div>
-                                                <div class="form_group">
+                                                <div class="form_group group_thangdiem">
                                                     <label for="">Thang điểm <span class="color_red">*</span></label>
                                                     <input type="text" name="thang_diem" placeholder="Nhập thang điểm"
                                                         value="10">
                                                 </div>
                                             </div>
-                                            <div class="form_group">
+                                            <div class="form_group group_ghi_chu">
                                                 <label for="">Ghi chú</label>
-                                                <textarea id="editor3" name="editor1" cols="80" rows="10"
+                                                <textarea id="editor3" name="ghi_chu" cols="80" rows="10"
                                                     value='Nội dung 1'></textarea>
                                             </div>
                                         </div>
                                         <div class="form_btn d_flex content_c mt_25">
                                             <button class="btn btn_trang btn_168 mr_60">Hủy</button>
-                                            <button class="btn btn_xanh btn_168">Lưu</button>
+                                            <button type="submit" class="btn btn_xanh btn_168">Lưu</button>
                                         </div>
                                     </form>
                                     <!--end form sửa tiêu chí 1 -->
@@ -137,14 +139,15 @@
                                                     <label for=""> Tiêu chí cha <span class="color_red">*</span></label>
                                                     <div class="select_no_muti">
                                                         <select class="js_select_2 " name="loai_tc">
-                                                            <option value="">Tiêu chí cha</option>
+                                                            <option value="1">Tiêu chí cha</option>
+                                                            <option value="2">Tiêu chí con</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="form_group">
                                                     <label for=""> Trạng thái <span class="color_red">*</span></label>
                                                     <div class="select_no_muti">
-                                                        <select class="js_select_2 " name="loai_tc">
+                                                        <select class="js_select_2 " name="trang_thai">
                                                             <option value="">Mở</option>
                                                             <option value="">Đóng</option>
                                                         </select>
@@ -155,12 +158,13 @@
                                                 <div class="form_group d_flex">
                                                     <div class="form_group form_group_block">
                                                         <label for="">Người tạo</label>
-                                                        <input type="text" name="ten"
-                                                            placeholder="Nguyễn Trần Trung Quân">
+                                                        <input type="text" name="nguoi_tao" placeholder="Nhập người tạo"
+                                                            value="Nguyễn Trần Trung Quân">
                                                     </div>
                                                     <div class="form_group form_group_block">
                                                         <label for="">Ngày tạo</label>
-                                                        <input type="text" name="ten" placeholder="10/10/2020">
+                                                        <input type="text" name="ngay_tao" placeholder="Nhập ngày tạo"
+                                                            placeholder="10/10/2020">
                                                     </div>
                                                 </div>
                                                 <div class="form_group">
@@ -327,6 +331,7 @@
     </div>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/dat.js"></script>
 <script type="text/javascript" src="../js/select2.min.js"></script>
@@ -346,6 +351,22 @@ CKEDITOR.replace('editor5', {
 });
 CKEDITOR.replace('editor6', {
     height: '108'
+});
+$('.form_them_tieuchi').validate({
+    errorPlacement: function(error, element) {
+        error.appendTo(element.parents(".form_group"));
+        error.wrap("<span class='error'>");
+    },
+    rules: {
+        ten: "required",
+        trang_thai: "required",
+        thang_diem: "required"
+    },
+    messages: {
+        ten: "Không được để trống",
+        trang_thai: "Không được để trống",
+        thang_diem: "Không được để trống"
+    },
 });
 </script>
 

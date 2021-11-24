@@ -23,6 +23,7 @@
                             <? include('../includes/menu_header.php') ?>
                         </div>
                         <div class="main_body">
+
                         </div>
                     </div>
                 </div>
@@ -33,5 +34,8 @@
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/dat.js"></script>
+<script>
+
+</script>
 
 </html>

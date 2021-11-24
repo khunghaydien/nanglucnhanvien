@@ -397,7 +397,7 @@
                         để có thể tạo<span class="font_wB"> Bài đánh giá</span> và<span class="font_wB"> Bài kiểm
                             tra!</span> </p>
                     <div class="popup_btn">
-                        <div class="btn btn_trang btn_140 mr_68">Thiết lập sau</div>
+                        <div class="btn btn_trang btn_140 mr_68  close_popup">Thiết lập sau</div>
                         <a href="/caidat_thangdiem.html" class="btn btn_xanh btn_140">
                             Đi tới thiết lập
                         </a>

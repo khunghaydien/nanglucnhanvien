@@ -47,7 +47,6 @@ $('.btn_them_tuychon').click(function() {
     $(this).attr('data-id', id + 1);
 })
 $('.btn_them_anhtuychon').click(function() {
-
     $(this).removeClass('btn_them_anhtuychon');
     $(this).parents('.tuychon').find('.container_img').append('<div class="tuychon_img"> <div class = "img_anh_tuychon" ><div class = "form_group" > <input type = "file" name = "anh" class = "anh_tailen" ><div class = "container_anh container_anh_1"><div class = "item_anh item_anh_1" ><div class = "img_anh_tailen img_anh_tailen_1" ><img src = ""alt = "Ảnh tải lên" ></div> <div class = "xoa_anh d_flex" ><div class = "img mr_5" > <img src = "../img/hoi_10.png" alt = "Xóa ảnh"> </div> <p class = "font_s14 color_red"> Xóa </p> </div> </div> </div> </div> </div> </div>');
 })
@@ -75,7 +74,6 @@ chon_trangthai.click(function() {
 })
 
 var input_block = $('.form_group_block input')
-
 input_block.attr('disabled', true);
 
 $(window).click(function(e) {

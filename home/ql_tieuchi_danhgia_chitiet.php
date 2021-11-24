@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div id="ql_tieuchi_them_sua" class="ql_tieuchi">
+    <div id="ql_tieuchi_chitiet" class="ql_tieuchi">
         <div class="wapper color_b">
             <div class="d_flex">
                 <? include('../includes/cd_sidebar.php'); ?>
