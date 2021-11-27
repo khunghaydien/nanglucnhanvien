@@ -343,6 +343,15 @@
 <script type="text/javascript" src="../js/select2.min.js"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <script>
+$('input[type="radio"]').click(function() {
+    if ($(this).val() == "macdinh") {
+        $('.phanloai_danhgia_macdinh').show();
+        $('.phanloai_danhgia_khac').hide();
+    } else {
+        $('.phanloai_danhgia_macdinh').hide();
+        $('.phanloai_danhgia_khac').show();
+    }
+})
 $('.js_select_2').select2({
     width: '100%'
 })

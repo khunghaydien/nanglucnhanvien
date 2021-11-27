@@ -50,7 +50,15 @@
                                         <p class="size-14">Thêm chức vụ</p>
                                     </div>
                                 </div>
-                                <div class="nentrang over_scroll_x">
+                                <div class="nentrang over_scroll_x po_r" >
+                                    <div class="thanh_dk">
+                                        <div class="turn turn_left" id="turn_left">
+                                            <img src="../img/left.png" alt="sang trái">
+                                        </div>
+                                        <div class=" turn turn_right" id="turn_right">
+                                            <img src="../img/right.png" alt="sang phải">
+                                        </div>
+                                    </div>
                                    <div class="scrollx_lotrinhchitiet">
                                         <div class="nenxam flex m_chitiet_phongban ">
                                             <div class="chitiet_phongban flex space">
@@ -213,123 +221,132 @@
                                 </div>
                             </div>
                             <? include('../includes/manh_modal.php'); ?>
-                            <div id="popup_show_themyccv" class="popup hidden">
-                                <div class=" pop">
-                                    <div class="">
-                                        <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
-                                            <div class="">
-                                                <h4 class="size-18 font-bold h4_yccv">Thêm yêu cầu công việc</h4>
-                                            </div>
-                                            <div class="flex center-height c-pointer x_close">
-                                                <img src="../img/manhimg/x.png" alt="Huong dan">
-                                            </div>
-                                        </div>
-                                        <div class="nentrang">
-                                            <div class="padding-20">
-                                                <div class="bot-15">
-                                                    <p class="chuden font-medium size-15 bot-5">Tên yêu cầu công
-                                                        việc<span class="chudo">*</span></p>
-                                                    <div class="border_input text">
-                                                        <input type="text" placeholder="Nhập yêu cầu"
-                                                            class="size-14 chuden">
-                                                    </div>
-                                                </div>
-                                                <div class="bot-15">
-                                                    <p class="chuden font-medium size-15 bot-5">Vị trí đặt chức vụ</p>
-                                                    <div class="select_no_muti">
-                                                        <select class="js_select_2" name="" id="">
-                                                            <option value="">Chọn vị trí đặt yêu cầu công việc</option>
-                                                            <option value="">Trên yêu cầu 1</option>
-                                                            <option value="">Trên yêu cầu 2</option>
-                                                            <option value="">Trên yêu cầu 3</option>
-                                                            <option value="">Trên yêu cầu 4</option>
-                                                            <option value="">Dưới cùng</option>
+<div id="popup_show_themyccv" class="popup hidden">
+    <div class="pop">
+        <div class="">
+            <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
+                <div class="">
+                    <h4 class="size-18 font-bold h4_yccv">Thêm yêu cầu công việc</h4>
+                </div>
+                <div class="flex center-height c-pointer x_close">
+                    <img src="../img/manhimg/x.png" alt="Huong dan">
+                </div>
+            </div>
+            <form action="" method="post" id="show_themyccv">
+                <div class="nentrang">
+                    <div class="padding-20">
+                        <div class="bot-15">
+                            <p class="chuden font-medium size-15 bot-5">Tên yêu cầu công
+                                việc<span class="chudo">*</span></p>
+                            <div class="border_input text">
+                                <input type="text" placeholder="Nhập yêu cầu"
+                                    class="size-14 chuden" name="ten_congviec">
+                            </div>
+                        </div>
+                        <div class="bot-15">
+                            <p class="chuden font-medium size-15 bot-5">Vị trí đặt chức vụ<span class="chudo">*</span></p>
+                            <div class="select_no_muti">
+                                <select class="js_select_2" name="vitri_congviec" id="">
+                                    <option value="">Chọn vị trí đặt yêu cầu công việc</option>
+                                    <option value="1">Trên yêu cầu 1</option>
+                                    <option value="2">Trên yêu cầu 2</option>
+                                    <option value="3">Trên yêu cầu 3</option>
+                                    <option value="4">Trên yêu cầu 4</option>
+                                    <option value="5">Dưới cùng</option>
 
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="">
-                                                    <p class="chuden font-medium size-15 bot-5">Mô tả yêu cầu công
-                                                        việc<span class="chudo">*</span></p>
-                                                    <div class="border_input textarea">
-                                                        <textarea name="" id=""></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="khoibutton_form top-25">
-                                                    <div class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_yeucau "
-                                                        onclick="hienpopupid('popup_thatbai')">
-                                                        Hủy
-                                                    </div>
-                                                    <div class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu_yeucau"
-                                                        onclick="hienpopupid('popup_thanhcong')">
-                                                        Lưu
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bot-15">
+                            <p class="chuden font-medium size-15 bot-5">Mô tả yêu cầu công
+                                việc<span class="chudo">*</span></p>
+                            <div class="border_input textarea">
+                                <textarea name="mota_congviec" id=""></textarea>
+                            </div>
+                        </div>
+                        <div class="khoibutton_form top-25">
+                            <div class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_yeucau "
+                                onclick="hienpopupid('popup_thatbai')">
+                                Hủy
+                            </div>
+                            <button type="submit" class="btn  btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu_yeucau">
+                                Lưu
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="popup_show_suachucvu" class="popup hidden">
+    <div class=" pop">
+        <div class=" ">
+            <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
+                <div class="">
+                    <h4 class="size-18 font-bold h4_chucvu">Chỉnh sửa chức vụ</h4>
+                </div>
+                <div class="flex center-height c-pointer x_close">
+                    <img src="../img/manhimg/x.png" alt="Huong dan">
+                </div>
+            </div>
+                <form action="" method="post" id="show_suachucvu">
+                    <div class="nentrang br-b-10">
+                        <div class="padding-20">
+                            <div class="bot-15">
+                                <p class="chuden font-medium size-15 bot-5">Chức vụ<span class="chudo">*</span></p>
+                                <div class="select_no_muti ">
+                                    <select class="js_select_2" name="ten_chucvu" id="">
+                                        <option value="1">Nhân viên</option>
+                                        <option value="2">Phó trưởng phòng</option>
+                                        <option value="3">Trưởng phòng</option>
+                                        <option value="4">Giám đốc</option>
+                                    </select>
                                 </div>
                             </div>
-                            <div id="popup_show_suachucvu" class="popup hidden">
-                                <div class=" pop">
-                                    <div class=" ">
-                                        <div class="nenxanh-chutrang br-t-10 flex center-center padding15">
-                                            <div class="">
-                                                <h4 class="size-18 font-bold h4_chucvu">Chỉnh sửa chức vụ</h4>
-                                            </div>
-                                            <div class="flex center-height c-pointer x_close">
-                                                <img src="../img/manhimg/x.png" alt="Huong dan">
-                                            </div>
-                                        </div>
-                                        <div class="nentrang br-b-10">
-                                            <div class="padding-20">
-                                                <div class="bot-15">
-                                                    <p class="chuden font-medium size-15 bot-5">Chức vụ</p>
-                                                    <div class="border_input text">
-                                                        <input type="text" placeholder="Nhân viên"
-                                                            class="size-14 chuden">
-                                                    </div>
-                                                </div>
-                                                <div class="bot-15">
-                                                    <p class="chuden font-medium size-15 bot-5">Vị trí đặt chức vụ</p>
-                                                    <div class="select_no_muti">
-                                                        <select class="js_select_2" name="" id="">
-                                                            <option value="2">Trước nhân viên</option>
-                                                            <option value="">Trước phó trưởng phòng</option>
-                                                            <option value="">Trước trưởng phòng</option>
-                                                            <option value="">Trước giám đốc</option>
-                                                            <option value="">Cuối cùng</option>
+                            <div class="bot-15">
+                                <p class="chuden font-medium size-15 bot-5">Vị trí đặt chức vụ<span class="chudo">*</span></p>
+                                <div class="select_no_muti">
+                                    <select class="js_select_2" name="vitri_chucvu" id="">
+                                        <option value="">Chọn vị trí đặt yêu cầu công việc</option>
+                                        <option value="1">Trước nhân viên</option>
+                                        <option value="2">Trước phó trưởng phòng</option>
+                                        <option value="3">Trước trưởng phòng</option>
+                                        <option value="4">Trước giám đốc</option>
+                                        <option value="5">Cuối cùng</option>
 
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="khoibutton_form top-25">
-                                                    <div onclick="hienpopupid('popup_thatbai')"
-                                                        class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy">
-                                                        Hủy
-                                                    </div>
-                                                    <div onclick="hienpopupid('popup_thanhcong')"
-                                                        class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu">
-                                                        Lưu
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </select>
                                 </div>
                             </div>
+                            <div class="khoibutton_form top-25">
+                                <div onclick="hienpopupid('popup_thatbai')"
+                                    class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy">
+                                    Hủy
+                                </div>
+                                <button type="submit" 
+                                    class="btn btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu">
+                                    Lưu
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>     
+        </div>
+    </div>
+</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+</div>
 
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/select2.min.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
 <script>
 $('.js_select_2').select2({
@@ -346,10 +363,10 @@ $(".btnluu").click(function() {
     $(".change_text_tc").html('Chỉnh sửa chức vụ <span class="font-medium">Nhân viên<p>thành công!</p>');
 });
 $(".btnhuy_yeucau").click(function() {
-    $(".change_text_tb").html('Chỉnh sửa <span class="font-medium">Yêu cầu 1</span> thành công!');
+    $(".change_text_tb").html('Chỉnh sửa <span class="font-medium">Yêu cầu 1</span> thất bại!');
 });
 $(".btnluu_yeucau").click(function() {
-    $(".change_text_tc").html('Chỉnh sửa <span class="font-medium">Yêu cầu 1</span> thất bại!');
+    $(".change_text_tc").html('Chỉnh sửa <span class="font-medium">Yêu cầu 1</span> thành công!');
 });
 $(".js_xoachucvu").click(function() {
     $(".h4_change").html('Xóa chức vụ');

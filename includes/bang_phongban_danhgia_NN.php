@@ -1,6 +1,14 @@
 <div class="chitiet_phieudanhgia">
-    <div class="khoibang">
-        <div class="bangchung ">
+    <div class="khoibang po_r">
+    <div class="thanh_dk">
+        <div class="turn turn_left" id="turn_left2">
+            <img src="../img/left.png" alt="sang trái">
+        </div>
+        <div class=" turn turn_right" id="turn_right2">
+            <img src="../img/right.png" alt="sang phải">
+        </div>
+    </div>
+        <div class="bangchung " id="bang_chung2">
             <table class="bangchinh chuden ">
                 <tr>
                     <th rowspan="2">

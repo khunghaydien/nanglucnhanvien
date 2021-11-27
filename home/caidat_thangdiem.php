@@ -57,7 +57,7 @@
                                                 <p class="size-16 font-bold">Thang điểm</p>
                                                 <div class="flex c-pointer" onclick="hienpopupid('show_thietlapid')">
                                                     <div class="right-5">
-                                                        <img src="../img/manhimg/thietlap.png" alt="Thiet lap">
+                                                        <img src="../img/manhimg/thietlap.png" alt="Thiết lập thang điểm">
                                                     </div>
                                                     <p class="size-14">Thiết lập</p>
                                                 </div>
@@ -77,7 +77,7 @@
                                                 <div class="flex c-pointer "
                                                     onclick="hienpopupid('show_phanloaidanhgiaid')">
                                                     <div class="right-5">
-                                                        <img src="../img/manhimg/thietlap.png" alt="Thiet lap">
+                                                        <img src="../img/manhimg/thietlap.png" alt="phân loại đánh giá">
                                                     </div>
                                                     <p class="size-14">Thiết lập</p>
                                                 </div>
@@ -131,37 +131,36 @@
                     <h4 class="size-18 font-bold">Thiết lập thang điểm cho hệ thống</h4>
                 </div>
                 <div class="flex center-height c-pointer x_close">
-                    <img src="../img/manhimg/x.png" alt="Huong dan">
+                    <img src="../img/manhimg/x.png" alt="Hướng dẫn">
                 </div>
             </div>
             <div class="nentrang br-b-10">
-                <form action="">
+                <form action="" id="form_thangdiem" method="post" >
                     <div class="padding-20">
-                        <div class="bot-15">
+                        <div class="bot-15 ">
                             <p class="chuden font-medium size-15 bot-5">Thang điểm<span class="chudo">*</span></p>
-                            <div class="select_no_muti">
-                                <select class="js_select_2" name="" id="">
-                                    <option value="">10</option>
-                                    <option value="">100</option>
-                                    <option value="">Khác</option>
+                            <div class="select_no_muti " id="nhap_sodiem">
+                                <select class="js_select_2" name="nhap_sodiem" id="select_nhap_sodiem">
+                                    <option value="10">10</option>
+                                    <option value="100">100</option>
+                                    <option value="0">Khác</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="bot-15">
+                        <div class="bot-15 opacity-5 " id="nhap_thangdiem">
                             <p class="chuden font-medium size-15 bot-5">Thiết lập thang điểm</p>
-                            <div class="border_input text">
-                                <input type="text" placeholder="Nhập thang điểm" class="size-14 chuden">
+                            <div class="border_input text" >
+                                <input type="text" disabled="" name="nhap_thangdiem" placeholder="Nhập thang điểm" class="size-14 chuden i_thangdiem">
                             </div>
                         </div>
                         <div class="khoibutton_form top-25 bot-20">
-                            <div onclick="hienpopupid('popup_thatbai')"
-                                class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_thangdiem">
+                            <button class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_thangdiem">
                                 Hủy
-                            </div>
-                            <div type="submit" onclick="hienpopupid('popup_thanhcong')"
-                                class="btn  btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 close c-pointer btnluu_thangdiem">
+                            </button>
+                            <button type="submit" 
+                                class="btn  btn-nenxanh-chutrang br-5 vienxanh font-medium size-15  c-pointer btnluu_thangdiem">
                                 Đồng ý
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -175,11 +174,11 @@
                     <h4 class="size-18 font-bold">Phân loại đánh giá</h4>
                 </div>
                 <div class="flex center-height c-pointer x_close">
-                    <img src="../img/manhimg/x.png" alt="Huong dan">
+                    <img src="../img/manhimg/x.png" alt="Đóng">
                 </div>
             </div>
             <div class="nentrang br-b-10">
-                <form action="">
+                <form action="" method="post" id="frm_phanloai_danhgia">
                     <div class="padding-20">
                         <div class="mkhoiphanloai">
                             <div class="khoiphanloai">
@@ -189,27 +188,27 @@
                                             <p class="chuden font-medium size-15 bot-5">Từ <span class="chudo">*</span>
                                             </p>
                                             <div class="border_input text">
-                                                <input type="number" placeholder="Nhập số điểm" class="size-14 chuden">
+                                                <input type="number" name="pldg_diemtu" placeholder="Nhập số điểm" class="size-14 chuden">
                                             </div>
                                         </div>
                                         <div class="div145">
                                             <p class="chuden font-medium size-15 bot-5">Đến <span class="chudo">*</span>
                                             </p>
                                             <div class="border_input text">
-                                                <input type="number" placeholder="Nhập số điểm" class="size-14 chuden">
+                                                <input type="number" name="pldg_diemden" placeholder="Nhập số điểm" class="size-14 chuden">
                                             </div>
                                         </div>
                                         <div class="div145">
                                             <p class="chuden font-medium size-15 bot-5">Loại <span
                                                     class="chudo">*</span></p>
                                             <div class="select_no_muti">
-                                                <select name="" id="" class="js_select_2">
+                                                <select name="pldg_diemloai" id="" class="js_select_2">
                                                     <option value="">Chọn loại</option>
-                                                    <option value="">Yếu</option>
-                                                    <option value="">Trung bình</option>
-                                                    <option value="">Khá</option>
-                                                    <option value="">Giỏi</option>
-                                                    <option value="">Xuát sắc</option>
+                                                    <option value="1">Yếu</option>
+                                                    <option value="2">Trung bình</option>
+                                                    <option value="3">Khá</option>
+                                                    <option value="4">Giỏi</option>
+                                                    <option value="5">Xuát sắc</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -222,7 +221,7 @@
                             <div class="themmoiphanloai nenxanh-chutrang flex  center-center c-pointer">
                                 <div class="flex">
                                     <div class="right-10">
-                                        <img src="../img/manhimg/themtrang.png" alt="Theem loai">
+                                        <img src="../img/manhimg/themtrang.png" alt="Thêm loại">
                                     </div>
                                     <p>Thêm loại</p>
                                 </div>
@@ -232,11 +231,11 @@
                             <div onclick="hienpopupid('popup_thatbai')"
                                 class="btn close btn-nentrang-chuxanh br-5 vienxanh font-medium size-15 c-pointer btnhuy_phanloai">
                                 Hủy
-                            </div>
-                            <div onclick="hienpopupid('popup_thanhcong')"
-                                class="btn close btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu_phanloai">
+                          </div>
+                            <button  type="submit" 
+                                class="btn btn-nenxanh-chutrang br-5 vienxanh font-medium size-15 c-pointer btnluu_phanloai">
                                 Hoàn thành
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -248,6 +247,7 @@
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/select2.min.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
 <script>
 $('.js_select_2').select2({
@@ -269,4 +269,18 @@ $(".btnhuy_phanloai").click(function() {
 $(".btnluu_phanloai").click(function() {
     $(".change_text_tc").text('Thiết lập phân loại thành công!');
 });
+
+$("#nhap_sodiem").change(function() {
+    if ($('#select_nhap_sodiem').val()==0)
+    {
+        $('#nhap_thangdiem').removeClass("opacity-5");
+        $('.i_thangdiem').prop("disabled", false);
+    }
+    else{
+        $('#nhap_thangdiem').addClass("opacity-5");
+        $('.i_thangdiem').prop("disabled", true);
+    }
+});
+
+
 </script>

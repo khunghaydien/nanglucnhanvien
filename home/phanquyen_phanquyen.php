@@ -144,13 +144,13 @@
 
                                 <div class="flex khoi_footerbang_phantrang">
                                     <div class="m_phantrang flex">
-                                        <div class="phantrangcon right-15 "><</div>
+                                        <div class="phantrangcon right-15 "> < </div>
                                         <div class="phantrangcon right-10 pt_active">1</div>
                                         <div class="phantrangcon right-10 ">2</div>
                                         <div class="phantrangcon right-10 ">3</div>
                                         <div class="phantrangcon right-10 ">4</div>
                                         <div class="phantrangcon">5</div>
-                                        <div class="phantrangcon left-15 ">></div>
+                                        <div class="phantrangcon left-15 "> > </div>
                                     </div>
                                 </div>
                             </div>
@@ -160,6 +160,7 @@
     </div>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/manh.js"></script>
 
 </html>

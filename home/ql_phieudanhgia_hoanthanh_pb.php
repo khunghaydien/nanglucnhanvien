@@ -18,8 +18,13 @@
             <div class="main">
                 <div class="header back_w border_r10 w_100">
                     <div class="box_header d_flex space_b align_c position_r">
-                        <div class="title_header">
-                            <p>Quản lý kết quả đánh giá / Chi tiết / Đánh giá</p>
+                        <div class="title_header flex center-height">
+                        <a href="/quanly-phieudanhgia.html">
+                            <div class="flex center-height right-10 c-pointer">
+                                <img src="../img/manhimg/back.png" alt="Quay lai">               
+                            </div>
+                        </a>
+                            <p>Quản lý phiếu đánh giá / Chi tiết phiếu đánh giá / Đánh giá</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>

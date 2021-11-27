@@ -118,7 +118,6 @@
                                         <div class="tieudengongu">
                                             <p class="chuden size-15 font-medium">Nhắc nhở:</p>
                                         </div>
-
                                         <div>
                                             <div class="flex center-height bot-15">
                                                 <div><input type="checkbox" class="wh16 right-10"></div>

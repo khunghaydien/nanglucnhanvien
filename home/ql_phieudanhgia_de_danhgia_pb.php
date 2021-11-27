@@ -24,12 +24,12 @@
                                     <img src="../img/manhimg/back.png" alt="Quay lai">
                                 </div>
                             </a>
-                            <p>Quản lý kết quả đề đánh giá / Phòng ban</p>
+                            <p>Quản lý phiếu đánh giá / Chi tiết phiếu đánh giá</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
                     <div class="main_body">
-                        <div class="phieudanhgia_chitiet">
+                        <div class="phieudanhgia_chitiet dektr_nv">
                             <div class="tieude1024 size-14 flex center-height ">
                                 <a href="/quanly-phieudanhgia.html">
                                     <div class="flex center-height right-10 c-pointer">
@@ -204,8 +204,16 @@
                                     </div>
 
                                     <div class="bangto3">
-                                        <div class="khoibang">
-                                            <div class="bangchung ">
+                                        <div class="khoibang po_r" >
+                                            <div class="thanh_dk">
+                                                <div class="turn turn_left" id="turn_left">
+                                                    <img src="../img/left.png" alt="sang trái">
+                                                </div>
+                                                <div class=" turn turn_right" id="turn_right">
+                                                    <img src="../img/right.png" alt="sang phải">
+                                                </div>
+                                            </div>
+                                            <div class="bangchung " id="bang_chung">
                                                 <table class="bangchinh chuden ">
                                                     <tr>
                                                         <td rowspan="3">
@@ -262,52 +270,97 @@
                                                     <tr>
                                                         <td rowspan="2" class="">1</td>
                                                         <td rowspan="2" class="text-left">Phòng nhân sự</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td rowspan="2"></td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        
+                                                        <td rowspan="2">
+                                                            
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td colspan="7" class="text-left">
-                                                            Nhận xét
+                                                            <input type="text" placeholder="Nhận xét"> 
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td rowspan="2" class="">1</td>
                                                         <td rowspan="2" class="text-left">Phòng kỹ thuật</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
                                                         <td rowspan="2"></td>
                                                     </tr>
                                                     <tr>
-                                                        <td colspan="7" class="text-left">
-                                                            Nhận xét
+                                                         <td colspan="7" class="text-left">
+                                                            <input type="text" placeholder="Nhận xét"> 
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td rowspan="2" class="">1</td>
                                                         <td rowspan="2" class="text-left">Phòng kinh doanh</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
-                                                        <td class="text-left">Nhập số điểm</td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
+                                                        <td class="text-left">
+                                                            <input type="text" placeholder="Nhập số điểm">
+                                                        </td>
                                                         <td rowspan="2"></td>
                                                     </tr>
                                                     <tr>
-                                                        <td colspan="7" class="text-left">
-                                                            Nhận xét
+                                                         <td colspan="7" class="text-left">
+                                                            <input type="text" placeholder="Nhận xét"> 
                                                         </td>
                                                     </tr>
                                                 </table>

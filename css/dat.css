@@ -1,5 +1,10 @@
             /* trang chủ trước đăng nhâp */
             
+            .logo img {
+                width: 128px;
+                height: 28px;
+            }
+            
             .title {
                 text-align: center;
                 font-weight: bold;
@@ -14,7 +19,7 @@
             }
             
             .trangchu_banner .content {
-                width: 55%;
+                width: 67%;
                 margin-right: 144px;
             }
             
@@ -73,7 +78,7 @@
             }
             
             .trangchu_tinhnang .item_tieu_chi .tinhnang_1 {
-                color: #1a1918;
+                color: #FFA800;
             }
             
             .trangchu_tinhnang .item_tieu_chi .tinhnang_2 {
@@ -98,6 +103,7 @@
             
             .trangchu_tinhnang .item_tieu_chi .cont {
                 letter-spacing: -0.03em;
+                text-align: justify;
             }
             
             .trangchu_tinhnang .cont_tieu_chi {
@@ -105,9 +111,13 @@
                 top: 0px;
             }
             
+            .trangchu_tieuchi .content .cont p {
+                width: 460px;
+            }
+            
             .trangchu_tieuchi {
                 background: #EAECFA;
-                padding: 80px 10px 80px 10px;
+                padding: 80px 260px 80px 260px;
             }
             
             .trangchu_tieuchi .tieu_de {
@@ -119,6 +129,10 @@
             
             .trangchu_tieuchi .content {
                 width: 50%;
+            }
+            
+            .trangchu_uudiem .container_uu .header p {
+                text-align: justify;
             }
             
             .trangchu_uudiem .container_uu {
@@ -141,7 +155,7 @@
                 background: #FFFFFF;
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
                 border-radius: 10px;
-                padding: 25px 20px 8px 20px;
+                padding: 25px 20px 0px 20px;
                 margin-right: 20px;
                 margin-top: 20px;
             }
@@ -164,6 +178,14 @@
                 background: #EAECFA;
                 display: flex;
                 justify-content: center;
+            }
+            
+            .medium {
+                font-size: medium;
+            }
+            
+            .trangchu_video .content {
+                width: 50%;
             }
             
             .trangchu_video .title {
@@ -228,12 +250,26 @@
                 position: relative;
             }
             
+            .container_thacmac {
+                position: relative;
+            }
+            
+            .container_thacmac_l .lydo {
+                font-size: medium;
+            }
+            
             .container_thacmac_l {
-                width: 60%;
+                width: 61%;
+            }
+            
+            .container_thacmac_l .thanh_dk {
+                top: 29%;
+                left: -20px;
+                width: 63%;
             }
             
             .container_thacmac_r {
-                width: 40%;
+                width: 39%;
             }
             
             .trangchu_thacmac .form_row .btn {
@@ -371,6 +407,7 @@
             }
             
             .huongdan_banner .content {
+                top: 0;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -384,6 +421,18 @@
                 object-fit: cover;
                 width: 100%;
                 height: 100%;
+            }
+            
+            .huongdan_banner .container_cont {
+                width: 100%;
+            }
+            
+            .huongdan_banner .container_cont .div_cont {
+                width: 41%;
+            }
+            
+            .huongdan_banner .container_cont .video {
+                width: 53%;
             }
             
             .app_lala {
@@ -597,12 +646,9 @@
                 color: #4C5BD4;
             }
             
-            .container_uudiem .item_uudiem:first-child .cont {
-                margin-top: 41px;
-            }
-            
             .body_tongquan .container_uudiem .item {
                 padding: 15px 15px 0px 15px;
+                min-height: 214px;
             }
             
             .body_tongquan .container_uudiem .div_them {
@@ -611,6 +657,10 @@
             
             .container_ketqua .item {
                 padding: 17px 15px 15px 17px;
+            }
+            
+            .container_ketqua .cont .img {
+                padding: 0px 13%;
             }
             
             .item_mau {
@@ -728,8 +778,8 @@
             .switch_tatmo {
                 position: relative;
                 display: inline-block;
-                width: 50px;
-                height: 20px;
+                width: 52px;
+                height: 22px;
                 background: #CCCCCC;
                 border: 0.5px solid #CCCCCC;
                 box-sizing: border-box;
@@ -755,6 +805,7 @@
             .switch_tatmo .slider:before {
                 position: absolute;
                 content: "";
+                top: 1px;
                 height: 17px;
                 width: 17px;
                 left: 2px;
@@ -891,7 +942,7 @@
                 background: #FFFFFF;
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
                 border-radius: 0px 0px 10px 10px;
-                padding: 10px;
+                padding: 20px;
             }
             
             .btn_header_ql_tieuchi .btn {
@@ -970,8 +1021,12 @@
                 width: 60%;
             }
             
+            .container_form_3 .width_70 {
+                width: 95.5%;
+            }
+            
             .container_form_4 .form_group {
-                width: 25%;
+                width: 37%;
                 margin-right: 20px;
             }
             
@@ -1042,7 +1097,10 @@
                 background: #FFFFFF;
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
                 border-radius: 10px;
-                padding: 20px 20px 0px 20px;
+            }
+            
+            .container_cauhoi>.item {
+                padding: 20px 19px 0px 19px;
             }
             
             .text_dat {
@@ -1063,7 +1121,11 @@
             }
             
             .footer_cauhoi .container_footer {
-                padding: 12px 0px 17px 0px;
+                padding: 12px 20px 17px 0px;
+            }
+            
+            .footer_cauhoi .container_footer .item {
+                align-items: center;
             }
             
             .img_anh_tailen {
@@ -1117,6 +1179,10 @@
                 border-bottom: 1px dashed #CCCCCC;
             }
             
+            .form_group input[type=time] {
+                margin-top: 5px;
+            }
+            
             input[type="radio"],
             input[type="checkbox"] {
                 width: max-content;
@@ -1128,10 +1194,42 @@
                 width: 160px;
             }
             
+            .popup_them_phong_nv .bangchinh tr th:nth-child(1),
+            .popup_them_phong_nv .bangchinh tr td:nth-child(1) {
+                width: 60px;
+            }
+            
+            .popup_them_phong_nv .bangchinh tr th:nth-child(2),
+            .popup_them_phong_nv .bangchinh tr td:nth-child(2) {
+                width: 564px;
+            }
+            
+            .popup_them_phong_nv_1 .bangchinh tr th:nth-child(1),
+            .popup_them_phong_nv_1 .bangchinh tr td:nth-child(1) {
+                width: 60px;
+            }
+            
+            .popup_them_phong_nv_1 .bangchinh tr th:nth-child(2),
+            .popup_them_phong_nv_1 .bangchinh tr td:nth-child(2) {
+                width: 198px;
+            }
+            
+            .popup_them_phong_nv_1 .bangchinh tr th:nth-child(3),
+            .popup_them_phong_nv_1 .bangchinh tr td:nth-child(3) {
+                width: 198px;
+            }
+            
+            .popup_them_phong_nv_1 .bangchinh tr th:nth-child(4),
+            .popup_them_phong_nv_1 .bangchinh tr td:nth-child(4) {
+                width: 168px;
+            }
+            
             .tuychon_input .ten_tuychon {
                 width: 100%;
                 padding-bottom: 5px;
                 border-bottom: 1px dashed #CCCCCC;
+                font-size: 14px;
+                line-height: 16px;
             }
             
             .btn_them_tuychon {
@@ -1162,13 +1260,16 @@
                 padding: 0px 0px 0px 30px;
             }
             
-            .container_img {
+            .tuychon .container_img {
                 display: flex;
                 justify-content: flex-start;
+                width: 100%;
+                flex-wrap: wrap;
             }
             
             .container_img .tuychon_img {
                 margin-right: 20px;
+                width: 45%;
             }
             
             .img_themmoi_cauhoi {
@@ -1212,6 +1313,14 @@
                 margin-left: -7px;
             }
             
+            .btn_tuychinh {
+                cursor: pointer;
+            }
+            
+            .nguoi_danhgia .plus_10:hover {
+                background: #4C5BD4;
+            }
+            
             .btn_loaihoi {
                 width: 100%;
                 height: 36px;
@@ -1248,7 +1357,25 @@
             
             .select_no_muti_2 .select2-container--default .select2-selection--single {
                 width: 178px;
+                border: none;
                 border-radius: 10px;
+                box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+            }
+            
+            .popup_them_phong_nv_1 .select_no_muti {
+                padding: 20px 20px 0px 20px;
+            }
+            
+            .popup_them_phong_nv_1 .select_no_muti .select2-container--default .select2-selection--single {
+                background: #FFFFFF;
+                border: 1px solid #666666;
+                box-sizing: border-box;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+            
+            .select_no_muti_a .select2-container--default .select2-selection--single {
+                border: 1px solid #666666 !important;
             }
             
             .body_kehoach_danhgia .tieu_chi {
@@ -1286,8 +1413,8 @@
             }
             
             .body_kehoach_danhgia .khoibang .bangchung .bangchinh th:nth-child(2),
-            .body_kehoach_danhgia .khoibang .bangchung .bangchinh th:nth-child(9) {
-                width: 20%;
+            .body_kehoach_danhgia .khoibang .bangchung .bangchinh th:nth-child(10) {
+                width: 18%;
             }
             
             .nguoi_danhgia>.container {
@@ -1406,6 +1533,8 @@
             .select_no_muti_3 .select2-container--default .select2-selection--single {
                 width: 300px;
                 border-radius: 10px;
+                border: none;
+                box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
             }
             
             .main_body .title_header {
@@ -1584,7 +1713,7 @@
                 margin-bottom: 20px;
             }
             
-            .popup_them_tieuchi .khoibang_2 .bangchung_2 {
+            .popup_680 .khoibang_2 .bangchung_2 {
                 height: 300px;
             }
             
@@ -1655,6 +1784,10 @@
                 justify-content: center;
             }
             
+            .header_them_kehoach .container_img {
+                display: flex;
+            }
+            
             .btn_form_chip {
                 display: flex;
                 align-items: center;
@@ -1668,14 +1801,64 @@
                 border-radius: 0px 0px 10px 10px;
             }
             
+            form .phanloai_danhgia_macdinh .body {
+                padding: unset;
+            }
+            
+            .body_them_kehoach .phanloai_danhgia_macdinh .body {
+                padding: unset;
+            }
+            
+            .btn_hello {
+                border: none;
+                background: #fff;
+            }
+            
+            .modal_loai_tieuchi {
+                display: none;
+                position: absolute;
+                top: 0px;
+                right: 20%;
+                width: 200px;
+                background: #FFFFFF;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                padding: 10px 15px;
+                font-size: 14px;
+                line-height: 18px;
+            }
+            
+            .modal_loai_tieuchi p {
+                text-align: justify;
+            }
+            
             @media(max-width:1370px) {
+                .body_tongquan .container .item_chucnang {
+                    width: 32%
+                }
+            }
+            
+            @media(max-width:1365px) {
                 .body_tongquan .container .item_chucnang {
                     width: 31.5%
                 }
             }
             
             @media (max-width: 1024px) {
-                .huongdan_banner .container_img>.img {
+                .trangchu_tieuchi {
+                    padding: 80px 0px 80px 0px;
+                }
+                .huongdan_banner .container_cont .div_cont {
+                    width: 100%;
+                }
+                .container_thacmac_l .thanh_dk {
+                    width: 104%;
+                    top: 21.5%;
+                }
+                .huongdan_main .huongdan_banner .container_img>.img {
+                    height: 750px;
+                }
+                .trangchu_tieuchi .huongdan_banner .container_img>.img {
                     height: 750px;
                 }
                 .huongdan_banner .content .div_cont {
@@ -1826,6 +2009,11 @@
             }
             
             @media(max-width:768px) {
+                .container_thacmac_l .thanh_dk {
+                    width: 99%;
+                    top: 22.5%;
+                    left: 0px;
+                }
                 .huongdan_banner .content h3 {
                     padding: 0px 20%;
                 }
@@ -1938,6 +2126,9 @@
                 }
                 .trangchu_timhieu {
                     padding: 40px 72px;
+                }
+                .trangchu_tieuchi {
+                    padding: 80px 10px 80px 10px;
                 }
                 .trangchu_tieuchi .item_xaydung:nth-child(2n-1) {
                     flex-direction: column-reverse;
@@ -2070,6 +2261,14 @@
             }
             
             @media(max-width:480px) {
+                .container_thacmac_l .thanh_dk {
+                    width: 107%;
+                    top: 23%;
+                    left: -10px;
+                }
+                .container_form_3 .width_30 {
+                    width: 100%;
+                }
                 .huongdan_banner .content .video,
                 .huongdan_banner .content h3 {
                     padding: 0px 7%;

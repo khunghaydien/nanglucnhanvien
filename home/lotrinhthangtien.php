@@ -29,12 +29,12 @@
                                 <div class="khoi_left">
                                     <div class="leftsearch">
                                         <input type="text" name="" placeholder="Tìm kiếm nhân viên">
-                                        <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15" alt="">
+                                        <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15" alt="tìm kiếm">
                                     </div>
                                 </div>
                                 <a href="/huong_dan.html">
                                     <div class="huongdan flex center-height ">
-                                        <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                        <img src="../img/manhimg/chamhoi.png" class="wh36" alt="hướng dẫn">
                                         <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                     </div>
                                 </a>
@@ -49,10 +49,10 @@
                                         <div class="flex center-height js_thanhvien c-pointer">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>
@@ -69,10 +69,10 @@
                                         <div class="flex center-height js_thanhvien c-pointer">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>
@@ -89,10 +89,10 @@
                                         <div class="flex center-height js_thanhvien c-pointer">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>
@@ -109,10 +109,10 @@
                                         <div class="flex center-height js_thanhvien c-pointer">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>
@@ -129,10 +129,10 @@
                                         <div class="flex center-height js_thanhvien c-pointer">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>
@@ -149,10 +149,10 @@
                                         <div class="flex center-height js_thanhvien c-pointer">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>
@@ -169,10 +169,10 @@
                                         <div class="flex center-height js_thanhvien c-pointer">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>
@@ -189,10 +189,10 @@
                                         <div class="flex center-height">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>
@@ -209,10 +209,10 @@
                                         <div class="flex center-height">
                                             <p class="chuden size-14 right-10">Thành viên:</p>
                                             <div class="flex center-height">
-                                                <img src="../../img/manhimg/avata.png" class="" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
-                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="">
+                                                <img src="../../img/manhimg/avata.png" class="" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
+                                                <img src="../../img/manhimg/avata.png" class="left_am" alt="thành viên">
                                                 <div class="bonus flex center-center left_am chutrang size-14">
                                                     10
                                                 </div>

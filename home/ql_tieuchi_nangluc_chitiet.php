@@ -250,6 +250,30 @@
             </div>
         </div>
     </div>
+    <!-- popup xóa -->
+    <div class="popup popup_500 popup_xoa ">
+        <div class="container">
+            <div class="content">
+                <div class="popup_header">
+                    <h4 class="name_header">Xóa đề đánh giá</h4>
+                    <div class="img close_popup">
+                        <img src="../img/close.png" alt="đóng">
+                    </div>
+                </div>
+                <div class="popup_body">
+                    <p class="cont_1"> Bạn có chắc chắn muốn xóa đề đánh giá </br><span class="font_wB">
+                            Đề đánh giá 1</span> ?</p>
+                    <div class="popup_btn">
+                        <div class="btn btn_trang btn_140 mr_68  close_popup">Hủy</div>
+                        <div class="btn btn_xanh btn_140">
+                            Đồng ý
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end popup xóa-->
 </body>
 
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
@@ -266,6 +290,9 @@ $('input[type="radio"]').click(function() {
         $('.phanloai_danhgia_macdinh').hide();
         $('.phanloai_danhgia_khac').show();
     }
+})
+$('.btn_xoade').click(function() {
+    $('.popup_xoa').show();
 })
 
 $('.js_select_2').select2({

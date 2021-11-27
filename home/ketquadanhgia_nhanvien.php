@@ -63,7 +63,7 @@
                                         <div class="tieude375">
                                             <a href="/huong_dan.html" class="">
                                                 <div class="huongdan flex center-height ">
-                                                    <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                                    <img src="../img/manhimg/chamhoi.png" class="wh36" alt="Hướng dẫn">
                                                     <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                                 </div>
                                             </a>
@@ -73,7 +73,7 @@
                                 </div>
                                 <a href="/huong_dan.html" class="khoi_chon_kqdg2">
                                     <div class="huongdan flex center-height ">
-                                        <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                        <img src="../img/manhimg/chamhoi.png" class="wh36" alt="Hướng dẫn">
                                         <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                     </div>
                                 </a>
@@ -133,7 +133,7 @@
                                             </td>
                                             <td class="">
                                                 <div class="flex center-height">
-                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="">
+                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="thành viên">
                                                     <a class="chuden  size-14">Nguyễn
                                                         Trần Trung Quân
                                                     </a>
@@ -152,7 +152,7 @@
                                             <td><a class="chuxanh" href="">NV00001</a></td>
                                             <td class="">
                                                 <div class="flex center-height">
-                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="">
+                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="thành viên">
                                                     <a class="chuden  size-14">Nguyễn
                                                         Trần Trung Quân
                                                     </a>
@@ -170,7 +170,7 @@
                                             <td><a class="chuxanh" href="">NV00001</a></td>
                                             <td class="">
                                                 <div class="flex center-height">
-                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="">
+                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="thành viên">
                                                     <a class="chuden  size-14">Nguyễn
                                                         Trần Trung Quân
                                                     </a>
@@ -188,7 +188,7 @@
                                             <td><a class="chuxanh" href="">NV00001</a></td>
                                             <td class="">
                                                 <div class="flex center-height">
-                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="">
+                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="thành viên">
                                                     <a class="chuden  size-14">Nguyễn
                                                         Trần Trung Quân
                                                     </a>
@@ -206,7 +206,7 @@
                                             <td><a class="chuxanh" href="">NV00001</a></td>
                                             <td class="">
                                                 <div class="flex center-height">
-                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="">
+                                                    <img src="../../img/manhimg/avata.png" class="right-10" alt="thành viên">
                                                     <a class="chuden  size-14">Nguyễn
                                                         Trần Trung Quân
                                                     </a>
@@ -239,8 +239,7 @@
 
                         <div class="flex khoi_footerbang_phantrang">
                             <div class="m_phantrang flex">
-                                <div class="phantrangcon right-15 ">
-                                    << /div>
+                                <div class="phantrangcon right-15 "> < </div>
                                         <div class="phantrangcon right-10 pt_active">1</div>
                                         <div class="phantrangcon right-10 ">2</div>
                                         <div class="phantrangcon right-10 ">3</div>

@@ -1,8 +1,28 @@
 .thanh_dk .turn {
     z-index: 1;
     background: #fff;
-}
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.12));
 
+}
+label.error {
+    float: right;
+    color: #FF3333;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+}
+   #show_phanloaidanhgiaid label.error{
+    float: left;
+   }         
+.error {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF3333;
+}
 .thanh_dk .turn:hover {
     background: #eeeeee;
 }
@@ -27,6 +47,9 @@
     border-radius: 0px 0px 10px 0px !important;
 }
 
+.chitiet_kq_1n .khoibang.mot-mot .bangchung, .bangtoto .khoibang .bangchung{
+    overflow-x: unset;
+}
 
 /*********************************************** CAI DAT ******************************************/
 
@@ -288,7 +311,10 @@
     border-radius: 50%;
     background: rgba(196, 196, 196, 0.86);
 }
-
+.bonus:hover{
+    background: #4C5BD4;
+    color: #fff;
+}
 .left_time {
     width: 35px;
 }
@@ -373,7 +399,7 @@
 }
 
 .lotrinh_con {
-    padding: 20px 15px;
+    padding: 15px 15px;
 }
 
 .br-t-10 {
@@ -402,13 +428,13 @@
 }
 
 .show_thanhvien {
-    z-index: 2;
+    z-index: 1;
     display: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     width: 682px;
     position: absolute;
-    top: 5%;
+    top: 100px;
     left: 30%;
 }
 
@@ -571,7 +597,9 @@
 
 
 /********************************KQ DANH GIA********************************************/
-
+.kqdanhgia_nv .select_no_muti .select2-container--default .select2-selection--single, .kqdanhgia_pb .select_no_muti .select2-container--default .select2-selection--single{
+    border: 0px;
+}
 .m_danhmucdanhgia .select_no_muti .select2-container--default .select2-selection--single {
     border-radius: 10px;
 }
@@ -844,71 +872,62 @@
     width: 145px;
     height: 36px;
 }
-
-
 /*          POPUP       */
-
 .boder_thanhcong {
     padding: 40px 50px 40px 50px;
 }
-
 .top-36 {
     margin-top: 36px;
 }
-
 .top-24 {
     margin-top: 24px;
 }
-
 .top-27 {
     margin-top: 27px;
 }
-
 .close_xacnhan {
     width: 400px;
     height: 36px;
     border-radius: 6px;
 }
-
 .boder_bolk {
     padding: 27px 77px 25px 78px;
 }
-
 .boder_pop_before {
     padding: 69px 35px 40px 35px;
 }
-
 .phieudanhgia .m_danhmucdanhgia .select_no_muti .select2-container--default .select2-selection--single {
     border: unset;
 }
-
 .phieudanhgia .padding15 {
     padding: 15px;
 }
-
 #show_thietlaptime .pop {
     width: 360px;
 }
-
 #show_thietlaptime .pop .khoibutton_form .btn {
     width: 130px;
 }
-
 #show_thietlaptime .pop .khoibutton_form .btn:first-child {
     margin-right: 30px;
 }
-
 .phieudanhgia .m_danhmucdanhgia .danhmucdanhgia.flex.center-height {
     padding-left: 12px;
 }
-
 .tieude1024,
 .tieude375 {
     display: none;
 }
-
-@media(max-width: 1024px) {
-     ::-webkit-scrollbar {
+@media(max-width: 1276px){
+    .flex.rightsearch_con2 {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        justify-content: end;
+    }
+    .bangchinh{
+        width: 1046px;
+    }
+    ::-webkit-scrollbar {
         width: 10px;
         height: 10px;
         display: none;
@@ -926,6 +945,31 @@
         background: #eeeeee;
         display: none;
     }
+}
+@media(max-width: 1164px){
+    
+    .rightsearch .button{margin-top: 15px;}
+    .phanquyen .rightsearch .button{margin-top: unset;}
+}
+@media(max-width: 1121px){
+    .phanquyen .huongdan{
+        margin-left: 15px;
+    }
+    .phanquyen .rightsearch .button{margin-top: 15px;}
+    .phanquyen .rightsearch .button:nth-child(2){
+        margin-right: unset;
+    }    
+}
+@media(max-width: 1090px) {
+    .huongdan{
+        margin-left: 15px;
+    }
+     .flex.rightsearch_con2 button:nth-child(3){
+        margin-right: unset;
+     }
+     .flex.rightsearch_con2{
+        width: 90%;
+     }
     .pdl_3 {
         padding-top: 3px;
     }
@@ -938,22 +982,11 @@
     .tieude1024>p {
         padding-top: 1px;
     }
-    .flex.rightsearch_con2 {
-        width: 100%;
-        flex-wrap: wrap-reverse;
-        justify-content: end;
-    }
-    .flex.rightsearch_con2 button:nth-child(3) {
-        margin-right: unset;
-    }
     .flex.rightsearch_con2 button {
         margin-top: 15px;
     }
-    .huongdan {
-        margin-left: 15px;
-    }
     .phanquyen .flex.rightsearch_con2 button {
-        margin-top: 0px;
+        margin-top: 15px;
     }
     .phanquyen .flex.rightsearch_con2 button:nth-child(2) {
         margin-right: unset;
@@ -981,13 +1014,46 @@
         width: 1046px;
     }
 }
-
+@media(max-width: 1088px){
+ .khoi_chon_kqdg1 .top375_15 {
+        margin-top: 15px;
+    }
+ .khoi_chon_kqdg1{
+        width: 70%
+    }
+}
+@media(max-width:1024px) {
+    .kqdanhgia_pb .bangchinh{
+        width: 100%;
+    }
+ .khoi_chon_kqdg1 .top375_15 {
+        margin-top: unset;
+    }
+ .khoi_chon_kqdg1{
+        width: 80%
+    }
+    .phanquyen .flex.rightsearch_con2 button {
+        margin-top: 0px;
+    }
+}
 @media(max-width: 985px) {
+    .kqdanhgia_pb .bangchinh{
+        width: 1046px;
+    }
     .bangchinh {
         width: 1046px;
     }
 }
-
+@media(max-width: 923px) {
+    .phanquyen .flex.rightsearch_con2 button {
+        margin-top: 15px;
+    }
+}
+@media(max-width: 886px){
+   .khoi_chon_kqdg1 .top375_15 {
+        margin-top: 15px;
+    }
+}
 @media(max-width: 876px) {
     .khoi_chon_kqdg1 {
         width: 80%;
@@ -1002,7 +1068,7 @@
     .m_danhmucdanhgia:last-child {
         margin-top: 15px;
     }
-    .phieudanhgia .m_danhmucdanhgia:last-child {
+    .phieudanhgia .m_danhmucdanhgia:last-child{
         margin-top: unset;
     }
     .nhatkyhoatdong .bangchinh {
@@ -1026,6 +1092,9 @@
     }
     .flex.rightsearch_con2 button:nth-child(2) {
         margin-right: unset;
+    }
+    .dektr_nv .flex.rightsearch_con2 button:nth-child(2) {
+        margin-right: 15px;
     }
     .phanquyen .flex.rightsearch_con2 button {
         margin-top: 15px;
@@ -1053,9 +1122,62 @@
     .show_menu_curd2 {
         right: -10px;
     }
+    .flex.rightsearch_con2{
+        width: 100%;
+    }
 }
-
+@media(max-width: 740px){
+    .show_thanhvien {
+        width: 92%;
+        left: 4%;
+    }
+    .kqdanhgia_nv .khoi_left {
+    margin-bottom: unset;
+    }
+    .dektr_nv .flex.rightsearch_con2 button {
+    margin-top: 15px;
+    }
+    .search-qlnv {
+        flex-wrap: wrap;
+    }
+    .khoi_left {
+        margin-bottom: 15px;
+    }
+    .phieudanhgia.kxoaganday .khoi_left {
+        margin-bottom: unset;
+    }
+    .box-qlinhanvien .rightsearch.flex {
+        width: 100%;
+    }
+    .flex.rightsearch_con2 button {
+    margin-top: unset;
+    }
+    .flex.rightsearch_con2 button:nth-child(2) {
+    margin-right: 15px;
+    }
+}
+@media(max-width: 705px){
+    .khoi_chon_kqdg2 {
+    width: 30%;
+    }
+    .khoi_chon_kqdg1 {
+    width: 100%;
+    }
+}
 @media(max-width: 680px) {
+    .scrollx_pop {
+        width: 680px;
+        overflow-x: scroll;
+    }
+    .scrollx_lotrinhchitiet {
+        width: 1035px;
+    }
+    .over_scroll_x {
+        overflow-x: scroll;
+    }
+    .caidat .width70pt {
+        width: 100%;
+    }
     .khoiphanloaiconcon {
         flex-wrap: wrap;
     }
@@ -1063,8 +1185,66 @@
         width: 92%;
     }
 }
-
+@media(max-width: 673px) {
+    .phieudanhgia.kxoaganday .m_danhmucdanhgia:nth-child(2){
+        margin-top: 15px;
+     }
+    .phieudanhgia.kxoaganday .khoi_left {
+    margin-bottom: unset;
+    }  
+    .phieudanhgia.kxoaganday .khoi_benphai {
+        width: 70%;
+    }  
+}
+@media(max-width: 640px){
+    .kqdanhgia_nv .m_danhmucdanhgia:nth-child(2), .kqdanhgia_pb .m_danhmucdanhgia:nth-child(2){
+        margin-right: unset;
+    }
+}
+@media(max-width: 621px){
+    .kqdanhgia_nv .m_danhmucdanhgia:nth-child(2), .kqdanhgia_pb .m_danhmucdanhgia:nth-child(2){
+       margin-top: 15px;
+    }
+   .khoi_chon_kqdg1 {
+    width: 70%;
+    }
+}
+@media(max-width: 609px) {
+   .flex.rightsearch_con2 button{
+    margin-top: 15px;
+   }
+}
+@media(max-width: 498px){
+   .dektr_nv .flex.rightsearch_con2{
+    width: 90%;
+    }
+    .dektr_nv .flex.rightsearch_con2 button:nth-child(2){
+        margin-right: unset;
+    }
+        .khoi_left {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    .khoidanhmuccon:last-child{
+        margin-top: 15px;
+    }
+    .tieuchidanhgia .khoidanhmuccon:last-child, .dedanhgia .khoidanhmuccon:last-child{
+        margin-top: 0px;
+    }
+    .xoa_con {
+            width: 100%;
+            margin-right: unset !important;
+            margin-top: unset !important;
+            margin-bottom: 15px !important;
+        }
+}
 @media(max-width: 480px) {
+    .phieudanhgia.kxoaganday .khoi_benphai {
+    width: 100%;
+    } 
+    .phieudanhgia.kxoaganday .khoi_left {
+    margin-bottom: 15px;
+    }  
     .danhgia_hoanthanh .khoibutton_form,
     .danhgia_hoanthanh .btn {
         flex-wrap: wrap;
@@ -1137,20 +1317,7 @@
     .boder_thanhcong {
         padding: 38px 32px 38px 32px;
     }
-    .show_thanhvien {
-        width: 92%;
-        left: 4%;
-    }
-    .scrollx_pop {
-        width: 680px;
-        overflow-x: scroll;
-    }
-    .scrollx_lotrinhchitiet {
-        width: 1035px;
-    }
-    .over_scroll_x {
-        overflow-x: scroll;
-    }
+    
     .show_menu_curd,
     .show_menu_curd2 {
         right: 0px;
@@ -1170,9 +1337,32 @@
     .chitiet_kq_1n .khoibang.mot-mot .bangchung .bangchinh {
         width: 1398px;
     }
+    .m_lotrinh {
+        width: 100%;
+        margin-right: unset !important;
+    }
 }
-
+@media(max-width: 473px){
+    .flex.rightsearch_con2 button:nth-child(2) {
+    margin-right: unset;
+    }
+    .flex.rightsearch_con2{
+        width: 90%;
+    }
+}
+@media(max-width: 403px) {
+     .flex.rightsearch_con2{
+        width: 100%;
+    }
+    .khoidanhmuccon:last-child{
+    margin-top: 0px;
+    }
+  .khoidanhmuccon:nth-child(1), .khoidanhmuccon:nth-child(2){
+        margin-bottom: 15px;
+    }
+}
 @media(max-width: 375px) {
+
     .div145 {
         width: 142px !important;
     }
@@ -1201,9 +1391,7 @@
     .themmoiphanloai {
         width: 142px;
     }
-    .caidat .width70pt {
-        width: 100%;
-    }
+    
     .ngonngu,
     .giaodien {
         flex-wrap: wrap;
@@ -1238,22 +1426,7 @@
         justify-content: center;
         width: 100%;
     }
-    .search-qlnv {
-        flex-wrap: wrap;
-    }
-    .khoi_left {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-    .box-qlinhanvien .rightsearch.flex {
-        width: 100%;
-    }
-    .xoa_con {
-        width: 100%;
-        margin-right: unset !important;
-        margin-top: unset !important;
-        margin-bottom: 15px !important;
-    }
+    
     .boder_pop_before {
         padding: 69px 17px 40px 18px;
     }
@@ -1261,17 +1434,28 @@
     .change_text_tc p,
     .text_before_change p {
         padding: 0 27px;
+    } 
+}
+@media(max-width: 355px){
+    .dektr_nv .flex.rightsearch_con2{
+    width: 100%;
     }
-    .m_lotrinh {
-        width: 100%;
-        margin-right: unset !important;
+    .phieudanhgia.kxoaganday .huongdan{
+        width: 130px;
+        display: flex;
+        margin-left: unset;
     }
 }
-
 @media(max-width: 320px) {
     .kqdanhgia_nv .tieude375 .huongdan,
     .kqdanhgia_pb .tieude375 .huongdan {
         display: flex;
         width: 75%;
+    }
+    .rightsearch .button:nth-child(1){
+        margin-right: 12px;
+    }
+    .phieudanhgia_chitiet .flex.rightsearch_con2 button:nth-child(3){
+        margin-right: 14px;
     }
 }

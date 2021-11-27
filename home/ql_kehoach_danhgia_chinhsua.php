@@ -1247,6 +1247,7 @@
             </div>
         </div>
     </div>
+    <? include('../includes/popup_them_phong_nv.php'); ?>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script src="../js/jquery.validate.min.js"></script>
@@ -1255,6 +1256,15 @@
 <script type="text/javascript" src="../js/select2.min.js"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <script>
+$('.btn_themphongban').click(function() {
+    $('.popup_them_phong_nv').show();
+})
+$('.themmoi_nguoi').click(function() {
+    $('.popup_them_phong_nv_1').show();
+})
+$('.themmoi_nguoi_danhgia').click(function() {
+    $('.popup_them_phong_nv_1').show();
+})
 $('.js_select_2').select2({
     width: '100%',
 })
@@ -1399,11 +1409,13 @@ $(".btn_quaylai_2").click(function() {
 $(".btn_quaylai_1").click(function() {
     if ($('.container_them_buoc_2 .container_img_1').is(":visible")) {
         $('.container_them_buoc_2').addClass('display_none');
+        $('.container_them_buoc_2 #lo4').addClass('display_none');
         $('.container_them_buoc_dau').removeClass('display_none');
 
     } else if ($('.container_them_buoc_2 .container_img_2').is(":visible")) {
         $('.container_them_buoc_2').addClass('display_none');
         $('.container_them_buoc_dau').removeClass('display_none');
+        $('.container_them_buoc_2 #lo5').addClass('display_none');
         $('.container_them_buoc_dau .container_img_2').removeClass('display_none');
         $('.container_them_buoc_dau .container_img_1').addClass('display_none');
 
@@ -1414,7 +1426,6 @@ $(".btn_quaylai_1").click(function() {
         $('.container_them_buoc_dau .container_img_1').addClass('display_none');
     }
 })
-
 $('input[type="radio"]').click(function() {
     if ($(this).val() == "nhanvien") {
         $('.nhanvien').addClass('display_none');

@@ -1,5 +1,13 @@
-<div class="khoibang">
-    <div class="bangchung ">
+<div class="khoibang po_r">
+    <div class="thanh_dk">
+        <div class="turn turn_left" id="turn_left">
+            <img src="../img/left.png" alt="sang trái">
+        </div>
+        <div class=" turn turn_right" id="turn_right">
+            <img src="../img/right.png" alt="sang phải">
+        </div>
+    </div>
+    <div class="bangchung " id="bang_chung">
         <table class="bangchinh chuden ">
             <tr>
                 <th>

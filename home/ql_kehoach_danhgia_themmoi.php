@@ -235,8 +235,8 @@
                                         <div class="body_them_kehoach">
                                             <div class="d_flex align_c color_blue mb_20 ">
                                                 <h4 class="font_ss16 font_wB mr_10">Đề đánh giá năng lực:</h4>
-                                                <div class="select_no_muti select_no_muti_2 ">
-                                                    <select class="js_select_2" name="loai_tc">
+                                                <div class="select_no_muti select_no_muti_2  select_no_muti_a ">
+                                                    <select class="js_select_2 " name="loai_tc">
                                                         <option value="">Chọn đề đánh giá năng lực </option>
                                                         <option value="">Đề đánh giá 1 </option>
                                                         <option value="">Đề đánh giá 1 </option>
@@ -398,7 +398,7 @@
                                         <div class="body_them_kehoach">
                                             <div class="d_flex align_c color_blue mb_20 ">
                                                 <h4 class="font_ss16 font_wB mr_10">Đề kiểm tra năng lực:</h4>
-                                                <div class="select_no_muti select_no_muti_2 ">
+                                                <div class="select_no_muti select_no_muti_2 select_no_muti_a ">
                                                     <select class="js_select_2" name="loai_tc">
                                                         <option value="">Chọn đề kiểm tra năng lực</option>
                                                         <option value="">Đề đánh giá 1 </option>
@@ -724,15 +724,15 @@
                                                 </div>
                                             </div>
                                             <div class="nhanvien">
-                                                <div class="d_flex align_c">
-                                                    <div class="img themmoi_tieuchi ">
-                                                        <img src="../img/cong.png" alt="Thêm tiêu chí">
+                                                <div class="d_flex align_c themmoi_nguoi cursor_p">
+                                                    <div class="img  ">
+                                                        <img src="../img/cong.png" alt="Thêm nhân viên">
                                                     </div>
                                                     <p class="font_s14 font_w5">Thêm nhân viên</p>
                                                 </div>
                                             </div>
                                             <div class="phongban display_none ">
-                                                <div class="d_flex align_c">
+                                                <div class="btn_themphongban d_flex align_c">
                                                     <div class="img themmoi_tieuchi ">
                                                         <img src="../img/cong.png" alt="Thêm tiêu chí">
                                                     </div>
@@ -1026,8 +1026,8 @@
                                         </div>
                                         <div class="d_flex space_b width_100 align_c color_blue mb_10">
                                             <h4 class="font_ss16 font_wB">Người đánh giá:</h4>
-                                            <div class="d_flex align_c">
-                                                <div class="img themmoi_tieuchi ">
+                                            <div class="d_flex align_c themmoi_nguoi_danhgia cursor_p">
+                                                <div class="img  ">
                                                     <img src="../img/cong.png" alt="Thêm tiêu chí">
                                                 </div>
                                                 <p class="font_s14 font_w5">Thêm người đánh giá</p>
@@ -1246,6 +1246,7 @@
             </div>
         </div>
     </div>
+    <? include('../includes/popup_them_phong_nv.php'); ?>
 </body>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script src="../js/jquery.validate.min.js"></script>
@@ -1254,6 +1255,16 @@
 <script type="text/javascript" src="../js/select2.min.js"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <script>
+$('.btn_themphongban').click(function() {
+    $('.popup_them_phong_nv').show();
+})
+$('.themmoi_nguoi').click(function() {
+    $('.popup_them_phong_nv_1').show();
+})
+$('.themmoi_nguoi_danhgia').click(function() {
+    $('.popup_them_phong_nv_1').show();
+})
+
 $('.js_select_2').select2({
     width: '100%',
 })
@@ -1398,11 +1409,13 @@ $(".btn_quaylai_2").click(function() {
 $(".btn_quaylai_1").click(function() {
     if ($('.container_them_buoc_2 .container_img_1').is(":visible")) {
         $('.container_them_buoc_2').addClass('display_none');
+        $('.container_them_buoc_2 #lo4').addClass('display_none');
         $('.container_them_buoc_dau').removeClass('display_none');
 
     } else if ($('.container_them_buoc_2 .container_img_2').is(":visible")) {
         $('.container_them_buoc_2').addClass('display_none');
         $('.container_them_buoc_dau').removeClass('display_none');
+        $('.container_them_buoc_2 #lo5').addClass('display_none');
         $('.container_them_buoc_dau .container_img_2').removeClass('display_none');
         $('.container_them_buoc_dau .container_img_1').addClass('display_none');
 
@@ -1416,9 +1429,9 @@ $(".btn_quaylai_1").click(function() {
 
 $('input[type="radio"]').click(function() {
     if ($(this).val() == "nhanvien") {
-        $('.nhanvien').addClass('display_none');
-        $('.phongban').removeClass('display_none');
-    } else {
+        $('.nhanvien').removeClass('display_none');
+        $('.phongban').addClass('display_none');
+    } else if ($(this).val() == "phongban") {
         $('.nhanvien').addClass('display_none');
         $('.phongban').removeClass('display_none');
     }

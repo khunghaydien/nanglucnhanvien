@@ -56,22 +56,31 @@ Thêm mới cha (bị ẩn) -->
                                                     <label for="">Tên tiêu chí <span class="color_red">*</span></label>
                                                     <input type="text" name="ten" placeholder="Nhập tên tiêu chí">
                                                 </div>
-                                                <div class="form_group group_loai_tc">
-                                                    <label for="" class="d_flex align_c">
+                                                <div class="form_group position_r group_loai_tc tieuchi_1 ">
+
+                                                    <label for="" class="hover_thongtin d_flex align_c">
                                                         <span>Loại tiêu chí</span>
                                                         <img src="../img/icon_i.png" alt="Thông tin" class="ml_10 mr_5">
                                                         <span class="font_s14 color_blue font_wn">Thông tin</span>
                                                     </label>
+
                                                     <div class="select_no_muti ">
-                                                        <select class="js_select_2 " name="loai_tc">
-                                                            <option value="">Tiêu chí đơn</option>
-                                                            <option value="">Tiêu chí tổng hợp</option>
+                                                        <select class="js_select_2" name="loai_tc" id="loai_tc">
+                                                            <option value="2">Tiêu chí tổng hợp</option>
+                                                            <option value="1">Tiêu chí đơn</option>
                                                         </select>
+                                                    </div>
+                                                    <div class="modal_loai_tieuchi modal_loai_tieuchi_1">
+                                                        <p>Tiêu chí đơn: Là tiêu chí con thuộc tiêu chí tổng hợp.</p>
+                                                    </div>
+                                                    <div class="modal_loai_tieuchi modal_loai_tieuchi_2">
+                                                        <p>Tiêu chí tổng hợp: Là tiêu chí có thể gồm nhiều tiêu chí con
+                                                            khác.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form_container">
-                                                <div class="form_group group_trang_thai">
+                                                <div class="form_group group_trang_thai ">
                                                     <label for=""> Trạng thái <span class="color_red">*</span></label>
                                                     <div class="select_no_muti">
                                                         <select class="js_select_2" name="trang_thai">
@@ -80,15 +89,39 @@ Thêm mới cha (bị ẩn) -->
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="form_group form_group_block group_nguoi_tao">
+                                                <div class="form_group group_tc_con display_none ">
+                                                    <label for=""> Tiêu chí tổng hợp <span
+                                                            class="color_red">*</span></label>
+                                                    <div class="select_no_muti">
+                                                        <select class="js_select_2" name="tc_tonghop">
+                                                            <option value="1">Kiến thức</option>
+                                                            <option value="2">Kĩ năng</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form_group form_group_block group_nguoi_tao group_tc_cha  ">
                                                     <label for="">Người tạo</label>
                                                     <input type="text" name="nguoi_tao" value="Nguyễn Trần Trung Quân">
                                                 </div>
                                             </div>
                                             <div class="form_container">
-                                                <div class="form_group form_group_block group_ngay_tao">
+                                                <div class="form_group form_group_block group_ngay_tao group_tc_cha ">
                                                     <label for="">Ngày tạo</label>
                                                     <input type="text" name="ngay_tao" value="10/10/2020">
+                                                </div>
+                                                <div class="form_group group_tc_con mr_20 display_none">
+                                                    <div class=" d_flex ">
+                                                        <div class="form_group form_group_block group_nguoi_tao  ">
+                                                            <label for="">Người tạo</label>
+                                                            <input type="text" name="nguoi_tao"
+                                                                value="Nguyễn Trần Trung Quân">
+                                                        </div>
+                                                        <div class="form_group form_group_block group_ngay_tao">
+                                                            <label for="">Ngày tạo</label>
+                                                            <input type="text" name="ngay_tao" value="10/10/2020">
+                                                        </div>
+                                                    </div>
                                                 </div>
 
                                                 <div class="form_group  group_thang_diem">
@@ -107,77 +140,6 @@ Thêm mới cha (bị ẩn) -->
                                         </div>
                                     </form>
                                     <!--end form thêm mới tiêu chí 1 -->
-
-                                    <!-- form thêm mới tiêu chí cha (block người và ngày) -->
-                                    <form action="" method="" enctype="multipart/form-data"
-                                        class="form form_them_tieuchi form_them_tieuchi_cha display_none">
-                                        <div class="container">
-                                            <div class="form_container">
-                                                <div class="form_group">
-                                                    <label for="">Tên tiêu chí <span class="color_red">*</span></label>
-                                                    <input type="text" name="ten" placeholder="Nhập tên tiêu chí">
-                                                </div>
-                                                <div class="form_group">
-                                                    <label for="" class="d_flex align_c">
-                                                        <span>Loại tiêu chí</span>
-                                                        <img src="../img/icon_i.png" alt="Thông tin" class="ml_10 mr_5">
-                                                        <span class="font_s14 color_blue font_wn">Thông tin</span>
-                                                    </label>
-                                                    <div class="select_no_muti ">
-                                                        <select class="js_select_2 " name="loai_tc">
-                                                            <option value="">Tiêu chí đơn</option>
-                                                            <option value="">Tiêu chí tổng hợp</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form_container">
-                                                <div class="form_group">
-                                                    <label for=""> Tiêu chí cha <span class="color_red">*</span></label>
-                                                    <div class="select_no_muti">
-                                                        <select class="js_select_2 " name="loai_tc">
-                                                            <option value="">Tiêu chí cha</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="form_group">
-                                                    <label for=""> Trạng thái <span class="color_red">*</span></label>
-                                                    <div class="select_no_muti">
-                                                        <select class="js_select_2 " name="trang_thai">
-                                                            <option value="">Mở</option>
-                                                            <option value="">Đóng</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="form_container">
-                                                <div class="form_group d_flex">
-                                                    <div class="form_group form_group_block">
-                                                        <label for="">Người tạo</label>
-                                                        <input type="text" name="ten" value="Nguyễn Trần Trung Quân">
-                                                    </div>
-                                                    <div class="form_group form_group_block">
-                                                        <label for="">Ngày tạo</label>
-                                                        <input type="text" name="ngay_tao" value="10/10/2020">
-                                                    </div>
-                                                </div>
-                                                <div class="form_group">
-                                                    <label for="">Thang điểm <span class="color_red">*</span></label>
-                                                    <input type="text" name="thang_diem" placeholder="Nhập thang điểm">
-                                                </div>
-                                            </div>
-                                            <div class="form_group">
-                                                <label for="">Ghi chú</label>
-                                                <textarea id="editor2" name="ghi_chu" cols="80" rows="10"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="form_btn d_flex content_c mt_25">
-                                            <button class="btn btn_trang btn_168 mr_60">Hủy</button>
-                                            <button type="submit" class="btn btn_xanh btn_168">Lưu</button>
-                                        </div>
-                                    </form>
-                                    <!--end form thêm mới tiêu chí 2 -->
                                 </div>
                             </div>
                         </div>
@@ -230,6 +192,39 @@ Thêm mới cha (bị ẩn) -->
 <script type="text/javascript" src="../js/select2.min.js"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <script>
+$('#loai_tc').change(function() {
+    tieuchi = $(this).val();
+    if (tieuchi == 1) {
+        $('.group_loai_tc').addClass('tieuchi_1');
+        $('.group_loai_tc').addClass('tieuchi_2');
+        $('.group_tc_con').removeClass('display_none');
+        $('.group_tc_cha').addClass('display_none');
+    } else if (tieuchi == 2) {
+        $('.group_loai_tc').removeClass('tieuchi_1');
+        $('.group_loai_tc').addClass('tieuchi_2');
+        $('.group_tc_con').addClass('display_none');
+        $('.group_tc_cha').removeClass('display_none');
+    }
+})
+
+$('.hover_thongtin').click(function() {
+    if ($('.tieuchi_1').is(":visible")) {
+        $('.modal_loai_tieuchi_1').toggle();
+    } else {
+        $('.modal_loai_tieuchi_2').toggle();
+    }
+})
+
+$(window).click(function(e) {
+    if (!$('.tieuchi_1').is(e.target) && $('.tieuchi_1').has(e.target).length == 0) {
+        $('.modal_loai_tieuchi_1').hide();
+
+    }
+    if (!$('.tieuchi_2').is(e.target) && $('.tieuchi_2').has(e.target).length == 0) {
+        $('.modal_loai_tieuchi_2').hide();
+    }
+})
+
 $('.js_select_2').select2({
     width: '100%'
 })

@@ -85,7 +85,7 @@
                                                             onclick="hienpopupid('popup_bolienket')">
                                                             <div class="flex center-height right-5">
                                                                 <img src="/../img/manhimg/xoado.png"
-                                                                    alt="muitenxuongbỏ liên kết">
+                                                                    alt="bỏ liên kết">
                                                             </div>
                                                             <p class="chudo">Bỏ liên kết</p>
                                                         </div>
@@ -100,7 +100,7 @@
                                                             onclick="hienpopupid('popup_bolienket')">
                                                             <div class="flex center-height right-5">
                                                                 <img src="/../img/manhimg/xoado.png"
-                                                                    alt="muitenxuongbỏ liên kết">
+                                                                    alt="bỏ liên kết">
                                                             </div>
                                                             <p class="chudo">Bỏ liên kết</p>
                                                         </div>
@@ -112,13 +112,13 @@
                                 </div>
                             </div>
                             <div class="flex center-height space khoi_footerbang">
-                                <div class="flex top-10 center-height khoi_footerbang_hienthi">
+                                <div class="flex top-10 center-height khoi_footerbang_hienthi c-pointer">
                                     <p class="chuden size-14 right-10">Hiển thị:</p>
                                     <div class="nentrang m_hienthi">
                                         <div class="flex center-height hienthi">
                                             <p class="chuden size-14 right-15">40</p>
                                             <div class="center-height flex">
-                                                <img src="../img/manhimg/down.png" alt="muitenxuong">
+                                                <img src="../img/manhimg/down.png" alt="hiển thị">
                                             </div>
                                         </div>
                                     </div>

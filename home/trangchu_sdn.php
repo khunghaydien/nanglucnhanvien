@@ -294,11 +294,11 @@
                                             class="container container_uudiem d_flex width_100  flex_wrap space_b mb_20">
                                             <div class="item item_uudiem d_flex flex_d_c space_b">
                                                 <div class="cont font_s18 ">
-                                                    <p class="font_wB mb_10">Một nền tảng duy nhất</p>
-                                                    <p class="font_ss16">Tích hợp tất cả các ứng dụng doanh nghiệp của
-                                                        bạn đang cần trên
-                                                        một
-                                                        nền tảng duy nhất.</p>
+                                                    <img src="../img/uu4.png" alt="Ưu điểm">
+                                                    <p class="font_wB mt_15 mb_10">An toàn và bảo mật</p>
+                                                    <p class="text_just font_ss16">An toàn, bảo mật tuyệt đối, dữ liệu
+                                                        được lưu
+                                                        trữ theo mô hình điện thoán đám mây.</p>
                                                 </div>
                                                 <a class="chi_tiet d_flex space_b align_c">
                                                     <p>Chi tiết</p>
@@ -311,7 +311,8 @@
                                                 <div class="cont font_s18">
                                                     <img src="../img/uu3.png" alt="Ưu điểm">
                                                     <p class="font_wB mt_15 mb_10">Một nền tảng duy nhất</p>
-                                                    <p class="font_ss16">Tích hợp tất cả các ứng dụng doanh nghiệp của
+                                                    <p class="text_just font_ss16">Tích hợp tất cả các ứng dụng doanh
+                                                        nghiệp của
                                                         bạn đang cần trên
                                                         một
                                                         nền tảng duy nhất.</p>
@@ -327,7 +328,8 @@
                                                 <div class="cont font_s18">
                                                     <img src="../img/uu2.png" alt="Ưu điểm">
                                                     <p class="font_wB mt_15 mb_10">Ứng dụng công nghệ AI</p>
-                                                    <p class="font_ss16">Ứng dụng công nghệ AI tự nhận thức. Phân tích
+                                                    <p class="text_just font_ss16">Ứng dụng công nghệ AI tự nhận thức.
+                                                        Phân tích
                                                         hành vi người dùng
                                                         giải
                                                         quyết toàn diện bài các toán đối với doanh nghiệp cụ thể.</p>
@@ -341,11 +343,11 @@
                                             </div>
                                             <div class="item item_uudiem d_flex flex_d_c space_b ">
                                                 <div class="cont font_s18 ">
-                                                    <p class="font_wB mb_10">Một nền tảng duy nhất</p>
-                                                    <p class="font_ss16">Tích hợp tất cả các ứng dụng doanh nghiệp của
-                                                        bạn đang cần trên
-                                                        một
-                                                        nền tảng duy nhất.</p>
+                                                    <img src="../img/uu5.png" alt="Ưu điểm">
+                                                    <p class="font_wB  mt_15 mb_10">Giải pháp số 1 Việt Nam</p>
+                                                    <p class="text_just font_ss16">Luôn đồng hành và hỗ trợ 24/7. Phù
+                                                        hợp với tất cả các tập đoàn xuyên quốc gia đến những công ty
+                                                        SME.</p>
                                                 </div>
                                                 <a class="chi_tiet d_flex space_b align_c">
                                                     <p>Chi tiết</p>
@@ -356,12 +358,10 @@
                                             </div>
                                             <div class="item item_uudiem d_flex flex_d_c space_b">
                                                 <div class="cont font_s18">
-                                                    <img src="../img/uu3.png" alt="Ưu điểm">
-                                                    <p class="font_wB mt_15 mb_10">Một nền tảng duy nhất</p>
-                                                    <p class="font_ss16">Tích hợp tất cả các ứng dụng doanh nghiệp của
-                                                        bạn đang cần trên
-                                                        một
-                                                        nền tảng duy nhất.</p>
+                                                    <img src="../img/uu1.png" alt="Ưu điểm">
+                                                    <p class="font_wB mt_15 mb_10">Sử dụng miễn phí trọn đời</p>
+                                                    <p class="text_just font_ss16">Miễn phí trọn đời đối với tất cả các
+                                                        doanh nghiệp đăng ký trong đại dịch covid-19.</p>
                                                 </div>
                                                 <a class="chi_tiet d_flex space_b align_c">
                                                     <p>Chi tiết</p>
@@ -411,5 +411,10 @@
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/trangchung.js"></script>
 <script type="text/javascript" src="../js/dat.js"></script>
+<script>
+$('.close_popup').click(function() {
+    $('.popup').hide();
+})
+</script>
 
 </html>

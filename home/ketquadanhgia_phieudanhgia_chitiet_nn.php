@@ -21,7 +21,7 @@
                         <div class="title_header flex center-height">
                             <a href="/ketquadanhgia-nhanvien.html">
                                 <div class="flex center-height right-10 c-pointer">
-                                    <img src="../img/manhimg/back.png" alt="Quay lai">
+                                    <img src="../img/manhimg/back.png" alt="Quay lại">
                                 </div>
                             </a>
                             <p>Quản lý kết quả đánh giá / Chi tiết</p>
@@ -33,7 +33,7 @@
                             <div class="tieude1024 size-14 flex center-height ">
                                 <a href="/ketquadanhgia-nhanvien.html">
                                     <div class="flex center-height right-10 c-pointer">
-                                        <img src="../img/manhimg/back.png" alt="Quay lai">
+                                        <img src="../img/manhimg/back.png" alt="Quay lại">
                                     </div>
                                 </a>
                                 <p>Quản lý kế kết quả đánh giá / Chi tiết</p>
@@ -45,7 +45,7 @@
                                             <div class="flex rightsearch_con2_2">
                                                 <button
                                                     class="btn-nenxanhluc-chutrang button center-height br-10 size-16 ">
-                                                    <img src="../../img/manhimg/xuatexcel.png" class="wh14" alt="">
+                                                    <img src="../../img/manhimg/xuatexcel.png" class="wh14" alt="xuất excel">
                                                     <p class="left-10 font-medium">Xuất excel</p>
                                                 </button>
                                             </div>
@@ -58,14 +58,14 @@
                                                 <div class="flex c-pointer center-heght js_anbot ">
                                                     <p class="size-14 right-10 text_anbot">Ẩn bớt</p>
                                                     <div class="flex center-height ">
-                                                        <img class="img_anbot" src="../img/manhimg/up.png" alt="An bot">
+                                                        <img class="img_anbot" src="../img/manhimg/up.png" alt="ẩn bớt">
                                                     </div>
                                                 </div>
                                                 <div class="flex c-pointer center-heght hidden js_chitiet">
                                                     <p class="size-14 right-10 text_anbot">Chi tiết</p>
                                                     <div class="flex center-height ">
                                                         <img class="img_anbot" src="../img/manhimg/down2.png"
-                                                            alt="An bot">
+                                                            alt="Ẩn bớt">
                                                     </div>
                                                 </div>
                                             </div>
@@ -107,13 +107,13 @@
                                                         <p class="cacmuc">Người đánh giá:</p>
                                                         <p class="cacketqua">
                                                         <div class="flex center-height">
-                                                            <img src="../../img/manhimg/avata.png" class="" alt="">
+                                                            <img src="../../img/manhimg/avata.png" class="" alt="Người đánh giá">
                                                             <img src="../../img/manhimg/avata.png" class="left_am"
-                                                                alt="">
+                                                                alt="Người đánh giá">
                                                             <img src="../../img/manhimg/avata.png" class="left_am"
-                                                                alt="">
+                                                                alt="Người đánh giá">
                                                             <img src="../../img/manhimg/avata.png" class="left_am"
-                                                                alt="">
+                                                                alt="Người đánh giá">
 
                                                             <div class="bonus flex center-center chutrang left_am">
                                                                 10
@@ -134,7 +134,7 @@
                                                         <p class="cacmuc">Người duyệt:</p>
                                                         <div class="flex center-height">
                                                             <img src="../../img/manhimg/avata.png" class="right-10"
-                                                                alt="">
+                                                                alt="Người duyệt">
                                                             <a class="chuden  size-14
                                                     ">Nguyễn Trần Trung Quân
                                                             </a>

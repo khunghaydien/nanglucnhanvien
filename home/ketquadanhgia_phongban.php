@@ -64,7 +64,7 @@
                                         <div class="tieude375">
                                             <a href="/huong_dan.html" class="">
                                                 <div class="huongdan flex center-height ">
-                                                    <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                                    <img src="../img/manhimg/chamhoi.png" class="wh36" alt="hướng dẫn">
                                                     <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                                 </div>
                                             </a>
@@ -73,7 +73,7 @@
                                 </div>
                                 <a href="/huong_dan.html" class="khoi_chon_kqdg2">
                                     <div class="huongdan flex center-height ">
-                                        <img src="../img/manhimg/chamhoi.png" class="wh36" alt="">
+                                        <img src="../img/manhimg/chamhoi.png" class="wh36" alt="hướng dẫn">
                                         <p class="left-10 font-medium size-15">Hướng dẫn</p>
                                     </div>
                                 </a>
@@ -83,7 +83,7 @@
                                     <div class="leftsearch">
                                         <input type="text" name="" placeholder="Tìm kiếm nhân viên">
                                         <img src="../img/manhimg/kinhlup.png" class="kinhlup right-position-15"
-                                            alt="timkiem">
+                                            alt="tìm kiếm">
                                     </div>
                                 </div>
                             </div>
@@ -120,10 +120,10 @@
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            <td class="text-left">Phòng nhân sự</td>
+                                            <td class="text-left"><a class="chuden c-pointer" href="/ketquadanhgia-phongban-chitiet.html">Phòng nhân sự</a></td>
                                             <td class="text-left">Kế hoạch đánh giá nhân viên 1</td>
                                             <td><a class="chuxanh"
-                                                    href="/ketquadanhgia-phongban-chitiet.html">PDG0000</a></td>
+                                                    href="/ketquadanhgia-phongban-chitiet-maphieu.html">PDG0000</a></td>
                                             <td class="text-right">80</td>
                                             <td class="chunau">Yếu</td>
                                         </tr>

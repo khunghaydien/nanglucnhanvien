@@ -365,7 +365,8 @@
                     <div class="content">
                         <h4 class="title">Hướng dẫn sử dụng phần mềm
                             Đánh giá năng lực nhân viên 365</h4>
-                        <p class="font_ss16">Phần mềm Đánh giá năng lực nhân viên 365 giúp doanh nghiệp đánh giá năng
+                        <p class="font_ss16">Phần mềm <span class="medium">Đánh giá năng lực nhân viên 365</span> giúp
+                            doanh nghiệp đánh giá năng
                             lực nhân viên theo
                             nhiều phương diện một cách dễ dàng và khoa học.</p>
                         <div class="btn">Đăng ký miễn phí</div>
@@ -515,6 +516,14 @@
                                     <li></li>
                                 </ul>
                             </div>
+                            <div class="thanh_dk">
+                                <div class="turn turn_left" id="turn_left">
+                                    <img src="../img/left.png" alt="sang trái">
+                                </div>
+                                <div class=" turn turn_right" id="turn_right">
+                                    <img src="../img/right.png" alt="sang phải">
+                                </div>
+                            </div>
                         </div>
                         <div class="container_thacmac_r">
                             <div class="thanhsearch position_r mb_15">
@@ -531,15 +540,15 @@
                                 <div class="form_body">
                                     <form action="">
                                         <div class="form_group d_flex flex_d_c mb_15">
-                                            <label class="font_s15 font_w5 mb_5">Họ tên</label>
+                                            <label class="font_s15 font_w5 ">Họ tên</label>
                                             <input type="text" placeholder="Nhập họ và tên">
                                         </div>
                                         <div class="form_group d_flex flex_d_c mb_15">
-                                            <label class="font_s15 font_w5 mb_5">Số điện thoại</label>
+                                            <label class="font_s15 font_w5 ">Số điện thoại</label>
                                             <input type="text" placeholder="Nhập số điện thoại">
                                         </div>
                                         <div class="form_group d_flex flex_d_c mb_15">
-                                            <label class="font_s15 font_w5 mb_5">Câu hỏi <span
+                                            <label class="font_s15 font_w5 ">Câu hỏi <span
                                                     class="color_red">*</span></label>
                                             <textarea name="" id="" rows="5" placeholder="Nhập nội dung"></textarea>
                                         </div>

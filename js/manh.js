@@ -21,6 +21,29 @@
         });
     });
 })
+(window);(function(w) {
+    w.addEventListener('load', function() {
+        const btn_left = document.getElementById('turn_left2'),
+            btn_right = document.getElementById('turn_right2'),
+            content = document.getElementById('bang_chung2');
+        const content_scroll_width = content.scrollWidth;
+        let content_scoll_left = content.scrollLeft;
+        btn_right.addEventListener('click', () => {
+            content_scoll_left += 100;
+            if (content_scoll_left >= content_scroll_width) {
+                content_scoll_left = content_scroll_width;
+            }
+            content.scrollLeft = content_scoll_left;
+        });
+        btn_left.addEventListener('click', () => {
+            content_scoll_left -= 100;
+            if (content_scoll_left <= 0) {
+                content_scoll_left = 0;
+            }
+            content.scrollLeft = content_scoll_left;
+        });
+    });
+})
 (window);
 $(".js_thanhvien").click(function() {
     $(".show_thanhvien").show();
@@ -84,7 +107,7 @@ $(document).mouseup(function(e) {
 });
 
 $('.themmoiphanloai').click(function() {
-    $(this).parents('.mkhoiphanloai').find('.khoiphanloai').append('<div class="khoiphanloaicon"><div class="khoiphanloaiconcon flex  space bot-15 "><div class="div145"><p class="chuden font-medium size-15 bot-5">Từ <span class="chudo">*</span></p><div class="border_input text"><input type="number" placeholder="Nhập số điểm" class="size-14 chuden"></div> </div><div class="div145"><p class="chuden font-medium size-15 bot-5">Đến <span class="chudo">*</span></p><div class="border_input text"><input type="number" placeholder="Nhập số điểm" class="size-14 chuden"></div> </div><div class="div145"><p class="chuden font-medium size-15 bot-5">Loại <span class="chudo">*</span></p><div class="select_no_muti "><select name="" id="" class="js_select_2"><option value="">Chọn loại</option><option value="">Yếu</option><option value="">Trung bình</option><option value="">Khá</option><option value="">Giỏi</option><option value="">Xuát sắc</option></select></div> </div><div class="div145 xoaphanloai c-pointer" onmouseup="xoa_phanloai()">Xóa</div></div></div>');
+    $(this).parents('.mkhoiphanloai').find('.khoiphanloai').append('<div class="khoiphanloaicon"><div class="khoiphanloaiconcon flex  space bot-15 "><div class="div145"><p class="chuden font-medium size-15 bot-5">Từ <span class="chudo">*</span></p><div class="border_input text"><input type="number" name="pldg_diemtu" placeholder="Nhập số điểm" class="size-14 chuden"></div> </div><div class="div145"><p class="chuden font-medium size-15 bot-5">Đến <span class="chudo">*</span></p><div class="border_input text"><input type="number" name="pldg_diemden" placeholder="Nhập số điểm" class="size-14 chuden"></div> </div><div class="div145"><p class="chuden font-medium size-15 bot-5">Loại <span class="chudo">*</span></p><div class="select_no_muti "><select name="pldg_diemloai" id="" class="js_select_2"><option value="">Chọn loại</option><option value="">Yếu</option><option value="">Trung bình</option><option value="">Khá</option><option value="">Giỏi</option><option value="">Xuát sắc</option></select></div> </div><div class="div145 xoaphanloai c-pointer" onmouseup="xoa_phanloai()">Xóa</div></div></div>');
     $('.js_select_2').select2();
 });
 
@@ -109,4 +132,114 @@ $('.js_checkbox').click(function() {
 });
 $(document).ready(function() {
     $('.js_xuatexcel').css("margin-top", "0px");
+    
 });
+
+            /**************************VALIDATE*************************/
+//thangdiem
+$('#form_thangdiem').validate({
+    errorPlacement: function(error, element) {
+        error.appendTo(element.parents(".bot-15"));
+        error.wrap("<span class='error'>");
+    },
+    
+    rules: {
+        nhap_sodiem: "required", 
+        nhap_thangdiem: "required",  
+    },
+    messages: {
+        nhap_sodiem: "Không được để trống",
+        nhap_thangdiem: "Không được để trống",
+    },
+
+});
+$('#frm_phanloai_danhgia').validate({
+    errorPlacement: function(error, element) {
+        error.appendTo(element.parents(".div145"));
+        error.wrap("<span class='error'>");
+    },
+    rules: {
+        pldg_diemtu: "required", 
+        pldg_diemden: "required",  
+        pldg_diemloai: "required",  
+    },
+    messages: {
+        pldg_diemtu: "Không được để trống",
+        pldg_diemden: "Không được để trống",
+        pldg_diemloai: "Không được để trống",
+    },
+});//End Thang diem/
+
+//Lotrinh
+$('#show_suachucvu').validate({
+    errorPlacement: function(error, element) {
+        error.appendTo(element.parents(".bot-15"));
+        error.wrap("<span class='error'>");
+     
+    },
+    
+    rules: {
+        ten_chucvu: "required", 
+        vitri_chucvu: "required",   
+    },
+    messages: {
+        ten_chucvu: "Không được để trống",
+        vitri_chucvu: "Không được để trống",
+    },
+
+});
+$('#show_themyccv').validate({
+    errorPlacement: function(error, element) {
+        error.appendTo(element.parents(".bot-15"));
+        error.wrap("<span class='error'>");
+     
+    },
+    
+    rules: {
+        ten_congviec: "required", 
+        vitri_congviec: "required",   
+        mota_congviec: "required",   
+    },
+    messages: {
+        ten_congviec: "Không được để trống", 
+        vitri_congviec: "Không được để trống",   
+        mota_congviec: "Không được để trống",
+    },
+
+});
+//End lo trinh
+
+//Phieudanhgia
+$('#frm_thietlaptime').validate({
+    errorPlacement: function(error, element) {
+        error.appendTo(element.parents(".bot-15"));
+        error.wrap("<span class='error'>");
+     
+    },
+    
+    rules: {
+        "ngay_bd":{
+           required: true,
+           date: true,
+           
+        }, 
+        "ngay_kth":{
+               required: true,
+               date: true,
+        }, 
+},
+    messages: {
+        "ngay_bd":{
+           required: "Không được để trống",
+           date: "Định dạng ngày không đúng",
+        }, 
+        "ngay_kth":{
+               required: "Không được để trống",
+               date: "Định dạng ngày không đúng",
+        }, 
+    },
+
+});
+//End Phieudanhgia
+
+

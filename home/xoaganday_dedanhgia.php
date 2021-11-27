@@ -230,8 +230,7 @@
 
                         <div class="flex khoi_footerbang_phantrang">
                             <div class="m_phantrang flex">
-                                <div class="phantrangcon right-15 ">
-                                    << /div>
+                                <div class="phantrangcon right-15 "> < </div>
                                         <div class="phantrangcon right-10 pt_active">1</div>
                                         <div class="phantrangcon right-10 ">2</div>
                                         <div class="phantrangcon right-10 ">3</div>

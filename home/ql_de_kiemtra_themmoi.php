@@ -1,3 +1,8 @@
+<?php
+
+$a = 0;
+
+?>
 <!DOCTYPE html>
 <html lang="vi">
 
@@ -77,8 +82,8 @@
                                                 <textarea id="editor1" name="ghi_chu" value=''></textarea>
                                             </div>
                                         </div>
-                                        <!-- câu hỏi không ảnh -->
-                                        <div class="container_cauhoi cauhoi_dang_1 mb_20">
+
+                                        <div class="container_cauhoi mb_20">
                                             <div class="item">
                                                 <div class="container_form_3 d_flex space_b ">
                                                     <div class="form_group width_70 mr_20">
@@ -93,20 +98,20 @@
                                                         <div class="form_group ">
                                                             <label for="">Loại câu hỏi</label>
                                                             <div class="btn_loaihoi position_r">
-                                                                <div class="width_100 d_flex space_b algin_c">
-                                                                    <div class="sel_dang_1" id="sel_dang_1">
-                                                                        <div class="d_flex">
+                                                                <div class="width_100 d_flex space_b align_c">
+                                                                    <div class="sel_dang_1" id="sel_dang_1"
+                                                                        onclick="myFunction()">
+                                                                        <div class="d_flex align_c">
                                                                             <div class="img mr_10">
                                                                                 <img src="../img/hoi_1.png"
                                                                                     alt="Câu trả lời">
                                                                             </div>
                                                                             <p>câu trả lời</p>
                                                                         </div>
-
                                                                     </div>
                                                                     <div class="sel_dang_2 display_none"
                                                                         id="sel_dang_2">
-                                                                        <div class="d_flex">
+                                                                        <div class="d_flex align_c">
                                                                             <div class="img mr_10">
                                                                                 <img src="../img/hoi_2.png"
                                                                                     alt="Trắc nhiệm">
@@ -116,7 +121,7 @@
                                                                     </div>
                                                                     <div class="sel_dang_3 display_none"
                                                                         id="sel_dang_3">
-                                                                        <div class="d_flex">
+                                                                        <div class="d_flex align_c">
                                                                             <div class="img mr_10">
                                                                                 <img src="../img/hoi_3.png"
                                                                                     alt="Hộp kiểm">
@@ -127,7 +132,7 @@
                                                                     </div>
                                                                     <div class="sel_dang_4 display_none"
                                                                         id="sel_dang_4">
-                                                                        <div class="d_flex">
+                                                                        <div class="d_flex align_c">
                                                                             <div class="img mr_10">
                                                                                 <img src="../img/hoi_4.png"
                                                                                     alt="Menu thả xuống">
@@ -138,7 +143,7 @@
                                                                     </div>
                                                                     <div class="sel_dang_5 display_none"
                                                                         id="sel_dang_5">
-                                                                        <div class="d_flex">
+                                                                        <div class="d_flex align_c">
                                                                             <div class="img mr_10">
                                                                                 <img src="../img/hoi_5.png" alt="Giờ">
                                                                             </div>
@@ -148,7 +153,7 @@
                                                                     </div>
                                                                     <div class="sel_dang_6 display_none"
                                                                         id="sel_dang_6">
-                                                                        <div class="d_flex">
+                                                                        <div class="d_flex align_c">
                                                                             <div class="img mr_10">
                                                                                 <img src="../img/hoi_6.png" alt="Ngày">
                                                                             </div>
@@ -230,6 +235,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <!-- dạng mặc định -->
                                                 <div class="form_group sel_dang_1">
                                                     <label for="">Đáp án</label>
                                                     <div class="text_dat">
@@ -237,6 +243,9 @@
                                                         </textarea>
                                                     </div>
                                                 </div>
+                                                <!--end dạng mặc định -->
+
+                                                <!-- dạng trắc nghiệm-->
                                                 <div class="form_group display_none sel_dang_2">
                                                     <label for="">Đáp án</label>
                                                     <div class="tuychon mt_5">
@@ -269,52 +278,36 @@
                                                         <p class="color_blue font_s14">Thêm tùy chọn</p>
                                                     </div>
                                                 </div>
+                                                <!--end dạng trắc nghiệm -->
+
+                                                <!-- dạng mặc hộp điểm-->
                                                 <div class="form_group display_none sel_dang_3">
                                                     <label for="">Đáp án</label>
                                                     <div class="tuychon mt_5">
-                                                        <div class="container_tuychon">
-                                                            <div
-                                                                class="tuychon_header width_100 d_flex space_b align_c">
-                                                                <div class="tuychon_input d_flex width_70  mr_20">
-                                                                    <input type="checkbox" value="Tùy chọn"
-                                                                        name="tuychon" class="mr_10 ">
-                                                                    <p class="ten_tuychon">Tùy chọn 1</p>
-                                                                </div>
-                                                                <div class="them_anh width_30">
-                                                                    <div
-                                                                        class="btn_them_anh btn_them_anhtuychon item d_flex mr_20">
-                                                                        <div class="img mr_5">
-                                                                            <img src="../img/hoi_7.png" alt="Tải ảnh">
-                                                                        </div>
-                                                                        <p>Thêm ảnh</p>
+                                                        <div class="tuychon_hopdiem">
+                                                            <div class="container_tuychon">
+                                                                <div
+                                                                    class="tuychon_header width_100 d_flex space_b align_c">
+                                                                    <div class="tuychon_input d_flex width_70  mr_20">
+                                                                        <input type="checkbox" value="Tùy chọn"
+                                                                            name="tuychon" class="mr_10 ">
+                                                                        <p class="ten_tuychon">Tùy chọn 1</p>
                                                                     </div>
+                                                                    <button type="button"
+                                                                        onclick="them_anh_hopdiem(<?php echo ($a + 1); ?>)"
+                                                                        class="btn_hello font_s14 color_b them_anh_hopdiem width_30">
+                                                                        <div class="btn_them_anh item d_flex mr_20">
+                                                                            <div class="img mr_5">
+                                                                                <img src="../img/hoi_7.png"
+                                                                                    alt="Tải ảnh">
+                                                                            </div>
+                                                                            <p>Thêm ảnh</p>
+                                                                        </div>
+                                                                    </button>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="container_img">
-                                                        </div>
-                                                    </div>
-                                                    <div class="tuychon">
-                                                        <div class="container_tuychon">
-                                                            <div
-                                                                class="tuychon_header width_100 d_flex space_b align_c">
-                                                                <div class="tuychon_input d_flex width_70  mr_20">
-                                                                    <input type="checkbox" value="Tùy chọn"
-                                                                        name="tuychon" class="mr_10 ">
-                                                                    <p class="ten_tuychon">Tùy chọn 1</p>
-                                                                </div>
-                                                                <div class="them_anh width_30">
-                                                                    <div
-                                                                        class="btn_them_anh btn_them_anhtuychon item d_flex mr_20">
-                                                                        <div class="img mr_5">
-                                                                            <img src="../img/hoi_7.png" alt="Tải ảnh">
-                                                                        </div>
-                                                                        <p>Thêm ảnh</p>
-                                                                    </div>
-                                                                </div>
+                                                            <div class="container_img">
                                                             </div>
-                                                        </div>
-                                                        <div class="container_img">
                                                         </div>
                                                     </div>
 
@@ -325,6 +318,9 @@
                                                         <p class="color_blue font_s14">Thêm tùy chọn</p>
                                                     </div>
                                                 </div>
+                                                <!--end dạng hộp điểm -->
+
+                                                <!-- dạng menu thả xuống-->
                                                 <div class="form_group display_none sel_dang_4">
                                                     <label for="">Đáp án</label>
                                                     <div class="tuychon mt_10">
@@ -338,26 +334,33 @@
                                                                     <p class="ten_tuychon"> Tùy chọn 1
                                                                     </p>
                                                                 </div>
-
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="btn_them_tuychon_menu_soxuong d_flex align_c cursor_p "
+                                                    <button type="button" onclick="btn_them_tuychon_menu_soxuong()"
+                                                        class="btn_hello btn_them_tuychon_menu_soxuong d_flex align_c cursor_p"
                                                         data-id='2'>
                                                         <div class="img mr_10">
                                                             <img src="../img/plus_xanh.png" alt="Thêm tùy chọn">
                                                         </div>
                                                         <p class="color_blue font_s14">Thêm tùy chọn</p>
-                                                    </div>
+                                                    </button>
                                                 </div>
+                                                <!--end dạng menu thả xuống -->
+
+                                                <!-- dạng giờ -->
                                                 <div class="form_group display_none sel_dang_5">
                                                     <label for="">Đáp án</label></br>
                                                     <input type="time" class="mt_10">
                                                 </div>
+                                                <!--end dạng giờ -->
+
+                                                <!-- dạng ngày  -->
                                                 <div class="form_group display_none sel_dang_6">
                                                     <label for="">Đáp án</label>
                                                     <input type="date" class="mt_10">
                                                 </div>
+                                                <!--end dạng ngày -->
                                             </div>
                                             <div class="footer_cauhoi">
                                                 <div class="d_flex flex_end align_c">
@@ -384,7 +387,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!--end câu hỏi không ảnh -->
 
                                         <div class="btn_them_cauhoi d_flex align_c mb_20">
                                             <div class="img_themmoi_cauhoi">
@@ -505,10 +507,7 @@
                                             </div>
                                             <button type="submit" class="btn_tieptuc_1 btn btn_168 btn_xanh ">
                                                 <div class="d_flex align_c ">
-                                                    <p class="mr_10">Tiếp tục</p>
-                                                    <div class="img height_15">
-                                                        <img src="../img/next_trang.png" alt="Tiếp tục">
-                                                    </div>
+                                                    <p>Lưu</p>
                                                 </div>
                                             </button>
                                         </div>
@@ -530,6 +529,34 @@
 <script type="text/javascript" src="../js/select2.min.js"></script>
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
 <script>
+var dem = 2;
+$('.btn_them_tuychon_checkbox').click(function() {
+    $(this).parents('.sel_dang_3').find('.tuychon').append(
+        '<div class = "tuychon_hopdiem" ><div class = "container_tuychon" ><div class = "tuychon_header width_100 d_flex space_b align_c" ><div class = "tuychon_input d_flex width_70  mr_20" ><input type = "checkbox" value = "Tùy chọn"name = "tuychon"class = "mr_10 " ><p class = "ten_tuychon" > Tùy chọn 1 </p> </div> <button type = "button" onclick = "them_anh_hopdiem(' +
+        dem +
+        ')" class = "btn_hello font_s14 color_b them_anh_hopdiem width_30" ><div class = "btn_them_anh item d_flex mr_20" ><div class = "img mr_5"><img src = "../img/hoi_7.png" alt = "Tải ảnh" ></div> <p > Thêm ảnh </p> </div> </button> </div> </div> <div class = "container_img"></div> </div>'
+    );
+    dem++;
+})
+
+function them_anh_hopdiem(id) {
+    var demo = $('.tuychon .tuychon_hopdiem:nth-child(' + id + ')');
+    $(demo).find('.container_img').append(
+        '<div class="tuychon_img"> <div class = "img_anh_tuychon" ><div class = "form_group" > <input type = "file" name = "anh" class = "anh_tailen" ><div class = "container_anh container_anh_1"><div class = "item_anh item_anh_1" ><div class = "img_anh_tailen img_anh_tailen_1" ><img src = ""alt = "Ảnh tải lên" ></div> <div class = "xoa_anh d_flex" ><div class = "img mr_5" > <img src = "../img/hoi_10.png" alt = "Xóa ảnh"> </div> <p class = "font_s14 color_red"> Xóa </p> </div> </div> </div> </div> </div> </div>'
+    );
+}
+
+function btn_them_tuychon_menu_soxuong() {
+    var id = Number($('.btn_them_tuychon_menu_soxuong').attr('data-id'));
+    $('.sel_dang_4 .tuychon ').append(
+        '<div class="container_tuychon"> <div class = "tuychon_header width_100 d_flex space_b align_c" ><div class = "tuychon_input d_flex width_70  mr_20" ><span class = "mr_10" >' +
+        id +
+        '.</span> <input type = "radio" value = "Tùy chọn" name = "tuychon" class = "mr_10 " ><p class = "ten_tuychon" > Tùy chọn ' +
+        id + '  </p> </div> </div> </div>'
+    );
+    $('.btn_them_tuychon_menu_soxuong').attr('data-id', id + 1);
+}
+
 $('.form_themmoi_de').validate({
     errorPlacement: function(error, element) {
         error.appendTo(element.parents(".form_group"));
@@ -546,6 +573,7 @@ $('.form_themmoi_de').validate({
         cau_hoi: "Không được để trống câu hỏi",
     },
 });
+
 $('input.check_dm').click(function() {
     if ($(this).val() == "macdinh") {
         $('.phanloai_danhgia_macdinh').show();
@@ -555,6 +583,7 @@ $('input.check_dm').click(function() {
         $('.phanloai_danhgia_khac').show();
     }
 })
+
 $('#chon_dang_1').click(function() {
     $('.sel_dang_1').show();
     $('.sel_dang_2').hide();
@@ -603,6 +632,7 @@ $('#chon_dang_6').click(function() {
     $('.sel_dang_5').hide();
     $('.sel_dang_2').hide();
 })
+
 
 $('.js_select_2').select2({
     width: '100%',

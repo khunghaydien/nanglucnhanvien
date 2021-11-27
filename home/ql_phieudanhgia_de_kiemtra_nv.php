@@ -23,12 +23,12 @@
                                     <img src="../img/manhimg/back.png" alt="Quay lai">
                                 </div>
                             </a>
-                            <p>Quản lý kết quả đánh giá / Chi tiết</p>
+                            <p>Quản lý phiếu đánh giá / Chi tiết phiếu đánh giá</p>
                         </div>
                         <? include('../includes/menu_header.php') ?>
                     </div>
                     <div class="main_body">
-                        <div class="phieudanhgia_chitiet ">
+                        <div class="phieudanhgia_chitiet dektr_nv">
                             <div class="tieude1024 size-14 flex center-height ">
                                 <a href="/quanly-phieudanhgia.html">
                                     <div class="flex center-height right-10 c-pointer">
@@ -218,8 +218,16 @@
                                     </div>
 
                                     <div class="bangto3">
-                                        <div class="khoibang">
-                                            <div class="bangchung ">
+                                        <div class="khoibang po_r">
+                                            <div class="thanh_dk">
+                                                <div class="turn turn_left" id="turn_left">
+                                                    <img src="../img/left.png" alt="sang trái">
+                                                </div>
+                                                <div class=" turn turn_right" id="turn_right">
+                                                    <img src="../img/right.png" alt="sang phải">
+                                                </div>
+                                            </div>
+                                            <div class="bangchung " id="bang_chung">
                                                 <table class="bangchinh chuden ">
                                                     <tr>
                                                         <td rowspan="3">
@@ -331,8 +339,16 @@
                                     <h4 class="chuxanh size-16 font-bold top-20 bot-20">Danh sách nhân viên thực hiện
                                         bài bài kiểm tra</h4>
                                     <div class="bangtoto">
-                                        <div class="khoibang">
-                                            <div class="bangchung">
+                                        <div class="khoibang po_r">
+                                <div class="thanh_dk">
+                                    <div class="turn turn_left" id="turn_left">
+                                        <img src="../img/left.png" alt="sang trái">
+                                    </div>
+                                    <div class=" turn turn_right" id="turn_right">
+                                        <img src="../img/right.png" alt="sang phải">
+                                    </div>
+                                </div>
+                                            <div class="bangchung" id="bang_chung">
                                                 <table class="bangchinh chuden">
                                                     <tr>
                                                         <th>

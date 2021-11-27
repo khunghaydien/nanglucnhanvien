@@ -1,4 +1,5 @@
 // chức năng click to scroll
+
 (function(w) {
     w.addEventListener('load', function() {
         const btn_left = document.getElementById('turn_left'),
@@ -23,6 +24,9 @@
     });
 })(window);
 
+$(".class_li_side_bar").click(function() {
+    $(this).parents(".sidebar_item_kep").find(".sidebar_sub").toggleClass("active");
+})
 
 $('.close_popup').click(function() {
     $('.popup').hide();
@@ -31,15 +35,15 @@ $('.chon_soluong').click(function() {
     $('.modal_ql_soluong').toggle();
 })
 
-$('input[type="radio"]').click(function() {
-    if ($(this).val() == "macdinh") {
-        $('.phanloai_danhgia_macdinh').show();
-        $('.phanloai_danhgia_khac').hide();
-    } else {
-        $('.phanloai_danhgia_macdinh').hide();
-        $('.phanloai_danhgia_khac').show();
-    }
-})
+// $('input[type="radio"]').click(function() {
+//     if ($(this).val() == "macdinh") {
+//         $('.phanloai_danhgia_macdinh').show();
+//         $('.phanloai_danhgia_khac').hide();
+//     } else {
+//         $('.phanloai_danhgia_macdinh').hide();
+//         $('.phanloai_danhgia_khac').show();
+//     }
+// })
 
 $('.btn_them_tuychon').click(function() {
     var id = Number($(this).attr('data-id'));

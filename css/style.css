@@ -74,6 +74,10 @@
         display: none;
     }
     
+    .text_just {
+        text-align: justify;
+    }
+    
     .cursor_p {
         cursor: pointer;
     }
@@ -570,7 +574,7 @@
     }
     
     .sidebar {
-        width: 21%;
+        width: 20.5%;
         height: 630px;
         background: #4C5BD4;
         box-shadow: 0px 4px 12px rgb(0 0 0 / 12%);
@@ -598,8 +602,11 @@
     
     .sidebar_ttcn {
         border-bottom: 1px solid #fff;
-        padding: 28px 56px 27.5px 56px;
         object-fit: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 88px;
     }
     
     .p_item_sidebar {
@@ -608,7 +615,7 @@
     
     .li_sidebar {
         width: 100%;
-        height: 52px;
+        height: 50px;
         padding-left: 25px;
         display: flex;
         align-items: center;
@@ -652,6 +659,18 @@
         display: none;
     }
     
+    .sidebar_item.active {
+        background: #2A38A2;
+    }
+    
+    .sidebar_item_don:hover {
+        background: #2A38A2;
+    }
+    
+    .sidebar_sub.active {
+        display: block;
+    }
+    
     .sidebar_sub::before {
         position: absolute;
         content: "";
@@ -667,6 +686,10 @@
     
     .banggia_sub::before {
         height: 130px;
+    }
+    
+    .banggia_sub_1::before {
+        height: 105px;
     }
     /* end sidebar */
     /* main */
@@ -719,7 +742,7 @@
     /*end popup_dat */
     
     .wapper .main {
-        width: 79%;
+        width: 79.5%;
         padding: 20px 20px 80px 20px;
     }
     
@@ -1814,6 +1837,7 @@
         opacity: 0.86;
         border-radius: 100%;
         cursor: pointer;
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.12));
     }
     /*******************************************************************************************/
     /*end*/

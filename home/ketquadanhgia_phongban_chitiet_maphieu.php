@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/saitaman.css">
     <link rel="stylesheet" type="text/css" href="../css/tatsumaki.css">
+
 </head>
 
 <body>
@@ -71,12 +72,7 @@
                                         </div>
                                         <div class="over_scroll_x">
                                             <div class="nentrang show_js_anbot scrollx_lotrinhchitiet">
-                                                <div class="padding15 khoicon">
-                                                    <div class=" flex">
-                                                        <p class="cacmuc">Phòng ban:</p>
-                                                        <p class="cacketqua">Phòng kinh doanh</p>
-                                                    </div>
-                                                </div>
+                                                
                                                 <div class="padding15 khoicon">
                                                     <div class=" flex">
                                                         <p class="cacmuc">Mã phiếu đánh giá:</p>
@@ -162,6 +158,8 @@
                                     <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề đánh giá</h4>
                                     <? include('../includes/bang_phongban_danhgia_1N.php'); ?>
 
+                                    <h4 class="chuxanh size-16 font-bold top-20 bot-20">Kết quả đề đánh giá</h4>
+                                    <? include('../includes/bang_phongban_danhgia_NN.php'); ?>
                                 </div>
                             </div>
                         </div>
